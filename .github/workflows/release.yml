@@ -1,0 +1,28 @@
+name: Release data package
+
+on:
+  push:
+    tags:
+      - "data-*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build data package
+        run: python3 scripts/build.py --version "$GITHUB_REF_NAME"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            dist/mete-data-cn.zip \
+            dist/manifest.json \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes
