@@ -1,0 +1,1354 @@
+{
+    "id": 500500,
+    "no": 33,
+    "class": "Caster",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对他人格攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔他人格〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔他人格〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "汉斯·克里斯蒂安·安徒生",
+            "battle_name": "安徒生",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "人类观察 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1300,
+                                1600,
+                                1900,
+                                2200,
+                                2500,
+                                2800,
+                                3100,
+                                3400,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/500500/500500a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5005000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/500500/500500@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/500500/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "汉斯·克里斯蒂安·安徒生",
+            "battle_name": "安徒生",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "人类观察 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1300,
+                                1600,
+                                1900,
+                                2200,
+                                2500,
+                                2800,
+                                3100,
+                                3400,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "高速咏唱 E",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身宝具值中幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身宝具值中幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5250,
+                                5500,
+                                5750,
+                                6000,
+                                6250,
+                                6500,
+                                6750,
+                                7000,
+                                7500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/500500/500500a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5005001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/500500/500500@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/500500/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "汉斯·克里斯蒂安·安徒生",
+            "battle_name": "安徒生",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "人类观察 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1300,
+                                1600,
+                                1900,
+                                2200,
+                                2500,
+                                2800,
+                                3100,
+                                3400,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "高速咏唱 E",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身宝具值中幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身宝具值中幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5250,
+                                5500,
+                                5750,
+                                6000,
+                                6250,
+                                6500,
+                                6750,
+                                7000,
+                                7500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                },
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+",
+                    "type": "对人宝具",
+                    "strength": 1,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆暴击星发生率提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/500500/500500b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5005002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/500500/500500@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/500500/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "汉斯·克里斯蒂安·安徒生",
+            "battle_name": "安徒生",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "人类观察 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1300,
+                                1600,
+                                1900,
+                                2200,
+                                2500,
+                                2800,
+                                3100,
+                                3400,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 1,
+                    "name": "人类观察 A++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击威力提升(3回合)＆善特性的己方全体暴击星发生率提升(3回合)＆中庸特性的己方全体宝具值获得量提升(3回合)＆恶特性的己方全体宝具威力提升(3回合)＆未持有〔善·中庸·恶〕特性的己方全体暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2300,
+                                2600,
+                                2900,
+                                3200,
+                                3500,
+                                3800,
+                                4100,
+                                4400,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "善特性的己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "中庸特性的己方全体宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "恶特性的己方全体宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "未持有〔善·中庸·恶〕特性的己方全体暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "高速咏唱 E",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身宝具值中幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身宝具值中幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5250,
+                                5500,
+                                5750,
+                                6000,
+                                6250,
+                                6500,
+                                6750,
+                                7000,
+                                7500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "无辜的怪物 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身每回合获得暴击星的状态(3回合)＆防御力下降(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                3,
+                                4,
+                                5,
+                                5,
+                                6,
+                                6,
+                                7,
+                                8,
+                                8,
+                                9
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)【负面效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "人鱼公主之爱 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与己方单体每回合获得暴击星的状态(3回合)＆付与每回合获得宝具值状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与己方单体每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与每回合获得宝具值状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                500,
+                                550,
+                                600,
+                                650,
+                                700,
+                                750,
+                                800,
+                                850,
+                                900,
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                },
+                {
+                    "name": "为你撰写的故事",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+",
+                    "type": "对人宝具",
+                    "strength": 1,
+                    "effect": "己方全体一定概率<宝具升级效果提升>＆攻击力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆防御力提升(3回合)<过量充能时效果提升>＆一定概率<宝具升级效果提升>＆暴击星发生率提升(3回合)<过量充能时效果提升>＆(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "一定概率<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                7500,
+                                7750,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)付与每回合回复生命值的状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/500500/500500b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5005003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/500500/500500_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/500500/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/500500/status_servant_3.png"
+            }
+        }
+    ]
+}

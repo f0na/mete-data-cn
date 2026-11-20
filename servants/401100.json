@@ -1,0 +1,981 @@
+{
+    "id": 401100,
+    "no": 26,
+    "class": "Rider",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对剑士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "布狄卡",
+            "battle_name": "布狄卡",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "向女神起誓 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身罗马特攻状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身罗马特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                4800,
+                                5000,
+                                5200,
+                                5400,
+                                5600,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无以誓约守护之车轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>＆防御力大幅提升(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1880,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "布狄卡",
+            "battle_name": "布狄卡",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "向女神起誓 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身罗马特攻状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身罗马特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                4800,
+                                5000,
+                                5200,
+                                5400,
+                                5600,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "战斗续行 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身毅力状态(1次·5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身毅力状态(1次·5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1150,
+                                1300,
+                                1450,
+                                1600,
+                                1750,
+                                1900,
+                                2050,
+                                2200,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无以誓约守护之车轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>＆防御力大幅提升(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1880,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "布狄卡",
+            "battle_name": "布狄卡",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "向女神起誓 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身罗马特攻状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身罗马特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                4800,
+                                5000,
+                                5200,
+                                5400,
+                                5600,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "战斗续行 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身毅力状态(1次·5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身毅力状态(1次·5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1150,
+                                1300,
+                                1450,
+                                1600,
+                                1750,
+                                1900,
+                                2050,
+                                2200,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无以誓约守护之车轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>＆防御力大幅提升(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1880,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "布狄卡",
+            "battle_name": "布狄卡",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "向女神起誓 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身罗马特攻状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身罗马特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                4800,
+                                5000,
+                                5200,
+                                5400,
+                                5600,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 1,
+                    "name": "胜利女王 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与己方全体对罗马特攻状态(3回合)＆暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与己方全体对罗马特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                4800,
+                                5000,
+                                5200,
+                                5400,
+                                5600,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "战斗续行 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身毅力状态(1次·5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身毅力状态(1次·5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1150,
+                                1300,
+                                1450,
+                                1600,
+                                1750,
+                                1900,
+                                2050,
+                                2200,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "战场之粮 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "strength": 1,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与己方单体毅力状态(1次·5回合)＆最大生命值提升(5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与己方单体毅力状态(1次·5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1150,
+                                1300,
+                                1450,
+                                1600,
+                                1750,
+                                1900,
+                                2050,
+                                2200,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "最大生命值提升(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 3,
+                    "name": "安德拉斯特的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的技指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无以誓约守护之车轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>＆防御力大幅提升(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1880,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                },
+                {
+                    "name": "无以誓约守护之车轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B++",
+                    "type": "对军宝具",
+                    "strength": 1,
+                    "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>＆防御力大幅提升(1回合)<过量充能时效果提升>＆攻击力提升(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "己方全体的防御力提升(3回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1880,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_3.png"
+            }
+        }
+    ]
+}

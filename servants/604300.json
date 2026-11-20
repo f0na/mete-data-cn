@@ -1,0 +1,1408 @@
+{
+    "id": 604300,
+    "no": 361,
+    "class": "Assassin",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对剑士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "奥特琳德",
+            "battle_name": "奥特琳德",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Summer",
+            "sub_attr": "Sky",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "SMG/SAM66 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00314.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆暴击威力提升(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "最终攻击·天枪光轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆对魔性特性的对手低概率即死",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对魔性特性的对手低概率即死",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604300/604300a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6043000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604300/604300@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604300/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "奥特琳德",
+            "battle_name": "奥特琳德",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Summer",
+            "sub_attr": "Sky",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "SMG/SAM66 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00314.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆暴击威力提升(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "瓦尔基里式集体作战 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆付与回避状态(1次·3回合)＆己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与回避状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "最终攻击·天枪光轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆对魔性特性的对手低概率即死",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对魔性特性的对手低概率即死",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604300/604300a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6043001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604300/604300@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604300/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "奥特琳德",
+            "battle_name": "奥特琳德",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Summer",
+            "sub_attr": "Sky",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "SMG/SAM66 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00314.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆暴击威力提升(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "瓦尔基里式集体作战 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆付与回避状态(1次·3回合)＆己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与回避状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "最终攻击·天枪光轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆对魔性特性的对手低概率即死",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对魔性特性的对手低概率即死",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604300/604300b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6043002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604300/604300@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604300/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "奥特琳德",
+            "battle_name": "奥特琳德",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Summer",
+            "sub_attr": "Sky",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "SMG/SAM66 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00314.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆暴击威力提升(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "瓦尔基里式集体作战 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆付与回避状态(1次·3回合)＆己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与回避状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 3,
+                    "name": "女武神们的攀谈 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方单体的宝具值增加＆生命值回复＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "最终攻击·天枪光轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆对魔性特性的对手低概率即死",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对魔性特性的对手低概率即死",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604300/604300b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6043003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604300/604300_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604300/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "女武神洁尔诗科古尔",
+            "name": "奥特琳德",
+            "battle_name": "奥特琳德",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Summer",
+            "sub_attr": "Sky",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "SMG/SAM66 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00314.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆暴击威力提升(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "瓦尔基里式集体作战 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆付与回避状态(1次·3回合)＆己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与回避状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体瓦尔基里的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 3,
+                    "name": "女武神们的攀谈 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方单体的宝具值增加＆生命值回复＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "最终攻击·天枪光轮",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆对魔性特性的对手低概率即死",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对魔性特性的对手低概率即死",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604330/604330a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6043300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604330/604330@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604300/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604300/status_servant_11.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,945 @@
+{
+    "id": 301700,
+    "no": 102,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对枪兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "李书文",
+            "battle_name": "李书文",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Evil",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "中国武术（六合大枪） A+++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00310.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身必中状态(1回合)＆暴击威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "神枪无二打",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "－",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆一定概率即死<过量充能时概率提升>＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "一定概率即死<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                6000,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301700/301700a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3017000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301700/301700@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301700/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "李书文",
+            "battle_name": "李书文",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Evil",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "中国武术（六合大枪） A+++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00310.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身必中状态(1回合)＆暴击威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "圈境 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "神枪无二打",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "－",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆一定概率即死<过量充能时概率提升>＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "一定概率即死<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                6000,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301700/301700a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3017001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301700/301700@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301700/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "李书文",
+            "battle_name": "李书文",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Evil",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "中国武术（六合大枪） A+++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00310.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身必中状态(1回合)＆暴击威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "圈境 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "神枪无二打",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "－",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆一定概率即死<过量充能时概率提升>＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "一定概率即死<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                6000,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301700/301700b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3017002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301700/301700@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301700/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "李书文",
+            "battle_name": "李书文",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Evil",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "中国武术（六合大枪） A+++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00310.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身必中状态(1回合)＆暴击威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "圈境 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "绝招 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身无敌贯通状态(1回合)＆技指令卡性能提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "绝招 B++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身无敌贯通状态(1回合)＆技指令卡性能提升(1回合)＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "神枪无二打",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "－",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆一定概率即死<过量充能时概率提升>＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "一定概率即死<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                6000,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                },
+                {
+                    "name": "神枪无二打",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "－",
+                    "type": "对人宝具",
+                    "strength": 1,
+                    "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆一定概率即死<过量充能时概率提升>＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                150000,
+                                165000,
+                                172500,
+                                180000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "一定概率即死<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                6000,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301700/301700b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3017003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301700/301700_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301700/status_servant_3.png"
+            }
+        }
+    ]
+}

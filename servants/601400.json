@@ -1,0 +1,934 @@
+{
+    "id": 601400,
+    "no": 45,
+    "class": "Assassin",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对暗匿者攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "玛塔·哈丽",
+            "battle_name": "玛塔·哈丽",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "谍报 A++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [],
+            "nobles": [
+                {
+                    "name": "拥有阳眼之女",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>＆攻击力大幅下降(1回合)<过量充能时效果提升>＆防御力大幅下降(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                5500,
+                                5750,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "攻击力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/601400/601400a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6014000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/601400/601400@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/601400/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "玛塔·哈丽",
+            "battle_name": "玛塔·哈丽",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "谍报 A++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "费洛蒙 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00509.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "低概率付与敌方全体男性魅惑(1回合)＆敌方全体防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "低概率付与敌方全体男性魅惑(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "敌方全体防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [],
+            "nobles": [
+                {
+                    "name": "拥有阳眼之女",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>＆攻击力大幅下降(1回合)<过量充能时效果提升>＆防御力大幅下降(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                5500,
+                                5750,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "攻击力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/601400/601400a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6014001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/601400/601400@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/601400/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "玛塔·哈丽",
+            "battle_name": "玛塔·哈丽",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "谍报 A++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "费洛蒙 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00509.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "低概率付与敌方全体男性魅惑(1回合)＆敌方全体防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "低概率付与敌方全体男性魅惑(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "敌方全体防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [],
+            "nobles": [
+                {
+                    "name": "拥有阳眼之女",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>＆攻击力大幅下降(1回合)<过量充能时效果提升>＆防御力大幅下降(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                5500,
+                                5750,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "攻击力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/601400/601400b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6014002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/601400/601400@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/601400/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "玛塔·哈丽",
+            "battle_name": "玛塔·哈丽",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "谍报 A++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 1,
+                    "name": "日落万塞讷 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的暴击星发生率大幅提升(3回合)＆暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的暴击星发生率大幅提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "费洛蒙 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00509.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "低概率付与敌方全体男性魅惑(1回合)＆敌方全体防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "低概率付与敌方全体男性魅惑(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "敌方全体防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "沉溺的香甜 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00509.png",
+                    "strength": 1,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "(500%概率)敌方全体的魅惑耐性下降(1次·3回合)＆低概率付与男性魅惑状态(1回合)＆防御力下降(3回合)＆付与处于〔魅惑〕状态时防御力下降的状态(3回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "(500%概率)敌方全体的魅惑耐性下降(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与男性魅惑状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与处于〔魅惑〕状态时防御力下降的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                20,
+                                21,
+                                22,
+                                23,
+                                24,
+                                25,
+                                26,
+                                27,
+                                28,
+                                30
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 3,
+                    "name": "背叛者 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体技能封印状态(1回合)＆防御力下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体技能封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [],
+            "nobles": [
+                {
+                    "name": "拥有阳眼之女",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>＆攻击力大幅下降(1回合)<过量充能时效果提升>＆防御力大幅下降(1回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "中概率付与敌方全体魅惑状态<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                4000,
+                                5000,
+                                5500,
+                                5750,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "攻击力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力大幅下降(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/601400/601400b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6014003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/601400/601400_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/601400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/601400/status_servant_3.png"
+            }
+        }
+    ]
+}

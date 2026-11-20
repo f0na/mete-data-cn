@@ -1,0 +1,2312 @@
+{
+    "id": 3300200,
+    "no": 417,
+    "class": "BeastEresh",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对骑兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "安基埃列什基伽勒",
+            "battle_name": "安基埃列什基伽勒",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Beast",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "女神的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆宝具威力提升(3回合)＆宝具值增加＆即死耐性提升(3回合)＆付与毒状态(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与毒状态(3回合)【负面效果】",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔术",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身弱化无效状态(3次)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(3次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "空间保存",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「普通攻击时，宝具值小幅增加」的状态(5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身普通攻击时，宝具值小幅增加的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(140)＆弱化耐性提升(14%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(140)",
+                            "kind": "Int",
+                            "values": [
+                                140
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(14%)",
+                            "kind": "Percent",
+                            "values": [
+                                1400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "兽之权能",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对从者的暴击威力提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身对从者的暴击威力提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独显现",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(1.5%)＆即死耐性提升(1.5%)＆精神异常耐性提升(1.5%)＆付与眩晕·石化·束缚·猪化无效状态",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与眩晕·石化·束缚·猪化无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "II",
+                    "icon": "",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(+5)\n·编入首发队员(+5)\n·在水边场地出击(+10)\n·选择有效指令卡(+3)\n·令Brave Chain成立(+6)\n·使用技能(+3)\n·比他人先使用技能(+2)\n·在过量充能状态发动宝具(每阶段+5)\n·成为御主技能的效果对象(+5)\n·成为令咒的效果对象(+10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                    "effects": [
+                        {
+                            "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·编入首发队员(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·在水边场地出击(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n·选择有效指令卡(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·令Brave Chain成立(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "6)\n·使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·比他人先使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "2)\n·在过量充能状态发动宝具(每阶段",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为御主技能的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为令咒的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "Nega Space",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00817.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪烁于终局宇宙的兽冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>＆御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)＆御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)＆付与无敌贯通状态(1回合)＆御主好感度等级10(Destiny)时，获得大量暴击星＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据御主好感度等级相应提升>＆解除攻击强化状态＆中概率即死效果",
+                    "effects": [
+                        {
+                            "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>",
+                            "kind": "Int",
+                            "values": [
+                                0,
+                                5,
+                                10,
+                                15,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级10(Destiny)时，获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                50
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据御主好感度等级相应提升>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果",
+                            "kind": "Percent",
+                            "values": [
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/3300200/3300200a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_33002000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/3300200/3300200@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/3300200/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "安基埃列什基伽勒",
+            "battle_name": "安基埃列什基伽勒",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Beast",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "女神的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆宝具威力提升(3回合)＆宝具值增加＆即死耐性提升(3回合)＆付与毒状态(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与毒状态(3回合)【负面效果】",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "兽之驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00603.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "获得暴击星＆自身的暴击星集中度提升(1回合)＆付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔术",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身弱化无效状态(3次)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(3次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "空间保存",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「普通攻击时，宝具值小幅增加」的状态(5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身普通攻击时，宝具值小幅增加的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(140)＆弱化耐性提升(14%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(140)",
+                            "kind": "Int",
+                            "values": [
+                                140
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(14%)",
+                            "kind": "Percent",
+                            "values": [
+                                1400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "兽之权能",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对从者的暴击威力提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身对从者的暴击威力提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独显现",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(1.5%)＆即死耐性提升(1.5%)＆精神异常耐性提升(1.5%)＆付与眩晕·石化·束缚·猪化无效状态",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与眩晕·石化·束缚·猪化无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "II",
+                    "icon": "",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(+5)\n·编入首发队员(+5)\n·在水边场地出击(+10)\n·选择有效指令卡(+3)\n·令Brave Chain成立(+6)\n·使用技能(+3)\n·比他人先使用技能(+2)\n·在过量充能状态发动宝具(每阶段+5)\n·成为御主技能的效果对象(+5)\n·成为令咒的效果对象(+10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                    "effects": [
+                        {
+                            "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·编入首发队员(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·在水边场地出击(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n·选择有效指令卡(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·令Brave Chain成立(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "6)\n·使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·比他人先使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "2)\n·在过量充能状态发动宝具(每阶段",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为御主技能的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为令咒的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "Nega Space",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00817.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪烁于终局宇宙的兽冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>＆御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)＆御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)＆付与无敌贯通状态(1回合)＆御主好感度等级10(Destiny)时，获得大量暴击星＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据御主好感度等级相应提升>＆解除攻击强化状态＆中概率即死效果",
+                    "effects": [
+                        {
+                            "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>",
+                            "kind": "Int",
+                            "values": [
+                                0,
+                                5,
+                                10,
+                                15,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级10(Destiny)时，获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                50
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据御主好感度等级相应提升>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果",
+                            "kind": "Percent",
+                            "values": [
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/3300200/3300200a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_33002001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/3300200/3300200@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/3300200/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "太空埃列什基伽勒",
+            "battle_name": "太空埃列什基伽勒",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Beast",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "女神的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆宝具威力提升(3回合)＆宝具值增加＆即死耐性提升(3回合)＆付与毒状态(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与毒状态(3回合)【负面效果】",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "兽之驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00603.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "获得暴击星＆自身的暴击星集中度提升(1回合)＆付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔术",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身弱化无效状态(3次)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(3次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "空间保存",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「普通攻击时，宝具值小幅增加」的状态(5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身普通攻击时，宝具值小幅增加的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(140)＆弱化耐性提升(14%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(140)",
+                            "kind": "Int",
+                            "values": [
+                                140
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(14%)",
+                            "kind": "Percent",
+                            "values": [
+                                1400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "兽之权能",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对从者的暴击威力提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身对从者的暴击威力提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独显现",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(1.5%)＆即死耐性提升(1.5%)＆精神异常耐性提升(1.5%)＆付与眩晕·石化·束缚·猪化无效状态",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与眩晕·石化·束缚·猪化无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "II",
+                    "icon": "",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(+5)\n·编入首发队员(+5)\n·在水边场地出击(+10)\n·选择有效指令卡(+3)\n·令Brave Chain成立(+6)\n·使用技能(+3)\n·比他人先使用技能(+2)\n·在过量充能状态发动宝具(每阶段+5)\n·成为御主技能的效果对象(+5)\n·成为令咒的效果对象(+10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                    "effects": [
+                        {
+                            "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·编入首发队员(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·在水边场地出击(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n·选择有效指令卡(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·令Brave Chain成立(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "6)\n·使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·比他人先使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "2)\n·在过量充能状态发动宝具(每阶段",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为御主技能的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为令咒的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "Nega Space",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00817.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪烁于终局宇宙的兽冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>＆御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)＆御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)＆付与无敌贯通状态(1回合)＆御主好感度等级10(Destiny)时，获得大量暴击星＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据御主好感度等级相应提升>＆解除攻击强化状态＆中概率即死效果",
+                    "effects": [
+                        {
+                            "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>",
+                            "kind": "Int",
+                            "values": [
+                                0,
+                                5,
+                                10,
+                                15,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级10(Destiny)时，获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                50
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据御主好感度等级相应提升>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果",
+                            "kind": "Percent",
+                            "values": [
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/3300200/3300200b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_33002002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/3300200/3300200@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/3300200/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "太空埃列什基伽勒",
+            "battle_name": "太空埃列什基伽勒",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Beast",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "女神的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆宝具威力提升(3回合)＆宝具值增加＆即死耐性提升(3回合)＆付与毒状态(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与毒状态(3回合)【负面效果】",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "兽之驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00603.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "获得暴击星＆自身的暴击星集中度提升(1回合)＆付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                32000,
+                                34000,
+                                36000,
+                                38000,
+                                40000,
+                                42000,
+                                44000,
+                                46000,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「普通攻击造成伤害前，自身暴击威力大幅提升(1回合)」的状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "失落星环 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身无敌状态(2次·3回合)＆付与毅力状态(1次·3回合)＆生命值回复＆解除弱化状态＆强化解除耐性提升(1次·3回合)＆技能冷却减少2回合",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与毅力状态(1次·3回合)",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "强化解除耐性提升(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技能冷却减少2回合",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔术",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身弱化无效状态(3次)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(3次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "空间保存",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「普通攻击时，宝具值小幅增加」的状态(5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身普通攻击时，宝具值小幅增加的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(140)＆弱化耐性提升(14%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(140)",
+                            "kind": "Int",
+                            "values": [
+                                140
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(14%)",
+                            "kind": "Percent",
+                            "values": [
+                                1400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "兽之权能",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对从者的暴击威力提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身对从者的暴击威力提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独显现",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(1.5%)＆即死耐性提升(1.5%)＆精神异常耐性提升(1.5%)＆付与眩晕·石化·束缚·猪化无效状态",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(1.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与眩晕·石化·束缚·猪化无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "II",
+                    "icon": "",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(+5)\n·编入首发队员(+5)\n·在水边场地出击(+10)\n·选择有效指令卡(+3)\n·令Brave Chain成立(+6)\n·使用技能(+3)\n·比他人先使用技能(+2)\n·在过量充能状态发动宝具(每阶段+5)\n·成为御主技能的效果对象(+5)\n·成为令咒的效果对象(+10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                    "effects": [
+                        {
+                            "effect": "太空埃列什基伽勒拥有御主好感度槽。好感度槽具有等级，初始等级为1，最大等级为10。对太空埃列什基伽勒进行特定行动会提升御主好感度，每提升10点，等级提升1。数值每场战斗均会重置。\n\n【提升御主好感度的行动】\n·牵绊达到5级以上(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·编入首发队员(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·在水边场地出击(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n·选择有效指令卡(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·令Brave Chain成立(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "6)\n·使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "3)\n·比他人先使用技能(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "2)\n·在过量充能状态发动宝具(每阶段",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为御主技能的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "5)\n·成为令咒的效果对象(",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "10)\n\n※但在好友助战时不拥有御主好感度槽。御主好感度等级的初始值为0，好感度不可提升。",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "Nega Space",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00817.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪烁于终局宇宙的兽冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>＆御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)＆御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)＆付与无敌贯通状态(1回合)＆御主好感度等级10(Destiny)时，获得大量暴击星＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据御主好感度等级相应提升>＆解除攻击强化状态＆中概率即死效果",
+                    "effects": [
+                        {
+                            "effect": "过量充能时，自身的御主好感度提升<效果根据过量充能阶段相应提升>",
+                            "kind": "Int",
+                            "values": [
+                                0,
+                                5,
+                                10,
+                                15,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级4(Buddy)以上时，自身的即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级7(Darling)以上时，付与自身无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "御主好感度等级10(Destiny)时，获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                50
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据御主好感度等级相应提升>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果",
+                            "kind": "Percent",
+                            "values": [
+                                6000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/3300200/3300200b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_33002003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/3300200/3300200_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/3300200/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/3300200/status_servant_3.png"
+            }
+        }
+    ]
+}

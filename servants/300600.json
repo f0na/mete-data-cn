@@ -1,0 +1,847 @@
+{
+    "id": 300600,
+    "no": 19,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对骑兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "武藏坊弁庆",
+            "battle_name": "弁庆",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "怨灵调伏 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "概率付与敌方单体技能封印状态(1回合)",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方单体技能封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "五百罗汉补陀落渡海",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>＆付与诅咒(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6500,
+                                7250,
+                                7630,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                1000,
+                                1500,
+                                2000,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/300600/300600a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3006000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/300600/300600@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/300600/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "武藏坊弁庆",
+            "battle_name": "弁庆",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "怨灵调伏 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "概率付与敌方单体技能封印状态(1回合)",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方单体技能封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "仁王立姿 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(1回合)＆防御力大幅提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                12000,
+                                14000,
+                                16000,
+                                18000,
+                                20000,
+                                22000,
+                                24000,
+                                26000,
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "五百罗汉补陀落渡海",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>＆付与诅咒(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6500,
+                                7250,
+                                7630,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                1000,
+                                1500,
+                                2000,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/300600/300600a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3006001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/300600/300600@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/300600/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "武藏坊弁庆",
+            "battle_name": "弁庆",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "怨灵调伏 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "概率付与敌方单体技能封印状态(1回合)",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方单体技能封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "仁王立姿 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(1回合)＆防御力大幅提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                12000,
+                                14000,
+                                16000,
+                                18000,
+                                20000,
+                                22000,
+                                24000,
+                                26000,
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "五百罗汉补陀落渡海",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>＆付与诅咒(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6500,
+                                7250,
+                                7630,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                1000,
+                                1500,
+                                2000,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/300600/300600b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3006002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/300600/300600@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/300600/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "武藏坊弁庆",
+            "battle_name": "弁庆",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "怨灵调伏 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "概率付与敌方单体技能封印状态(1回合)",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方单体技能封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "仁王立姿 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(1回合)＆防御力大幅提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                12000,
+                                14000,
+                                16000,
+                                18000,
+                                20000,
+                                22000,
+                                24000,
+                                26000,
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力大幅提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3300,
+                                3600,
+                                3900,
+                                4200,
+                                4500,
+                                4800,
+                                5100,
+                                5400,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "白纸的劝进帐",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        10,
+                        9,
+                        8
+                    ],
+                    "effect": "对敌方全体以一定概率付与宝具封印状态(1回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方全体以一定概率付与宝具封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                6200,
+                                6400,
+                                6600,
+                                6800,
+                                7000,
+                                7200,
+                                7400,
+                                7600,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "五百罗汉补陀落渡海",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>＆付与诅咒(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6500,
+                                7250,
+                                7630,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                1000,
+                                1500,
+                                2000,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                },
+                {
+                    "name": "五百罗汉补陀落渡海",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对军宝具",
+                    "strength": 1,
+                    "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>＆付与诅咒(3回合)<过量充能时效果提升>＆解除强化状态",
+                    "effects": [
+                        {
+                            "effect": "概率付与敌方全体眩晕状态(1回合)<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6500,
+                                7250,
+                                7630,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                3000,
+                                4000,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/300600/300600b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3006003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/300600/300600_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/300600/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/300600/status_servant_3.png"
+            }
+        }
+    ]
+}

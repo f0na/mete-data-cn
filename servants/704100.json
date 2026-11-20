@@ -1,0 +1,1225 @@
+{
+    "id": 704100,
+    "no": 323,
+    "class": "Berserker",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对裁定者暴击耐性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔裁定者〕职阶的被暴击发生耐性提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔裁定者〕职阶的被暴击发生耐性提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "清少纳言",
+            "battle_name": "清少纳言",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Summer",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "夏日街头！ A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动（自我中心）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "一乘法",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的魅惑耐性大提升(100%)",
+                    "effects": [
+                        {
+                            "effect": "自身的魅惑耐性大提升(100%)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夏天，世间少有之热",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "D++",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>＆付与对秩序的从者特攻状态(1回合)＆付与对影从者特攻状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6250,
+                                7500,
+                                8750,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对秩序的从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对影从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704100/704100a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7041000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704100/704100@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/704100/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "清少纳言",
+            "battle_name": "清少纳言",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Summer",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "夏日街头！ A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "夜间泳池滑道 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆暴击威力提升(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                300000,
+                                320000,
+                                340000,
+                                360000,
+                                380000,
+                                400000,
+                                420000,
+                                440000,
+                                460000,
+                                500000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动（自我中心）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "一乘法",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的魅惑耐性大提升(100%)",
+                    "effects": [
+                        {
+                            "effect": "自身的魅惑耐性大提升(100%)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夏天，世间少有之热",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "D++",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>＆付与对秩序的从者特攻状态(1回合)＆付与对影从者特攻状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6250,
+                                7500,
+                                8750,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对秩序的从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对影从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704100/704100a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7041001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704100/704100@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/704100/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "清少纳言",
+            "battle_name": "清少纳言",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Summer",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "夏日街头！ A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "夜间泳池滑道 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆暴击威力提升(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                300000,
+                                320000,
+                                340000,
+                                360000,
+                                380000,
+                                400000,
+                                420000,
+                                440000,
+                                460000,
+                                500000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动（自我中心）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "一乘法",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的魅惑耐性大提升(100%)",
+                    "effects": [
+                        {
+                            "effect": "自身的魅惑耐性大提升(100%)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夏天，世间少有之热",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "D++",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>＆付与对秩序的从者特攻状态(1回合)＆付与对影从者特攻状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6250,
+                                7500,
+                                8750,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对秩序的从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对影从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704100/704100b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7041002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704100/704100@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/704100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "清少纳言",
+            "battle_name": "清少纳言",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Summer",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "夏日街头！ A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "夜间泳池滑道 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆暴击威力提升(1回合)＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                300000,
+                                320000,
+                                340000,
+                                360000,
+                                380000,
+                                400000,
+                                420000,
+                                440000,
+                                460000,
+                                500000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "高贵夏日甜点 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值回复＆付与灼伤无效状态(3回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与灼伤无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                15,
+                                16,
+                                17,
+                                18,
+                                19,
+                                20,
+                                21,
+                                22,
+                                23,
+                                25
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动（自我中心）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡暴击星集中度小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "一乘法",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的魅惑耐性大提升(100%)",
+                    "effects": [
+                        {
+                            "effect": "自身的魅惑耐性大提升(100%)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夏天，世间少有之热",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "D++",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>＆付与对秩序的从者特攻状态(1回合)＆付与对影从者特攻状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔拥有人之力的敌人〕特攻状态(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                6250,
+                                7500,
+                                8750,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对秩序的从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对影从者特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704100/704100b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7041003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704100/704100_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/704100/status_servant_3.png"
+            }
+        }
+    ]
+}

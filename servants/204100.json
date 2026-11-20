@@ -1,0 +1,1388 @@
+{
+    "id": 204100,
+    "no": 294,
+    "class": "Archer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对魔术师攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔魔术师〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔魔术师〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "织田信胜",
+            "battle_name": "织田信胜",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "稚拙的谋略 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)＆力攻击耐性下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "力攻击耐性下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "魔王回天·曼殊沙华",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "D",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>＆力指令卡性能提升(3回合)<过量充能时效果提升>＆己方全体信长的力指令卡性能提升(3回合)＆自身即死效果【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1875,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "己方全体信长的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "自身即死效果【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204100/204100a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2041000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204100/204100@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204100/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "织田信胜",
+            "battle_name": "织田信胜",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "稚拙的谋略 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)＆力攻击耐性下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "力攻击耐性下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾，以身殉魔天 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身每回合获得暴击星状态(3回合)＆己方全体的暴击威力提升(3回合)＆己方全体信长的暴击威力提升(3回合)＆暴击星集中度提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得暴击星状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体信长的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3500,
+                                4000,
+                                4500,
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                100000,
+                                120000,
+                                140000,
+                                160000,
+                                180000,
+                                200000,
+                                220000,
+                                240000,
+                                260000,
+                                300000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "魔王回天·曼殊沙华",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "D",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>＆力指令卡性能提升(3回合)<过量充能时效果提升>＆己方全体信长的力指令卡性能提升(3回合)＆自身即死效果【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1875,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "己方全体信长的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "自身即死效果【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204100/204100a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2041001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204100/204100@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204100/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "织田信胜",
+            "battle_name": "织田信胜",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "稚拙的谋略 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)＆力攻击耐性下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "力攻击耐性下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾，以身殉魔天 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身每回合获得暴击星状态(3回合)＆己方全体的暴击威力提升(3回合)＆己方全体信长的暴击威力提升(3回合)＆暴击星集中度提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得暴击星状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体信长的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3500,
+                                4000,
+                                4500,
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                100000,
+                                120000,
+                                140000,
+                                160000,
+                                180000,
+                                200000,
+                                220000,
+                                240000,
+                                260000,
+                                300000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "魔王回天·曼殊沙华",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "D",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>＆力指令卡性能提升(3回合)<过量充能时效果提升>＆己方全体信长的力指令卡性能提升(3回合)＆自身即死效果【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1875,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "己方全体信长的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "自身即死效果【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204100/204100b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2041002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204100/204100@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "织田信胜",
+            "battle_name": "织田信胜",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "稚拙的谋略 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)＆力攻击耐性下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "力攻击耐性下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾，以身殉魔天 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身每回合获得暴击星状态(3回合)＆己方全体的暴击威力提升(3回合)＆己方全体信长的暴击威力提升(3回合)＆暴击星集中度提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得暴击星状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体信长的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3500,
+                                4000,
+                                4500,
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                100000,
+                                120000,
+                                140000,
+                                160000,
+                                180000,
+                                200000,
+                                220000,
+                                240000,
+                                260000,
+                                300000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "战乱的谎花 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身目标集中状态(1回合)＆被伤害时宝具值获得量提升(1回合)＆付与「自身战败退场时，己方全体生命值回复」的状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被伤害时宝具值获得量提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「自身战败退场时，己方全体生命值回复」的状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "魔王回天·曼殊沙华",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "D",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>＆力指令卡性能提升(3回合)<过量充能时效果提升>＆己方全体信长的力指令卡性能提升(3回合)＆自身即死效果【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1875,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "己方全体信长的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "自身即死效果【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204100/204100b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2041003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204100/204100_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "织田金边圆眼镜",
+            "name": "织田信胜",
+            "battle_name": "织田信胜",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "稚拙的谋略 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)＆力攻击耐性下降(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与敌方单体〔混乱〕状态「每回合低概率付与技能封印的状态」(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "力攻击耐性下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾，以身殉魔天 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身每回合获得暴击星状态(3回合)＆己方全体的暴击威力提升(3回合)＆己方全体信长的暴击威力提升(3回合)＆暴击星集中度提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得暴击星状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体信长的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3500,
+                                4000,
+                                4500,
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                8000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                100000,
+                                120000,
+                                140000,
+                                160000,
+                                180000,
+                                200000,
+                                220000,
+                                240000,
+                                260000,
+                                300000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "战乱的谎花 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身目标集中状态(1回合)＆被伤害时宝具值获得量提升(1回合)＆付与「自身战败退场时，己方全体生命值回复」的状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被伤害时宝具值获得量提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「自身战败退场时，己方全体生命值回复」的状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(12.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(12.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1250
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "魔王回天·曼殊沙华",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "D",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>＆力指令卡性能提升(3回合)<过量充能时效果提升>＆己方全体信长的力指令卡性能提升(3回合)＆自身即死效果【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                1750,
+                                1875,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "己方全体信长的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "自身即死效果【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204130/204130a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2041300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204130/204130@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204100/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204100/status_servant_11.png"
+            }
+        }
+    ]
+}

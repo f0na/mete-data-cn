@@ -1,0 +1,1228 @@
+{
+    "id": 302800,
+    "no": 148,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对骑兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "豹人",
+            "battle_name": "豹人",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "豹之拳 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        12,
+                        11,
+                        10
+                    ],
+                    "effect": "自身力指令卡性能提升(3回合)＆精神异常耐性提升(3回合)＆付与回避状态(2次)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无可逃脱死亡钩爪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身必中状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆弱化耐性下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "弱化耐性下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                2000,
+                                3000,
+                                4000,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/302800/302800a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3028000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/302800/302800@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/302800/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "豹人",
+            "battle_name": "豹人",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "豹之拳 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        12,
+                        11,
+                        10
+                    ],
+                    "effect": "自身力指令卡性能提升(3回合)＆精神异常耐性提升(3回合)＆付与回避状态(2次)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "豹之踢 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身攻击力提升(2回合)",
+                    "effects": [
+                        {
+                            "effect": "自身攻击力提升(2回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无可逃脱死亡钩爪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身必中状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆弱化耐性下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "弱化耐性下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                2000,
+                                3000,
+                                4000,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/302800/302800a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3028001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/302800/302800@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/302800/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "豹人",
+            "battle_name": "豹人",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "豹之拳 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        12,
+                        11,
+                        10
+                    ],
+                    "effect": "自身力指令卡性能提升(3回合)＆精神异常耐性提升(3回合)＆付与回避状态(2次)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "豹之踢 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身攻击力提升(2回合)",
+                    "effects": [
+                        {
+                            "effect": "自身攻击力提升(2回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无可逃脱死亡钩爪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身必中状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆弱化耐性下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "弱化耐性下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                2000,
+                                3000,
+                                4000,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/302800/302800b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3028002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/302800/302800@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/302800/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "豹人",
+            "battle_name": "豹人",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "豹之拳 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        12,
+                        11,
+                        10
+                    ],
+                    "effect": "自身力指令卡性能提升(3回合)＆精神异常耐性提升(3回合)＆付与回避状态(2次)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 1,
+                    "name": "豹之拳 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 1,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的力指令卡性能提升(3回合)＆精神异常耐性提升(3回合)＆付与回避状态(2次)＆付与令场地获得森林特性的状态(3回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "精神异常耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与令场地获得森林特性的状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                12,
+                                14,
+                                16,
+                                18,
+                                20,
+                                22,
+                                24,
+                                26,
+                                30
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "豹之踢 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身攻击力提升(2回合)",
+                    "effects": [
+                        {
+                            "effect": "自身攻击力提升(2回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "豹之眼 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身暴击威力提升(3回合)＆仅在森林场地上时，自身暴击星发生率提升(3回合)＆仅在森林场地上时，暴击星集中度提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在森林场地上时，自身暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在森林场地上时，暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                33000,
+                                36000,
+                                39000,
+                                42000,
+                                45000,
+                                48000,
+                                51000,
+                                54000,
+                                60000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "无可逃脱死亡钩爪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身必中状态(1回合)＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆弱化耐性下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身必中状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "弱化耐性下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                2000,
+                                3000,
+                                4000,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/302800/302800b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3028003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/302800/302800_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/302800/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/302800/status_servant_3.png"
+            }
+        }
+    ]
+}

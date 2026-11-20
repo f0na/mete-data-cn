@@ -1,0 +1,924 @@
+{
+    "id": 703400,
+    "no": 260,
+    "class": "Berserker",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对裁定者暴击耐性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔裁定者〕职阶的被暴击发生耐性提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔裁定者〕职阶的被暴击发生耐性提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "莎乐美",
+            "battle_name": "莎乐美",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Evil",
+            "sub_attr": "Earth",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "染血的银盘 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)＆攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "已然亲吻你",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆付与诅咒状态(5回合)＆付与咒厄状态(5回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与咒厄状态(5回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                20000,
+                                25000,
+                                30000,
+                                35000,
+                                40000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703400/703400a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7034000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703400/703400@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703400/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "莎乐美",
+            "battle_name": "莎乐美",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Evil",
+            "sub_attr": "Earth",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "染血的银盘 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)＆攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "天性的肉体（体） C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身弱化无效状态(1次·3回合)＆防御力提升(3回合)＆付与无敌状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "已然亲吻你",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆付与诅咒状态(5回合)＆付与咒厄状态(5回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与咒厄状态(5回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                20000,
+                                25000,
+                                30000,
+                                35000,
+                                40000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703400/703400a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7034001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703400/703400@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703400/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "莎乐美",
+            "battle_name": "莎乐美",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Evil",
+            "sub_attr": "Earth",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "染血的银盘 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)＆攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "天性的肉体（体） C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身弱化无效状态(1次·3回合)＆防御力提升(3回合)＆付与无敌状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "已然亲吻你",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆付与诅咒状态(5回合)＆付与咒厄状态(5回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与咒厄状态(5回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                20000,
+                                25000,
+                                30000,
+                                35000,
+                                40000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703400/703400b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7034002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703400/703400@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703400/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "莎乐美",
+            "battle_name": "莎乐美",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Evil",
+            "sub_attr": "Earth",
+            "cost": 4,
+            "rarity": 2,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "染血的银盘 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)＆攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身对〔秩序且善〕的特攻状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "天性的肉体（体） C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00411.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身弱化无效状态(1次·3回合)＆防御力提升(3回合)＆付与无敌状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "防御力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "七面纱舞 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00606.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身每回合回复生命值的状态(7回合)＆付与「每回合解除1个自身的防御强化状态」的状态(7回合)<视为强化>【负面效果】＆付与「7回合后，己方全体宝具值大幅增加」的状态(1次)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合回复生命值的状态(7回合)",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                550,
+                                600,
+                                650,
+                                700,
+                                750,
+                                800,
+                                850,
+                                900,
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「每回合解除1个自身的防御强化状态」的状态(7回合)<视为强化>【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「7回合后，己方全体宝具值大幅增加」的状态(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(5.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                550
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "已然亲吻你",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆付与诅咒状态(5回合)＆付与咒厄状态(5回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与诅咒状态(5回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与咒厄状态(5回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                20000,
+                                25000,
+                                30000,
+                                35000,
+                                40000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703400/703400b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7034003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703400/703400_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703400/status_servant_3.png"
+            }
+        }
+    ]
+}

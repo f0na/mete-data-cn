@@ -1,0 +1,927 @@
+{
+    "id": 703500,
+    "no": 251,
+    "class": "Berserker",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对复仇者暴击耐性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔复仇者〕职阶的被暴击发生耐性提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔复仇者〕职阶的被暴击发生耐性提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "森长可",
+            "battle_name": "森长可",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Crazy",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "精神污染（凶） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的暴击威力提升(3回合)＆弱化耐性大幅提升(3回合)＆(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性大幅提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "人类无骨",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆防御力下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703500/703500a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7035000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703500/703500@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703500/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "森长可",
+            "battle_name": "森长可",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Crazy",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "精神污染（凶） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的暴击威力提升(3回合)＆弱化耐性大幅提升(3回合)＆(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性大幅提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "血染的蛮勇 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)＆(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1050,
+                                1100,
+                                1150,
+                                1200,
+                                1250,
+                                1300,
+                                1350,
+                                1400,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "人类无骨",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆防御力下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703500/703500a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7035001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703500/703500@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703500/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "森长可",
+            "battle_name": "森长可",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Crazy",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "精神污染（凶） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的暴击威力提升(3回合)＆弱化耐性大幅提升(3回合)＆(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性大幅提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "血染的蛮勇 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)＆(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1050,
+                                1100,
+                                1150,
+                                1200,
+                                1250,
+                                1300,
+                                1350,
+                                1400,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "人类无骨",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆防御力下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703500/703500b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7035002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703500/703500@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703500/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "森长可",
+            "battle_name": "森长可",
+            "gender": "Male",
+            "attr1": "Chaos",
+            "attr2": "Crazy",
+            "sub_attr": "Human",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "精神污染（凶） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的暴击威力提升(3回合)＆弱化耐性大幅提升(3回合)＆(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性大幅提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)强化成功率大幅下降<视为强化>(3回合)【负面效果】",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "血染的蛮勇 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)＆(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1050,
+                                1100,
+                                1150,
+                                1200,
+                                1250,
+                                1300,
+                                1350,
+                                1400,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)防御力下降(3回合)【负面效果】」的状态(3次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "血染的蛮勇 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00515.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)＆(500%概率)防御力下降(3回合)【负面效果】」的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身「攻击时，(500%概率)自身攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1050,
+                                1100,
+                                1150,
+                                1200,
+                                1250,
+                                1300,
+                                1350,
+                                1400,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(500%概率)防御力下降(3回合)【负面效果】」的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "鬼武藏的遗嘱 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的暴击星集中度提升(1回合)＆付与「自身战败退场时，获得暴击星」的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                300000,
+                                320000,
+                                340000,
+                                360000,
+                                380000,
+                                400000,
+                                420000,
+                                440000,
+                                460000,
+                                500000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「自身战败退场时，获得暴击星」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "人类无骨",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆防御力下降(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703500/703500b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_7035003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703500/703500_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703500/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/703500/status_servant_3.png"
+            }
+        }
+    ]
+}

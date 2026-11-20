@@ -1,0 +1,1363 @@
+{
+    "id": 204900,
+    "no": 391,
+    "class": "Archer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对裁定者攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "巴格斯特",
+            "battle_name": "巴格斯特",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "守护骑士联盟 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)＆当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)＆付与每回合获得暴击星的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "妖精骑士",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "雷云吞噬者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
+                    "effects": [
+                        {
+                            "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与灼伤·延烧无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "驱灾日轮之角",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆解除攻击强化状态＆(100%概率)解除灼伤·延烧状态【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)解除灼伤·延烧状态【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204900/204900a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2049000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204900/204900@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204900/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "巴格斯特",
+            "battle_name": "巴格斯特",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "守护骑士联盟 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)＆当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)＆付与每回合获得暴击星的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "女王守护者 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值增加＆付与除自身以外的己方全体无敌状态(1回合)＆生命值回复＆技能冷却减少1回合",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与除自身以外的己方全体无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技能冷却减少1回合",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "妖精骑士",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "雷云吞噬者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
+                    "effects": [
+                        {
+                            "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与灼伤·延烧无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "驱灾日轮之角",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆解除攻击强化状态＆(100%概率)解除灼伤·延烧状态【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)解除灼伤·延烧状态【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204900/204900a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2049001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204900/204900@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204900/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "妖精骑士巴格斯特",
+            "battle_name": "妖精骑士巴格斯特",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "守护骑士联盟 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)＆当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)＆付与每回合获得暴击星的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "女王守护者 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值增加＆付与除自身以外的己方全体无敌状态(1回合)＆生命值回复＆技能冷却减少1回合",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与除自身以外的己方全体无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技能冷却减少1回合",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "妖精骑士",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "雷云吞噬者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
+                    "effects": [
+                        {
+                            "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与灼伤·延烧无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "驱灾日轮之角",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆解除攻击强化状态＆(100%概率)解除灼伤·延烧状态【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)解除灼伤·延烧状态【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204900/204900b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2049002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204900/204900@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204900/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "ＵＤＫ－巴格斯特",
+            "battle_name": "妖精骑士巴格斯特",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "守护骑士联盟 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆暴击威力提升(3回合)＆付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)＆当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)＆付与每回合获得暴击星的状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与〔保护弱肉〕状态「普通攻击时，己方全体生命值回复」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "当场地上有〔★3以下的己方〕时，自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "女王守护者 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值增加＆付与除自身以外的己方全体无敌状态(1回合)＆生命值回复＆技能冷却减少1回合",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与除自身以外的己方全体无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技能冷却减少1回合",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "斯特莱克·韦瑟 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的宝具威力提升(3回合)＆付与宝具切换状态<令宝具从全体攻击宝具变化为单体攻击宝具的状态>(3回合)【可选择是否切换】＆付与超巨大特性(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与宝具切换状态<令宝具从全体攻击宝具变化为单体攻击宝具的状态>(3回合)【可选择是否切换】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与超巨大特性(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "狂化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "妖精骑士",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "雷云吞噬者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
+                    "effects": [
+                        {
+                            "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)",
+                            "kind": "Percent",
+                            "values": [
+                                500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与灼伤·延烧无效状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "驱灾日轮之角",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>＆解除攻击强化状态＆(100%概率)解除灼伤·延烧状态【负面效果】",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除攻击强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "(100%概率)解除灼伤·延烧状态【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/204900/204900b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_2049003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/204900/204900_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/204900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/204900/status_servant_3.png"
+            }
+        }
+    ]
+}

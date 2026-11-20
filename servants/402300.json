@@ -1,0 +1,839 @@
+{
+    "id": 402300,
+    "no": 115,
+    "class": "Rider",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对狂战士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "坂田金时",
+            "battle_name": "坂田金时",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "千里疾走 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(150)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(150)",
+                            "kind": "Int",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜狼死九·黄金疾走",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                3000,
+                                5000,
+                                7000,
+                                9000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/402300/402300a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4023000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/402300/402300@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/402300/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "坂田金时",
+            "battle_name": "坂田金时",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "千里疾走 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "动物会话 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(150)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(150)",
+                            "kind": "Int",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜狼死九·黄金疾走",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                3000,
+                                5000,
+                                7000,
+                                9000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/402300/402300a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4023001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/402300/402300@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/402300/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "坂田金时",
+            "battle_name": "坂田金时",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "千里疾走 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "动物会话 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(150)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(150)",
+                            "kind": "Int",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜狼死九·黄金疾走",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                3000,
+                                5000,
+                                7000,
+                                9000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/402300/402300b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4023002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/402300/402300@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/402300/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "坂田金时",
+            "battle_name": "坂田金时",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "千里疾走 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "动物会话 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "天性的肉体 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击弱化耐性提升(3回合)＆生命值大回复",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                6600,
+                                7200,
+                                7800,
+                                8400,
+                                9000,
+                                9600,
+                                10200,
+                                10800,
+                                12000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(150)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(150)",
+                            "kind": "Int",
+                            "values": [
+                                150
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜狼死九·黄金疾走",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                    "effects": [
+                        {
+                            "effect": "自身迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                3000,
+                                5000,
+                                7000,
+                                9000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                120000,
+                                160000,
+                                180000,
+                                190000,
+                                200000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/402300/402300b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4023003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/402300/402300_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/402300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/402300/status_servant_3.png"
+            }
+        }
+    ]
+}

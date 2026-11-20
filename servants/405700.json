@@ -1,0 +1,1698 @@
+{
+    "id": 405700,
+    "no": 452,
+    "class": "Rider",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对他人格攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔他人格〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔他人格〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "尼莫／诺亚",
+            "battle_name": "尼莫／诺亚",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "救世的航海家 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的宝具威力提升(3回合)＆攻击力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)＆解除弱化状态＆付与每回合生命值回复状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(175)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(175)",
+                            "kind": "Int",
+                            "values": [
+                                175
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "诺亚方舟",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆付与对巨人特攻状态(1回合)＆付与对超巨大特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆己方全体的宝具值小幅增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对巨人特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对超巨大特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/405700/405700a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4057000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/405700/405700@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/405700/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "尼莫／诺亚",
+            "battle_name": "尼莫／诺亚",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "救世的航海家 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的宝具威力提升(3回合)＆攻击力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)＆解除弱化状态＆付与每回合生命值回复状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "信仰的加护 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的弱化耐性提升(3回合)＆生命值回复＆付与每回合生命值回复状态(3回合)＆宝具值增加＆除自身以外的己方全体宝具值增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                550,
+                                600,
+                                650,
+                                700,
+                                750,
+                                800,
+                                850,
+                                900,
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(175)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(175)",
+                            "kind": "Int",
+                            "values": [
+                                175
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "诺亚方舟",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆付与对巨人特攻状态(1回合)＆付与对超巨大特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆己方全体的宝具值小幅增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对巨人特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对超巨大特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/405700/405700a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4057001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/405700/405700@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/405700/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "尼莫／诺亚",
+            "battle_name": "尼莫／诺亚",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "救世的航海家 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的宝具威力提升(3回合)＆攻击力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)＆解除弱化状态＆付与每回合生命值回复状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "信仰的加护 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的弱化耐性提升(3回合)＆生命值回复＆付与每回合生命值回复状态(3回合)＆宝具值增加＆除自身以外的己方全体宝具值增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                550,
+                                600,
+                                650,
+                                700,
+                                750,
+                                800,
+                                850,
+                                900,
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(175)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(175)",
+                            "kind": "Int",
+                            "values": [
+                                175
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "诺亚方舟",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆付与对巨人特攻状态(1回合)＆付与对超巨大特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆己方全体的宝具值小幅增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对巨人特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对超巨大特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/405700/405700b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4057002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/405700/405700@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/405700/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "尼莫／诺亚",
+            "battle_name": "尼莫／诺亚",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "救世的航海家 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方全体的宝具威力提升(3回合)＆攻击力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)＆解除弱化状态＆付与每回合生命值回复状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "信仰的加护 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的弱化耐性提升(3回合)＆生命值回复＆付与每回合生命值回复状态(3回合)＆宝具值增加＆除自身以外的己方全体宝具值增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合生命值回复状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                500,
+                                550,
+                                600,
+                                650,
+                                700,
+                                750,
+                                800,
+                                850,
+                                900,
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "佐哈尔的辉石 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆付与「技攻击时，获得暴击星」的状态(3回合)＆付与无敌状态(2次·3回合)＆付与动物<猛兽·魔兽型从者·兽科从者>(除部分以外)在场时，技指令卡性能提升的状态(3回合)＆付与威力根据在场的动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的对象数量相应上升的暴击威力提升状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与「技攻击时，获得暴击星」的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                3,
+                                4,
+                                4,
+                                4,
+                                5,
+                                5,
+                                5,
+                                6,
+                                6,
+                                6
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与动物<猛兽·魔兽型从者·兽科从者>(除部分以外)在场时，技指令卡性能提升的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与威力根据在场的动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的对象数量相应上升的暴击威力提升状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(175)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(175)",
+                            "kind": "Int",
+                            "values": [
+                                175
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "再创世的试炼",
+                    "icon": "",
+                    "card": "Arts",
+                    "rank": "A",
+                    "type": "对人/对巨人宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆付与对巨人特攻状态(1回合)＆付与对超巨大特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆己方全体的宝具值小幅增加＆除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对巨人特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与对超巨大特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "除自身以外己方全体动物<猛兽·魔兽型从者·兽科从者>(除部分以外)的宝具值小幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/405700/405700b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_4057003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/405700/405700_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/405700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/405700/status_servant_3.png"
+            }
+        }
+    ]
+}

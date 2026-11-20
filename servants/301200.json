@@ -1,0 +1,1273 @@
+{
+    "id": 301200,
+    "no": 88,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对枪兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "布伦希尔德",
+            "battle_name": "布伦希尔德",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Sky",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔力放出（炎） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的力指令卡性能提升(1回合)＆宝具威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                1900,
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                800,
+                                870,
+                                940,
+                                1010,
+                                1080,
+                                1150,
+                                1220,
+                                1290,
+                                1360,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(100)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(100)",
+                            "kind": "Int",
+                            "values": [
+                                100
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "直至死亡拆散两人",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对所爱之人特攻<过量充能时特攻威力提升>＆己方全体暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对所爱之人特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301200/301200a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3012000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301200/301200@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301200/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "布伦希尔德",
+            "battle_name": "布伦希尔德",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Sky",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔力放出（炎） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的力指令卡性能提升(1回合)＆宝具威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                1900,
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                800,
+                                870,
+                                940,
+                                1010,
+                                1080,
+                                1150,
+                                1220,
+                                1290,
+                                1360,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "原初之卢恩",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00520.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "敌方单体的暴击发生率下降(3回合)＆宝具威力下降(1回合)",
+                    "effects": [
+                        {
+                            "effect": "敌方单体的暴击发生率下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "宝具威力下降(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1650,
+                                1800,
+                                1950,
+                                2100,
+                                2250,
+                                2400,
+                                2550,
+                                2700,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(100)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(100)",
+                            "kind": "Int",
+                            "values": [
+                                100
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "直至死亡拆散两人",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对所爱之人特攻<过量充能时特攻威力提升>＆己方全体暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对所爱之人特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301200/301200a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3012001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301200/301200@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301200/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "布伦希尔德",
+            "battle_name": "布伦希尔德",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Sky",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔力放出（炎） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的力指令卡性能提升(1回合)＆宝具威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                1900,
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                800,
+                                870,
+                                940,
+                                1010,
+                                1080,
+                                1150,
+                                1220,
+                                1290,
+                                1360,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "原初之卢恩",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00520.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "敌方单体的暴击发生率下降(3回合)＆宝具威力下降(1回合)",
+                    "effects": [
+                        {
+                            "effect": "敌方单体的暴击发生率下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "宝具威力下降(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1650,
+                                1800,
+                                1950,
+                                2100,
+                                2250,
+                                2400,
+                                2550,
+                                2700,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(100)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(100)",
+                            "kind": "Int",
+                            "values": [
+                                100
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "直至死亡拆散两人",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对所爱之人特攻<过量充能时特攻威力提升>＆己方全体暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对所爱之人特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301200/301200b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3012002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301200/301200@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301200/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "布伦希尔德",
+            "battle_name": "布伦希尔德",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Sky",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔力放出（炎） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的力指令卡性能提升(1回合)＆宝具威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                1900,
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                800,
+                                870,
+                                940,
+                                1010,
+                                1080,
+                                1150,
+                                1220,
+                                1290,
+                                1360,
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "原初之卢恩",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00520.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "敌方单体的暴击发生率下降(3回合)＆宝具威力下降(1回合)",
+                    "effects": [
+                        {
+                            "effect": "敌方单体的暴击发生率下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "宝具威力下降(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1650,
+                                1800,
+                                1950,
+                                2100,
+                                2250,
+                                2400,
+                                2550,
+                                2700,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 2,
+                    "name": "原初之卢恩",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00520.png",
+                    "strength": 1,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身宝具值增加＆敌方单体的暴击发生率下降(3回合)＆宝具威力下降(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "敌方单体的暴击发生率下降(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "宝具威力下降(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1500,
+                                1650,
+                                1800,
+                                1950,
+                                2100,
+                                2250,
+                                2400,
+                                2550,
+                                2700,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "英雄的陪侍 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的暴击星集中度提升(3回合)＆生命值回复",
+                    "effects": [
+                        {
+                            "effect": "己方单体的暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                33000,
+                                36000,
+                                39000,
+                                42000,
+                                45000,
+                                48000,
+                                51000,
+                                54000,
+                                60000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 3,
+                    "name": "英雄的陪侍 C++",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的暴击星集中度提升(3回合)＆暴击威力提升(3回合)＆生命值回复",
+                    "effects": [
+                        {
+                            "effect": "己方单体的暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                100000,
+                                120000,
+                                140000,
+                                160000,
+                                180000,
+                                200000,
+                                220000,
+                                240000,
+                                260000,
+                                300000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                2800,
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(100)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(100)",
+                            "kind": "Int",
+                            "values": [
+                                100
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "直至死亡拆散两人",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对所爱之人特攻<过量充能时特攻威力提升>＆己方全体暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对所爱之人特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                },
+                {
+                    "name": "直至死亡拆散两人",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "B+",
+                    "type": "对人宝具",
+                    "strength": 1,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对所爱之人特攻<过量充能时特攻威力提升>＆己方全体暴击星发生率提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                80000,
+                                100000,
+                                110000,
+                                115000,
+                                120000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对所爱之人特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体暴击星发生率提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/301200/301200b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3012003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/301200/301200_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/301200/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/301200/status_servant_3.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,1657 @@
+{
+    "id": 2800900,
+    "no": 431,
+    "class": "Pretender",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对暗匿者攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "Space PhantasmoonＶ",
+            "battle_name": "S·Phantasmoon",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "地球心律 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆宝具威力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "圣夜的化身",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得5个暴击星的状态 ＋ 仅在黑暗场地上时，自身的迅指令卡性能提升(20%)＆技指令卡性能提升(20%)＆力指令卡性能提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得5个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在黑暗场地上时，自身的迅指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "空想具现化·万物之篡夺",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "Ａ",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对恶特攻<过量充能时特攻威力提升>＆付与宝具封印状态(1回合)＆自身的宝具值再充能<过量充能时效果提升>＆Extra Attack指令卡性能提升(1回合)＆除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对恶特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与宝具封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的宝具值再充能<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2800900/2800900a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_28009000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2800900/2800900@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2800900/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "Space PhantasmoonＶ",
+            "battle_name": "S·Phantasmoon",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "地球心律 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆宝具威力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "Red Star Vamp EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00819.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆力指令卡性能提升(3回合)＆付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)＆Extra Attack指令卡性能提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "圣夜的化身",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得5个暴击星的状态 ＋ 仅在黑暗场地上时，自身的迅指令卡性能提升(20%)＆技指令卡性能提升(20%)＆力指令卡性能提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得5个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在黑暗场地上时，自身的迅指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "空想具现化·万物之篡夺",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "Ａ",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对恶特攻<过量充能时特攻威力提升>＆付与宝具封印状态(1回合)＆自身的宝具值再充能<过量充能时效果提升>＆Extra Attack指令卡性能提升(1回合)＆除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对恶特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与宝具封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的宝具值再充能<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2800900/2800900a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_28009001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2800900/2800900@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2800900/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "Santasmoon",
+            "battle_name": "Santasmoon",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "地球心律 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆宝具威力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "Red Star Vamp EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00819.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆力指令卡性能提升(3回合)＆付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)＆Extra Attack指令卡性能提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "圣夜的化身",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得5个暴击星的状态 ＋ 仅在黑暗场地上时，自身的迅指令卡性能提升(20%)＆技指令卡性能提升(20%)＆力指令卡性能提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得5个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在黑暗场地上时，自身的迅指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "空想具现化·万物之篡夺",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "Ａ",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对恶特攻<过量充能时特攻威力提升>＆付与宝具封印状态(1回合)＆自身的宝具值再充能<过量充能时效果提升>＆Extra Attack指令卡性能提升(1回合)＆除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对恶特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与宝具封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的宝具值再充能<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2800900/2800900b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_28009002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2800900/2800900@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2800900/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "Phantasmoon",
+            "battle_name": "Phantasmoon",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "地球心律 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆宝具威力提升(3回合)＆付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与使用宝具时的充能阶段上升1级的状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "Red Star Vamp EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00819.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆力指令卡性能提升(3回合)＆付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)＆Extra Attack指令卡性能提升(3回合)＆宝具值增加",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与Extra攻击全体攻击化的状态<每1人的伤害相比单体攻击时减半>(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "Blue Glass Moon EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00603.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "获得暴击星＆己方单体的暴击星集中度提升(3回合)＆付与每回合获得暴击星的状态(3回合)＆己方全体的攻击力提升(3回合)＆暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方单体的暴击星集中度提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                300000,
+                                320000,
+                                340000,
+                                360000,
+                                380000,
+                                400000,
+                                420000,
+                                440000,
+                                460000,
+                                500000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                7,
+                                8,
+                                9,
+                                10,
+                                11,
+                                12,
+                                13,
+                                15
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(17.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(17.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1750
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "无效果",
+                    "effects": [
+                        {
+                            "effect": "无效果",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "圣夜的化身",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得5个暴击星的状态 ＋ 仅在黑暗场地上时，自身的迅指令卡性能提升(20%)＆技指令卡性能提升(20%)＆力指令卡性能提升(20%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得5个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在黑暗场地上时，自身的迅指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "空想具现化·万物之篡夺",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "Ａ",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>＆对恶特攻<过量充能时特攻威力提升>＆付与宝具封印状态(1回合)＆自身的宝具值再充能<过量充能时效果提升>＆Extra Attack指令卡性能提升(1回合)＆除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "对敌方单体发动超强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对恶特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与宝具封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的宝具值再充能<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "除自身以外己方全体〔活在当下的人类(部分拟似从者、亚从者等)〕的宝具值增加<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2800900/2800900b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_28009003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2800900/2800900_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2800900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2800900/status_servant_3.png"
+            }
+        }
+    ]
+}

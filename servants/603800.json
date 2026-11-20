@@ -1,0 +1,1003 @@
+{
+    "id": 603800,
+    "no": 259,
+    "class": "Assassin",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对狂战士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "夏洛特·科黛",
+            "battle_name": "夏洛特·科黛",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "暗杀天使 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00522.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身即死付与成功率提升(1回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "予故国以爱，以沉溺般的梦",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "解除敌方单体的回避状态＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆中概率即死效果<过量充能时概率提升>",
+                    "effects": [
+                        {
+                            "effect": "解除敌方单体的回避状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                8000,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/603800/603800a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6038000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/603800/603800@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/603800/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "夏洛特·科黛",
+            "battle_name": "夏洛特·科黛",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "暗杀天使 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00522.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身即死付与成功率提升(1回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "钢铁的决意 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身无敌贯通状态(1回合)＆攻击力提升(1回合)＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "予故国以爱，以沉溺般的梦",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "解除敌方单体的回避状态＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆中概率即死效果<过量充能时概率提升>",
+                    "effects": [
+                        {
+                            "effect": "解除敌方单体的回避状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                8000,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/603800/603800a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6038001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/603800/603800@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/603800/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "夏洛特·科黛",
+            "battle_name": "夏洛特·科黛",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "暗杀天使 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00522.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身即死付与成功率提升(1回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "钢铁的决意 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身无敌贯通状态(1回合)＆攻击力提升(1回合)＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "予故国以爱，以沉溺般的梦",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "解除敌方单体的回避状态＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆中概率即死效果<过量充能时概率提升>",
+                    "effects": [
+                        {
+                            "effect": "解除敌方单体的回避状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                8000,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/603800/603800b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6038002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/603800/603800@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/603800/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "夏洛特·科黛",
+            "battle_name": "夏洛特·科黛",
+            "gender": "Female",
+            "attr1": "Neutral",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 3,
+            "rarity": 1,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "暗杀天使 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00522.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身即死付与成功率提升(1回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身即死付与成功率提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "钢铁的决意 D",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身无敌贯通状态(1回合)＆攻击力提升(1回合)＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "攻击力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "荒唐计划 D+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆或暴击威力提升(3回合)＆或宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "或暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "或宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "天之调配（暗杀） C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆或暴击威力提升(3回合)＆或宝具威力提升(3回合)【可选择效果】＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "或暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "或宝具威力提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "予故国以爱，以沉溺般的梦",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "解除敌方单体的回避状态＆对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>＆中概率即死效果<过量充能时概率提升>",
+                    "effects": [
+                        {
+                            "effect": "解除敌方单体的回避状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方单体发动超强大的无视防御力攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                90000,
+                                120000,
+                                135000,
+                                142500,
+                                150000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "中概率即死效果<过量充能时概率提升>",
+                            "kind": "Percent",
+                            "values": [
+                                6000,
+                                7000,
+                                8000,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/603800/603800b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6038003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/603800/603800_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/603800/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/603800/status_servant_3.png"
+            }
+        }
+    ]
+}

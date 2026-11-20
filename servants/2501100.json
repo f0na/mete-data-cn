@@ -1,0 +1,1222 @@
+{
+    "id": 2501100,
+    "no": 373,
+    "class": "Foreigner",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对月之癌攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔月之癌〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔月之癌〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "库库尔坎",
+            "battle_name": "库库尔坎",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "翡翠的魅力 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆被暴击发生耐性提升(3回合)＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "文明作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "？？",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(10)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得宝具值的状态(3%)",
+                            "kind": "Percent",
+                            "values": [
+                                300
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "星，自宇宙坠落",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "付与自身对人类的威胁特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆付与技能封印状态(1回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身对人类的威胁特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与技能封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                30
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "库库尔坎",
+            "battle_name": "库库尔坎",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "翡翠的魅力 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆被暴击发生耐性提升(3回合)＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾等，有翼之蛇 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方单体的宝具值增加＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)＆付与必中状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与必中状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "文明作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "？？",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(10)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得宝具值的状态(3%)",
+                            "kind": "Percent",
+                            "values": [
+                                300
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "星，自宇宙坠落",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "付与自身对人类的威胁特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆付与技能封印状态(1回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身对人类的威胁特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与技能封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                30
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "库库尔坎",
+            "battle_name": "库库尔坎",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "翡翠的魅力 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆被暴击发生耐性提升(3回合)＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾等，有翼之蛇 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方单体的宝具值增加＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)＆付与必中状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与必中状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "文明作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "？？",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(10)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得宝具值的状态(3%)",
+                            "kind": "Percent",
+                            "values": [
+                                300
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "星，自宇宙坠落",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "付与自身对人类的威胁特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆付与技能封印状态(1回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身对人类的威胁特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与技能封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                30
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "库库尔坎",
+            "battle_name": "库库尔坎",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "翡翠的魅力 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆被暴击发生耐性提升(3回合)＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 2,
+                    "name": "吾等，有翼之蛇 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "己方单体的宝具值增加＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)＆付与必中状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，付与己方单体回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "付与必中状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 3,
+                    "name": "黄金树海纪行 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身无敌状态(1回合)＆力指令卡性能提升(3回合)＆暴击威力提升(3回合)＆【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "【可选择是否通过消耗暴击星获得该效果】消耗10个暴击星，令自身的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "文明作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                    "effects": [
+                        {
+                            "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
+                            "kind": "Percent",
+                            "values": [
+                                800
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "？？",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(10)",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得宝具值的状态(3%)",
+                            "kind": "Percent",
+                            "values": [
+                                300
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "星，自宇宙坠落",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "付与自身对人类的威胁特攻状态(1回合)＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>＆付与技能封印状态(1回合)＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身对人类的威胁特攻状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对〔拥有地之力的敌人〕特攻<过量充能时特攻威力提升>",
+                            "kind": "Percent",
+                            "values": [
+                                15000,
+                                16250,
+                                17500,
+                                18750,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "付与技能封印状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                30
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_3.png"
+            }
+        }
+    ]
+}

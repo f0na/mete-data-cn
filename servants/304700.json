@@ -1,0 +1,1339 @@
+{
+    "id": 304700,
+    "no": 313,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对枪兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "珀西瓦尔",
+            "battle_name": "珀西瓦尔",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "圣杯的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆宝具值增加＆己方全体的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(18.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(18.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1850
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能小幅提升(7%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能小幅提升(7%)",
+                            "kind": "Percent",
+                            "values": [
+                                700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "光耀的命运之枪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+～A+",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆剩余生命值比率最少的己方单体生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "剩余生命值比率最少的己方单体生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/304700/304700a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3047000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/304700/304700@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/304700/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "珀西瓦尔",
+            "battle_name": "珀西瓦尔",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "圣杯的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆宝具值增加＆己方全体的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "守护骑士（圣枪） B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(3回合)＆受击时宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "受击时宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(18.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(18.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1850
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能小幅提升(7%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能小幅提升(7%)",
+                            "kind": "Percent",
+                            "values": [
+                                700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "光耀的命运之枪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+～A+",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆剩余生命值比率最少的己方单体生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "剩余生命值比率最少的己方单体生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/304700/304700a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3047001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/304700/304700@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/304700/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "珀西瓦尔",
+            "battle_name": "珀西瓦尔",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "圣杯的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆宝具值增加＆己方全体的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "守护骑士（圣枪） B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(3回合)＆受击时宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "受击时宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(18.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(18.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1850
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能小幅提升(7%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能小幅提升(7%)",
+                            "kind": "Percent",
+                            "values": [
+                                700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "光耀的命运之枪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+～A+",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆剩余生命值比率最少的己方单体生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "剩余生命值比率最少的己方单体生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/304700/304700b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3047002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/304700/304700@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/304700/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "珀西瓦尔",
+            "battle_name": "珀西瓦尔",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "圣杯的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆宝具值增加＆己方全体的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "守护骑士（圣枪） B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(3回合)＆受击时宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "受击时宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "救济之光 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与己方单体无敌状态(1回合)＆生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与己方单体无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(18.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(18.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1850
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能小幅提升(7%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能小幅提升(7%)",
+                            "kind": "Percent",
+                            "values": [
+                                700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "光耀的命运之枪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+～A+",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆剩余生命值比率最少的己方单体生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "剩余生命值比率最少的己方单体生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/304700/304700b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3047003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/304700/304700_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/304700/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "夏日骑士装束",
+            "name": "珀西瓦尔",
+            "battle_name": "珀西瓦尔",
+            "gender": "Male",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "圣杯的加护 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的技指令卡性能提升(3回合)＆宝具值增加＆己方全体的宝具威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的宝具威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "守护骑士（圣枪） B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "付与自身目标集中状态(3回合)＆受击时宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身目标集中状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                30000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "受击时宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "救济之光 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与己方单体无敌状态(1回合)＆生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与己方单体无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(18.5%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(18.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                1850
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "骑乘",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的迅指令卡性能小幅提升(7%)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能小幅提升(7%)",
+                            "kind": "Percent",
+                            "values": [
+                                700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "光耀的命运之枪",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "C+～A+",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆剩余生命值比率最少的己方单体生命值回复",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "剩余生命值比率最少的己方单体生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/304730/304730a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3047300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/304730/304730@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/304700/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/304700/status_servant_11.png"
+            }
+        }
+    ]
+}

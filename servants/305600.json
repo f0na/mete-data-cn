@@ -1,0 +1,1913 @@
+{
+    "id": 305600,
+    "no": 428,
+    "class": "Lancer",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对狂战士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "梵高〔矿工〕",
+            "battle_name": "梵高",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "虚数美术（立体） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＆己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "谐化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)＆力指令卡暴击星发生率提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡暴击星发生率提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "向日葵的自画像",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的精神异常耐性提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的精神异常耐性提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜间露天咖啡座",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对地形宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对秩序特攻＆低概率付与眩晕状态(1回合)＆令场地获得都市状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对秩序特攻",
+                            "kind": "Percent",
+                            "values": [
+                                15000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与眩晕状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "令场地获得都市状态(5回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305600/305600a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3056000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305600/305600@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/305600/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "梵高〔矿工〕",
+            "battle_name": "梵高",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "虚数美术（立体） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＆己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "吃土豆的人 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00412.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身最大生命值提升的状态(3回合)＆宝具值增加＆获得暴击星＆仅在都市场地上时，获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身最大生命值提升的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在都市场地上时，获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "谐化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)＆力指令卡暴击星发生率提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡暴击星发生率提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "向日葵的自画像",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的精神异常耐性提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的精神异常耐性提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜间露天咖啡座",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对地形宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对秩序特攻＆低概率付与眩晕状态(1回合)＆令场地获得都市状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对秩序特攻",
+                            "kind": "Percent",
+                            "values": [
+                                15000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与眩晕状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "令场地获得都市状态(5回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305600/305600a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3056001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305600/305600@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/305600/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "梵高〔矿工〕",
+            "battle_name": "梵高",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "虚数美术（立体） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＆己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "吃土豆的人 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00412.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身最大生命值提升的状态(3回合)＆宝具值增加＆获得暴击星＆仅在都市场地上时，获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身最大生命值提升的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在都市场地上时，获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "谐化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)＆力指令卡暴击星发生率提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡暴击星发生率提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "向日葵的自画像",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的精神异常耐性提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的精神异常耐性提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜间露天咖啡座",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对地形宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对秩序特攻＆低概率付与眩晕状态(1回合)＆令场地获得都市状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对秩序特攻",
+                            "kind": "Percent",
+                            "values": [
+                                15000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与眩晕状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "令场地获得都市状态(5回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305600/305600b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3056002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305600/305600@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/305600/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "梵高〔矿工〕",
+            "battle_name": "梵高",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "虚数美术（立体） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＆己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "吃土豆的人 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00412.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身最大生命值提升的状态(3回合)＆宝具值增加＆获得暴击星＆仅在都市场地上时，获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身最大生命值提升的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在都市场地上时，获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "探测术 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆被暴击发生耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "与太阳的诀别 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 1,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆被暴击发生耐性提升(3回合)＆暴击星为10个以上时，暴击威力提升(3回合)＆暴击星为20个以上时，暴击威力提升(3回合)＆暴击星为30个以上时，暴击威力提升(3回合)＆暴击星为40个以上时，暴击威力提升(3回合)＆暴击星为50个以上时，暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为10个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为20个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为30个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为40个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为50个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "谐化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)＆力指令卡暴击星发生率提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡暴击星发生率提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "向日葵的自画像",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的精神异常耐性提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的精神异常耐性提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜间露天咖啡座",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对地形宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对秩序特攻＆低概率付与眩晕状态(1回合)＆令场地获得都市状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对秩序特攻",
+                            "kind": "Percent",
+                            "values": [
+                                15000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与眩晕状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "令场地获得都市状态(5回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305600/305600b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3056003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305600/305600_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/305600/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "诀别的气球灯",
+            "name": "梵高〔矿工〕",
+            "battle_name": "梵高",
+            "gender": "Female",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Human",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "虚数美术（立体） B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】＆己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "<仅在暴击星为10个以上时可使用>减少10个暴击星【负面效果】",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的迅指令卡性能提升(3回合)或技指令卡性能提升(3回合)或力指令卡性能提升(3回合)【可选择效果】",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "吃土豆的人 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00412.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身最大生命值提升的状态(3回合)＆宝具值增加＆获得暴击星＆仅在都市场地上时，获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身最大生命值提升的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "仅在都市场地上时，获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "探测术 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆被暴击发生耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "与太阳的诀别 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "strength": 1,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "付与自身回避状态(2次·3回合)＆被暴击发生耐性提升(3回合)＆暴击星为10个以上时，暴击威力提升(3回合)＆暴击星为20个以上时，暴击威力提升(3回合)＆暴击星为30个以上时，暴击威力提升(3回合)＆暴击星为40个以上时，暴击威力提升(3回合)＆暴击星为50个以上时，暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "被暴击发生耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为10个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为20个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为30个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为40个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击星为50个以上时，暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "谐化",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的力指令卡性能小幅提升(4%)＆力指令卡暴击星发生率提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的力指令卡性能小幅提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡暴击星发生率提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(4%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(4%)",
+                            "kind": "Percent",
+                            "values": [
+                                400
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "向日葵的自画像",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的精神异常耐性提升(30%)",
+                    "effects": [
+                        {
+                            "effect": "自身的精神异常耐性提升(30%)",
+                            "kind": "Percent",
+                            "values": [
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "夜间露天咖啡座",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "B",
+                    "type": "对地形宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对秩序特攻＆低概率付与眩晕状态(1回合)＆令场地获得都市状态(5回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对秩序特攻",
+                            "kind": "Percent",
+                            "values": [
+                                15000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "低概率付与眩晕状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "令场地获得都市状态(5回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305630/305630a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_3056300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305630/305630@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305600/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/305600/status_servant_11.png"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2233 @@
+{
+    "id": 2501400,
+    "no": 413,
+    "class": "Foreigner",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对剑士攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔剑士〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "苍崎青子",
+            "battle_name": "苍崎青子",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔弹装填 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        4,
+                        3,
+                        2
+                    ],
+                    "effect": "付与自身3个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身3个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 1,
+                    "name": "寻找银河 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身6个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆付与无敌状态(1回合)＆技指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身6个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "魔法使",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)＆即死耐性提升(20%)＆强化解除耐性提升(20%)＆付与「自身被付与的无敌效果变化为对肃正防御效果」的状态",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "强化解除耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "逆行银河·红移",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>＆自身的力指令卡性能提升<宝具升级效果提升>＆Extra Attack指令卡性能提升<宝具升级效果提升>＆暴击威力提升(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的力指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                4000,
+                                5000,
+                                6000,
+                                7000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "name": "Earthlight Starbow",
+                    "icon": "",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆付与无视防御状态(1回合)＆敌方全体的防御力下降(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>＆最大消耗10个自身的〔魔弹〕状态",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "敌方全体的防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "最大消耗10个自身的〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501400/2501400a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25014000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501400/2501400@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501400/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "苍崎青子",
+            "battle_name": "苍崎青子",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔弹装填 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        4,
+                        3,
+                        2
+                    ],
+                    "effect": "付与自身3个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身3个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（自转） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)＆付与每回合获得暴击星的状态(3回合)＆<该技能的效果在变身为〔超级青子〕时解除>",
+                    "effects": [
+                        {
+                            "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                6,
+                                7,
+                                7,
+                                8,
+                                8,
+                                9,
+                                9,
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<该技能的效果在变身为〔超级青子〕时解除>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 1,
+                    "name": "寻找银河 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身6个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆付与无敌状态(1回合)＆技指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身6个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（公转） EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值大幅增加＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值大幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                20,
+                                22,
+                                24,
+                                26,
+                                28,
+                                30,
+                                32,
+                                34,
+                                36,
+                                40
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "魔法使",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)＆即死耐性提升(20%)＆强化解除耐性提升(20%)＆付与「自身被付与的无敌效果变化为对肃正防御效果」的状态",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "强化解除耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "逆行银河·红移",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>＆自身的力指令卡性能提升<宝具升级效果提升>＆Extra Attack指令卡性能提升<宝具升级效果提升>＆暴击威力提升(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的力指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                4000,
+                                5000,
+                                6000,
+                                7000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "name": "Earthlight Starbow",
+                    "icon": "",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆付与无视防御状态(1回合)＆敌方全体的防御力下降(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>＆最大消耗10个自身的〔魔弹〕状态",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "敌方全体的防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "最大消耗10个自身的〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501400/2501400a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25014001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501400/2501400@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501400/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "苍崎青子",
+            "battle_name": "苍崎青子",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔弹装填 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        4,
+                        3,
+                        2
+                    ],
+                    "effect": "付与自身3个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身3个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（自转） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)＆付与每回合获得暴击星的状态(3回合)＆<该技能的效果在变身为〔超级青子〕时解除>",
+                    "effects": [
+                        {
+                            "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                6,
+                                7,
+                                7,
+                                8,
+                                8,
+                                9,
+                                9,
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<该技能的效果在变身为〔超级青子〕时解除>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 1,
+                    "name": "寻找银河 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身6个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆付与无敌状态(1回合)＆技指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身6个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（公转） EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值大幅增加＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值大幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                20,
+                                22,
+                                24,
+                                26,
+                                28,
+                                30,
+                                32,
+                                34,
+                                36,
+                                40
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "魔法使",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)＆即死耐性提升(20%)＆强化解除耐性提升(20%)＆付与「自身被付与的无敌效果变化为对肃正防御效果」的状态",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "强化解除耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "逆行银河·红移",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>＆自身的力指令卡性能提升<宝具升级效果提升>＆Extra Attack指令卡性能提升<宝具升级效果提升>＆暴击威力提升(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的力指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                4000,
+                                5000,
+                                6000,
+                                7000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "name": "Earthlight Starbow",
+                    "icon": "",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆付与无视防御状态(1回合)＆敌方全体的防御力下降(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>＆最大消耗10个自身的〔魔弹〕状态",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "敌方全体的防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "最大消耗10个自身的〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501400/2501400b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25014002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501400/2501400@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501400/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "苍崎青子",
+            "battle_name": "苍崎青子",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Good",
+            "sub_attr": "Human",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "魔弹装填 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        4,
+                        3,
+                        2
+                    ],
+                    "effect": "付与自身3个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆获得暴击星",
+                    "effects": [
+                        {
+                            "effect": "付与自身3个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得暴击星",
+                            "kind": "Int",
+                            "values": [
+                                10,
+                                11,
+                                12,
+                                13,
+                                14,
+                                15,
+                                16,
+                                17,
+                                18,
+                                20
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（自转） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)＆付与每回合获得暴击星的状态(3回合)＆<该技能的效果在变身为〔超级青子〕时解除>",
+                    "effects": [
+                        {
+                            "effect": "付与自身「每回合己方全体宝具值增加」的状态(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合获得暴击星的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                5,
+                                6,
+                                6,
+                                7,
+                                7,
+                                8,
+                                8,
+                                9,
+                                9,
+                                10
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<该技能的效果在变身为〔超级青子〕时解除>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 3,
+                    "name": "再回那个时代 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方单体的迅指令卡性能提升(3回合)＆技指令卡性能提升(3回合)＆力指令卡性能提升(3回合)＆暴击威力提升(3回合)＆付与每回合回复生命值的状态(3回合)＆付与〔主人公补正〕状态<自身使用技能和宝具的负面效果无效化状态(除对自身的即死效果和作为代价的负面效果等部分效果以外)>(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与每回合回复生命值的状态(3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与〔主人公补正〕状态<自身使用技能和宝具的负面效果无效化状态(除对自身的即死效果和作为代价的负面效果等部分效果以外)>(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One",
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "slot": 1,
+                    "name": "寻找银河 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00813.png",
+                    "strength": 0,
+                    "cool_down": [
+                        6,
+                        5,
+                        4
+                    ],
+                    "effect": "付与自身6个〔魔弹〕状态＆<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)＆Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>＆付与无敌状态(1回合)＆技指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与自身6个〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "<〔魔弹〕状态最大可以付与20个，迅、技、力普通攻击时，消耗1个〔魔弹〕状态，令攻击力提升(1次)",
+                            "kind": "Percent",
+                            "values": [
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra攻击时，消耗所有〔魔弹〕状态，令攻击力根据消耗个数提升(1次)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                },
+                {
+                    "slot": 2,
+                    "name": "魔术回路（公转） EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "自身的宝具值大幅增加＆获得大量暴击星",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值大幅增加",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "获得大量暴击星",
+                            "kind": "Int",
+                            "values": [
+                                20,
+                                22,
+                                24,
+                                26,
+                                28,
+                                30,
+                                32,
+                                34,
+                                36,
+                                40
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                },
+                {
+                    "slot": 3,
+                    "name": "起始之星 C",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "strength": 0,
+                    "cool_down": [
+                        10,
+                        9,
+                        8
+                    ],
+                    "effect": "<仅在宝具值为100%以上时可使用>自身的宝具值消耗100%＆力指令卡性能提升(5回合)＆Extra Attack指令卡性能提升(5回合)＆除自身以外的己方全体宝具值增加＆技能冷却减少2回合＆己方全体的生命值回复",
+                    "effects": [
+                        {
+                            "effect": "<仅在宝具值为100%以上时可使用>自身的宝具值消耗100%",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(5回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升(5回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "技能冷却减少2回合",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "己方全体的生命值回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "SelfOnly",
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "领域外生命",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00110.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得2个暴击星的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率小幅提升(2%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率小幅提升(2%)",
+                            "kind": "Percent",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "魔法使",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(20%)＆即死耐性提升(20%)＆强化解除耐性提升(20%)＆付与「自身被付与的无敌效果变化为对肃正防御效果」的状态",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "即死耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "强化解除耐性提升(20%)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身被付与的无敌效果变化为对肃正防御效果的状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "逆行银河·红移",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>＆自身的力指令卡性能提升<宝具升级效果提升>＆Extra Attack指令卡性能提升<宝具升级效果提升>＆暴击威力提升(3回合)<过量充能时效果提升>",
+                    "effects": [
+                        {
+                            "effect": "变身为〔超级青子〕<ATK、生命值、技能、宝具、指令卡构成等变化，技能的剩余回合数在变身后继承，力攻击与Extra攻击全体攻击化(每1人的伤害相比单体攻击时减半)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "自身的力指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "Extra Attack指令卡性能提升<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3500,
+                                4250,
+                                4630,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                4000,
+                                5000,
+                                6000,
+                                7000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "苍崎青子时"
+                },
+                {
+                    "name": "Earthlight Starbow",
+                    "icon": "",
+                    "card": "Arts",
+                    "rank": "A+",
+                    "type": "对军宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆付与无视防御状态(1回合)＆敌方全体的防御力下降(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>＆最大消耗10个自身的〔魔弹〕状态",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "敌方全体的防御力下降(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "<威力根据自身被付与的〔魔弹〕状态的数量相应提升(最大10个)>",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "最大消耗10个自身的〔魔弹〕状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "超级青子时"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501400/2501400b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_25014003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501400/2501400_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501400/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501400/status_servant_3.png"
+            }
+        }
+    ]
+}

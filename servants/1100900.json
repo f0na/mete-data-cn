@@ -1,0 +1,2274 @@
+{
+    "id": 1100900,
+    "no": 268,
+    "class": "Avenger",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对弓兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "太空伊什塔尔",
+            "battle_name": "S伊什塔尔",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Evil",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "恶魔的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆除自身以外的己方全体的攻击力提升(3回合)＆付与魅惑无效状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与魅惑无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(270)＆弱化耐性提升(27%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(270)",
+                            "kind": "Int",
+                            "values": [
+                                270
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(27%)",
+                            "kind": "Percent",
+                            "values": [
+                                2700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "复仇者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身被伤害时获得的宝具值提升(22%)",
+                            "kind": "Percent",
+                            "values": [
+                                2200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "忘却补正",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "自我回复（魔力）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                350
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Arts"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Buster"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Quick"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1100900/1100900a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_11009000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1100900/1100900@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/1100900/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "太空伊什塔尔",
+            "battle_name": "S伊什塔尔",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Evil",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "恶魔的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆除自身以外的己方全体的攻击力提升(3回合)＆付与魅惑无效状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与魅惑无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "金星驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的宝具威力提升(1次·3回合)＆付与无敌状态(1次·3回合)＆宝具卡的类型变更(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具卡的类型变更(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(270)＆弱化耐性提升(27%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(270)",
+                            "kind": "Int",
+                            "values": [
+                                270
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(27%)",
+                            "kind": "Percent",
+                            "values": [
+                                2700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "复仇者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身被伤害时获得的宝具值提升(22%)",
+                            "kind": "Percent",
+                            "values": [
+                                2200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "忘却补正",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "自我回复（魔力）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                350
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Arts"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Buster"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Quick"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1100900/1100900a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_11009001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1100900/1100900@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/1100900/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "太空伊什塔尔",
+            "battle_name": "伊什塔尔・阿斯塔蒂",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Evil",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "恶魔的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆除自身以外的己方全体的攻击力提升(3回合)＆付与魅惑无效状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与魅惑无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "金星驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的宝具威力提升(1次·3回合)＆付与无敌状态(1次·3回合)＆宝具卡的类型变更(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具卡的类型变更(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(270)＆弱化耐性提升(27%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(270)",
+                            "kind": "Int",
+                            "values": [
+                                270
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(27%)",
+                            "kind": "Percent",
+                            "values": [
+                                2700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "复仇者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身被伤害时获得的宝具值提升(22%)",
+                            "kind": "Percent",
+                            "values": [
+                                2200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "忘却补正",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "自我回复（魔力）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                350
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Arts"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Buster"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Quick"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1100900/1100900b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_11009002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1100900/1100900@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/1100900/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "太空伊什塔尔",
+            "battle_name": "伊什塔尔・阿斯塔蒂",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Evil",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "恶魔的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆除自身以外的己方全体的攻击力提升(3回合)＆付与魅惑无效状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与魅惑无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "金星驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的宝具威力提升(1次·3回合)＆付与无敌状态(1次·3回合)＆宝具卡的类型变更(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具卡的类型变更(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "多重星环 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的宝具值增加＆(80%概率)一定概率迅指令卡性能提升(3回合)＆(80%概率)一定概率技指令卡性能提升(3回合)＆(80%概率)一定概率力指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(270)＆弱化耐性提升(27%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(270)",
+                            "kind": "Int",
+                            "values": [
+                                270
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(27%)",
+                            "kind": "Percent",
+                            "values": [
+                                2700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "复仇者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身被伤害时获得的宝具值提升(22%)",
+                            "kind": "Percent",
+                            "values": [
+                                2200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "忘却补正",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "自我回复（魔力）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                350
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Arts"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Buster"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Quick"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1100900/1100900b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_11009003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1100900/1100900_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/1100900/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "阿斯塔蒂·起源",
+            "name": "太空伊什塔尔",
+            "battle_name": "S伊什塔尔",
+            "gender": "Female",
+            "attr1": "Order",
+            "attr2": "Evil",
+            "sub_attr": "Star",
+            "cost": 16,
+            "rarity": 5,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "恶魔的砂糖 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的攻击力提升(3回合)＆除自身以外的己方全体的攻击力提升(3回合)＆付与魅惑无效状态(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与魅惑无效状态(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "金星驱动 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "自身的宝具威力提升(1次·3回合)＆付与无敌状态(1次·3回合)＆宝具卡的类型变更(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(1次·3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无敌状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "宝具卡的类型变更(3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 3,
+                    "name": "多重星环 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的宝具值增加＆(80%概率)一定概率迅指令卡性能提升(3回合)＆(80%概率)一定概率技指令卡性能提升(3回合)＆(80%概率)一定概率力指令卡性能提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "(80%概率)一定概率力指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性小幅提升(15%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性小幅提升(15%)",
+                            "kind": "Percent",
+                            "values": [
+                                1500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "单独行动",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "女神的神核",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(270)＆弱化耐性提升(27%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(270)",
+                            "kind": "Int",
+                            "values": [
+                                270
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "弱化耐性提升(27%)",
+                            "kind": "Percent",
+                            "values": [
+                                2700
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "复仇者",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身被伤害时获得的宝具值提升(22%)",
+                            "kind": "Percent",
+                            "values": [
+                                2200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "忘却补正",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击威力提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击威力提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "自我回复（魔力）",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                    "effects": [
+                        {
+                            "effect": "付与自身每回合获得宝具值的状态(3.5%)",
+                            "kind": "Percent",
+                            "values": [
+                                350
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                45000,
+                                60000,
+                                67500,
+                                71250,
+                                75000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Arts"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                30000,
+                                40000,
+                                45000,
+                                47500,
+                                50000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Buster"
+                },
+                {
+                    "name": "闪耀于原始宇宙的王冠",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "EX",
+                    "type": "对星宝具",
+                    "strength": 0,
+                    "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆自身的Extra Attack指令卡威力提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的宝具威力提升(3回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                3000,
+                                4000,
+                                5000,
+                                6000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "自身的Extra Attack指令卡威力提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "switch_cond": "Quick"
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1100930/1100930a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_11009300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1100930/1100930@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1100900/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/1100900/status_servant_11.png"
+            }
+        }
+    ]
+}

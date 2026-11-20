@@ -3059,7 +3059,76 @@
                             "script": [],
                             "target": "SelfOnly"
                         }
-                    ]
+                    ],
+                    "switch_cond": "普通时"
+                },
+                {
+                    "name": "印证希望的人理之剑",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np5.png",
+                    "card": "Buster",
+                    "rank": "EX",
+                    "type": "对界宝具",
+                    "strength": 0,
+                    "effect": "付与自身无敌贯通状态(1回合)＆付与无视防御状态(1回合)＆力指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆对人类的威胁特攻＆解除强化状态",
+                    "effects": [
+                        {
+                            "effect": "付与自身无敌贯通状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与无视防御状态(1回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "力指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2500,
+                                3000,
+                                3500,
+                                4000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                40000,
+                                50000,
+                                55000,
+                                57500,
+                                60000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "对人类的威胁特攻",
+                            "kind": "Percent",
+                            "values": [
+                                20000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ],
+                    "switch_cond": "圣剑装填时"
                 }
             ],
             "assets": {

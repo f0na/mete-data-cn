@@ -1,0 +1,1106 @@
+{
+    "id": 604100,
+    "no": 304,
+    "class": "Assassin",
+    "cards": [
+        "Quick",
+        "Quick",
+        "Arts",
+        "Buster",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对弓兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "鬼一法眼",
+            "battle_name": "鬼一法眼",
+            "gender": "Unknown",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "天下万世之剑 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(25%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(25%)",
+                            "kind": "Percent",
+                            "values": [
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(9%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(9%)",
+                            "kind": "Percent",
+                            "values": [
+                                900
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "六韬三略·魔王尊大羽扇",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "A",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆解除防御强化状态",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除防御强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604100/604100a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6041000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604100/604100@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604100/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "鬼一法眼",
+            "battle_name": "鬼一法眼",
+            "gender": "Unknown",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "天下万世之剑 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "阴阳道（法） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的宝具值增加＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                11000,
+                                12000,
+                                13000,
+                                14000,
+                                15000,
+                                16000,
+                                17000,
+                                18000,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(25%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(25%)",
+                            "kind": "Percent",
+                            "values": [
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(9%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(9%)",
+                            "kind": "Percent",
+                            "values": [
+                                900
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "六韬三略·魔王尊大羽扇",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "A",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆解除防御强化状态",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除防御强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604100/604100a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6041001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604100/604100@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604100/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "鬼一法眼",
+            "battle_name": "鬼一法眼",
+            "gender": "Unknown",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "天下万世之剑 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "阴阳道（法） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的宝具值增加＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                11000,
+                                12000,
+                                13000,
+                                14000,
+                                15000,
+                                16000,
+                                17000,
+                                18000,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(25%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(25%)",
+                            "kind": "Percent",
+                            "values": [
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(9%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(9%)",
+                            "kind": "Percent",
+                            "values": [
+                                900
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "六韬三略·魔王尊大羽扇",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "A",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆解除防御强化状态",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除防御强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604100/604100b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6041002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604100/604100@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604100/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "鬼一法眼",
+            "battle_name": "鬼一法眼",
+            "gender": "Unknown",
+            "attr1": "Chaos",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 12,
+            "rarity": 4,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "天下万世之剑 A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00304.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "自身的迅指令卡性能提升(3回合)＆付与回避状态(2次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与回避状态(2次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 2,
+                    "name": "阴阳道（法） A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的宝具值增加＆暴击星集中度提升(1回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                11000,
+                                12000,
+                                13000,
+                                14000,
+                                15000,
+                                16000,
+                                17000,
+                                18000,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 2,
+                    "name": "阴阳道（法） A+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 1,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的宝具值增加＆暴击星集中度提升(1回合)＆暴击威力提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "暴击星集中度提升(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                10000,
+                                11000,
+                                12000,
+                                13000,
+                                14000,
+                                15000,
+                                16000,
+                                17000,
+                                18000,
+                                20000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "暴击威力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 3,
+                    "name": "六韬兵法 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方全体的攻击力提升(3回合)＆宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的攻击力提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "气息遮断",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的暴击星发生率小幅提升(6%)",
+                    "effects": [
+                        {
+                            "effect": "自身的暴击星发生率小幅提升(6%)",
+                            "kind": "Percent",
+                            "values": [
+                                600
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "对魔力",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化耐性提升(25%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化耐性提升(25%)",
+                            "kind": "Percent",
+                            "values": [
+                                2500
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(9%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(9%)",
+                            "kind": "Percent",
+                            "values": [
+                                900
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "六韬三略·魔王尊大羽扇",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_np.png",
+                    "card": "Quick",
+                    "rank": "A",
+                    "type": "对城宝具",
+                    "strength": 0,
+                    "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>＆对敌方全体发动强大的攻击<宝具升级效果提升>＆解除防御强化状态",
+                    "effects": [
+                        {
+                            "effect": "自身的迅指令卡性能提升(1回合)<过量充能时效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "对敌方全体发动强大的攻击<宝具升级效果提升>",
+                            "kind": "Percent",
+                            "values": [
+                                60000,
+                                80000,
+                                90000,
+                                95000,
+                                100000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "解除防御强化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "Enemy"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/604100/604100b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_6041003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/604100/604100_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/604100/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/604100/status_servant_3.png"
+            }
+        }
+    ]
+}

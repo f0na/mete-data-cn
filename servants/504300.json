@@ -1,0 +1,1528 @@
+{
+    "id": 504300,
+    "no": 249,
+    "class": "Caster",
+    "cards": [
+        "Quick",
+        "Arts",
+        "Arts",
+        "Arts",
+        "Buster"
+    ],
+    "append_skills": [
+        {
+            "slot": 0,
+            "name": "追击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的额外攻击指令卡性能提升30%",
+            "effects": [
+                {
+                    "effect": "自身的额外攻击指令卡性能提升30%",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "魔力装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身以宝具值已达10%的状态开始战斗",
+            "effects": [
+                {
+                    "effect": "自身以宝具值已达10%的状态开始战斗",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "对弓兵攻击适性",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+            "effects": [
+                {
+                    "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "特击技巧提升",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effects": [
+                {
+                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2400,
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        },
+        {
+            "slot": 0,
+            "name": "技能再装填",
+            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "strength": 0,
+            "cool_down": [],
+            "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+            "effects": [
+                {
+                    "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ],
+            "target": "SelfOnly"
+        }
+    ],
+    "spirits": [
+        {
+            "spirit": "第1阶段",
+            "name": "阿斯克勒庇俄斯",
+            "battle_name": "阿斯克勒庇俄斯",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "医神 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值大回复＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "仿药·无用的冥府悲叹",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>＆付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>＆付与弱化无效状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                2500,
+                                2750,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504300/504300a@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5043000.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504300/504300@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_1.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/504300/status_servant_1.png"
+            }
+        },
+        {
+            "spirit": "第2阶段",
+            "name": "阿斯克勒庇俄斯",
+            "battle_name": "阿斯克勒庇俄斯",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "医神 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值大回复＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 2,
+                    "name": "阿波罗之子 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "高概率付与敌方单体宝具封印状态(1回合)＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "高概率付与敌方单体宝具封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                8000,
+                                8200,
+                                8400,
+                                8600,
+                                8800,
+                                9000,
+                                9200,
+                                9400,
+                                9600,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "仿药·无用的冥府悲叹",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>＆付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>＆付与弱化无效状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                2500,
+                                2750,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504300/504300a@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5043001.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504300/504300@1.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_2.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/504300/status_servant_2.png"
+            }
+        },
+        {
+            "spirit": "第3阶段",
+            "name": "阿斯克勒庇俄斯",
+            "battle_name": "阿斯克勒庇俄斯",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "医神 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值大回复＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 2,
+                    "name": "阿波罗之子 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "高概率付与敌方单体宝具封印状态(1回合)＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "高概率付与敌方单体宝具封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                8000,
+                                8200,
+                                8400,
+                                8600,
+                                8800,
+                                9000,
+                                9200,
+                                9400,
+                                9600,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "Enemy"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "仿药·无用的冥府悲叹",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>＆付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>＆付与弱化无效状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                2500,
+                                2750,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504300/504300b@1.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5043002.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504300/504300@2.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/504300/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "第4阶段",
+            "name": "阿斯克勒庇俄斯",
+            "battle_name": "阿斯克勒庇俄斯",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "医神 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值大回复＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 2,
+                    "name": "阿波罗之子 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "高概率付与敌方单体宝具封印状态(1回合)＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "高概率付与敌方单体宝具封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                8000,
+                                8200,
+                                8400,
+                                8600,
+                                8800,
+                                9000,
+                                9200,
+                                9400,
+                                9600,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 3,
+                    "name": "蛇夫 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆解除弱化状态",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 3,
+                    "name": "蛇夫 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 1,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆解除弱化状态＆技指令卡性能提升(3回合)＆生命值回复量提升(3回合)＆付与自身毅力状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身毅力状态(1次·3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "仿药·无用的冥府悲叹",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>＆付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>＆付与弱化无效状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                2500,
+                                2750,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504300/504300b@2.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5043003.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504300/504300_2@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_3.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/504300/status_servant_3.png"
+            }
+        },
+        {
+            "spirit": "夏日救援",
+            "name": "阿斯克勒庇俄斯",
+            "battle_name": "阿斯克勒庇俄斯",
+            "gender": "Male",
+            "attr1": "Neutral",
+            "attr2": "Mean",
+            "sub_attr": "Earth",
+            "cost": 7,
+            "rarity": 3,
+            "skills": [
+                {
+                    "slot": 1,
+                    "name": "医神 EX",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00600.png",
+                    "strength": 0,
+                    "cool_down": [
+                        7,
+                        6,
+                        5
+                    ],
+                    "effect": "己方单体的生命值大回复＆弱化耐性提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方单体的生命值大回复",
+                            "kind": "Int",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "One"
+                        },
+                        {
+                            "effect": "弱化耐性提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                3000,
+                                3200,
+                                3400,
+                                3600,
+                                3800,
+                                4000,
+                                4200,
+                                4400,
+                                4600,
+                                5000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "One"
+                },
+                {
+                    "slot": 2,
+                    "name": "阿波罗之子 A",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "strength": 0,
+                    "cool_down": [
+                        8,
+                        7,
+                        6
+                    ],
+                    "effect": "高概率付与敌方单体宝具封印状态(1回合)＆己方全体的宝具值获得量提升(3回合)",
+                    "effects": [
+                        {
+                            "effect": "高概率付与敌方单体宝具封印状态(1回合)",
+                            "kind": "Percent",
+                            "values": [
+                                8000,
+                                8200,
+                                8400,
+                                8600,
+                                8800,
+                                9000,
+                                9200,
+                                9400,
+                                9600,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "Enemy"
+                        },
+                        {
+                            "effect": "己方全体的宝具值获得量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                2000,
+                                2100,
+                                2200,
+                                2300,
+                                2400,
+                                2500,
+                                2600,
+                                2700,
+                                2800,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "Enemy"
+                },
+                {
+                    "slot": 3,
+                    "name": "蛇夫 B",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 0,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆解除弱化状态",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ],
+                    "target": "All"
+                },
+                {
+                    "slot": 3,
+                    "name": "蛇夫 B+",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "strength": 1,
+                    "cool_down": [
+                        9,
+                        8,
+                        7
+                    ],
+                    "effect": "己方全体的宝具值增加＆解除弱化状态＆技指令卡性能提升(3回合)＆生命值回复量提升(3回合)＆付与自身毅力状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "己方全体的宝具值增加",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "解除弱化状态",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "技指令卡性能提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                1000,
+                                1100,
+                                1200,
+                                1300,
+                                1400,
+                                1500,
+                                1600,
+                                1700,
+                                1800,
+                                2000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "生命值回复量提升(3回合)",
+                            "kind": "Percent",
+                            "values": [
+                                5000,
+                                5500,
+                                6000,
+                                6500,
+                                7000,
+                                7500,
+                                8000,
+                                8500,
+                                9000,
+                                10000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        },
+                        {
+                            "effect": "付与自身毅力状态(1次·3回合)",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1200,
+                                1400,
+                                1600,
+                                1800,
+                                2000,
+                                2200,
+                                2400,
+                                2600,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "All"
+                }
+            ],
+            "class_skills": [
+                {
+                    "slot": 0,
+                    "name": "阵地建造",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的技指令卡性能提升(10%)",
+                    "effects": [
+                        {
+                            "effect": "自身的技指令卡性能提升(10%)",
+                            "kind": "Percent",
+                            "values": [
+                                1000
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "道具作成",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "自身的弱化付与成功率提升(12%)",
+                    "effects": [
+                        {
+                            "effect": "自身的弱化付与成功率提升(12%)",
+                            "kind": "Percent",
+                            "values": [
+                                1200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                },
+                {
+                    "slot": 0,
+                    "name": "神性",
+                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "strength": 0,
+                    "cool_down": [],
+                    "effect": "付与自身伤害附加状态(200)",
+                    "effects": [
+                        {
+                            "effect": "付与自身伤害附加状态(200)",
+                            "kind": "Int",
+                            "values": [
+                                200
+                            ],
+                            "script": [],
+                            "target": "SelfOnly"
+                        }
+                    ],
+                    "target": "SelfOnly"
+                }
+            ],
+            "nobles": [
+                {
+                    "name": "仿药·无用的冥府悲叹",
+                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_np.png",
+                    "card": "Arts",
+                    "rank": "B",
+                    "type": "对人宝具",
+                    "strength": 0,
+                    "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>＆付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>＆付与弱化无效状态(1次·3回合)",
+                    "effects": [
+                        {
+                            "effect": "付与除自身以外的己方全体毅力状态(1次·3回合)<宝具升级效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                2000,
+                                2500,
+                                2750,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "Other"
+                        },
+                        {
+                            "effect": "付与己方全体每回合生命值回复状态(3回合)<过量充能时效果提升>",
+                            "kind": "Int",
+                            "values": [
+                                1000,
+                                1500,
+                                2000,
+                                2500,
+                                3000
+                            ],
+                            "script": [],
+                            "target": "All"
+                        },
+                        {
+                            "effect": "付与弱化无效状态(1次·3回合)",
+                            "kind": "None",
+                            "values": [],
+                            "script": [],
+                            "target": "All"
+                        }
+                    ]
+                }
+            ],
+            "assets": {
+                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504330/504330a.png",
+                "faces": "https://static.atlasacademy.io/CN/Faces/f_5043300.png",
+                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504330/504330@0.png",
+                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504300/card_servant_11.png",
+                "status": "https://static.atlasacademy.io/CN/Servants/Status/504300/status_servant_11.png"
+            }
+        }
+    ]
+}
