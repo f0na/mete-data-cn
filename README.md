@@ -35,7 +35,7 @@ zip 内包含：
 
 ```json
 {
-    "version": "data-2026.11.18",
+    "version": "data-2026.11.20",
     "generated_at": "2026-11-18T06:30:00Z",
     "servant_count": 447,
     "servant_ids": [100100, 100200, 800100, 3300100],
@@ -121,8 +121,8 @@ python scripts/fetch.py --mooncell-cache /path/to/cache --refresh-mooncell
    ```
 3. 打 tag 并推送，触发 Release：
    ```bash
-   git tag data-2026.11.18
-   git push origin data-2026.11.18
+   git tag data-2026.11.20
+   git push origin data-2026.11.20
    ```
 
 CI 会校验全部 JSON、合并成 `servant.json`、生成 `manifest.json`，发布 `mete-data-cn.zip` 与 `manifest.json` 两个资产。
