@@ -38,7 +38,7 @@ zip 内包含：
 
 ```json
 {
-    "version": "data-2026.11.20",
+    "version": "data-2026.11.24",
     "generated_at": "2026-11-18T06:30:00Z",
     "assets": {
         "root": "images"
@@ -166,8 +166,8 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
    ```
 3. 打 tag 并推送，触发 Release：
    ```bash
-   git tag data-2026.11.20
-   git push origin data-2026.11.20
+   git tag data-2026.11.24
+   git push origin data-2026.11.24
    ```
 
 CI 会先下载图片，再校验全部 JSON、合并成 `servant.json`、生成 `manifest.json`，
