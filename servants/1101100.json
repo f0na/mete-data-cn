@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对枪兵攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "摩迦罗漂浮 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -242,7 +242,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -262,7 +262,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3.8%)",
@@ -282,7 +282,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -320,7 +320,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -340,7 +340,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -360,7 +360,7 @@
                 {
                     "slot": 0,
                     "name": "魔王的神核（？）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆魅惑无效状态",
@@ -388,7 +388,7 @@
             "nobles": [
                 {
                     "name": "持爱而至，恋夏也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -434,11 +434,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101100/1101100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11011000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101100/1101100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1101100/1101100a@1.png",
+                "faces": "CN/Faces/f_11011000.png",
+                "narrow_figure": "CN/NarrowFigure/1101100/1101100@0.png",
+                "command": "CN/Servants/Commands/1101100/card_servant_1.png",
+                "status": "CN/Servants/Status/1101100/status_servant_1.png"
             }
         },
         {
@@ -455,7 +455,7 @@
                 {
                     "slot": 1,
                     "name": "摩迦罗漂浮 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -495,7 +495,7 @@
                 {
                     "slot": 2,
                     "name": "虚无之魔 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -548,7 +548,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -577,7 +577,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -597,7 +597,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3.8%)",
@@ -617,7 +617,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -655,7 +655,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -675,7 +675,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -695,7 +695,7 @@
                 {
                     "slot": 0,
                     "name": "魔王的神核（？）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆魅惑无效状态",
@@ -723,7 +723,7 @@
             "nobles": [
                 {
                     "name": "持爱而至，恋夏也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -769,11 +769,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101100/1101100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11011001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101100/1101100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1101100/1101100a@2.png",
+                "faces": "CN/Faces/f_11011001.png",
+                "narrow_figure": "CN/NarrowFigure/1101100/1101100@1.png",
+                "command": "CN/Servants/Commands/1101100/card_servant_2.png",
+                "status": "CN/Servants/Status/1101100/status_servant_2.png"
             }
         },
         {
@@ -790,7 +790,7 @@
                 {
                     "slot": 1,
                     "name": "摩迦罗漂浮 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -830,7 +830,7 @@
                 {
                     "slot": 2,
                     "name": "虚无之魔 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -883,7 +883,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -912,7 +912,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -932,7 +932,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3.8%)",
@@ -952,7 +952,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -990,7 +990,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1010,7 +1010,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1030,7 +1030,7 @@
                 {
                     "slot": 0,
                     "name": "魔王的神核（？）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆魅惑无效状态",
@@ -1058,7 +1058,7 @@
             "nobles": [
                 {
                     "name": "持爱而至，恋夏也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -1104,11 +1104,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101100/1101100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11011002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101100/1101100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1101100/1101100b@1.png",
+                "faces": "CN/Faces/f_11011002.png",
+                "narrow_figure": "CN/NarrowFigure/1101100/1101100@2.png",
+                "command": "CN/Servants/Commands/1101100/card_servant_3.png",
+                "status": "CN/Servants/Status/1101100/status_servant_3.png"
             }
         },
         {
@@ -1125,7 +1125,7 @@
                 {
                     "slot": 1,
                     "name": "摩迦罗漂浮 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1165,7 +1165,7 @@
                 {
                     "slot": 2,
                     "name": "虚无之魔 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1216,7 +1216,7 @@
                 {
                     "slot": 3,
                     "name": "盛夏之海的魔罗 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1265,7 +1265,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -1294,7 +1294,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1314,7 +1314,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3.8%)",
@@ -1334,7 +1334,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -1372,7 +1372,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1392,7 +1392,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1412,7 +1412,7 @@
                 {
                     "slot": 0,
                     "name": "魔王的神核（？）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆魅惑无效状态",
@@ -1486,11 +1486,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101100/1101100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11011003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101100/1101100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1101100/1101100b@2.png",
+                "faces": "CN/Faces/f_11011003.png",
+                "narrow_figure": "CN/NarrowFigure/1101100/1101100_2@0.png",
+                "command": "CN/Servants/Commands/1101100/card_servant_3.png",
+                "status": "CN/Servants/Status/1101100/status_servant_3.png"
             }
         }
     ]

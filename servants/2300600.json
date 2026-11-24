@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对月之癌攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔月之癌〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "都市改造 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -267,7 +267,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)",
@@ -287,7 +287,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(25%)",
@@ -307,7 +307,7 @@
                 {
                     "slot": 0,
                     "name": "未来管理",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)＆暴击星集中度小幅提升(20%)",
@@ -336,7 +336,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（攻）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对恶或〔持有善特攻〕持有善特攻宝具或从者以外的攻击力提升(10%)",
@@ -356,7 +356,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（防）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自秩序或〔持有恶特攻〕持有恶特攻宝具或从者敌方攻击的防御力提升(20%)",
@@ -376,7 +376,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -523,11 +523,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2300600/2300600a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_23006000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2300600/2300600@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2300600/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2300600/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/2300600/2300600a@1.png",
+                "faces": "CN/Faces/f_23006000.png",
+                "narrow_figure": "CN/NarrowFigure/2300600/2300600@0.png",
+                "command": "CN/Servants/Commands/2300600/card_servant_1.png",
+                "status": "CN/Servants/Status/2300600/status_servant_1.png"
             }
         },
         {
@@ -544,7 +544,7 @@
                 {
                     "slot": 1,
                     "name": "都市改造 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -638,7 +638,7 @@
                 {
                     "slot": 2,
                     "name": "奢华拉格朗日 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -741,7 +741,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)",
@@ -761,7 +761,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(25%)",
@@ -781,7 +781,7 @@
                 {
                     "slot": 0,
                     "name": "未来管理",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)＆暴击星集中度小幅提升(20%)",
@@ -810,7 +810,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（攻）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对恶或〔持有善特攻〕持有善特攻宝具或从者以外的攻击力提升(10%)",
@@ -830,7 +830,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（防）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自秩序或〔持有恶特攻〕持有恶特攻宝具或从者敌方攻击的防御力提升(20%)",
@@ -850,7 +850,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -997,11 +997,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2300600/2300600a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_23006001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2300600/2300600@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2300600/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2300600/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/2300600/2300600a@2.png",
+                "faces": "CN/Faces/f_23006001.png",
+                "narrow_figure": "CN/NarrowFigure/2300600/2300600@1.png",
+                "command": "CN/Servants/Commands/2300600/card_servant_2.png",
+                "status": "CN/Servants/Status/2300600/status_servant_2.png"
             }
         },
         {
@@ -1018,7 +1018,7 @@
                 {
                     "slot": 1,
                     "name": "都市改造 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1112,7 +1112,7 @@
                 {
                     "slot": 2,
                     "name": "奢华拉格朗日 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1215,7 +1215,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)",
@@ -1235,7 +1235,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(25%)",
@@ -1255,7 +1255,7 @@
                 {
                     "slot": 0,
                     "name": "未来管理",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)＆暴击星集中度小幅提升(20%)",
@@ -1284,7 +1284,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（攻）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对恶或〔持有善特攻〕持有善特攻宝具或从者以外的攻击力提升(10%)",
@@ -1304,7 +1304,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（防）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自秩序或〔持有恶特攻〕持有恶特攻宝具或从者敌方攻击的防御力提升(20%)",
@@ -1324,7 +1324,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -1471,11 +1471,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2300600/2300600b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_23006002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2300600/2300600@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2300600/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2300600/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/2300600/2300600b@1.png",
+                "faces": "CN/Faces/f_23006002.png",
+                "narrow_figure": "CN/NarrowFigure/2300600/2300600@2.png",
+                "command": "CN/Servants/Commands/2300600/card_servant_3.png",
+                "status": "CN/Servants/Status/2300600/status_servant_3.png"
             }
         },
         {
@@ -1492,7 +1492,7 @@
                 {
                     "slot": 1,
                     "name": "都市改造 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1586,7 +1586,7 @@
                 {
                     "slot": 2,
                     "name": "奢华拉格朗日 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1687,7 +1687,7 @@
                 {
                     "slot": 3,
                     "name": "黄金月之都 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00609.png",
+                    "icon": "CN/SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1736,7 +1736,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)",
@@ -1756,7 +1756,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(25%)",
@@ -1776,7 +1776,7 @@
                 {
                     "slot": 0,
                     "name": "未来管理",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)＆暴击星集中度小幅提升(20%)",
@@ -1805,7 +1805,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（攻）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对恶或〔持有善特攻〕持有善特攻宝具或从者以外的攻击力提升(10%)",
@@ -1825,7 +1825,7 @@
                 {
                     "slot": 0,
                     "name": "人理审查（防）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自秩序或〔持有恶特攻〕持有恶特攻宝具或从者敌方攻击的防御力提升(20%)",
@@ -1845,7 +1845,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -1992,11 +1992,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2300600/2300600b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_23006003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2300600/2300600_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2300600/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2300600/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/2300600/2300600b@2.png",
+                "faces": "CN/Faces/f_23006003.png",
+                "narrow_figure": "CN/NarrowFigure/2300600/2300600_2@0.png",
+                "command": "CN/Servants/Commands/2300600/card_servant_3.png",
+                "status": "CN/Servants/Status/2300600/status_servant_3.png"
             }
         }
     ]

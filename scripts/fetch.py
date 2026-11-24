@@ -12,7 +12,12 @@ Examples:
     python scripts/fetch.py --source nice_servant_lore.json
     python scripts/fetch.py --source nice_servant_lore.json --overwrite
     python scripts/fetch.py --source nice_servant_lore.json --no-mooncell
+    python scripts/fetch.py --source nice_servant_lore.json --no-assets
     python scripts/fetch.py                      # downloads the export first
+
+Images are downloaded into images/ (not committed) and JSON stores paths
+relative to the release package's images/ root.  Pass --no-assets to skip the
+download and only store the paths.
 """
 
 from __future__ import annotations
@@ -28,8 +33,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SERVANTS_DIR = ROOT / "servants"
 DEFAULT_URL = "https://api.atlasacademy.io/export/CN/nice_servant_lore.json"
+ASSET_JOBS = 16
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import assets  # noqa: E402  (local helper module)
 import mooncell  # noqa: E402  (local helper module)
 
 CLASS_MAP = {
@@ -1241,6 +1248,7 @@ def main() -> int:
     )
     parser.add_argument("--no-mooncell", action="store_true", help="keep Atlas values for NP effects")
     parser.add_argument("--refresh-mooncell", action="store_true", help="refetch cached Mooncell pages")
+    parser.add_argument("--no-assets", action="store_true", help="store asset paths without downloading images")
     args = parser.parse_args()
 
     data = load_export(args)
@@ -1273,9 +1281,20 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001 - fall back to Atlas values
             print(f"warning: Mooncell unavailable ({exc}); using Atlas values")
 
-    for servant in targets:
-        mc_data = mc_index.get(int(servant["collectionNo"]))
-        write_json(args.out_dir / f"{servant['id']}.json", convert_servant(servant, mc_data))
+    converted = [
+        (servant, convert_servant(servant, mc_index.get(int(servant["collectionNo"]))))
+        for servant in targets
+    ]
+
+    refs: list[str] = []
+    seen_refs: set[str] = set()
+    for _servant, data in converted:
+        assets.collect(data, refs, seen_refs)
+    if refs and not args.no_assets:
+        assets.download_many(refs, ASSET_JOBS)
+
+    for servant, data in converted:
+        write_json(args.out_dir / f"{servant['id']}.json", assets.rewrite(data))
 
     print(f"wrote {len(targets)} servant file(s), kept {skipped} existing file(s)")
     return 0

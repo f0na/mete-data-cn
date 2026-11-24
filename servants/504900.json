@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对身披角色者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔身披角色者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "荒事舞 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -231,7 +231,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造（神乐）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -260,7 +260,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成（机关）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -289,7 +289,7 @@
                 {
                     "slot": 0,
                     "name": "新阿国歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力小幅提升(4%)",
@@ -317,7 +317,7 @@
             "nobles": [
                 {
                     "name": "阿国十八番·出云荒神歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "C",
                     "type": "结界宝具",
@@ -363,11 +363,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504900/504900a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5049000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504900/504900@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504900/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/504900/504900a@1.png",
+                "faces": "CN/Faces/f_5049000.png",
+                "narrow_figure": "CN/NarrowFigure/504900/504900@0.png",
+                "command": "CN/Servants/Commands/504900/card_servant_1.png",
+                "status": "CN/Servants/Status/504900/status_servant_1.png"
             }
         },
         {
@@ -384,7 +384,7 @@
                 {
                     "slot": 1,
                     "name": "荒事舞 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -442,7 +442,7 @@
                 {
                     "slot": 2,
                     "name": "人偶神乐 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "icon": "CN/SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -504,7 +504,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造（神乐）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -533,7 +533,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成（机关）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -562,7 +562,7 @@
                 {
                     "slot": 0,
                     "name": "新阿国歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力小幅提升(4%)",
@@ -590,7 +590,7 @@
             "nobles": [
                 {
                     "name": "阿国十八番·出云荒神歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "C",
                     "type": "结界宝具",
@@ -636,11 +636,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504900/504900a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5049001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504900/504900@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504900/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/504900/504900a@2.png",
+                "faces": "CN/Faces/f_5049001.png",
+                "narrow_figure": "CN/NarrowFigure/504900/504900@1.png",
+                "command": "CN/Servants/Commands/504900/card_servant_2.png",
+                "status": "CN/Servants/Status/504900/status_servant_2.png"
             }
         },
         {
@@ -657,7 +657,7 @@
                 {
                     "slot": 1,
                     "name": "荒事舞 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -715,7 +715,7 @@
                 {
                     "slot": 2,
                     "name": "人偶神乐 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "icon": "CN/SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -777,7 +777,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造（神乐）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -806,7 +806,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成（机关）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -835,7 +835,7 @@
                 {
                     "slot": 0,
                     "name": "新阿国歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力小幅提升(4%)",
@@ -863,7 +863,7 @@
             "nobles": [
                 {
                     "name": "阿国十八番·出云荒神歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "C",
                     "type": "结界宝具",
@@ -909,11 +909,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504900/504900b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5049002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504900/504900@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/504900/504900b@1.png",
+                "faces": "CN/Faces/f_5049002.png",
+                "narrow_figure": "CN/NarrowFigure/504900/504900@2.png",
+                "command": "CN/Servants/Commands/504900/card_servant_3.png",
+                "status": "CN/Servants/Status/504900/status_servant_3.png"
             }
         },
         {
@@ -930,7 +930,7 @@
                 {
                     "slot": 1,
                     "name": "荒事舞 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -988,7 +988,7 @@
                 {
                     "slot": 1,
                     "name": "荒事舞 B+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1064,7 +1064,7 @@
                 {
                     "slot": 2,
                     "name": "人偶神乐 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "icon": "CN/SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1124,7 +1124,7 @@
                 {
                     "slot": 3,
                     "name": "封印之巫女 B+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00609.png",
+                    "icon": "CN/SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1184,7 +1184,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造（神乐）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -1213,7 +1213,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成（机关）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)＆暴击威力小幅提升(4%)",
@@ -1242,7 +1242,7 @@
                 {
                     "slot": 0,
                     "name": "新阿国歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力小幅提升(4%)",
@@ -1270,7 +1270,7 @@
             "nobles": [
                 {
                     "name": "阿国十八番·出云荒神歌舞伎",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "C",
                     "type": "结界宝具",
@@ -1316,11 +1316,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504900/504900b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5049003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504900/504900_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/504900/504900b@2.png",
+                "faces": "CN/Faces/f_5049003.png",
+                "narrow_figure": "CN/NarrowFigure/504900/504900_2@0.png",
+                "command": "CN/Servants/Commands/504900/card_servant_3.png",
+                "status": "CN/Servants/Status/504900/status_servant_3.png"
             }
         }
     ]

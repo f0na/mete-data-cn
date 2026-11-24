@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对月之癌攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔月之癌〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "翡翠的魅力 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -242,7 +242,7 @@
                 {
                     "slot": 0,
                     "name": "文明作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
@@ -262,7 +262,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "icon": "CN/SkillIcons/skill_00805.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
@@ -299,7 +299,7 @@
             "nobles": [
                 {
                     "name": "星，自宇宙坠落",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/2501100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -361,11 +361,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/2501100/2501100a@1.png",
+                "faces": "CN/Faces/f_25011000.png",
+                "narrow_figure": "CN/NarrowFigure/2501100/2501100@0.png",
+                "command": "CN/Servants/Commands/2501100/card_servant_1.png",
+                "status": "CN/Servants/Status/2501100/status_servant_1.png"
             }
         },
         {
@@ -382,7 +382,7 @@
                 {
                     "slot": 1,
                     "name": "翡翠的魅力 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -451,7 +451,7 @@
                 {
                     "slot": 2,
                     "name": "吾等，有翼之蛇 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -500,7 +500,7 @@
                 {
                     "slot": 0,
                     "name": "文明作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
@@ -520,7 +520,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "icon": "CN/SkillIcons/skill_00805.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
@@ -557,7 +557,7 @@
             "nobles": [
                 {
                     "name": "星，自宇宙坠落",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/2501100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -619,11 +619,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/2501100/2501100a@2.png",
+                "faces": "CN/Faces/f_25011001.png",
+                "narrow_figure": "CN/NarrowFigure/2501100/2501100@1.png",
+                "command": "CN/Servants/Commands/2501100/card_servant_2.png",
+                "status": "CN/Servants/Status/2501100/status_servant_2.png"
             }
         },
         {
@@ -640,7 +640,7 @@
                 {
                     "slot": 1,
                     "name": "翡翠的魅力 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -709,7 +709,7 @@
                 {
                     "slot": 2,
                     "name": "吾等，有翼之蛇 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -758,7 +758,7 @@
                 {
                     "slot": 0,
                     "name": "文明作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
@@ -778,7 +778,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "icon": "CN/SkillIcons/skill_00805.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
@@ -815,7 +815,7 @@
             "nobles": [
                 {
                     "name": "星，自宇宙坠落",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/2501100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -877,11 +877,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/2501100/2501100b@1.png",
+                "faces": "CN/Faces/f_25011002.png",
+                "narrow_figure": "CN/NarrowFigure/2501100/2501100@2.png",
+                "command": "CN/Servants/Commands/2501100/card_servant_3.png",
+                "status": "CN/Servants/Status/2501100/status_servant_3.png"
             }
         },
         {
@@ -898,7 +898,7 @@
                 {
                     "slot": 1,
                     "name": "翡翠的魅力 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -967,7 +967,7 @@
                 {
                     "slot": 2,
                     "name": "吾等，有翼之蛇 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1014,7 +1014,7 @@
                 {
                     "slot": 3,
                     "name": "黄金树海纪行 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1092,7 +1092,7 @@
                 {
                     "slot": 0,
                     "name": "文明作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的弱化付与成功率提升(8%)",
@@ -1112,7 +1112,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00805.png",
+                    "icon": "CN/SkillIcons/skill_00805.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身「自身被付与的无敌效果变化为对肃正防御效果」的状态＆付与每回合获得暴击星的状态(10)＆付与每回合获得宝具值的状态(3%)",
@@ -1149,7 +1149,7 @@
             "nobles": [
                 {
                     "name": "星，自宇宙坠落",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/2501100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -1211,11 +1211,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/2501100/2501100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_25011003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/2501100/2501100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/2501100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/2501100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/2501100/2501100b@2.png",
+                "faces": "CN/Faces/f_25011003.png",
+                "narrow_figure": "CN/NarrowFigure/2501100/2501100_2@0.png",
+                "command": "CN/Servants/Commands/2501100/card_servant_3.png",
+                "status": "CN/Servants/Status/2501100/status_servant_3.png"
             }
         }
     ]

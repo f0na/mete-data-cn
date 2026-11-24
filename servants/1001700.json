@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对月之癌攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔月之癌〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "矶良舞 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -249,7 +249,7 @@
                 {
                     "slot": 0,
                     "name": "阿知女作法",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的强化解除耐性提升(10%)＆弱化耐性提升(10%)",
@@ -278,7 +278,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -298,7 +298,7 @@
                 {
                     "slot": 0,
                     "name": "神明戏耍之庭",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的暴击威力提升(5%)",
@@ -318,7 +318,7 @@
                 {
                     "slot": 0,
                     "name": "异形之神",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)＆付与被伤害减免状态(300)",
@@ -347,7 +347,7 @@
                 {
                     "slot": 0,
                     "name": "大和迩的加护",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅在水边场地上时，付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -375,7 +375,7 @@
             "nobles": [
                 {
                     "name": "开辟海境的满干珠",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001700/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -450,11 +450,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001700/1001700a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10017000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001700/1001700@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001700/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1001700/1001700a@1.png",
+                "faces": "CN/Faces/f_10017000.png",
+                "narrow_figure": "CN/NarrowFigure/1001700/1001700@0.png",
+                "command": "CN/Servants/Commands/1001700/card_servant_1.png",
+                "status": "CN/Servants/Status/1001700/status_servant_1.png"
             }
         },
         {
@@ -471,7 +471,7 @@
                 {
                     "slot": 1,
                     "name": "矶良舞 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -547,7 +547,7 @@
                 {
                     "slot": 2,
                     "name": "绵津见之门 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -618,7 +618,7 @@
                 {
                     "slot": 0,
                     "name": "阿知女作法",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的强化解除耐性提升(10%)＆弱化耐性提升(10%)",
@@ -647,7 +647,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -667,7 +667,7 @@
                 {
                     "slot": 0,
                     "name": "神明戏耍之庭",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的暴击威力提升(5%)",
@@ -687,7 +687,7 @@
                 {
                     "slot": 0,
                     "name": "异形之神",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)＆付与被伤害减免状态(300)",
@@ -716,7 +716,7 @@
                 {
                     "slot": 0,
                     "name": "大和迩的加护",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅在水边场地上时，付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -744,7 +744,7 @@
             "nobles": [
                 {
                     "name": "开辟海境的满干珠",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001700/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -819,11 +819,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001700/1001700a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10017001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001700/1001700@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001700/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1001700/1001700a@2.png",
+                "faces": "CN/Faces/f_10017001.png",
+                "narrow_figure": "CN/NarrowFigure/1001700/1001700@1.png",
+                "command": "CN/Servants/Commands/1001700/card_servant_2.png",
+                "status": "CN/Servants/Status/1001700/status_servant_2.png"
             }
         },
         {
@@ -840,7 +840,7 @@
                 {
                     "slot": 1,
                     "name": "矶良舞 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -916,7 +916,7 @@
                 {
                     "slot": 2,
                     "name": "绵津见之门 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -987,7 +987,7 @@
                 {
                     "slot": 0,
                     "name": "阿知女作法",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的强化解除耐性提升(10%)＆弱化耐性提升(10%)",
@@ -1016,7 +1016,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1036,7 +1036,7 @@
                 {
                     "slot": 0,
                     "name": "神明戏耍之庭",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的暴击威力提升(5%)",
@@ -1056,7 +1056,7 @@
                 {
                     "slot": 0,
                     "name": "异形之神",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)＆付与被伤害减免状态(300)",
@@ -1085,7 +1085,7 @@
                 {
                     "slot": 0,
                     "name": "大和迩的加护",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅在水边场地上时，付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -1113,7 +1113,7 @@
             "nobles": [
                 {
                     "name": "开辟海境的满干珠",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001700/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1188,11 +1188,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001700/1001700b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10017002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001700/1001700@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001700/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1001700/1001700b@1.png",
+                "faces": "CN/Faces/f_10017002.png",
+                "narrow_figure": "CN/NarrowFigure/1001700/1001700@2.png",
+                "command": "CN/Servants/Commands/1001700/card_servant_3.png",
+                "status": "CN/Servants/Status/1001700/status_servant_3.png"
             }
         },
         {
@@ -1209,7 +1209,7 @@
                 {
                     "slot": 1,
                     "name": "矶良舞 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1285,7 +1285,7 @@
                 {
                     "slot": 2,
                     "name": "绵津见之门 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1354,7 +1354,7 @@
                 {
                     "slot": 3,
                     "name": "潮满珠·潮干珠 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1414,7 +1414,7 @@
                 {
                     "slot": 0,
                     "name": "阿知女作法",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的强化解除耐性提升(10%)＆弱化耐性提升(10%)",
@@ -1443,7 +1443,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1463,7 +1463,7 @@
                 {
                     "slot": 0,
                     "name": "神明戏耍之庭",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体的暴击威力提升(5%)",
@@ -1483,7 +1483,7 @@
                 {
                     "slot": 0,
                     "name": "异形之神",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)＆付与被伤害减免状态(300)",
@@ -1512,7 +1512,7 @@
                 {
                     "slot": 0,
                     "name": "大和迩的加护",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅在水边场地上时，付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -1615,11 +1615,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001700/1001700b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10017003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001700/1001700_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001700/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001700/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1001700/1001700b@2.png",
+                "faces": "CN/Faces/f_10017003.png",
+                "narrow_figure": "CN/NarrowFigure/1001700/1001700_2@0.png",
+                "command": "CN/Servants/Commands/1001700/card_servant_3.png",
+                "status": "CN/Servants/Status/1001700/status_servant_3.png"
             }
         }
     ]

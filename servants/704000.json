@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士暴击耐性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "icon": "CN/SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "渴望的魅力 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -242,7 +242,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -262,7 +262,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -282,7 +282,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(12%)",
@@ -302,7 +302,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -322,7 +322,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -343,7 +343,7 @@
             "nobles": [
                 {
                     "name": "业已无法抵达的理想乡",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/704000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对城宝具",
@@ -405,11 +405,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704000/704000a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7040000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704000/704000@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/704000/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/704000/704000a@1.png",
+                "faces": "CN/Faces/f_7040000.png",
+                "narrow_figure": "CN/NarrowFigure/704000/704000@0.png",
+                "command": "CN/Servants/Commands/704000/card_servant_1.png",
+                "status": "CN/Servants/Status/704000/status_servant_1.png"
             }
         },
         {
@@ -426,7 +426,7 @@
                 {
                     "slot": 1,
                     "name": "渴望的魅力 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -495,7 +495,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -547,7 +547,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -601,7 +601,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -621,7 +621,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -641,7 +641,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(12%)",
@@ -661,7 +661,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -681,7 +681,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -702,7 +702,7 @@
             "nobles": [
                 {
                     "name": "业已无法抵达的理想乡",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/704000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对城宝具",
@@ -764,11 +764,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704000/704000a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7040001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704000/704000@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/704000/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/704000/704000a@2.png",
+                "faces": "CN/Faces/f_7040001.png",
+                "narrow_figure": "CN/NarrowFigure/704000/704000@1.png",
+                "command": "CN/Servants/Commands/704000/card_servant_2.png",
+                "status": "CN/Servants/Status/704000/status_servant_2.png"
             }
         },
         {
@@ -785,7 +785,7 @@
                 {
                     "slot": 1,
                     "name": "渴望的魅力 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -854,7 +854,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -906,7 +906,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -960,7 +960,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -980,7 +980,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1000,7 +1000,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(12%)",
@@ -1020,7 +1020,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -1040,7 +1040,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -1061,7 +1061,7 @@
             "nobles": [
                 {
                     "name": "业已无法抵达的理想乡",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/704000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对城宝具",
@@ -1123,11 +1123,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704000/704000b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7040002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704000/704000@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/704000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/704000/704000b@1.png",
+                "faces": "CN/Faces/f_7040002.png",
+                "narrow_figure": "CN/NarrowFigure/704000/704000@2.png",
+                "command": "CN/Servants/Commands/704000/card_servant_3.png",
+                "status": "CN/Servants/Status/704000/status_servant_3.png"
             }
         },
         {
@@ -1144,7 +1144,7 @@
                 {
                     "slot": 1,
                     "name": "渴望的魅力 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1213,7 +1213,7 @@
                 {
                     "slot": 3,
                     "name": "来自止境 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1336,7 +1336,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1388,7 +1388,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1442,7 +1442,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -1462,7 +1462,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1482,7 +1482,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(12%)",
@@ -1502,7 +1502,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -1522,7 +1522,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -1543,7 +1543,7 @@
             "nobles": [
                 {
                     "name": "业已无法抵达的理想乡",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/704000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对城宝具",
@@ -1605,11 +1605,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704000/704000b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7040003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704000/704000_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/704000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/704000/704000b@2.png",
+                "faces": "CN/Faces/f_7040003.png",
+                "narrow_figure": "CN/NarrowFigure/704000/704000_2@0.png",
+                "command": "CN/Servants/Commands/704000/card_servant_3.png",
+                "status": "CN/Servants/Status/704000/status_servant_3.png"
             }
         },
         {
@@ -1626,7 +1626,7 @@
                 {
                     "slot": 1,
                     "name": "渴望的魅力 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1695,7 +1695,7 @@
                 {
                     "slot": 3,
                     "name": "来自止境 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1818,7 +1818,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1870,7 +1870,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1924,7 +1924,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -1944,7 +1944,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1964,7 +1964,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(12%)",
@@ -1984,7 +1984,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -2004,7 +2004,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -2025,7 +2025,7 @@
             "nobles": [
                 {
                     "name": "业已无法抵达的理想乡",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/704000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对城宝具",
@@ -2087,11 +2087,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/704030/704030a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7040300.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/704030/704030@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/704000/card_servant_11.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/704000/status_servant_11.png"
+                "chara_graph": "CN/CharaGraph/704030/704030a.png",
+                "faces": "CN/Faces/f_7040300.png",
+                "narrow_figure": "CN/NarrowFigure/704030/704030@0.png",
+                "command": "CN/Servants/Commands/704000/card_servant_11.png",
+                "status": "CN/Servants/Status/704000/status_servant_11.png"
             }
         }
     ]

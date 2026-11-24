@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对枪兵暴击耐性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "icon": "CN/SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔枪兵〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "天鹅礼装（夏） A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(3.5%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)",
@@ -254,7 +254,7 @@
             "nobles": [
                 {
                     "name": "至少，直至死亡的瞬间",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具／对军宝具",
@@ -298,11 +298,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703800/703800a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7038000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703800/703800@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703800/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/703800/703800a@1.png",
+                "faces": "CN/Faces/f_7038000.png",
+                "narrow_figure": "CN/NarrowFigure/703800/703800@0.png",
+                "command": "CN/Servants/Commands/703800/card_servant_1.png",
+                "status": "CN/Servants/Status/703800/status_servant_1.png"
             }
         },
         {
@@ -319,7 +319,7 @@
                 {
                     "slot": 1,
                     "name": "天鹅礼装（夏） A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -359,7 +359,7 @@
                 {
                     "slot": 2,
                     "name": "盛夏的睿智 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "icon": "CN/SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -412,7 +412,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(3.5%)",
@@ -432,7 +432,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)",
@@ -453,7 +453,7 @@
             "nobles": [
                 {
                     "name": "至少，直至死亡的瞬间",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具／对军宝具",
@@ -497,11 +497,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703800/703800a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7038001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703800/703800@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703800/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/703800/703800a@2.png",
+                "faces": "CN/Faces/f_7038001.png",
+                "narrow_figure": "CN/NarrowFigure/703800/703800@1.png",
+                "command": "CN/Servants/Commands/703800/card_servant_2.png",
+                "status": "CN/Servants/Status/703800/status_servant_2.png"
             }
         },
         {
@@ -518,7 +518,7 @@
                 {
                     "slot": 1,
                     "name": "天鹅礼装（夏） A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -558,7 +558,7 @@
                 {
                     "slot": 2,
                     "name": "盛夏的睿智 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "icon": "CN/SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -611,7 +611,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(3.5%)",
@@ -631,7 +631,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)",
@@ -652,7 +652,7 @@
             "nobles": [
                 {
                     "name": "至少，直至死亡的瞬间",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具／对军宝具",
@@ -696,11 +696,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703800/703800b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7038002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703800/703800@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/703800/703800b@1.png",
+                "faces": "CN/Faces/f_7038002.png",
+                "narrow_figure": "CN/NarrowFigure/703800/703800@2.png",
+                "command": "CN/Servants/Commands/703800/card_servant_3.png",
+                "status": "CN/Servants/Status/703800/status_servant_3.png"
             }
         },
         {
@@ -717,7 +717,7 @@
                 {
                     "slot": 1,
                     "name": "天鹅礼装（夏） A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -757,7 +757,7 @@
                 {
                     "slot": 2,
                     "name": "盛夏的睿智 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00607.png",
+                    "icon": "CN/SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -808,7 +808,7 @@
                 {
                     "slot": 3,
                     "name": "夏日恋人 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00315.png",
+                    "icon": "CN/SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -879,7 +879,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(3.5%)",
@@ -899,7 +899,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(100)",
@@ -920,7 +920,7 @@
             "nobles": [
                 {
                     "name": "至少，直至死亡的瞬间",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具／对军宝具",
@@ -964,11 +964,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703800/703800b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7038003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703800/703800_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/703800/703800b@2.png",
+                "faces": "CN/Faces/f_7038003.png",
+                "narrow_figure": "CN/NarrowFigure/703800/703800_2@0.png",
+                "command": "CN/Servants/Commands/703800/card_servant_3.png",
+                "status": "CN/Servants/Status/703800/status_servant_3.png"
             }
         }
     ]

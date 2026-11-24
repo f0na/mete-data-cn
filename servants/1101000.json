@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对骑兵攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "源氏，受死吧 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -251,7 +251,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
@@ -280,7 +280,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -300,7 +300,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -321,7 +321,7 @@
             "nobles": [
                 {
                     "name": "诸行无常·盛者必衰",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B+",
                     "type": "对人奥义",
@@ -372,11 +372,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101000/1101000a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11010000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101000/1101000@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101000/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1101000/1101000a@1.png",
+                "faces": "CN/Faces/f_11010000.png",
+                "narrow_figure": "CN/NarrowFigure/1101000/1101000@0.png",
+                "command": "CN/Servants/Commands/1101000/card_servant_1.png",
+                "status": "CN/Servants/Status/1101000/status_servant_1.png"
             }
         },
         {
@@ -393,7 +393,7 @@
                 {
                     "slot": 1,
                     "name": "源氏，受死吧 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -471,7 +471,7 @@
                 {
                     "slot": 2,
                     "name": "景清不死 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -522,7 +522,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
@@ -551,7 +551,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -571,7 +571,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -592,7 +592,7 @@
             "nobles": [
                 {
                     "name": "诸行无常·盛者必衰",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B+",
                     "type": "对人奥义",
@@ -643,11 +643,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101000/1101000a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11010001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101000/1101000@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101000/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1101000/1101000a@2.png",
+                "faces": "CN/Faces/f_11010001.png",
+                "narrow_figure": "CN/NarrowFigure/1101000/1101000@1.png",
+                "command": "CN/Servants/Commands/1101000/card_servant_2.png",
+                "status": "CN/Servants/Status/1101000/status_servant_2.png"
             }
         },
         {
@@ -664,7 +664,7 @@
                 {
                     "slot": 1,
                     "name": "源氏，受死吧 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -742,7 +742,7 @@
                 {
                     "slot": 2,
                     "name": "景清不死 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -793,7 +793,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
@@ -822,7 +822,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -842,7 +842,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -863,7 +863,7 @@
             "nobles": [
                 {
                     "name": "诸行无常·盛者必衰",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B+",
                     "type": "对人奥义",
@@ -914,11 +914,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101000/1101000b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11010002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101000/1101000@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1101000/1101000b@1.png",
+                "faces": "CN/Faces/f_11010002.png",
+                "narrow_figure": "CN/NarrowFigure/1101000/1101000@2.png",
+                "command": "CN/Servants/Commands/1101000/card_servant_3.png",
+                "status": "CN/Servants/Status/1101000/status_servant_3.png"
             }
         },
         {
@@ -935,7 +935,7 @@
                 {
                     "slot": 1,
                     "name": "源氏，受死吧 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1013,7 +1013,7 @@
                 {
                     "slot": 2,
                     "name": "景清不死 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -1062,7 +1062,7 @@
                 {
                     "slot": 3,
                     "name": "痣丸之雾 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1111,7 +1111,7 @@
                 {
                     "slot": 3,
                     "name": "痣丸之雾 B++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1198,7 +1198,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00107.png",
+                    "icon": "CN/SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(22%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(12%)",
@@ -1227,7 +1227,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00108.png",
+                    "icon": "CN/SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -1247,7 +1247,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00109.png",
+                    "icon": "CN/SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -1268,7 +1268,7 @@
             "nobles": [
                 {
                     "name": "诸行无常·盛者必衰",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1101000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B+",
                     "type": "对人奥义",
@@ -1319,11 +1319,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1101000/1101000b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_11010003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1101000/1101000_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1101000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1101000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1101000/1101000b@2.png",
+                "faces": "CN/Faces/f_11010003.png",
+                "narrow_figure": "CN/NarrowFigure/1101000/1101000_2@0.png",
+                "command": "CN/Servants/Commands/1101000/card_servant_3.png",
+                "status": "CN/Servants/Status/1101000/status_servant_3.png"
             }
         }
     ]

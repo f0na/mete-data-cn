@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对枪兵攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "诸神之王 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -215,7 +215,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -235,7 +235,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -255,7 +255,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -275,7 +275,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(195)",
@@ -295,7 +295,7 @@
                 {
                     "slot": 0,
                     "name": "千眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "icon": "CN/SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10%)＆暴击威力提升(10%)",
@@ -324,7 +324,7 @@
                 {
                     "slot": 0,
                     "name": "痛饮者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00611.png",
+                    "icon": "CN/SkillIcons/skill_00611.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的生命值回复量提升(20%)＆付与「受到生命值回复效果或最大生命值提升效果时<除每回合生命值回复效果、概念礼装·指令纹章造成的效果以外>，自身宝具值小幅增加」的状态(10%)",
@@ -354,7 +354,7 @@
             "nobles": [
                 {
                     "name": "神之雷",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对神敌宝具",
@@ -407,11 +407,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305900/305900a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3059000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305900/305900@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305900/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/305900/305900a@1.png",
+                "faces": "CN/Faces/f_3059000.png",
+                "narrow_figure": "CN/NarrowFigure/305900/305900@0.png",
+                "command": "CN/Servants/Commands/305900/card_servant_1.png",
+                "status": "CN/Servants/Status/305900/status_servant_1.png"
             }
         },
         {
@@ -428,7 +428,7 @@
                 {
                     "slot": 1,
                     "name": "诸神之王 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -470,7 +470,7 @@
                 {
                     "slot": 2,
                     "name": "魔力放出（神雷） A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "icon": "CN/SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -559,7 +559,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -579,7 +579,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -599,7 +599,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -619,7 +619,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(195)",
@@ -639,7 +639,7 @@
                 {
                     "slot": 0,
                     "name": "千眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "icon": "CN/SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10%)＆暴击威力提升(10%)",
@@ -668,7 +668,7 @@
                 {
                     "slot": 0,
                     "name": "痛饮者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00611.png",
+                    "icon": "CN/SkillIcons/skill_00611.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的生命值回复量提升(20%)＆付与「受到生命值回复效果或最大生命值提升效果时<除每回合生命值回复效果、概念礼装·指令纹章造成的效果以外>，自身宝具值小幅增加」的状态(10%)",
@@ -698,7 +698,7 @@
             "nobles": [
                 {
                     "name": "神之雷",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对神敌宝具",
@@ -751,11 +751,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305900/305900a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3059001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305900/305900@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305900/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/305900/305900a@2.png",
+                "faces": "CN/Faces/f_3059001.png",
+                "narrow_figure": "CN/NarrowFigure/305900/305900@1.png",
+                "command": "CN/Servants/Commands/305900/card_servant_2.png",
+                "status": "CN/Servants/Status/305900/status_servant_2.png"
             }
         },
         {
@@ -772,7 +772,7 @@
                 {
                     "slot": 1,
                     "name": "诸神之王 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -814,7 +814,7 @@
                 {
                     "slot": 2,
                     "name": "魔力放出（神雷） A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "icon": "CN/SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -903,7 +903,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -923,7 +923,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -943,7 +943,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -963,7 +963,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(195)",
@@ -983,7 +983,7 @@
                 {
                     "slot": 0,
                     "name": "千眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "icon": "CN/SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10%)＆暴击威力提升(10%)",
@@ -1012,7 +1012,7 @@
                 {
                     "slot": 0,
                     "name": "痛饮者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00611.png",
+                    "icon": "CN/SkillIcons/skill_00611.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的生命值回复量提升(20%)＆付与「受到生命值回复效果或最大生命值提升效果时<除每回合生命值回复效果、概念礼装·指令纹章造成的效果以外>，自身宝具值小幅增加」的状态(10%)",
@@ -1042,7 +1042,7 @@
             "nobles": [
                 {
                     "name": "神之雷",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对神敌宝具",
@@ -1095,11 +1095,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305900/305900b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3059002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305900/305900@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/305900/305900b@1.png",
+                "faces": "CN/Faces/f_3059002.png",
+                "narrow_figure": "CN/NarrowFigure/305900/305900@2.png",
+                "command": "CN/Servants/Commands/305900/card_servant_3.png",
+                "status": "CN/Servants/Status/305900/status_servant_3.png"
             }
         },
         {
@@ -1116,7 +1116,7 @@
                 {
                     "slot": 1,
                     "name": "诸神之王 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1158,7 +1158,7 @@
                 {
                     "slot": 2,
                     "name": "魔力放出（神雷） A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00317.png",
+                    "icon": "CN/SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1245,7 +1245,7 @@
                 {
                     "slot": 3,
                     "name": "弗栗多罕 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1334,7 +1334,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1354,7 +1354,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1374,7 +1374,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1394,7 +1394,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(195)",
@@ -1414,7 +1414,7 @@
                 {
                     "slot": 0,
                     "name": "千眼",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00604.png",
+                    "icon": "CN/SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10%)＆暴击威力提升(10%)",
@@ -1443,7 +1443,7 @@
                 {
                     "slot": 0,
                     "name": "痛饮者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00611.png",
+                    "icon": "CN/SkillIcons/skill_00611.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的生命值回复量提升(20%)＆付与「受到生命值回复效果或最大生命值提升效果时<除每回合生命值回复效果、概念礼装·指令纹章造成的效果以外>，自身宝具值小幅增加」的状态(10%)",
@@ -1473,7 +1473,7 @@
             "nobles": [
                 {
                     "name": "神之雷",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305900/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对神敌宝具",
@@ -1526,11 +1526,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305900/305900b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3059003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305900/305900_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/305900/305900b@2.png",
+                "faces": "CN/Faces/f_3059003.png",
+                "narrow_figure": "CN/NarrowFigure/305900/305900_2@0.png",
+                "command": "CN/Servants/Commands/305900/card_servant_3.png",
+                "status": "CN/Servants/Status/305900/status_servant_3.png"
             }
         }
     ]

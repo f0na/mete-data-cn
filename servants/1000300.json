@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "千里眼（兽） D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00502.png",
+                    "icon": "CN/SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -224,7 +224,7 @@
                 {
                     "slot": 0,
                     "name": "兽之权能",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -244,7 +244,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -282,7 +282,7 @@
                 {
                     "slot": 0,
                     "name": "理性吞噬",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自人型敌方攻击的防御力提升(16%)",
@@ -302,7 +302,7 @@
                 {
                     "slot": 0,
                     "name": "Nega Saver",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Ruler职阶的攻击优势状态(150%)",
@@ -323,7 +323,7 @@
             "nobles": [
                 {
                     "name": "快乐天·胎藏曼荼罗",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -367,11 +367,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000300/1000300a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10003000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000300/1000300@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000300/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1000300/1000300a@1.png",
+                "faces": "CN/Faces/f_10003000.png",
+                "narrow_figure": "CN/NarrowFigure/1000300/1000300@0.png",
+                "command": "CN/Servants/Commands/1000300/card_servant_1.png",
+                "status": "CN/Servants/Status/1000300/status_servant_1.png"
             }
         },
         {
@@ -388,7 +388,7 @@
                 {
                     "slot": 1,
                     "name": "千里眼（兽） D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00502.png",
+                    "icon": "CN/SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -439,7 +439,7 @@
                 {
                     "slot": 2,
                     "name": "五停心观 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00513.png",
+                    "icon": "CN/SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -481,7 +481,7 @@
                 {
                     "slot": 0,
                     "name": "兽之权能",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -501,7 +501,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -539,7 +539,7 @@
                 {
                     "slot": 0,
                     "name": "理性吞噬",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自人型敌方攻击的防御力提升(16%)",
@@ -559,7 +559,7 @@
                 {
                     "slot": 0,
                     "name": "Nega Saver",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Ruler职阶的攻击优势状态(150%)",
@@ -580,7 +580,7 @@
             "nobles": [
                 {
                     "name": "快乐天·胎藏曼荼罗",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -624,11 +624,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000300/1000300a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10003001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000300/1000300@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000300/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1000300/1000300a@2.png",
+                "faces": "CN/Faces/f_10003001.png",
+                "narrow_figure": "CN/NarrowFigure/1000300/1000300@1.png",
+                "command": "CN/Servants/Commands/1000300/card_servant_2.png",
+                "status": "CN/Servants/Status/1000300/status_servant_2.png"
             }
         },
         {
@@ -645,7 +645,7 @@
                 {
                     "slot": 1,
                     "name": "千里眼（兽） D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00502.png",
+                    "icon": "CN/SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -696,7 +696,7 @@
                 {
                     "slot": 2,
                     "name": "五停心观 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00513.png",
+                    "icon": "CN/SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -738,7 +738,7 @@
                 {
                     "slot": 0,
                     "name": "兽之权能",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -758,7 +758,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -796,7 +796,7 @@
                 {
                     "slot": 0,
                     "name": "理性吞噬",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自人型敌方攻击的防御力提升(16%)",
@@ -816,7 +816,7 @@
                 {
                     "slot": 0,
                     "name": "Nega Saver",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Ruler职阶的攻击优势状态(150%)",
@@ -837,7 +837,7 @@
             "nobles": [
                 {
                     "name": "快乐天·胎藏曼荼罗",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -881,11 +881,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000300/1000300b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10003002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000300/1000300@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000300/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1000300/1000300b@1.png",
+                "faces": "CN/Faces/f_10003002.png",
+                "narrow_figure": "CN/NarrowFigure/1000300/1000300@2.png",
+                "command": "CN/Servants/Commands/1000300/card_servant_3.png",
+                "status": "CN/Servants/Status/1000300/status_servant_3.png"
             }
         },
         {
@@ -902,7 +902,7 @@
                 {
                     "slot": 1,
                     "name": "千里眼（兽） D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00502.png",
+                    "icon": "CN/SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -953,7 +953,7 @@
                 {
                     "slot": 1,
                     "name": "千里眼（兽） D+++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00502.png",
+                    "icon": "CN/SkillIcons/skill_00502.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1022,7 +1022,7 @@
                 {
                     "slot": 2,
                     "name": "五停心观 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00513.png",
+                    "icon": "CN/SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1062,7 +1062,7 @@
                 {
                     "slot": 2,
                     "name": "五停心观 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00513.png",
+                    "icon": "CN/SkillIcons/skill_00513.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1109,7 +1109,7 @@
                 {
                     "slot": 3,
                     "name": "女神变生 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1158,7 +1158,7 @@
                 {
                     "slot": 3,
                     "name": "魔性变生 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1243,7 +1243,7 @@
                 {
                     "slot": 0,
                     "name": "兽之权能",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1263,7 +1263,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(2%)＆即死耐性提升(2%)＆精神异常耐性提升(2%)",
@@ -1301,7 +1301,7 @@
                 {
                     "slot": 0,
                     "name": "理性吞噬",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对来自人型敌方攻击的防御力提升(16%)",
@@ -1321,7 +1321,7 @@
                 {
                     "slot": 0,
                     "name": "Nega Saver",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Ruler职阶的攻击优势状态(150%)",
@@ -1342,7 +1342,7 @@
             "nobles": [
                 {
                     "name": "快乐天·胎藏曼荼罗",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1386,7 +1386,7 @@
                 },
                 {
                     "name": "快乐天·胎藏曼荼罗",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1430,11 +1430,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000300/1000300b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10003003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000300/1000300_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000300/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000300/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1000300/1000300b@2.png",
+                "faces": "CN/Faces/f_10003003.png",
+                "narrow_figure": "CN/NarrowFigure/1000300/1000300_2@0.png",
+                "command": "CN/Servants/Commands/1000300/card_servant_3.png",
+                "status": "CN/Servants/Status/1000300/status_servant_3.png"
             }
         }
     ]

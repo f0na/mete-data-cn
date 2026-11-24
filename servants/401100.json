@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "向女神起誓 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -206,7 +206,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -226,7 +226,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -247,7 +247,7 @@
             "nobles": [
                 {
                     "name": "无以誓约守护之车轮",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/401100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -284,11 +284,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/401100/401100a@1.png",
+                "faces": "CN/Faces/f_4011000.png",
+                "narrow_figure": "CN/NarrowFigure/401100/401100@0.png",
+                "command": "CN/Servants/Commands/401100/card_servant_1.png",
+                "status": "CN/Servants/Status/401100/status_servant_1.png"
             }
         },
         {
@@ -305,7 +305,7 @@
                 {
                     "slot": 1,
                     "name": "向女神起誓 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -338,7 +338,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -373,7 +373,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -393,7 +393,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -414,7 +414,7 @@
             "nobles": [
                 {
                     "name": "无以誓约守护之车轮",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/401100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -451,11 +451,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/401100/401100a@2.png",
+                "faces": "CN/Faces/f_4011001.png",
+                "narrow_figure": "CN/NarrowFigure/401100/401100@1.png",
+                "command": "CN/Servants/Commands/401100/card_servant_2.png",
+                "status": "CN/Servants/Status/401100/status_servant_2.png"
             }
         },
         {
@@ -472,7 +472,7 @@
                 {
                     "slot": 1,
                     "name": "向女神起誓 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -505,7 +505,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -540,7 +540,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -560,7 +560,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -581,7 +581,7 @@
             "nobles": [
                 {
                     "name": "无以誓约守护之车轮",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/401100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -618,11 +618,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/401100/401100b@1.png",
+                "faces": "CN/Faces/f_4011002.png",
+                "narrow_figure": "CN/NarrowFigure/401100/401100@2.png",
+                "command": "CN/Servants/Commands/401100/card_servant_3.png",
+                "status": "CN/Servants/Status/401100/status_servant_3.png"
             }
         },
         {
@@ -639,7 +639,7 @@
                 {
                     "slot": 1,
                     "name": "向女神起誓 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -672,7 +672,7 @@
                 {
                     "slot": 1,
                     "name": "胜利女王 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+                    "icon": "CN/SkillIcons/skill_00301.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -723,7 +723,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -756,7 +756,7 @@
                 {
                     "slot": 2,
                     "name": "战场之粮 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00404.png",
+                    "icon": "CN/SkillIcons/skill_00404.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -807,7 +807,7 @@
                 {
                     "slot": 3,
                     "name": "安德拉斯特的加护 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -842,7 +842,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -862,7 +862,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -883,7 +883,7 @@
             "nobles": [
                 {
                     "name": "无以誓约守护之车轮",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/401100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -920,7 +920,7 @@
                 },
                 {
                     "name": "无以誓约守护之车轮",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/401100/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B++",
                     "type": "对军宝具",
@@ -970,11 +970,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/401100/401100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_4011003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/401100/401100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/401100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/401100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/401100/401100b@2.png",
+                "faces": "CN/Faces/f_4011003.png",
+                "narrow_figure": "CN/NarrowFigure/401100/401100_2@0.png",
+                "command": "CN/Servants/Commands/401100/card_servant_3.png",
+                "status": "CN/Servants/Status/401100/status_servant_3.png"
             }
         }
     ]

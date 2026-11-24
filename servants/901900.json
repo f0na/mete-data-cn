@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "真名七十二 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -238,7 +238,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现（天使）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)＆付与被伤害减免状态(200)",
@@ -267,7 +267,7 @@
                 {
                     "slot": 0,
                     "name": "玉座作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -294,7 +294,7 @@
                 {
                     "slot": 0,
                     "name": "大天使的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具威力提升(8%)",
@@ -323,7 +323,7 @@
                 {
                     "slot": 0,
                     "name": "■■■■■■■■■■",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的精神异常耐性提升(30%)＆睡眠耐性大下降【负面效果】(50%)",
@@ -353,7 +353,7 @@
             "nobles": [
                 {
                     "name": "所司者，全知全能也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/901900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具（自身）",
@@ -426,11 +426,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/901900/901900a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_9019000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/901900/901900@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/901900/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/901900/901900a@1.png",
+                "faces": "CN/Faces/f_9019000.png",
+                "narrow_figure": "CN/NarrowFigure/901900/901900@0.png",
+                "command": "CN/Servants/Commands/901900/card_servant_1.png",
+                "status": "CN/Servants/Status/901900/status_servant_1.png"
             }
         },
         {
@@ -447,7 +447,7 @@
                 {
                     "slot": 1,
                     "name": "真名七十二 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -512,7 +512,7 @@
                 {
                     "slot": 2,
                     "name": "契约天使 B+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00609.png",
+                    "icon": "CN/SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -572,7 +572,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现（天使）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)＆付与被伤害减免状态(200)",
@@ -601,7 +601,7 @@
                 {
                     "slot": 0,
                     "name": "玉座作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -628,7 +628,7 @@
                 {
                     "slot": 0,
                     "name": "大天使的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具威力提升(8%)",
@@ -657,7 +657,7 @@
                 {
                     "slot": 0,
                     "name": "■■■■■■■■■■",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的精神异常耐性提升(30%)＆睡眠耐性大下降【负面效果】(50%)",
@@ -687,7 +687,7 @@
             "nobles": [
                 {
                     "name": "所司者，全知全能也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/901900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具（自身）",
@@ -760,11 +760,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/901900/901900a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_9019001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/901900/901900@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/901900/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/901900/901900a@2.png",
+                "faces": "CN/Faces/f_9019001.png",
+                "narrow_figure": "CN/NarrowFigure/901900/901900@1.png",
+                "command": "CN/Servants/Commands/901900/card_servant_2.png",
+                "status": "CN/Servants/Status/901900/status_servant_2.png"
             }
         },
         {
@@ -781,7 +781,7 @@
                 {
                     "slot": 1,
                     "name": "真名七十二 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -846,7 +846,7 @@
                 {
                     "slot": 2,
                     "name": "契约天使 B+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00609.png",
+                    "icon": "CN/SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -906,7 +906,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现（天使）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)＆付与被伤害减免状态(200)",
@@ -935,7 +935,7 @@
                 {
                     "slot": 0,
                     "name": "玉座作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -962,7 +962,7 @@
                 {
                     "slot": 0,
                     "name": "大天使的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具威力提升(8%)",
@@ -991,7 +991,7 @@
                 {
                     "slot": 0,
                     "name": "■■■■■■■■■■",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的精神异常耐性提升(30%)＆睡眠耐性大下降【负面效果】(50%)",
@@ -1021,7 +1021,7 @@
             "nobles": [
                 {
                     "name": "所司者，全知全能也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/901900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具（自身）",
@@ -1094,11 +1094,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/901900/901900b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_9019002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/901900/901900@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/901900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/901900/901900b@1.png",
+                "faces": "CN/Faces/f_9019002.png",
+                "narrow_figure": "CN/NarrowFigure/901900/901900@2.png",
+                "command": "CN/Servants/Commands/901900/card_servant_3.png",
+                "status": "CN/Servants/Status/901900/status_servant_3.png"
             }
         },
         {
@@ -1115,7 +1115,7 @@
                 {
                     "slot": 1,
                     "name": "真名七十二 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00416.png",
+                    "icon": "CN/SkillIcons/skill_00416.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1180,7 +1180,7 @@
                 {
                     "slot": 2,
                     "name": "契约天使 B+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00609.png",
+                    "icon": "CN/SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1238,7 +1238,7 @@
                 {
                     "slot": 3,
                     "name": "绝对的代行者 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1298,7 +1298,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现（天使）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)＆付与被伤害减免状态(200)",
@@ -1327,7 +1327,7 @@
                 {
                     "slot": 0,
                     "name": "玉座作成",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00605.png",
+                    "icon": "CN/SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得5个暴击星的状态＆付与每回合获得宝具值的状态(5%)",
@@ -1354,7 +1354,7 @@
                 {
                     "slot": 0,
                     "name": "大天使的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具威力提升(8%)",
@@ -1383,7 +1383,7 @@
                 {
                     "slot": 0,
                     "name": "■■■■■■■■■■",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的精神异常耐性提升(30%)＆睡眠耐性大下降【负面效果】(50%)",
@@ -1413,7 +1413,7 @@
             "nobles": [
                 {
                     "name": "所司者，全知全能也",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/901900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具（自身）",
@@ -1486,11 +1486,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/901900/901900b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_9019003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/901900/901900_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/901900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/901900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/901900/901900b@2.png",
+                "faces": "CN/Faces/f_9019003.png",
+                "narrow_figure": "CN/NarrowFigure/901900/901900_2@0.png",
+                "command": "CN/Servants/Commands/901900/card_servant_3.png",
+                "status": "CN/Servants/Status/901900/status_servant_3.png"
             }
         }
     ]

@@ -16,7 +16,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -49,7 +49,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -91,7 +91,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -111,7 +111,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -131,11 +131,11 @@
             ],
             "nobles": [],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800100/800100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800100/800100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/800100/800100a@1.png",
+                "faces": "CN/Faces/f_8001000.png",
+                "narrow_figure": "CN/NarrowFigure/800100/800100@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_1.png",
+                "status": "CN/Servants/Status/800100/status_servant_1.png"
             }
         },
         {
@@ -152,7 +152,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -185,7 +185,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -225,7 +225,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -278,7 +278,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -298,7 +298,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -318,11 +318,11 @@
             ],
             "nobles": [],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800100/800100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800100/800100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/800100/800100a@2.png",
+                "faces": "CN/Faces/f_8001001.png",
+                "narrow_figure": "CN/NarrowFigure/800100/800100@1.png",
+                "command": "CN/Servants/Commands/800100/card_servant_2.png",
+                "status": "CN/Servants/Status/800100/status_servant_2.png"
             }
         },
         {
@@ -339,7 +339,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -372,7 +372,7 @@
                 {
                     "slot": 1,
                     "name": "荣光坚毅的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -414,7 +414,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -454,7 +454,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -507,7 +507,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -527,7 +527,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -548,7 +548,7 @@
             "nobles": [
                 {
                     "name": "已然遥远的理想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np1.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np1.png",
                     "card": "Arts",
                     "rank": "B+++",
                     "type": "对恶宝具",
@@ -594,11 +594,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800100/800100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800100/800100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/800100/800100b@1.png",
+                "faces": "CN/Faces/f_8001002.png",
+                "narrow_figure": "CN/NarrowFigure/800100/800100@2.png",
+                "command": "CN/Servants/Commands/800100/card_servant_3.png",
+                "status": "CN/Servants/Status/800100/status_servant_3.png"
             }
         },
         {
@@ -615,7 +615,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -648,7 +648,7 @@
                 {
                     "slot": 1,
                     "name": "荣光坚毅的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -690,7 +690,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -730,7 +730,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -783,7 +783,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -803,7 +803,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -823,7 +823,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -844,7 +844,7 @@
             "nobles": [
                 {
                     "name": "已然遥远的理想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np1.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np1.png",
                     "card": "Arts",
                     "rank": "B+++",
                     "type": "对恶宝具",
@@ -890,11 +890,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800100/800100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800100/800100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/800100/800100b@2.png",
+                "faces": "CN/Faces/f_8001003.png",
+                "narrow_figure": "CN/NarrowFigure/800100/800100_2@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_3.png",
+                "status": "CN/Servants/Status/800100/status_servant_3.png"
             }
         },
         {
@@ -911,7 +911,7 @@
                 {
                     "slot": 1,
                     "name": "掩体雷弹 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "icon": "CN/SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -962,7 +962,7 @@
                 {
                     "slot": 1,
                     "name": "悖论构造体 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "icon": "CN/SkillIcons/skill_00306.png",
                     "strength": 1,
                     "cool_down": [
                         6,
@@ -1020,7 +1020,7 @@
                 {
                     "slot": 2,
                     "name": "软银替身 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1062,7 +1062,7 @@
                 {
                     "slot": 3,
                     "name": "悲壮奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1111,7 +1111,7 @@
                 {
                     "slot": 3,
                     "name": "悖论气缸 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 1,
                     "cool_down": [
                         9,
@@ -1187,7 +1187,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1207,7 +1207,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -1227,7 +1227,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -1248,7 +1248,7 @@
             "nobles": [
                 {
                     "name": "已然脆弱的梦想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np2.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np2.png",
                     "card": "Arts",
                     "rank": "D",
                     "type": "对人宝具",
@@ -1285,7 +1285,7 @@
                 },
                 {
                     "name": "依然存在的梦想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np3.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np3.png",
                     "card": "Arts",
                     "rank": "C",
                     "type": "对人宝具",
@@ -1335,11 +1335,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800140/800140a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001400.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800140/800140@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_12.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_12.png"
+                "chara_graph": "CN/CharaGraph/800140/800140a.png",
+                "faces": "CN/Faces/f_8001400.png",
+                "narrow_figure": "CN/NarrowFigure/800140/800140@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_12.png",
+                "status": "CN/Servants/Status/800100/status_servant_12.png"
             }
         },
         {
@@ -1356,7 +1356,7 @@
                 {
                     "slot": 1,
                     "name": "掩体雷弹 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "icon": "CN/SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -1407,7 +1407,7 @@
                 {
                     "slot": 1,
                     "name": "悖论构造体 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00306.png",
+                    "icon": "CN/SkillIcons/skill_00306.png",
                     "strength": 1,
                     "cool_down": [
                         6,
@@ -1465,7 +1465,7 @@
                 {
                     "slot": 2,
                     "name": "软银替身 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1507,7 +1507,7 @@
                 {
                     "slot": 3,
                     "name": "悲壮奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1556,7 +1556,7 @@
                 {
                     "slot": 3,
                     "name": "悖论气缸 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 1,
                     "cool_down": [
                         9,
@@ -1632,7 +1632,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1652,7 +1652,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -1672,7 +1672,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -1693,7 +1693,7 @@
             "nobles": [
                 {
                     "name": "已然脆弱的梦想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np2.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np2.png",
                     "card": "Arts",
                     "rank": "D",
                     "type": "对人宝具",
@@ -1730,7 +1730,7 @@
                 },
                 {
                     "name": "依然存在的梦想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np3.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np3.png",
                     "card": "Arts",
                     "rank": "C",
                     "type": "对人宝具",
@@ -1780,11 +1780,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800150/800150a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001500.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800150/800150@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_13.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_13.png"
+                "chara_graph": "CN/CharaGraph/800150/800150a.png",
+                "faces": "CN/Faces/f_8001500.png",
+                "narrow_figure": "CN/NarrowFigure/800150/800150@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_13.png",
+                "status": "CN/Servants/Status/800100/status_servant_13.png"
             }
         },
         {
@@ -1801,7 +1801,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1834,7 +1834,7 @@
                 {
                     "slot": 1,
                     "name": "荣光坚毅的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1876,7 +1876,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1916,7 +1916,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1969,7 +1969,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1989,7 +1989,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -2009,7 +2009,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -2030,7 +2030,7 @@
             "nobles": [
                 {
                     "name": "已然遥远的理想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np1.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np1.png",
                     "card": "Arts",
                     "rank": "B+++",
                     "type": "对恶宝具",
@@ -2076,11 +2076,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800130/800130a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001300.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800130/800130@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_11.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_11.png"
+                "chara_graph": "CN/CharaGraph/800130/800130a.png",
+                "faces": "CN/Faces/f_8001300.png",
+                "narrow_figure": "CN/NarrowFigure/800130/800130@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_11.png",
+                "status": "CN/Servants/Status/800100/status_servant_11.png"
             }
         },
         {
@@ -2097,7 +2097,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2130,7 +2130,7 @@
                 {
                     "slot": 1,
                     "name": "荣光坚毅的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -2172,7 +2172,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -2212,7 +2212,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2265,7 +2265,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -2285,7 +2285,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -2305,7 +2305,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -2326,7 +2326,7 @@
             "nobles": [
                 {
                     "name": "已然遥远的理想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np1.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np1.png",
                     "card": "Arts",
                     "rank": "B+++",
                     "type": "对恶宝具",
@@ -2372,11 +2372,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800160/800160a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001600.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800160/800160@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_14.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_14.png"
+                "chara_graph": "CN/CharaGraph/800160/800160a.png",
+                "faces": "CN/Faces/f_8001600.png",
+                "narrow_figure": "CN/NarrowFigure/800160/800160@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_14.png",
+                "status": "CN/Servants/Status/800100/status_servant_14.png"
             }
         },
         {
@@ -2393,7 +2393,7 @@
                 {
                     "slot": 1,
                     "name": "现为脆弱的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2426,7 +2426,7 @@
                 {
                     "slot": 1,
                     "name": "荣光坚毅的雪花之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -2468,7 +2468,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00403.png",
+                    "icon": "CN/SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -2508,7 +2508,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2561,7 +2561,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -2581,7 +2581,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升",
@@ -2601,7 +2601,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -2622,7 +2622,7 @@
             "nobles": [
                 {
                     "name": "已然遥远的理想之城",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np1.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np1.png",
                     "card": "Arts",
                     "rank": "B+++",
                     "type": "对恶宝具",
@@ -2668,11 +2668,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800170/800170a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001700.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800170/800170@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_15.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_15.png"
+                "chara_graph": "CN/CharaGraph/800170/800170a.png",
+                "faces": "CN/Faces/f_8001700.png",
+                "narrow_figure": "CN/NarrowFigure/800170/800170@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_15.png",
+                "status": "CN/Servants/Status/800100/status_servant_15.png"
             }
         },
         {
@@ -2689,7 +2689,7 @@
                 {
                     "slot": 1,
                     "name": "荣光崇高的雪花之盾 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2776,7 +2776,7 @@
                 {
                     "slot": 2,
                     "name": "时为朦胧的白垩之壁 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00419.png",
+                    "icon": "CN/SkillIcons/skill_00419.png",
                     "strength": 0,
                     "switch_cond": "普通时",
                     "cool_down": [
@@ -2824,7 +2824,7 @@
                 {
                     "slot": 2,
                     "name": "测定时间的紫弹之薪 B",
-                    "icon": "https://media.fgo.wiki/d/d9/%E5%AE%9D%E5%85%B7%E5%A8%81%E5%8A%9B%E6%8F%90%E5%8D%87.png",
+                    "icon": "fgo.wiki/d/d9/宝具威力提升.png",
                     "strength": 0,
                     "switch_cond": "圣剑装填时",
                     "cool_down": [
@@ -2874,7 +2874,7 @@
                 {
                     "slot": 3,
                     "name": "决意奋起之盾 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2936,7 +2936,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -2946,7 +2946,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的Quick指令卡性能小幅提升(6%)",
@@ -2956,7 +2956,7 @@
                 {
                     "slot": 0,
                     "name": "己阵防御 C",
-                    "icon": "https://media.fgo.wiki/3/31/%E5%B7%B1%E9%98%B5%E9%98%B2%E5%BE%A1.png",
+                    "icon": "fgo.wiki/3/31/己阵防御.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身「令除自身以外己方全体的一定伤害以上的伤害抑制至一定伤害」的状态(5次)(1000伤害以上·抑制至1000伤害)",
@@ -2966,7 +2966,7 @@
                 {
                     "slot": 0,
                     "name": "凭依继承 ？",
-                    "icon": "https://media.fgo.wiki/3/31/%E5%B7%B1%E9%98%B5%E9%98%B2%E5%BE%A1.png",
+                    "icon": "fgo.wiki/3/31/己阵防御.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身被伤害减免状态(1000)",
@@ -2976,7 +2976,7 @@
                 {
                     "slot": 0,
                     "name": "占星的旅途",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00205.png",
+                    "icon": "CN/SkillIcons/skill_00205.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "通关第二部主线关卡时,己方全体＜包括替补＞的牵绊获得量提升20%(作为助战时无效)",
@@ -2987,7 +2987,7 @@
             "nobles": [
                 {
                     "name": "构筑希望的人理之盾",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np4.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np4.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -3064,7 +3064,7 @@
                 },
                 {
                     "name": "印证希望的人理之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_np5.png",
+                    "icon": "CN/Servants/Commands/800100/card_servant_np5.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -3132,11 +3132,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/800190/800190a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_8001900.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/800190/800190@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/800100/card_servant_17.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/800100/status_servant_17.png"
+                "chara_graph": "CN/CharaGraph/800190/800190a.png",
+                "faces": "CN/Faces/f_8001900.png",
+                "narrow_figure": "CN/NarrowFigure/800190/800190@0.png",
+                "command": "CN/Servants/Commands/800100/card_servant_17.png",
+                "status": "CN/Servants/Status/800100/status_servant_17.png"
             }
         }
     ],
@@ -3152,7 +3152,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升",
@@ -3181,7 +3181,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以NP已达一定数值的状态开始战斗",
@@ -3210,7 +3210,7 @@
         {
             "slot": 0,
             "name": "对额外职阶攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔额外职阶〕职阶的攻击力提升",
@@ -3239,7 +3239,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -3268,7 +3268,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「使用技能后，所使用技能的充能减少1」的状态(1次<Lv.6～9为2次，Lv.10为3次，每个技能限1次>)",

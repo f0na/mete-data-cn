@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对枪兵暴击耐性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "icon": "CN/SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔枪兵〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "加速过弯 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能小幅提升(4%)",
@@ -273,7 +273,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(125)",
@@ -294,7 +294,7 @@
             "nobles": [
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -340,11 +340,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703600/703600a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7036000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703600/703600@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703600/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/703600/703600a@1.png",
+                "faces": "CN/Faces/f_7036000.png",
+                "narrow_figure": "CN/NarrowFigure/703600/703600@0.png",
+                "command": "CN/Servants/Commands/703600/card_servant_1.png",
+                "status": "CN/Servants/Status/703600/status_servant_1.png"
             }
         },
         {
@@ -361,7 +361,7 @@
                 {
                     "slot": 1,
                     "name": "加速过弯 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -401,7 +401,7 @@
                 {
                     "slot": 2,
                     "name": "第五盛 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00331.png",
+                    "icon": "CN/SkillIcons/skill_00331.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -454,7 +454,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -474,7 +474,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -494,7 +494,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能小幅提升(4%)",
@@ -514,7 +514,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(125)",
@@ -535,7 +535,7 @@
             "nobles": [
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -581,11 +581,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703600/703600a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7036001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703600/703600@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703600/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/703600/703600a@2.png",
+                "faces": "CN/Faces/f_7036001.png",
+                "narrow_figure": "CN/NarrowFigure/703600/703600@1.png",
+                "command": "CN/Servants/Commands/703600/card_servant_2.png",
+                "status": "CN/Servants/Status/703600/status_servant_2.png"
             }
         },
         {
@@ -602,7 +602,7 @@
                 {
                     "slot": 1,
                     "name": "加速过弯 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -642,7 +642,7 @@
                 {
                     "slot": 2,
                     "name": "第五盛 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00331.png",
+                    "icon": "CN/SkillIcons/skill_00331.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -695,7 +695,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -715,7 +715,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -735,7 +735,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能小幅提升(4%)",
@@ -755,7 +755,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(125)",
@@ -776,7 +776,7 @@
             "nobles": [
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -822,11 +822,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703600/703600b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7036002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703600/703600@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703600/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/703600/703600b@1.png",
+                "faces": "CN/Faces/f_7036002.png",
+                "narrow_figure": "CN/NarrowFigure/703600/703600@2.png",
+                "command": "CN/Servants/Commands/703600/card_servant_3.png",
+                "status": "CN/Servants/Status/703600/status_servant_3.png"
             }
         },
         {
@@ -843,7 +843,7 @@
                 {
                     "slot": 1,
                     "name": "加速过弯 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -883,7 +883,7 @@
                 {
                     "slot": 2,
                     "name": "第五盛 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00331.png",
+                    "icon": "CN/SkillIcons/skill_00331.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -934,7 +934,7 @@
                 {
                     "slot": 3,
                     "name": "天魔轰眼 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "icon": "CN/SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1012,7 +1012,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -1032,7 +1032,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -1052,7 +1052,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能小幅提升(4%)",
@@ -1072,7 +1072,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(125)",
@@ -1093,7 +1093,7 @@
             "nobles": [
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1139,7 +1139,7 @@
                 },
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1198,11 +1198,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703600/703600b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7036003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703600/703600_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703600/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/703600/703600b@2.png",
+                "faces": "CN/Faces/f_7036003.png",
+                "narrow_figure": "CN/NarrowFigure/703600/703600_2@0.png",
+                "command": "CN/Servants/Commands/703600/card_servant_3.png",
+                "status": "CN/Servants/Status/703600/status_servant_3.png"
             }
         },
         {
@@ -1219,7 +1219,7 @@
                 {
                     "slot": 1,
                     "name": "加速过弯 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -1259,7 +1259,7 @@
                 {
                     "slot": 2,
                     "name": "第五盛 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00331.png",
+                    "icon": "CN/SkillIcons/skill_00331.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1310,7 +1310,7 @@
                 {
                     "slot": 3,
                     "name": "天魔轰眼 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00312.png",
+                    "icon": "CN/SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1388,7 +1388,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -1408,7 +1408,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -1428,7 +1428,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能小幅提升(4%)",
@@ -1448,7 +1448,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(125)",
@@ -1469,7 +1469,7 @@
             "nobles": [
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1515,7 +1515,7 @@
                 },
                 {
                     "name": "破魔剑，谨承！",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/703600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1574,11 +1574,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/703630/703630a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7036300.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/703630/703630@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/703600/card_servant_11.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/703600/status_servant_11.png"
+                "chara_graph": "CN/CharaGraph/703630/703630a.png",
+                "faces": "CN/Faces/f_7036300.png",
+                "narrow_figure": "CN/NarrowFigure/703630/703630@0.png",
+                "command": "CN/Servants/Commands/703600/card_servant_11.png",
+                "status": "CN/Servants/Status/703600/status_servant_11.png"
             }
         }
     ]

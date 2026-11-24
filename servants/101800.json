@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对降临者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔降临者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "军略 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -206,7 +206,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -226,7 +226,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -246,7 +246,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -267,7 +267,7 @@
             "nobles": [
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A-",
                     "type": "对军宝具",
@@ -304,11 +304,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/101800/101800a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_1018000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/101800/101800@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/101800/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/101800/101800a@1.png",
+                "faces": "CN/Faces/f_1018000.png",
+                "narrow_figure": "CN/NarrowFigure/101800/101800@0.png",
+                "command": "CN/Servants/Commands/101800/card_servant_1.png",
+                "status": "CN/Servants/Status/101800/status_servant_1.png"
             }
         },
         {
@@ -325,7 +325,7 @@
                 {
                     "slot": 1,
                     "name": "军略 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -358,7 +358,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -411,7 +411,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -431,7 +431,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -451,7 +451,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -472,7 +472,7 @@
             "nobles": [
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A-",
                     "type": "对军宝具",
@@ -509,11 +509,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/101800/101800a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_1018001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/101800/101800@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/101800/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/101800/101800a@2.png",
+                "faces": "CN/Faces/f_1018001.png",
+                "narrow_figure": "CN/NarrowFigure/101800/101800@1.png",
+                "command": "CN/Servants/Commands/101800/card_servant_2.png",
+                "status": "CN/Servants/Status/101800/status_servant_2.png"
             }
         },
         {
@@ -530,7 +530,7 @@
                 {
                     "slot": 1,
                     "name": "军略 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -563,7 +563,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -616,7 +616,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -636,7 +636,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -656,7 +656,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -677,7 +677,7 @@
             "nobles": [
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A-",
                     "type": "对军宝具",
@@ -714,7 +714,7 @@
                 },
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A",
                     "type": "对军宝具",
@@ -751,11 +751,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/101800/101800b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_1018002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/101800/101800@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/101800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/101800/101800b@1.png",
+                "faces": "CN/Faces/f_1018002.png",
+                "narrow_figure": "CN/NarrowFigure/101800/101800@2.png",
+                "command": "CN/Servants/Commands/101800/card_servant_3.png",
+                "status": "CN/Servants/Status/101800/status_servant_3.png"
             }
         },
         {
@@ -772,7 +772,7 @@
                 {
                     "slot": 1,
                     "name": "军略 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -805,7 +805,7 @@
                 {
                     "slot": 1,
                     "name": "神之鞭 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -845,7 +845,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -896,7 +896,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -965,7 +965,7 @@
                 {
                     "slot": 2,
                     "name": "完全构造体 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1070,7 +1070,7 @@
                 {
                     "slot": 3,
                     "name": "星之纹章 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1123,7 +1123,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1143,7 +1143,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1163,7 +1163,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -1184,7 +1184,7 @@
             "nobles": [
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A-",
                     "type": "对军宝具",
@@ -1221,7 +1221,7 @@
                 },
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1258,11 +1258,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/101800/101800b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_1018003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/101800/101800_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/101800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/101800/101800b@2.png",
+                "faces": "CN/Faces/f_1018003.png",
+                "narrow_figure": "CN/NarrowFigure/101800/101800_2@0.png",
+                "command": "CN/Servants/Commands/101800/card_servant_3.png",
+                "status": "CN/Servants/Status/101800/status_servant_3.png"
             }
         },
         {
@@ -1279,7 +1279,7 @@
                 {
                     "slot": 1,
                     "name": "军略 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1312,7 +1312,7 @@
                 {
                     "slot": 1,
                     "name": "神之鞭 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00302.png",
+                    "icon": "CN/SkillIcons/skill_00302.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1352,7 +1352,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 D",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1403,7 +1403,7 @@
                 {
                     "slot": 2,
                     "name": "天性的肉体 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1472,7 +1472,7 @@
                 {
                     "slot": 2,
                     "name": "完全构造体 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1577,7 +1577,7 @@
                 {
                     "slot": 3,
                     "name": "星之纹章 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1630,7 +1630,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1650,7 +1650,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1670,7 +1670,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -1691,7 +1691,7 @@
             "nobles": [
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A-",
                     "type": "对军宝具",
@@ -1728,7 +1728,7 @@
                 },
                 {
                     "name": "军神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/101800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1765,11 +1765,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/101830/101830a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_1018300.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/101830/101830@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/101800/card_servant_11.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/101800/status_servant_11.png"
+                "chara_graph": "CN/CharaGraph/101830/101830a.png",
+                "faces": "CN/Faces/f_1018300.png",
+                "narrow_figure": "CN/NarrowFigure/101830/101830@0.png",
+                "command": "CN/Servants/Commands/101800/card_servant_11.png",
+                "status": "CN/Servants/Status/101800/status_servant_11.png"
             }
         }
     ]

@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士暴击耐性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+            "icon": "CN/SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "怪力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -206,7 +206,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -227,7 +227,7 @@
             "nobles": [
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -264,11 +264,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/700900/700900a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7009000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/700900/700900@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/700900/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/700900/700900a@1.png",
+                "faces": "CN/Faces/f_7009000.png",
+                "narrow_figure": "CN/NarrowFigure/700900/700900@0.png",
+                "command": "CN/Servants/Commands/700900/card_servant_1.png",
+                "status": "CN/Servants/Status/700900/status_servant_1.png"
             }
         },
         {
@@ -285,7 +285,7 @@
                 {
                     "slot": 1,
                     "name": "怪力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -318,7 +318,7 @@
                 {
                     "slot": 2,
                     "name": "天性之魔 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -371,7 +371,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -392,7 +392,7 @@
             "nobles": [
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -429,7 +429,7 @@
                 },
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -484,11 +484,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/700900/700900a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7009001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/700900/700900@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/700900/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/700900/700900a@2.png",
+                "faces": "CN/Faces/f_7009001.png",
+                "narrow_figure": "CN/NarrowFigure/700900/700900@1.png",
+                "command": "CN/Servants/Commands/700900/card_servant_2.png",
+                "status": "CN/Servants/Status/700900/status_servant_2.png"
             }
         },
         {
@@ -505,7 +505,7 @@
                 {
                     "slot": 1,
                     "name": "怪力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -538,7 +538,7 @@
                 {
                     "slot": 2,
                     "name": "天性之魔 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -591,7 +591,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -612,7 +612,7 @@
             "nobles": [
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -649,7 +649,7 @@
                 },
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -704,11 +704,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/700900/700900b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7009002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/700900/700900@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/700900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/700900/700900b@1.png",
+                "faces": "CN/Faces/f_7009002.png",
+                "narrow_figure": "CN/NarrowFigure/700900/700900@2.png",
+                "command": "CN/Servants/Commands/700900/card_servant_3.png",
+                "status": "CN/Servants/Status/700900/status_servant_3.png"
             }
         },
         {
@@ -725,7 +725,7 @@
                 {
                     "slot": 1,
                     "name": "怪力 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+                    "icon": "CN/SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -758,7 +758,7 @@
                 {
                     "slot": 2,
                     "name": "天性之魔 A++",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -809,7 +809,7 @@
                 {
                     "slot": 2,
                     "name": "炽烈雷光 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00401.png",
+                    "icon": "CN/SkillIcons/skill_00401.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -914,7 +914,7 @@
                 {
                     "slot": 3,
                     "name": "深渊双刃斧 C",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00311.png",
+                    "icon": "CN/SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -967,7 +967,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00106.png",
+                    "icon": "CN/SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -988,7 +988,7 @@
             "nobles": [
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -1025,7 +1025,7 @@
                 },
                 {
                     "name": "万古不变的迷宫",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/700900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "迷宫宝具",
@@ -1080,11 +1080,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/700900/700900b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_7009003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/700900/700900_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/700900/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/700900/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/700900/700900b@2.png",
+                "faces": "CN/Faces/f_7009003.png",
+                "narrow_figure": "CN/NarrowFigure/700900/700900_2@0.png",
+                "command": "CN/Servants/Commands/700900/card_servant_3.png",
+                "status": "CN/Servants/Status/700900/status_servant_3.png"
             }
         }
     ]

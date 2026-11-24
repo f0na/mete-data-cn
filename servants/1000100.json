@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对暗匿者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "icon": "CN/SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10.5%)",
@@ -273,7 +273,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)＆弱化耐性提升(20%)",
@@ -302,7 +302,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_999999.png",
+                    "icon": "CN/SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -321,7 +321,7 @@
             "nobles": [
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对人宝具",
@@ -395,11 +395,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000100/1000100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10001000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000100/1000100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1000100/1000100a@1.png",
+                "faces": "CN/Faces/f_10001000.png",
+                "narrow_figure": "CN/NarrowFigure/1000100/1000100@0.png",
+                "command": "CN/Servants/Commands/1000100/card_servant_1.png",
+                "status": "CN/Servants/Status/1000100/status_servant_1.png"
             }
         },
         {
@@ -416,7 +416,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -456,7 +456,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -500,7 +500,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -520,7 +520,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)",
@@ -540,7 +540,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "icon": "CN/SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10.5%)",
@@ -560,7 +560,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)＆弱化耐性提升(20%)",
@@ -589,7 +589,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_999999.png",
+                    "icon": "CN/SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -608,7 +608,7 @@
             "nobles": [
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对人宝具",
@@ -682,11 +682,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000100/1000100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10001001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000100/1000100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1000100/1000100a@2.png",
+                "faces": "CN/Faces/f_10001001.png",
+                "narrow_figure": "CN/NarrowFigure/1000100/1000100@1.png",
+                "command": "CN/Servants/Commands/1000100/card_servant_2.png",
+                "status": "CN/Servants/Status/1000100/status_servant_2.png"
             }
         },
         {
@@ -703,7 +703,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -743,7 +743,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -785,7 +785,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 1,
                     "cool_down": [
                         6,
@@ -854,7 +854,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -874,7 +874,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)",
@@ -894,7 +894,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "icon": "CN/SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10.5%)",
@@ -914,7 +914,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)＆弱化耐性提升(20%)",
@@ -943,7 +943,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_999999.png",
+                    "icon": "CN/SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -962,7 +962,7 @@
             "nobles": [
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对人宝具",
@@ -1036,11 +1036,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000100/1000100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10001002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000100/1000100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1000100/1000100b@1.png",
+                "faces": "CN/Faces/f_10001002.png",
+                "narrow_figure": "CN/NarrowFigure/1000100/1000100@2.png",
+                "command": "CN/Servants/Commands/1000100/card_servant_3.png",
+                "status": "CN/Servants/Status/1000100/status_servant_3.png"
             }
         },
         {
@@ -1057,7 +1057,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1097,7 +1097,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1164,7 +1164,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -1206,7 +1206,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 1,
                     "cool_down": [
                         6,
@@ -1273,7 +1273,7 @@
                 {
                     "slot": 3,
                     "name": "废弃＆崩溃 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00328.png",
+                    "icon": "CN/SkillIcons/skill_00328.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1349,7 +1349,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -1369,7 +1369,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)",
@@ -1389,7 +1389,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "icon": "CN/SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10.5%)",
@@ -1409,7 +1409,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)＆弱化耐性提升(20%)",
@@ -1438,7 +1438,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_999999.png",
+                    "icon": "CN/SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -1457,7 +1457,7 @@
             "nobles": [
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对人宝具",
@@ -1531,7 +1531,7 @@
                 },
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C+",
                     "type": "对人宝具",
@@ -1605,11 +1605,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000100/1000100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10001003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000100/1000100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1000100/1000100b@2.png",
+                "faces": "CN/Faces/f_10001003.png",
+                "narrow_figure": "CN/NarrowFigure/1000100/1000100_2@0.png",
+                "command": "CN/Servants/Commands/1000100/card_servant_3.png",
+                "status": "CN/Servants/Status/1000100/status_servant_3.png"
             }
         },
         {
@@ -1626,7 +1626,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1666,7 +1666,7 @@
                 {
                     "slot": 1,
                     "name": "胸部之谷 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00400.png",
+                    "icon": "CN/SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1733,7 +1733,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         6,
@@ -1775,7 +1775,7 @@
                 {
                     "slot": 2,
                     "name": "受虐体质 A+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00700.png",
+                    "icon": "CN/SkillIcons/skill_00700.png",
                     "strength": 1,
                     "cool_down": [
                         6,
@@ -1842,7 +1842,7 @@
                 {
                     "slot": 3,
                     "name": "废弃＆崩溃 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00328.png",
+                    "icon": "CN/SkillIcons/skill_00328.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1918,7 +1918,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -1938,7 +1938,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00101.png",
+                    "icon": "CN/SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)",
@@ -1958,7 +1958,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00105.png",
+                    "icon": "CN/SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(10.5%)",
@@ -1978,7 +1978,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00327.png",
+                    "icon": "CN/SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)＆弱化耐性提升(20%)",
@@ -2007,7 +2007,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_999999.png",
+                    "icon": "CN/SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -2026,7 +2026,7 @@
             "nobles": [
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对人宝具",
@@ -2100,7 +2100,7 @@
                 },
                 {
                     "name": "纵使死亡分离两人",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1000100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C+",
                     "type": "对人宝具",
@@ -2174,11 +2174,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1000130/1000130a.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10001300.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1000130/1000130@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1000100/card_servant_11.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1000100/status_servant_11.png"
+                "chara_graph": "CN/CharaGraph/1000130/1000130a.png",
+                "faces": "CN/Faces/f_10001300.png",
+                "narrow_figure": "CN/NarrowFigure/1000130/1000130@0.png",
+                "command": "CN/Servants/Commands/1000100/card_servant_11.png",
+                "status": "CN/Servants/Status/1000100/status_servant_11.png"
             }
         }
     ]

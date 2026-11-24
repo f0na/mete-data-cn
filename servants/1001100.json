@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对复仇者攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔复仇者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "封印指定执行者 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -260,7 +260,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -280,7 +280,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -300,7 +300,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -320,7 +320,7 @@
                 {
                     "slot": 0,
                     "name": "传承带原者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(5%)＆自身被付与的攻击强化状态的消失时间自回合结束时延长至敌方回合结束时",
@@ -348,7 +348,7 @@
             "nobles": [
                 {
                     "name": "斩剜战神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "迎击宝具",
@@ -419,11 +419,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001100/1001100a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10011000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001100/1001100@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001100/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/1001100/1001100a@1.png",
+                "faces": "CN/Faces/f_10011000.png",
+                "narrow_figure": "CN/NarrowFigure/1001100/1001100@0.png",
+                "command": "CN/Servants/Commands/1001100/card_servant_1.png",
+                "status": "CN/Servants/Status/1001100/status_servant_1.png"
             }
         },
         {
@@ -440,7 +440,7 @@
                 {
                     "slot": 1,
                     "name": "封印指定执行者 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -527,7 +527,7 @@
                 {
                     "slot": 2,
                     "name": "海神之卢恩 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -598,7 +598,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -618,7 +618,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -638,7 +638,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -658,7 +658,7 @@
                 {
                     "slot": 0,
                     "name": "传承带原者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(5%)＆自身被付与的攻击强化状态的消失时间自回合结束时延长至敌方回合结束时",
@@ -686,7 +686,7 @@
             "nobles": [
                 {
                     "name": "斩剜战神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "迎击宝具",
@@ -757,11 +757,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001100/1001100a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10011001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001100/1001100@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001100/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/1001100/1001100a@2.png",
+                "faces": "CN/Faces/f_10011001.png",
+                "narrow_figure": "CN/NarrowFigure/1001100/1001100@1.png",
+                "command": "CN/Servants/Commands/1001100/card_servant_2.png",
+                "status": "CN/Servants/Status/1001100/status_servant_2.png"
             }
         },
         {
@@ -778,7 +778,7 @@
                 {
                     "slot": 1,
                     "name": "封印指定执行者 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -865,7 +865,7 @@
                 {
                     "slot": 2,
                     "name": "海神之卢恩 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -936,7 +936,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -956,7 +956,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -976,7 +976,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -996,7 +996,7 @@
                 {
                     "slot": 0,
                     "name": "传承带原者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(5%)＆自身被付与的攻击强化状态的消失时间自回合结束时延长至敌方回合结束时",
@@ -1024,7 +1024,7 @@
             "nobles": [
                 {
                     "name": "斩剜战神之剑",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/1001100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "迎击宝具",
@@ -1095,11 +1095,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001100/1001100b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10011002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001100/1001100@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1001100/1001100b@1.png",
+                "faces": "CN/Faces/f_10011002.png",
+                "narrow_figure": "CN/NarrowFigure/1001100/1001100@2.png",
+                "command": "CN/Servants/Commands/1001100/card_servant_3.png",
+                "status": "CN/Servants/Status/1001100/status_servant_3.png"
             }
         },
         {
@@ -1116,7 +1116,7 @@
                 {
                     "slot": 1,
                     "name": "封印指定执行者 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00316.png",
+                    "icon": "CN/SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1203,7 +1203,7 @@
                 {
                     "slot": 2,
                     "name": "海神之卢恩 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1272,7 +1272,7 @@
                 {
                     "slot": 3,
                     "name": "赤枝的继承者 B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00402.png",
+                    "icon": "CN/SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1321,7 +1321,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1341,7 +1341,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1361,7 +1361,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00326.png",
+                    "icon": "CN/SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(175)",
@@ -1381,7 +1381,7 @@
                 {
                     "slot": 0,
                     "name": "传承带原者",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+                    "icon": "CN/SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(5%)＆自身被付与的攻击强化状态的消失时间自回合结束时延长至敌方回合结束时",
@@ -1480,11 +1480,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/1001100/1001100b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_10011003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/1001100/1001100_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/1001100/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/1001100/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/1001100/1001100b@2.png",
+                "faces": "CN/Faces/f_10011003.png",
+                "narrow_figure": "CN/NarrowFigure/1001100/1001100_2@0.png",
+                "command": "CN/Servants/Commands/1001100/card_servant_3.png",
+                "status": "CN/Servants/Status/1001100/status_servant_3.png"
             }
         }
     ]

@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对他人格攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔他人格〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "维新之龙 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -231,7 +231,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15.5%)",
@@ -251,7 +251,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -271,7 +271,7 @@
                 {
                     "slot": 0,
                     "name": "变化（大蛇）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(10%)＆暴击威力提升(10%)",
@@ -301,7 +301,7 @@
             "nobles": [
                 {
                     "name": "君啊，趁赴绵津见之原",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305000/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -347,11 +347,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305000/305000a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3050000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305000/305000@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305000/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/305000/305000a@1.png",
+                "faces": "CN/Faces/f_3050000.png",
+                "narrow_figure": "CN/NarrowFigure/305000/305000@0.png",
+                "command": "CN/Servants/Commands/305000/card_servant_1.png",
+                "status": "CN/Servants/Status/305000/status_servant_1.png"
             }
         },
         {
@@ -368,7 +368,7 @@
                 {
                     "slot": 1,
                     "name": "维新之龙 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -426,7 +426,7 @@
                 {
                     "slot": 2,
                     "name": "高千穗的白色大蛇 A-",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -486,7 +486,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15.5%)",
@@ -506,7 +506,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -526,7 +526,7 @@
                 {
                     "slot": 0,
                     "name": "变化（大蛇）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(10%)＆暴击威力提升(10%)",
@@ -556,7 +556,7 @@
             "nobles": [
                 {
                     "name": "君啊，趁赴绵津见之原",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305000/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -602,11 +602,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305000/305000a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3050001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305000/305000@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305000/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/305000/305000a@2.png",
+                "faces": "CN/Faces/f_3050001.png",
+                "narrow_figure": "CN/NarrowFigure/305000/305000@1.png",
+                "command": "CN/Servants/Commands/305000/card_servant_2.png",
+                "status": "CN/Servants/Status/305000/status_servant_2.png"
             }
         },
         {
@@ -623,7 +623,7 @@
                 {
                     "slot": 1,
                     "name": "维新之龙 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -681,7 +681,7 @@
                 {
                     "slot": 2,
                     "name": "高千穗的白色大蛇 A-",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -741,7 +741,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15.5%)",
@@ -761,7 +761,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -781,7 +781,7 @@
                 {
                     "slot": 0,
                     "name": "变化（大蛇）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(10%)＆暴击威力提升(10%)",
@@ -811,7 +811,7 @@
             "nobles": [
                 {
                     "name": "君啊，趁赴绵津见之原",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305000/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -857,11 +857,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305000/305000b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3050002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305000/305000@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/305000/305000b@1.png",
+                "faces": "CN/Faces/f_3050002.png",
+                "narrow_figure": "CN/NarrowFigure/305000/305000@2.png",
+                "command": "CN/Servants/Commands/305000/card_servant_3.png",
+                "status": "CN/Servants/Status/305000/status_servant_3.png"
             }
         },
         {
@@ -878,7 +878,7 @@
                 {
                     "slot": 1,
                     "name": "维新之龙 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -936,7 +936,7 @@
                 {
                     "slot": 2,
                     "name": "高千穗的白色大蛇 A-",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -994,7 +994,7 @@
                 {
                     "slot": 3,
                     "name": "天逆鉾（双） B",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00315.png",
+                    "icon": "CN/SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1065,7 +1065,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00100.png",
+                    "icon": "CN/SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15.5%)",
@@ -1085,7 +1085,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00102.png",
+                    "icon": "CN/SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -1105,7 +1105,7 @@
                 {
                     "slot": 0,
                     "name": "变化（大蛇）",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00417.png",
+                    "icon": "CN/SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(10%)＆暴击威力提升(10%)",
@@ -1135,7 +1135,7 @@
             "nobles": [
                 {
                     "name": "君啊，趁赴绵津见之原",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305000/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -1181,7 +1181,7 @@
                 },
                 {
                     "name": "君啊，趁赴绵津见之原",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/305000/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -1245,11 +1245,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/305000/305000b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_3050003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/305000/305000_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/305000/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/305000/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/305000/305000b@2.png",
+                "faces": "CN/Faces/f_3050003.png",
+                "narrow_figure": "CN/NarrowFigure/305000/305000_2@0.png",
+                "command": "CN/Servants/Commands/305000/card_servant_3.png",
+                "status": "CN/Servants/Status/305000/status_servant_3.png"
             }
         }
     ]

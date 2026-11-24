@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00301.png",
+            "icon": "CN/SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+            "icon": "CN/SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵攻击适性",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00300.png",
+            "icon": "CN/SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00303.png",
+            "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升{{1:Value:m}}%",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00613.png",
+            "icon": "CN/SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -171,7 +171,7 @@
                 {
                     "slot": 1,
                     "name": "幻术师（伪） C+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -222,7 +222,7 @@
                 {
                     "slot": 0,
                     "name": "魔术秀领域",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(5%)＆技指令卡的暴击威力提升(10%)",
@@ -251,7 +251,7 @@
                 {
                     "slot": 0,
                     "name": "魔术道具制作",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)＆暴击星发生率提升(10%)",
@@ -281,7 +281,7 @@
             "nobles": [
                 {
                     "name": "喝彩声声一夜之梦",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -327,11 +327,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504800/504800a@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5048000.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504800/504800@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_1.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504800/status_servant_1.png"
+                "chara_graph": "CN/CharaGraph/504800/504800a@1.png",
+                "faces": "CN/Faces/f_5048000.png",
+                "narrow_figure": "CN/NarrowFigure/504800/504800@0.png",
+                "command": "CN/Servants/Commands/504800/card_servant_1.png",
+                "status": "CN/Servants/Status/504800/status_servant_1.png"
             }
         },
         {
@@ -348,7 +348,7 @@
                 {
                     "slot": 1,
                     "name": "幻术师（伪） C+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -397,7 +397,7 @@
                 {
                     "slot": 2,
                     "name": "荒唐秀计划 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -459,7 +459,7 @@
                 {
                     "slot": 0,
                     "name": "魔术秀领域",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(5%)＆技指令卡的暴击威力提升(10%)",
@@ -488,7 +488,7 @@
                 {
                     "slot": 0,
                     "name": "魔术道具制作",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)＆暴击星发生率提升(10%)",
@@ -518,7 +518,7 @@
             "nobles": [
                 {
                     "name": "喝彩声声一夜之梦",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -564,11 +564,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504800/504800a@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5048001.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504800/504800@1.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_2.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504800/status_servant_2.png"
+                "chara_graph": "CN/CharaGraph/504800/504800a@2.png",
+                "faces": "CN/Faces/f_5048001.png",
+                "narrow_figure": "CN/NarrowFigure/504800/504800@1.png",
+                "command": "CN/Servants/Commands/504800/card_servant_2.png",
+                "status": "CN/Servants/Status/504800/status_servant_2.png"
             }
         },
         {
@@ -585,7 +585,7 @@
                 {
                     "slot": 1,
                     "name": "幻术师（伪） C+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -634,7 +634,7 @@
                 {
                     "slot": 2,
                     "name": "荒唐秀计划 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -696,7 +696,7 @@
                 {
                     "slot": 0,
                     "name": "魔术秀领域",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(5%)＆技指令卡的暴击威力提升(10%)",
@@ -725,7 +725,7 @@
                 {
                     "slot": 0,
                     "name": "魔术道具制作",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)＆暴击星发生率提升(10%)",
@@ -755,7 +755,7 @@
             "nobles": [
                 {
                     "name": "喝彩声声一夜之梦",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -801,11 +801,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504800/504800b@1.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5048002.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504800/504800@2.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/504800/504800b@1.png",
+                "faces": "CN/Faces/f_5048002.png",
+                "narrow_figure": "CN/NarrowFigure/504800/504800@2.png",
+                "command": "CN/Servants/Commands/504800/card_servant_3.png",
+                "status": "CN/Servants/Status/504800/status_servant_3.png"
             }
         },
         {
@@ -822,7 +822,7 @@
                 {
                     "slot": 1,
                     "name": "幻术师（伪） C+",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00305.png",
+                    "icon": "CN/SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -871,7 +871,7 @@
                 {
                     "slot": 2,
                     "name": "荒唐秀计划 A",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00512.png",
+                    "icon": "CN/SkillIcons/skill_00512.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -931,7 +931,7 @@
                 {
                     "slot": 3,
                     "name": "戏法天使 EX",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00601.png",
+                    "icon": "CN/SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -984,7 +984,7 @@
                 {
                     "slot": 0,
                     "name": "魔术秀领域",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00104.png",
+                    "icon": "CN/SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(5%)＆技指令卡的暴击威力提升(10%)",
@@ -1013,7 +1013,7 @@
                 {
                     "slot": 0,
                     "name": "魔术道具制作",
-                    "icon": "https://static.atlasacademy.io/CN/SkillIcons/skill_00103.png",
+                    "icon": "CN/SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(6%)＆暴击星发生率提升(10%)",
@@ -1043,7 +1043,7 @@
             "nobles": [
                 {
                     "name": "喝彩声声一夜之梦",
-                    "icon": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_np.png",
+                    "icon": "CN/Servants/Commands/504800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -1089,11 +1089,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "https://static.atlasacademy.io/CN/CharaGraph/504800/504800b@2.png",
-                "faces": "https://static.atlasacademy.io/CN/Faces/f_5048003.png",
-                "narrow_figure": "https://static.atlasacademy.io/CN/NarrowFigure/504800/504800_2@0.png",
-                "command": "https://static.atlasacademy.io/CN/Servants/Commands/504800/card_servant_3.png",
-                "status": "https://static.atlasacademy.io/CN/Servants/Status/504800/status_servant_3.png"
+                "chara_graph": "CN/CharaGraph/504800/504800b@2.png",
+                "faces": "CN/Faces/f_5048003.png",
+                "narrow_figure": "CN/NarrowFigure/504800/504800_2@0.png",
+                "command": "CN/Servants/Commands/504800/card_servant_3.png",
+                "status": "CN/Servants/Status/504800/status_servant_3.png"
             }
         }
     ]
