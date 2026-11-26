@@ -218,6 +218,19 @@ python scripts/assets.py
 python scripts/build.py --version test
 ```
 
+用真实补丁版本构建时，会同时生成增量补丁（需要本地已有对应的基座/上一补丁 tag）：
+
+```bash
+python scripts/build.py --version data-2026.11.27.001
+python scripts/patches.py --version data-2026.11.27.001 --check   # 只看变更数量
+```
+
+只构建全量包、跳过补丁：
+
+```bash
+python scripts/build.py --version data-2026.11.27.001 --no-patches
+```
+
 只构建数据包、不打包资源：
 
 ```bash
@@ -245,7 +258,28 @@ manifest 会同时写入派生字段：
 - 发生破坏性变更（目录布局、数据格式、资源包结构变化）时发布新基座，客户端按 `base`
   判断走全量下载。
 - 补丁 tag 必须存在对应基座 tag，CI 会用 `scripts/version.py --check-base` 校验。
-- 未来增量包统一命名为 `patch-<base>-<fromPatch:03d>-<toPatch:03d>.zip`。
+- 补丁只针对资源包，且**只增不删改**：只包含区间内新增的图片文件，不包含 `servant.json`。
+  JSON 包每次全量下载（约 892 KB），不需要做 JSON 增量。
+- 每个 release 同时发布两种补丁：
+
+  | 补丁 | 命名 | 内容 |
+  | --- | --- | --- |
+  | 相邻增量 | `patch-<base>-<from:03d>-<to:03d>.zip` | 上一补丁到本补丁新增的文件 |
+  | 基座累计 | `patch-<base>-000-<to:03d>.zip` | 基座以来所有新增文件 |
+
+  ```
+  patch-2026.11.27-003-007.zip
+  ├── Servant/CharaGraph/...   # 003 → 007 新增的图片
+  └── SkillIcons/...           # 新增的技能图标
+  ```
+
+  首个补丁（`001`）的累计与相邻补丁内容相同，只发一个；没有新增资源时不生成补丁。
+
+  补丁包内没有 `servant.json`，也没有删除或修改列表。客户端解压到资源目录即可，
+  已有文件不受影响；落后多个版本时用累计包一次补齐。
+
+  发布用的 `manifest.json` 会列出可用补丁（起止补丁号、`archive`、`bytes`、`sha256`），
+  客户端据此选择并校验。
 
 ## 数据来源
 
