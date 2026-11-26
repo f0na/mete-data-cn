@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对魔术师暴击耐性",
-            "icon": "CN/SkillIcons/skill_00417.png",
+            "icon": "SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔魔术师〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "支援咒术 C",
-                    "icon": "CN/SkillIcons/skill_00503.png",
+                    "icon": "SkillIcons/skill_00503.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -234,7 +234,7 @@
             "nobles": [
                 {
                     "name": "血染的加冕仪式",
-                    "icon": "CN/Servants/Commands/701500/card_servant_np.png",
+                    "icon": "Servant/Commands/701500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具",
@@ -278,11 +278,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/701500/701500a@1.png",
-                "faces": "CN/Faces/f_7015000.png",
-                "narrow_figure": "CN/NarrowFigure/701500/701500@0.png",
-                "command": "CN/Servants/Commands/701500/card_servant_1.png",
-                "status": "CN/Servants/Status/701500/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/701500/701500a@1.png",
+                "faces": "Servant/Faces/f_7015000.png",
+                "narrow_figure": "Servant/NarrowFigure/701500/701500@0.png",
+                "command": "Servant/Commands/701500/card_servant_1.png",
+                "status": "Servant/Status/701500/status_servant_1.png"
             }
         },
         {
@@ -299,7 +299,7 @@
                 {
                     "slot": 1,
                     "name": "支援咒术 C",
-                    "icon": "CN/SkillIcons/skill_00503.png",
+                    "icon": "SkillIcons/skill_00503.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -350,7 +350,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 B",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -385,7 +385,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -406,7 +406,7 @@
             "nobles": [
                 {
                     "name": "血染的加冕仪式",
-                    "icon": "CN/Servants/Commands/701500/card_servant_np.png",
+                    "icon": "Servant/Commands/701500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具",
@@ -450,11 +450,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/701500/701500a@2.png",
-                "faces": "CN/Faces/f_7015001.png",
-                "narrow_figure": "CN/NarrowFigure/701500/701500@1.png",
-                "command": "CN/Servants/Commands/701500/card_servant_2.png",
-                "status": "CN/Servants/Status/701500/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/701500/701500a@2.png",
+                "faces": "Servant/Faces/f_7015001.png",
+                "narrow_figure": "Servant/NarrowFigure/701500/701500@1.png",
+                "command": "Servant/Commands/701500/card_servant_2.png",
+                "status": "Servant/Status/701500/status_servant_2.png"
             }
         },
         {
@@ -471,7 +471,7 @@
                 {
                     "slot": 1,
                     "name": "支援咒术 C",
-                    "icon": "CN/SkillIcons/skill_00503.png",
+                    "icon": "SkillIcons/skill_00503.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -522,7 +522,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 B",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -557,7 +557,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -578,7 +578,7 @@
             "nobles": [
                 {
                     "name": "血染的加冕仪式",
-                    "icon": "CN/Servants/Commands/701500/card_servant_np.png",
+                    "icon": "Servant/Commands/701500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具",
@@ -622,11 +622,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/701500/701500b@1.png",
-                "faces": "CN/Faces/f_7015002.png",
-                "narrow_figure": "CN/NarrowFigure/701500/701500@2.png",
-                "command": "CN/Servants/Commands/701500/card_servant_3.png",
-                "status": "CN/Servants/Status/701500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/701500/701500b@1.png",
+                "faces": "Servant/Faces/f_7015002.png",
+                "narrow_figure": "Servant/NarrowFigure/701500/701500@2.png",
+                "command": "Servant/Commands/701500/card_servant_3.png",
+                "status": "Servant/Status/701500/status_servant_3.png"
             }
         },
         {
@@ -643,7 +643,7 @@
                 {
                     "slot": 1,
                     "name": "支援咒术 C",
-                    "icon": "CN/SkillIcons/skill_00503.png",
+                    "icon": "SkillIcons/skill_00503.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -694,7 +694,7 @@
                 {
                     "slot": 1,
                     "name": "支援咒术 C+",
-                    "icon": "CN/SkillIcons/skill_00503.png",
+                    "icon": "SkillIcons/skill_00503.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -745,7 +745,7 @@
                 {
                     "slot": 2,
                     "name": "战斗续行 B",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -778,7 +778,7 @@
                 {
                     "slot": 3,
                     "name": "嗜血兽斧 A+",
-                    "icon": "CN/SkillIcons/skill_00608.png",
+                    "icon": "SkillIcons/skill_00608.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -820,7 +820,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -841,7 +841,7 @@
             "nobles": [
                 {
                     "name": "血染的加冕仪式",
-                    "icon": "CN/Servants/Commands/701500/card_servant_np.png",
+                    "icon": "Servant/Commands/701500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对人宝具",
@@ -885,7 +885,7 @@
                 },
                 {
                     "name": "血染的加冕仪式",
-                    "icon": "CN/Servants/Commands/701500/card_servant_np.png",
+                    "icon": "Servant/Commands/701500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B++",
                     "type": "对人宝具",
@@ -951,11 +951,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/701500/701500b@2.png",
-                "faces": "CN/Faces/f_7015003.png",
-                "narrow_figure": "CN/NarrowFigure/701500/701500_2@0.png",
-                "command": "CN/Servants/Commands/701500/card_servant_3.png",
-                "status": "CN/Servants/Status/701500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/701500/701500b@2.png",
+                "faces": "Servant/Faces/f_7015003.png",
+                "narrow_figure": "Servant/NarrowFigure/701500/701500_2@0.png",
+                "command": "Servant/Commands/701500/card_servant_3.png",
+                "status": "Servant/Status/701500/status_servant_3.png"
             }
         }
     ]

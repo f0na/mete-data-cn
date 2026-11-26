@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对复仇者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔复仇者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "矛盾精神 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -202,7 +202,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -222,7 +222,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -243,7 +243,7 @@
             "nobles": [
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -289,11 +289,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/402800/402800a@1.png",
-                "faces": "CN/Faces/f_4028000.png",
-                "narrow_figure": "CN/NarrowFigure/402800/402800@0.png",
-                "command": "CN/Servants/Commands/402800/card_servant_1.png",
-                "status": "CN/Servants/Status/402800/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/402800/402800a@1.png",
+                "faces": "Servant/Faces/f_4028000.png",
+                "narrow_figure": "Servant/NarrowFigure/402800/402800@0.png",
+                "command": "Servant/Commands/402800/card_servant_1.png",
+                "status": "Servant/Status/402800/status_servant_1.png"
             }
         },
         {
@@ -310,7 +310,7 @@
                 {
                     "slot": 1,
                     "name": "矛盾精神 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -350,7 +350,7 @@
                 {
                     "slot": 2,
                     "name": "无辜的怪物（异） A",
-                    "icon": "CN/SkillIcons/skill_00605.png",
+                    "icon": "SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -403,7 +403,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -423,7 +423,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -444,7 +444,7 @@
             "nobles": [
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -490,11 +490,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/402800/402800a@2.png",
-                "faces": "CN/Faces/f_4028001.png",
-                "narrow_figure": "CN/NarrowFigure/402800/402800@1.png",
-                "command": "CN/Servants/Commands/402800/card_servant_2.png",
-                "status": "CN/Servants/Status/402800/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/402800/402800a@2.png",
+                "faces": "Servant/Faces/f_4028001.png",
+                "narrow_figure": "Servant/NarrowFigure/402800/402800@1.png",
+                "command": "Servant/Commands/402800/card_servant_2.png",
+                "status": "Servant/Status/402800/status_servant_2.png"
             }
         },
         {
@@ -511,7 +511,7 @@
                 {
                     "slot": 1,
                     "name": "矛盾精神 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -551,7 +551,7 @@
                 {
                     "slot": 2,
                     "name": "无辜的怪物（异） A",
-                    "icon": "CN/SkillIcons/skill_00605.png",
+                    "icon": "SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -604,7 +604,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -624,7 +624,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -645,7 +645,7 @@
             "nobles": [
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -691,7 +691,7 @@
                 },
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -737,11 +737,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/402800/402800b@1.png",
-                "faces": "CN/Faces/f_4028002.png",
-                "narrow_figure": "CN/NarrowFigure/402800/402800@2.png",
-                "command": "CN/Servants/Commands/402800/card_servant_3.png",
-                "status": "CN/Servants/Status/402800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/402800/402800b@1.png",
+                "faces": "Servant/Faces/f_4028002.png",
+                "narrow_figure": "Servant/NarrowFigure/402800/402800@2.png",
+                "command": "Servant/Commands/402800/card_servant_3.png",
+                "status": "Servant/Status/402800/status_servant_3.png"
             }
         },
         {
@@ -758,7 +758,7 @@
                 {
                     "slot": 1,
                     "name": "矛盾精神 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -798,7 +798,7 @@
                 {
                     "slot": 1,
                     "name": "矛盾精神 A+",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -892,7 +892,7 @@
                 {
                     "slot": 2,
                     "name": "无辜的怪物（异） A",
-                    "icon": "CN/SkillIcons/skill_00605.png",
+                    "icon": "SkillIcons/skill_00605.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -943,7 +943,7 @@
                 {
                     "slot": 3,
                     "name": "非常大权 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -992,7 +992,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -1012,7 +1012,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(12%)",
@@ -1033,7 +1033,7 @@
             "nobles": [
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -1079,7 +1079,7 @@
                 },
                 {
                     "name": "于吾旅路随行之兽",
-                    "icon": "CN/Servants/Commands/402800/card_servant_np.png",
+                    "icon": "Servant/Commands/402800/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1125,11 +1125,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/402800/402800b@2.png",
-                "faces": "CN/Faces/f_4028003.png",
-                "narrow_figure": "CN/NarrowFigure/402800/402800_2@0.png",
-                "command": "CN/Servants/Commands/402800/card_servant_3.png",
-                "status": "CN/Servants/Status/402800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/402800/402800b@2.png",
+                "faces": "Servant/Faces/f_4028003.png",
+                "narrow_figure": "Servant/NarrowFigure/402800/402800_2@0.png",
+                "command": "Servant/Commands/402800/card_servant_3.png",
+                "status": "Servant/Status/402800/status_servant_3.png"
             }
         }
     ]

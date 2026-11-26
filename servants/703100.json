@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵暴击耐性",
-            "icon": "CN/SkillIcons/skill_00417.png",
+            "icon": "SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "黑森之鹰 B",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -202,7 +202,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -223,7 +223,7 @@
             "nobles": [
                 {
                     "name": "烧却天理·鏖杀龙",
-                    "icon": "CN/Servants/Commands/703100/card_servant_np.png",
+                    "icon": "Servant/Commands/703100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -260,11 +260,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/703100/703100a@1.png",
-                "faces": "CN/Faces/f_7031000.png",
-                "narrow_figure": "CN/NarrowFigure/703100/703100@0.png",
-                "command": "CN/Servants/Commands/703100/card_servant_1.png",
-                "status": "CN/Servants/Status/703100/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/703100/703100a@1.png",
+                "faces": "Servant/Faces/f_7031000.png",
+                "narrow_figure": "Servant/NarrowFigure/703100/703100@0.png",
+                "command": "Servant/Commands/703100/card_servant_1.png",
+                "status": "Servant/Status/703100/status_servant_1.png"
             }
         },
         {
@@ -281,7 +281,7 @@
                 {
                     "slot": 1,
                     "name": "黑森之鹰 B",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -321,7 +321,7 @@
                 {
                     "slot": 2,
                     "name": "失却的魔女 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -365,7 +365,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -386,7 +386,7 @@
             "nobles": [
                 {
                     "name": "烧却天理·鏖杀龙",
-                    "icon": "CN/Servants/Commands/703100/card_servant_np.png",
+                    "icon": "Servant/Commands/703100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -423,11 +423,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/703100/703100a@2.png",
-                "faces": "CN/Faces/f_7031001.png",
-                "narrow_figure": "CN/NarrowFigure/703100/703100@1.png",
-                "command": "CN/Servants/Commands/703100/card_servant_2.png",
-                "status": "CN/Servants/Status/703100/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/703100/703100a@2.png",
+                "faces": "Servant/Faces/f_7031001.png",
+                "narrow_figure": "Servant/NarrowFigure/703100/703100@1.png",
+                "command": "Servant/Commands/703100/card_servant_2.png",
+                "status": "Servant/Status/703100/status_servant_2.png"
             }
         },
         {
@@ -444,7 +444,7 @@
                 {
                     "slot": 1,
                     "name": "黑森之鹰 B",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -484,7 +484,7 @@
                 {
                     "slot": 2,
                     "name": "失却的魔女 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -528,7 +528,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -549,7 +549,7 @@
             "nobles": [
                 {
                     "name": "烧却天理·鏖杀龙",
-                    "icon": "CN/Servants/Commands/703100/card_servant_np.png",
+                    "icon": "Servant/Commands/703100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -586,11 +586,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/703100/703100b@1.png",
-                "faces": "CN/Faces/f_7031002.png",
-                "narrow_figure": "CN/NarrowFigure/703100/703100@2.png",
-                "command": "CN/Servants/Commands/703100/card_servant_3.png",
-                "status": "CN/Servants/Status/703100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/703100/703100b@1.png",
+                "faces": "Servant/Faces/f_7031002.png",
+                "narrow_figure": "Servant/NarrowFigure/703100/703100@2.png",
+                "command": "Servant/Commands/703100/card_servant_3.png",
+                "status": "Servant/Status/703100/status_servant_3.png"
             }
         },
         {
@@ -607,7 +607,7 @@
                 {
                     "slot": 1,
                     "name": "黑森之鹰 B",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -647,7 +647,7 @@
                 {
                     "slot": 2,
                     "name": "失却的魔女 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -689,7 +689,7 @@
                 {
                     "slot": 3,
                     "name": "于宿命之地逝去 EX",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -742,7 +742,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)",
@@ -763,7 +763,7 @@
             "nobles": [
                 {
                     "name": "烧却天理·鏖杀龙",
-                    "icon": "CN/Servants/Commands/703100/card_servant_np.png",
+                    "icon": "Servant/Commands/703100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -800,11 +800,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/703100/703100b@2.png",
-                "faces": "CN/Faces/f_7031003.png",
-                "narrow_figure": "CN/NarrowFigure/703100/703100_2@0.png",
-                "command": "CN/Servants/Commands/703100/card_servant_3.png",
-                "status": "CN/Servants/Status/703100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/703100/703100b@2.png",
+                "faces": "Servant/Faces/f_7031003.png",
+                "narrow_figure": "Servant/NarrowFigure/703100/703100_2@0.png",
+                "command": "Servant/Commands/703100/card_servant_3.png",
+                "status": "Servant/Status/703100/status_servant_3.png"
             }
         }
     ]

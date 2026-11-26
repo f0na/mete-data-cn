@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "兔子革新者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -209,7 +209,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -229,7 +229,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -249,7 +249,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)＆即死耐性提升(6%)＆精神异常耐性提升(6%)",
@@ -287,7 +287,7 @@
                 {
                     "slot": 0,
                     "name": "变化",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)＆暴击星发生率提升(10%)",
@@ -316,7 +316,7 @@
                 {
                     "slot": 0,
                     "name": "女神变生（枪）",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身宝具威力提升(20%)",
@@ -337,7 +337,7 @@
             "nobles": [
                 {
                     "name": "灵裳重光·79式掷祸大社",
-                    "icon": "CN/Servants/Commands/604200/card_servant_np.png",
+                    "icon": "Servant/Commands/604200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对界宝具",
@@ -390,11 +390,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/604200/604200a@1.png",
-                "faces": "CN/Faces/f_6042000.png",
-                "narrow_figure": "CN/NarrowFigure/604200/604200@0.png",
-                "command": "CN/Servants/Commands/604200/card_servant_1.png",
-                "status": "CN/Servants/Status/604200/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/604200/604200a@1.png",
+                "faces": "Servant/Faces/f_6042000.png",
+                "narrow_figure": "Servant/NarrowFigure/604200/604200@0.png",
+                "command": "Servant/Commands/604200/card_servant_1.png",
+                "status": "Servant/Status/604200/status_servant_1.png"
             }
         },
         {
@@ -411,7 +411,7 @@
                 {
                     "slot": 1,
                     "name": "兔子革新者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -458,7 +458,7 @@
                 {
                     "slot": 2,
                     "name": "杀戮技巧（人） A",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -547,7 +547,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -567,7 +567,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -587,7 +587,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)＆即死耐性提升(6%)＆精神异常耐性提升(6%)",
@@ -625,7 +625,7 @@
                 {
                     "slot": 0,
                     "name": "变化",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)＆暴击星发生率提升(10%)",
@@ -654,7 +654,7 @@
                 {
                     "slot": 0,
                     "name": "女神变生（枪）",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身宝具威力提升(20%)",
@@ -675,7 +675,7 @@
             "nobles": [
                 {
                     "name": "灵裳重光·79式掷祸大社",
-                    "icon": "CN/Servants/Commands/604200/card_servant_np.png",
+                    "icon": "Servant/Commands/604200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对界宝具",
@@ -728,11 +728,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/604200/604200a@2.png",
-                "faces": "CN/Faces/f_6042001.png",
-                "narrow_figure": "CN/NarrowFigure/604200/604200@1.png",
-                "command": "CN/Servants/Commands/604200/card_servant_2.png",
-                "status": "CN/Servants/Status/604200/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/604200/604200a@2.png",
+                "faces": "Servant/Faces/f_6042001.png",
+                "narrow_figure": "Servant/NarrowFigure/604200/604200@1.png",
+                "command": "Servant/Commands/604200/card_servant_2.png",
+                "status": "Servant/Status/604200/status_servant_2.png"
             }
         },
         {
@@ -749,7 +749,7 @@
                 {
                     "slot": 1,
                     "name": "兔子革新者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -796,7 +796,7 @@
                 {
                     "slot": 2,
                     "name": "杀戮技巧（人） A",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -885,7 +885,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -905,7 +905,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -925,7 +925,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)＆即死耐性提升(6%)＆精神异常耐性提升(6%)",
@@ -963,7 +963,7 @@
                 {
                     "slot": 0,
                     "name": "变化",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)＆暴击星发生率提升(10%)",
@@ -992,7 +992,7 @@
                 {
                     "slot": 0,
                     "name": "女神变生（枪）",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身宝具威力提升(20%)",
@@ -1013,7 +1013,7 @@
             "nobles": [
                 {
                     "name": "灵裳重光·79式掷祸大社",
-                    "icon": "CN/Servants/Commands/604200/card_servant_np.png",
+                    "icon": "Servant/Commands/604200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对界宝具",
@@ -1066,11 +1066,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/604200/604200b@1.png",
-                "faces": "CN/Faces/f_6042002.png",
-                "narrow_figure": "CN/NarrowFigure/604200/604200@2.png",
-                "command": "CN/Servants/Commands/604200/card_servant_3.png",
-                "status": "CN/Servants/Status/604200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/604200/604200b@1.png",
+                "faces": "Servant/Faces/f_6042002.png",
+                "narrow_figure": "Servant/NarrowFigure/604200/604200@2.png",
+                "command": "Servant/Commands/604200/card_servant_3.png",
+                "status": "Servant/Status/604200/status_servant_3.png"
             }
         },
         {
@@ -1087,7 +1087,7 @@
                 {
                     "slot": 1,
                     "name": "兔子革新者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1134,7 +1134,7 @@
                 {
                     "slot": 2,
                     "name": "杀戮技巧（人） A",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1221,7 +1221,7 @@
                 {
                     "slot": 3,
                     "name": "NFF特别服务 A",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1292,7 +1292,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -1312,7 +1312,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -1332,7 +1332,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)＆即死耐性提升(6%)＆精神异常耐性提升(6%)",
@@ -1370,7 +1370,7 @@
                 {
                     "slot": 0,
                     "name": "变化",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)＆暴击星发生率提升(10%)",
@@ -1399,7 +1399,7 @@
                 {
                     "slot": 0,
                     "name": "女神变生（枪）",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身宝具威力提升(20%)",
@@ -1420,7 +1420,7 @@
             "nobles": [
                 {
                     "name": "灵裳重光·79式掷祸大社",
-                    "icon": "CN/Servants/Commands/604200/card_servant_np.png",
+                    "icon": "Servant/Commands/604200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对界宝具",
@@ -1473,11 +1473,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/604200/604200b@2.png",
-                "faces": "CN/Faces/f_6042003.png",
-                "narrow_figure": "CN/NarrowFigure/604200/604200_2@0.png",
-                "command": "CN/Servants/Commands/604200/card_servant_3.png",
-                "status": "CN/Servants/Status/604200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/604200/604200b@2.png",
+                "faces": "Servant/Faces/f_6042003.png",
+                "narrow_figure": "Servant/NarrowFigure/604200/604200_2@0.png",
+                "command": "Servant/Commands/604200/card_servant_3.png",
+                "status": "Servant/Status/604200/status_servant_3.png"
             }
         },
         {
@@ -1494,7 +1494,7 @@
                 {
                     "slot": 1,
                     "name": "兔子革新者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1541,7 +1541,7 @@
                 {
                     "slot": 2,
                     "name": "杀戮技巧（人） A",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1628,7 +1628,7 @@
                 {
                     "slot": 3,
                     "name": "NFF特别服务 A",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1699,7 +1699,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -1719,7 +1719,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -1739,7 +1739,7 @@
                 {
                     "slot": 0,
                     "name": "单独显现",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力小幅提升(6%)＆即死耐性提升(6%)＆精神异常耐性提升(6%)",
@@ -1777,7 +1777,7 @@
                 {
                     "slot": 0,
                     "name": "变化",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)＆暴击星发生率提升(10%)",
@@ -1806,7 +1806,7 @@
                 {
                     "slot": 0,
                     "name": "女神变生（枪）",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身宝具威力提升(20%)",
@@ -1827,7 +1827,7 @@
             "nobles": [
                 {
                     "name": "灵裳重光·79式掷祸大社",
-                    "icon": "CN/Servants/Commands/604200/card_servant_np.png",
+                    "icon": "Servant/Commands/604200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C",
                     "type": "对界宝具",
@@ -1880,11 +1880,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/604230/604230a.png",
-                "faces": "CN/Faces/f_6042300.png",
-                "narrow_figure": "CN/NarrowFigure/604230/604230@0.png",
-                "command": "CN/Servants/Commands/604200/card_servant_11.png",
-                "status": "CN/Servants/Status/604200/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/604230/604230a.png",
+                "faces": "Servant/Faces/f_6042300.png",
+                "narrow_figure": "Servant/NarrowFigure/604230/604230@0.png",
+                "command": "Servant/Commands/604200/card_servant_11.png",
+                "status": "Servant/Status/604200/status_servant_11.png"
             }
         }
     ]

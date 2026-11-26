@@ -2,19 +2,22 @@
 
 《mete》使用的 FGO 国服（CN）从者数据包。
 
-数据按从者拆分存放，发布时由脚本合并成单个 JSON 数组，连同图片资源打包为 GitHub Release 资产。
+数据按从者拆分存放，发布时拆成两个 GitHub Release 资产：数据包（`servant.json` + `manifest.json`）和资源包（从者图与技能图标）。
 
 ## 仓库结构
 
 ```
-servants/<id>.json    # 每个从者一个 Servant 对象，文件名即从者 id
-scripts/fetch.py      # 从 Atlas 导出转换并补齐 servants/<id>.json
-scripts/assets.py     # 下载图片到本地缓存 images/（不入库）
-scripts/split.py      # 一次性拆分脚本（已执行，保留用于追溯）
-scripts/build.py      # 校验 + 合并 + 图片打包 + 生成 manifest
-.github/workflows/    # JSON 校验与 Release 发布
-images/               # 本地图片缓存（不入库，发版时打进 zip）
-dist/                 # 构建产物（不入库）
+servants/<id>.json        # 每个从者一个 Servant 对象，文件名即从者 id
+asset_sources.json        # 本地资源路径 → 源 URL 的显式映射（入库）
+scripts/fetch.py          # 从 Atlas 导出转换并补齐 servants/<id>.json
+scripts/assets.py         # 按 asset_sources.json 下载资源到 assets/（不入库）
+scripts/version.py        # 解析 / 校验 data-YYYY.MM.DD[.NNN] 版本号
+scripts/migrate_assets.py # 一次性目录迁移脚本（已执行，保留用于追溯）
+scripts/split.py          # 一次性拆分脚本（已执行，保留用于追溯）
+scripts/build.py          # 校验 + 合并 + 双包构建 + 生成 manifest
+.github/workflows/        # JSON 校验与 Release 发布
+assets/                   # 本地资源缓存（不入库，发版时打进资源包）
+dist/                     # 构建产物（不入库）
 ```
 
 ## 获取数据
@@ -23,30 +26,39 @@ dist/                 # 构建产物（不入库）
 
 - 清单（体积小，建议先取它检查版本 / 哈希）：
   `https://github.com/f0na/mete-data-cn/releases/latest/download/manifest.json`
-- 数据包 zip：
+- 数据包 zip（仅 JSON）：
   `https://github.com/f0na/mete-data-cn/releases/latest/download/mete-data-cn.zip`
+- 资源包 zip（从者图与技能图标，约 1.6 GB）：
+  `https://github.com/f0na/mete-data-cn/releases/latest/download/mete-data-cn-servant.zip`
 
-zip 内包含：
+数据包 `mete-data-cn.zip` 内包含：
 
 | 文件 | 说明 |
 | --- | --- |
 | `servant.json` | 合并后的顶层数组，可直接按 `Servant[]` 反序列化 |
-| `manifest.json` | 版本、生成时间、图片根目录、文件大小与 SHA-256 |
-| `images/` | 从者图片资源，JSON 中的图片路径即相对于此目录 |
+| `manifest.json` | 版本、生成时间、资源包的文件名 / 大小 / SHA-256，以及 `servant.json` 的大小与 SHA-256 |
+
+资源包 `mete-data-cn-servant.zip` 的根目录直接是 `Servant/` 和 `SkillIcons/`，不带 `assets/` 或 `images/` 包装层。
 
 `manifest.json` 示例：
 
 ```json
 {
-    "version": "data-2026.11.26",
-    "generated_at": "2026-11-18T06:30:00Z",
+    "version": "data-2026.11.26.001",
+    "generated_at": "2026-11-26T07:27:31Z",
+    "base": "2026.11.26",
+    "patch": 1,
+    "revision": 20261126001,
     "assets": {
-        "root": "images"
+        "root": ".",
+        "archive": "mete-data-cn-servant.zip",
+        "bytes": 1604104974,
+        "sha256": "..."
     },
     "files": [
         {
             "name": "servant.json",
-            "bytes": 145295,
+            "bytes": 25442259,
             "sha256": "..."
         }
     ]
@@ -76,27 +88,45 @@ zip 内包含：
 
 ## 图片资源
 
-**图片不进入 git 仓库。** 构建时由 `scripts/assets.py` 从 Atlas Academy / Mooncell
-下载到本地 `images/`（已 gitignore），`scripts/build.py` 再把它们打进 Release 资源包：
+**图片不进入 git 仓库。** 本地缓存目录是 `assets/`（已 gitignore），
+`scripts/assets.py` 按 `asset_sources.json` 记录的源 URL 下载；
+`scripts/build.py` 把它们打进独立的资源包：
 
 ```
-mete-data-cn.zip
-├── servant.json
-├── manifest.json
-└── images/                     # 如 images/CN/CharaGraph/100100/100100a@1.png
+mete-data-cn-servant.zip
+├── Servant/
+│   ├── CharaGraph/100100/100100a@1.png
+│   ├── Faces/f_1001000.png
+│   ├── NarrowFigure/100100/100100@0.png
+│   ├── Commands/100100/card_servant_1.png
+│   └── Status/100100/status_servant_1.png
+└── SkillIcons/
+    ├── skill_00100.png
+    ├── 己阵防御.png
+    └── 宝具威力提升.png
 ```
 
-JSON 中的图片字段存的是相对路径，与 zip 内的 `images/` 一一对应：
+JSON 中的图片字段存的是相对 `assets/` 的路径，与资源包内的条目一一对应：
 
 ```json
 "assets": {
-    "chara_graph": "CN/CharaGraph/100100/100100a@1.png",
-    "faces": "CN/Faces/f_1001000.png"
+    "chara_graph": "Servant/CharaGraph/100100/100100a@1.png",
+    "faces": "Servant/Faces/f_1001000.png"
 }
 ```
 
-客户端解析规则：`<解压目录>/<manifest.assets.root>/<路径>`，即
-`<zip>/images/CN/CharaGraph/100100/100100a@1.png`。
+客户端解析规则：`<安装目录>/<manifest.assets.root>/<路径>`。当前
+`assets.root` 为 `"."`，即 `<安装目录>/Servant/CharaGraph/...`。
+
+### 资源来源映射
+
+`asset_sources.json` 记录每个本地路径对应的原始下载地址，下载时只查这张表，
+**不再从本地路径反推 URL**。缺少条目会直接报错，而不是猜一个地址。
+
+- `scripts/fetch.py` 在把 Atlas / Mooncell URL 转成本地路径时会自动写入映射。
+- 手工新增资源时，需要同时补充 `asset_sources.json` 的条目。
+- 两张 Mooncell 技能图标（`己阵防御.png`、`宝具威力提升.png`）平铺在
+  `SkillIcons/` 下，靠映射表指回 `media.fgo.wiki` 的原始路径。
 
 `scripts/fetch.py` 会自动下载新增从者的图片；也可以单独同步：
 
@@ -104,14 +134,11 @@ JSON 中的图片字段存的是相对路径，与 zip 内的 `images/` 一一�
 # 下载缺失图片（已存在的会跳过）
 python scripts/assets.py
 
-# 只检查图片是否齐全，不下载
+# 只检查图片是否齐全、映射是否完整，不下载
 python scripts/assets.py --check
-
-# 只把 JSON 里的旧 URL 转成路径，不下载
-python scripts/assets.py --no-download
 ```
 
-> `data-*` 标签发布时，CI 会先下载图片再打包。
+> `data-*` 标签发布时，CI 会先下载资源再打包。
 
 ## 更新数据
 
@@ -140,7 +167,7 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-mooncell
 # 指定 Mooncell 页面缓存目录 / 强制重新抓取
 python scripts/fetch.py --mooncell-cache /path/to/cache --refresh-mooncell
 
-# 只写入资源路径，不下载图片
+# 只记录资源映射，不下载图片
 python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
 ```
 
@@ -153,7 +180,7 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
 - 技能、职阶技能、宝具的数值取自 Mooncell
 - 技能/宝具按 Mooncell 的再临形态分组，灵基阶段只包含该阶段已解锁的技能与宝具
 - 强化技能/宝具在 Mooncell 标注的开放阶段之后才出现，并用 `strength` 标记
-- 图片会下载到本地 `images/`（不入库），JSON 中写入相对路径
+- 图片会下载到本地 `assets/`（不入库），JSON 中写入相对路径，同时把源 URL 记录到 `asset_sources.json`
 
 ### 手动新增或修改
 
@@ -166,31 +193,59 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
    ```
 3. 打 tag 并推送，触发 Release：
    ```bash
+   # 基座版本（首次发布或破坏性变更）
    git tag data-2026.11.26
    git push origin data-2026.11.26
+
+   # 同一基座下的补丁版本
+   git tag data-2026.11.26.001
+   git push origin data-2026.11.26.001
    ```
 
-CI 会先下载图片，再校验全部 JSON、合并成 `servant.json`、生成 `manifest.json`，
-发布 `mete-data-cn.zip`（含 `images/`）与 `manifest.json` 两个资产。
+CI 会先校验 tag，再下载资源、校验全部 JSON、合并成 `servant.json`、生成 `manifest.json`，
+发布 `mete-data-cn.zip`、`mete-data-cn-servant.zip` 与 `manifest.json` 三个资产。
 
-本地校验（不写文件；加 `--check-images` 同时检查图片是否齐全）：
+本地校验（不写文件；加 `--check-images` 同时检查资源是否齐全）：
 
 ```bash
-python scripts/build.py --version test --check
+python scripts/build.py --version test --check --check-sources
 ```
 
-本地完整构建（产物在 `dist/`，需要先下载图片）：
+本地完整构建（产物在 `dist/`，需要先下载资源）：
 
 ```bash
 python scripts/assets.py
 python scripts/build.py --version test
 ```
 
-只构建数据包、不打包图片：
+只构建数据包、不打包资源：
 
 ```bash
 python scripts/build.py --version test --no-images
 ```
+
+## 版本号规则
+
+版本 tag 分两级：
+
+- 基座：`data-YYYY.MM.DD`，例如 `data-2026.11.26`
+- 补丁：`data-YYYY.MM.DD.NNN`，NNN 为三位零填充，从 `001` 起，例如 `data-2026.11.26.001`
+
+manifest 会同时写入派生字段：
+
+| 字段 | 说明 |
+| --- | --- |
+| `base` | 基座日期，如 `2026.11.26` |
+| `patch` | 补丁号，基座为 `0` |
+| `revision` | 单调可比较的整数，`YYYYMMDD * 1000 + patch` |
+
+规则：
+
+- 同一基座内可以持续发布补丁；数据增量更新只在该基座内进行。
+- 发生破坏性变更（目录布局、数据格式、资源包结构变化）时发布新基座，客户端按 `base`
+  判断走全量下载。
+- 补丁 tag 必须存在对应基座 tag，CI 会用 `scripts/version.py --check-base` 校验。
+- 未来增量包统一命名为 `patch-<base>-<fromPatch:03d>-<toPatch:03d>.zip`。
 
 ## 数据来源
 

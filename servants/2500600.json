@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对魔术师攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔魔术师〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "虚数美术 B+",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -222,7 +222,7 @@
                 {
                     "slot": 0,
                     "name": "领域外生命",
-                    "icon": "CN/SkillIcons/skill_00110.png",
+                    "icon": "SkillIcons/skill_00110.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(10%)",
@@ -249,7 +249,7 @@
                 {
                     "slot": 0,
                     "name": "疯狂",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -269,7 +269,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(7.5%)",
@@ -289,7 +289,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(185)",
@@ -309,7 +309,7 @@
                 {
                     "slot": 0,
                     "name": "向日葵的诅咒",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身受到诅咒伤害时生命值最低剩余1的状态",
@@ -328,7 +328,7 @@
             "nobles": [
                 {
                     "name": "星月夜",
-                    "icon": "CN/Servants/Commands/2500600/card_servant_np.png",
+                    "icon": "Servant/Commands/2500600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -392,11 +392,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2500600/2500600a@1.png",
-                "faces": "CN/Faces/f_25006000.png",
-                "narrow_figure": "CN/NarrowFigure/2500600/2500600@0.png",
-                "command": "CN/Servants/Commands/2500600/card_servant_1.png",
-                "status": "CN/Servants/Status/2500600/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/2500600/2500600a@1.png",
+                "faces": "Servant/Faces/f_25006000.png",
+                "narrow_figure": "Servant/NarrowFigure/2500600/2500600@0.png",
+                "command": "Servant/Commands/2500600/card_servant_1.png",
+                "status": "Servant/Status/2500600/status_servant_1.png"
             }
         },
         {
@@ -413,7 +413,7 @@
                 {
                     "slot": 1,
                     "name": "虚数美术 B+",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -473,7 +473,7 @@
                 {
                     "slot": 2,
                     "name": "黄房子 A+",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -542,7 +542,7 @@
                 {
                     "slot": 0,
                     "name": "领域外生命",
-                    "icon": "CN/SkillIcons/skill_00110.png",
+                    "icon": "SkillIcons/skill_00110.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(10%)",
@@ -569,7 +569,7 @@
                 {
                     "slot": 0,
                     "name": "疯狂",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -589,7 +589,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(7.5%)",
@@ -609,7 +609,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(185)",
@@ -629,7 +629,7 @@
                 {
                     "slot": 0,
                     "name": "向日葵的诅咒",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身受到诅咒伤害时生命值最低剩余1的状态",
@@ -648,7 +648,7 @@
             "nobles": [
                 {
                     "name": "星月夜",
-                    "icon": "CN/Servants/Commands/2500600/card_servant_np.png",
+                    "icon": "Servant/Commands/2500600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -712,11 +712,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2500600/2500600a@2.png",
-                "faces": "CN/Faces/f_25006001.png",
-                "narrow_figure": "CN/NarrowFigure/2500600/2500600@1.png",
-                "command": "CN/Servants/Commands/2500600/card_servant_2.png",
-                "status": "CN/Servants/Status/2500600/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/2500600/2500600a@2.png",
+                "faces": "Servant/Faces/f_25006001.png",
+                "narrow_figure": "Servant/NarrowFigure/2500600/2500600@1.png",
+                "command": "Servant/Commands/2500600/card_servant_2.png",
+                "status": "Servant/Status/2500600/status_servant_2.png"
             }
         },
         {
@@ -733,7 +733,7 @@
                 {
                     "slot": 1,
                     "name": "虚数美术 B+",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -793,7 +793,7 @@
                 {
                     "slot": 2,
                     "name": "黄房子 A+",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -862,7 +862,7 @@
                 {
                     "slot": 0,
                     "name": "领域外生命",
-                    "icon": "CN/SkillIcons/skill_00110.png",
+                    "icon": "SkillIcons/skill_00110.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(10%)",
@@ -889,7 +889,7 @@
                 {
                     "slot": 0,
                     "name": "疯狂",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -909,7 +909,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(7.5%)",
@@ -929,7 +929,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(185)",
@@ -949,7 +949,7 @@
                 {
                     "slot": 0,
                     "name": "向日葵的诅咒",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身受到诅咒伤害时生命值最低剩余1的状态",
@@ -968,7 +968,7 @@
             "nobles": [
                 {
                     "name": "星月夜",
-                    "icon": "CN/Servants/Commands/2500600/card_servant_np.png",
+                    "icon": "Servant/Commands/2500600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1032,11 +1032,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2500600/2500600b@1.png",
-                "faces": "CN/Faces/f_25006002.png",
-                "narrow_figure": "CN/NarrowFigure/2500600/2500600@2.png",
-                "command": "CN/Servants/Commands/2500600/card_servant_3.png",
-                "status": "CN/Servants/Status/2500600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2500600/2500600b@1.png",
+                "faces": "Servant/Faces/f_25006002.png",
+                "narrow_figure": "Servant/NarrowFigure/2500600/2500600@2.png",
+                "command": "Servant/Commands/2500600/card_servant_3.png",
+                "status": "Servant/Status/2500600/status_servant_3.png"
             }
         },
         {
@@ -1053,7 +1053,7 @@
                 {
                     "slot": 1,
                     "name": "虚数美术 B+",
-                    "icon": "CN/SkillIcons/skill_00404.png",
+                    "icon": "SkillIcons/skill_00404.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1113,7 +1113,7 @@
                 {
                     "slot": 2,
                     "name": "黄房子 A+",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1180,7 +1180,7 @@
                 {
                     "slot": 3,
                     "name": "澪标之魂 EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1254,7 +1254,7 @@
                 {
                     "slot": 3,
                     "name": "驻神水照影 EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1348,7 +1348,7 @@
                 {
                     "slot": 0,
                     "name": "领域外生命",
-                    "icon": "CN/SkillIcons/skill_00110.png",
+                    "icon": "SkillIcons/skill_00110.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升(10%)",
@@ -1375,7 +1375,7 @@
                 {
                     "slot": 0,
                     "name": "疯狂",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -1395,7 +1395,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(7.5%)",
@@ -1415,7 +1415,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(185)",
@@ -1435,7 +1435,7 @@
                 {
                     "slot": 0,
                     "name": "向日葵的诅咒",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身受到诅咒伤害时生命值最低剩余1的状态",
@@ -1454,7 +1454,7 @@
             "nobles": [
                 {
                     "name": "星月夜",
-                    "icon": "CN/Servants/Commands/2500600/card_servant_np.png",
+                    "icon": "Servant/Commands/2500600/card_servant_np.png",
                     "card": "Arts",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1518,11 +1518,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2500600/2500600b@2.png",
-                "faces": "CN/Faces/f_25006003.png",
-                "narrow_figure": "CN/NarrowFigure/2500600/2500600_2@0.png",
-                "command": "CN/Servants/Commands/2500600/card_servant_3.png",
-                "status": "CN/Servants/Status/2500600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2500600/2500600b@2.png",
+                "faces": "Servant/Faces/f_25006003.png",
+                "narrow_figure": "Servant/NarrowFigure/2500600/2500600_2@0.png",
+                "command": "Servant/Commands/2500600/card_servant_3.png",
+                "status": "Servant/Status/2500600/status_servant_3.png"
             }
         }
     ]

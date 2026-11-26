@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对他人格攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔他人格〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -240,7 +240,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -260,7 +260,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -280,7 +280,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -300,7 +300,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -321,7 +321,7 @@
             "nobles": [
                 {
                     "name": "第七圣典·断罪死",
-                    "icon": "CN/Servants/Commands/2300900/card_servant_np.png",
+                    "icon": "Servant/Commands/2300900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -399,11 +399,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300900/2300900a@1.png",
-                "faces": "CN/Faces/f_23009000.png",
-                "narrow_figure": "CN/NarrowFigure/2300900/2300900@0.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_1.png",
-                "status": "CN/Servants/Status/2300900/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/2300900/2300900a@1.png",
+                "faces": "Servant/Faces/f_23009000.png",
+                "narrow_figure": "Servant/NarrowFigure/2300900/2300900@0.png",
+                "command": "Servant/Commands/2300900/card_servant_1.png",
+                "status": "Servant/Status/2300900/status_servant_1.png"
             }
         },
         {
@@ -420,7 +420,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -498,7 +498,7 @@
                 {
                     "slot": 2,
                     "name": "相位滑剑 B+",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -621,7 +621,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -641,7 +641,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -661,7 +661,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -681,7 +681,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -702,7 +702,7 @@
             "nobles": [
                 {
                     "name": "第七圣典·断罪死",
-                    "icon": "CN/Servants/Commands/2300900/card_servant_np.png",
+                    "icon": "Servant/Commands/2300900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -780,11 +780,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300900/2300900a@2.png",
-                "faces": "CN/Faces/f_23009001.png",
-                "narrow_figure": "CN/NarrowFigure/2300900/2300900@1.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_2.png",
-                "status": "CN/Servants/Status/2300900/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/2300900/2300900a@2.png",
+                "faces": "Servant/Faces/f_23009001.png",
+                "narrow_figure": "Servant/NarrowFigure/2300900/2300900@1.png",
+                "command": "Servant/Commands/2300900/card_servant_2.png",
+                "status": "Servant/Status/2300900/status_servant_2.png"
             }
         },
         {
@@ -801,7 +801,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -879,7 +879,7 @@
                 {
                     "slot": 2,
                     "name": "相位滑剑 B+",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1002,7 +1002,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1022,7 +1022,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -1042,7 +1042,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -1062,7 +1062,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -1083,7 +1083,7 @@
             "nobles": [
                 {
                     "name": "第七圣典·断罪死",
-                    "icon": "CN/Servants/Commands/2300900/card_servant_np.png",
+                    "icon": "Servant/Commands/2300900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -1161,11 +1161,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300900/2300900b@1.png",
-                "faces": "CN/Faces/f_23009002.png",
-                "narrow_figure": "CN/NarrowFigure/2300900/2300900@2.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_3.png",
-                "status": "CN/Servants/Status/2300900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2300900/2300900b@1.png",
+                "faces": "Servant/Faces/f_23009002.png",
+                "narrow_figure": "Servant/NarrowFigure/2300900/2300900@2.png",
+                "command": "Servant/Commands/2300900/card_servant_3.png",
+                "status": "Servant/Status/2300900/status_servant_3.png"
             }
         },
         {
@@ -1182,7 +1182,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1260,7 +1260,7 @@
                 {
                     "slot": 2,
                     "name": "相位滑剑 B+",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1381,7 +1381,7 @@
                 {
                     "slot": 3,
                     "name": "原理血戒 B",
-                    "icon": "CN/SkillIcons/skill_00703.png",
+                    "icon": "SkillIcons/skill_00703.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1466,7 +1466,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1486,7 +1486,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -1506,7 +1506,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -1526,7 +1526,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -1625,11 +1625,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300900/2300900b@2.png",
-                "faces": "CN/Faces/f_23009003.png",
-                "narrow_figure": "CN/NarrowFigure/2300900/2300900_2@0.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_3.png",
-                "status": "CN/Servants/Status/2300900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2300900/2300900b@2.png",
+                "faces": "Servant/Faces/f_23009003.png",
+                "narrow_figure": "Servant/NarrowFigure/2300900/2300900_2@0.png",
+                "command": "Servant/Commands/2300900/card_servant_3.png",
+                "status": "Servant/Status/2300900/status_servant_3.png"
             }
         },
         {
@@ -1646,7 +1646,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1724,7 +1724,7 @@
                 {
                     "slot": 2,
                     "name": "相位滑剑 B+",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1845,7 +1845,7 @@
                 {
                     "slot": 3,
                     "name": "原理血戒 B",
-                    "icon": "CN/SkillIcons/skill_00703.png",
+                    "icon": "SkillIcons/skill_00703.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1930,7 +1930,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1950,7 +1950,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -1970,7 +1970,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -1990,7 +1990,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -2089,11 +2089,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300930/2300930a.png",
-                "faces": "CN/Faces/f_23009300.png",
-                "narrow_figure": "CN/NarrowFigure/2300930/2300930@0.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_11.png",
-                "status": "CN/Servants/Status/2300900/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/2300930/2300930a.png",
+                "faces": "Servant/Faces/f_23009300.png",
+                "narrow_figure": "Servant/NarrowFigure/2300930/2300930@0.png",
+                "command": "Servant/Commands/2300900/card_servant_11.png",
+                "status": "Servant/Status/2300900/status_servant_11.png"
             }
         },
         {
@@ -2110,7 +2110,7 @@
                 {
                     "slot": 1,
                     "name": "人类魔力工厂 A",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2188,7 +2188,7 @@
                 {
                     "slot": 2,
                     "name": "相位滑剑 B+",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2309,7 +2309,7 @@
                 {
                     "slot": 3,
                     "name": "原理血戒 B",
-                    "icon": "CN/SkillIcons/skill_00703.png",
+                    "icon": "SkillIcons/skill_00703.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2394,7 +2394,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -2414,7 +2414,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(12%)",
@@ -2434,7 +2434,7 @@
                 {
                     "slot": 0,
                     "name": "自动再生",
-                    "icon": "CN/SkillIcons/skill_00606.png",
+                    "icon": "SkillIcons/skill_00606.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合回复生命值的状态(500)",
@@ -2454,7 +2454,7 @@
                 {
                     "slot": 0,
                     "name": "代行者（弓）",
-                    "icon": "CN/SkillIcons/skill_00301.png",
+                    "icon": "SkillIcons/skill_00301.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身对Saber职阶的攻击优势状态(150%)",
@@ -2553,11 +2553,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2300940/2300940a.png",
-                "faces": "CN/Faces/f_23009400.png",
-                "narrow_figure": "CN/NarrowFigure/2300940/2300940@0.png",
-                "command": "CN/Servants/Commands/2300900/card_servant_12.png",
-                "status": "CN/Servants/Status/2300900/status_servant_12.png"
+                "chara_graph": "Servant/CharaGraph/2300940/2300940a.png",
+                "faces": "Servant/Faces/f_23009400.png",
+                "narrow_figure": "Servant/NarrowFigure/2300940/2300940@0.png",
+                "command": "Servant/Commands/2300900/card_servant_12.png",
+                "status": "Servant/Status/2300900/status_servant_12.png"
             }
         }
     ]

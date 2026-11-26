@@ -13,12 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  # base tag lookup for patch releases
 
-      - name: Download image assets
+      - name: Validate release tag
+        run: python3 scripts/version.py --tag "$GITHUB_REF_NAME" --check-base
+
+      - name: Download assets
         run: python3 scripts/assets.py --jobs 32
 
-      - name: Build data package
-        run: python3 scripts/build.py --version "$GITHUB_REF_NAME"
+      - name: Build data and asset packages
+        run: python3 scripts/build.py --version "$GITHUB_REF_NAME" --strict-version
 
       - name: Create GitHub release
         env:
@@ -26,6 +31,7 @@ jobs:
         run: |
           gh release create "$GITHUB_REF_NAME" \
             dist/mete-data-cn.zip \
+            dist/mete-data-cn-servant.zip \
             dist/manifest.json \
             --title "$GITHUB_REF_NAME" \
             --generate-notes

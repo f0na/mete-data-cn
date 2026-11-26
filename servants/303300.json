@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对骑兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "原初之卢恩",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)",
@@ -254,7 +254,7 @@
             "nobles": [
                 {
                     "name": "终末幻想·少女降临",
-                    "icon": "CN/Servants/Commands/303300/card_servant_np.png",
+                    "icon": "Servant/Commands/303300/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -298,11 +298,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/303300/303300a@1.png",
-                "faces": "CN/Faces/f_3033000.png",
-                "narrow_figure": "CN/NarrowFigure/303300/303300@0.png",
-                "command": "CN/Servants/Commands/303300/card_servant_1.png",
-                "status": "CN/Servants/Status/303300/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/303300/303300a@1.png",
+                "faces": "Servant/Faces/f_3033000.png",
+                "narrow_figure": "Servant/NarrowFigure/303300/303300@0.png",
+                "command": "Servant/Commands/303300/card_servant_1.png",
+                "status": "Servant/Status/303300/status_servant_1.png"
             }
         },
         {
@@ -319,7 +319,7 @@
                 {
                     "slot": 1,
                     "name": "原初之卢恩",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -370,7 +370,7 @@
                 {
                     "slot": 2,
                     "name": "天鹅礼装 A",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -419,7 +419,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -439,7 +439,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)",
@@ -460,7 +460,7 @@
             "nobles": [
                 {
                     "name": "终末幻想·少女降临",
-                    "icon": "CN/Servants/Commands/303300/card_servant_np.png",
+                    "icon": "Servant/Commands/303300/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -504,11 +504,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/303300/303300a@2.png",
-                "faces": "CN/Faces/f_3033001.png",
-                "narrow_figure": "CN/NarrowFigure/303300/303300@1.png",
-                "command": "CN/Servants/Commands/303300/card_servant_2.png",
-                "status": "CN/Servants/Status/303300/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/303300/303300a@2.png",
+                "faces": "Servant/Faces/f_3033001.png",
+                "narrow_figure": "Servant/NarrowFigure/303300/303300@1.png",
+                "command": "Servant/Commands/303300/card_servant_2.png",
+                "status": "Servant/Status/303300/status_servant_2.png"
             }
         },
         {
@@ -525,7 +525,7 @@
                 {
                     "slot": 1,
                     "name": "原初之卢恩",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -576,7 +576,7 @@
                 {
                     "slot": 2,
                     "name": "天鹅礼装 A",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -625,7 +625,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -645,7 +645,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)",
@@ -666,7 +666,7 @@
             "nobles": [
                 {
                     "name": "终末幻想·少女降临",
-                    "icon": "CN/Servants/Commands/303300/card_servant_np.png",
+                    "icon": "Servant/Commands/303300/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -710,11 +710,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/303300/303300b@1.png",
-                "faces": "CN/Faces/f_3033002.png",
-                "narrow_figure": "CN/NarrowFigure/303300/303300@2.png",
-                "command": "CN/Servants/Commands/303300/card_servant_3.png",
-                "status": "CN/Servants/Status/303300/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/303300/303300b@1.png",
+                "faces": "Servant/Faces/f_3033002.png",
+                "narrow_figure": "Servant/NarrowFigure/303300/303300@2.png",
+                "command": "Servant/Commands/303300/card_servant_3.png",
+                "status": "Servant/Status/303300/status_servant_3.png"
             }
         },
         {
@@ -731,7 +731,7 @@
                 {
                     "slot": 1,
                     "name": "原初之卢恩",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -782,7 +782,7 @@
                 {
                     "slot": 2,
                     "name": "天鹅礼装 A",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -829,7 +829,7 @@
                 {
                     "slot": 2,
                     "name": "天鹅之阵 A++",
-                    "icon": "CN/SkillIcons/skill_00402.png",
+                    "icon": "SkillIcons/skill_00402.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -912,7 +912,7 @@
                 {
                     "slot": 3,
                     "name": "命运纺织 B",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -983,7 +983,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1003,7 +1003,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(200)",
@@ -1024,7 +1024,7 @@
             "nobles": [
                 {
                     "name": "终末幻想·少女降临",
-                    "icon": "CN/Servants/Commands/303300/card_servant_np.png",
+                    "icon": "Servant/Commands/303300/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -1068,11 +1068,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/303300/303300b@2.png",
-                "faces": "CN/Faces/f_3033003.png",
-                "narrow_figure": "CN/NarrowFigure/303300/303300_2@0.png",
-                "command": "CN/Servants/Commands/303300/card_servant_3.png",
-                "status": "CN/Servants/Status/303300/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/303300/303300b@2.png",
+                "faces": "Servant/Faces/f_3033003.png",
+                "narrow_figure": "Servant/NarrowFigure/303300/303300_2@0.png",
+                "command": "Servant/Commands/303300/card_servant_3.png",
+                "status": "Servant/Status/303300/status_servant_3.png"
             }
         }
     ]

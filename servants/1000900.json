@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -195,7 +195,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -215,7 +215,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -235,7 +235,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -255,7 +255,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -284,7 +284,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -303,7 +303,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -349,11 +349,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000900/1000900a@1.png",
-                "faces": "CN/Faces/f_10009000.png",
-                "narrow_figure": "CN/NarrowFigure/1000900/1000900@0.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_1.png",
-                "status": "CN/Servants/Status/1000900/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/1000900/1000900a@1.png",
+                "faces": "Servant/Faces/f_10009000.png",
+                "narrow_figure": "Servant/NarrowFigure/1000900/1000900@0.png",
+                "command": "Servant/Commands/1000900/card_servant_1.png",
+                "status": "Servant/Status/1000900/status_servant_1.png"
             }
         },
         {
@@ -370,7 +370,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -403,7 +403,7 @@
                 {
                     "slot": 2,
                     "name": "幼儿退化 C",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -452,7 +452,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -472,7 +472,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -492,7 +492,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -512,7 +512,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -541,7 +541,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -560,7 +560,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -606,11 +606,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000900/1000900a@2.png",
-                "faces": "CN/Faces/f_10009001.png",
-                "narrow_figure": "CN/NarrowFigure/1000900/1000900@1.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_2.png",
-                "status": "CN/Servants/Status/1000900/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/1000900/1000900a@2.png",
+                "faces": "Servant/Faces/f_10009001.png",
+                "narrow_figure": "Servant/NarrowFigure/1000900/1000900@1.png",
+                "command": "Servant/Commands/1000900/card_servant_2.png",
+                "status": "Servant/Status/1000900/status_servant_2.png"
             }
         },
         {
@@ -627,7 +627,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -660,7 +660,7 @@
                 {
                     "slot": 2,
                     "name": "幼儿退化 C",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -709,7 +709,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -729,7 +729,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -749,7 +749,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -769,7 +769,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -798,7 +798,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -817,7 +817,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -863,11 +863,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000900/1000900b@1.png",
-                "faces": "CN/Faces/f_10009002.png",
-                "narrow_figure": "CN/NarrowFigure/1000900/1000900@2.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_3.png",
-                "status": "CN/Servants/Status/1000900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/1000900/1000900b@1.png",
+                "faces": "Servant/Faces/f_10009002.png",
+                "narrow_figure": "Servant/NarrowFigure/1000900/1000900@2.png",
+                "command": "Servant/Commands/1000900/card_servant_3.png",
+                "status": "Servant/Status/1000900/status_servant_3.png"
             }
         },
         {
@@ -884,7 +884,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -917,7 +917,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C+",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         12,
@@ -959,7 +959,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 B",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1037,7 +1037,7 @@
                 {
                     "slot": 2,
                     "name": "幼儿退化 C",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1084,7 +1084,7 @@
                 {
                     "slot": 3,
                     "name": "怪力 EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1117,7 +1117,7 @@
                 {
                     "slot": 3,
                     "name": "大河巨兽 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1170,7 +1170,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -1190,7 +1190,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1210,7 +1210,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -1230,7 +1230,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -1259,7 +1259,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -1278,7 +1278,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -1324,11 +1324,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000900/1000900b@2.png",
-                "faces": "CN/Faces/f_10009003.png",
-                "narrow_figure": "CN/NarrowFigure/1000900/1000900_2@0.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_3.png",
-                "status": "CN/Servants/Status/1000900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/1000900/1000900b@2.png",
+                "faces": "Servant/Faces/f_10009003.png",
+                "narrow_figure": "Servant/NarrowFigure/1000900/1000900_2@0.png",
+                "command": "Servant/Commands/1000900/card_servant_3.png",
+                "status": "Servant/Status/1000900/status_servant_3.png"
             }
         },
         {
@@ -1345,7 +1345,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -1378,7 +1378,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C+",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         12,
@@ -1420,7 +1420,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 B",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1498,7 +1498,7 @@
                 {
                     "slot": 2,
                     "name": "幼儿退化 C",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1545,7 +1545,7 @@
                 {
                     "slot": 3,
                     "name": "怪力 EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1578,7 +1578,7 @@
                 {
                     "slot": 3,
                     "name": "大河巨兽 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1631,7 +1631,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -1651,7 +1651,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1671,7 +1671,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -1691,7 +1691,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -1720,7 +1720,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -1739,7 +1739,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -1785,11 +1785,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000930/1000930a.png",
-                "faces": "CN/Faces/f_10009300.png",
-                "narrow_figure": "CN/NarrowFigure/1000930/1000930@0.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_11.png",
-                "status": "CN/Servants/Status/1000900/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/1000930/1000930a.png",
+                "faces": "Servant/Faces/f_10009300.png",
+                "narrow_figure": "Servant/NarrowFigure/1000930/1000930@0.png",
+                "command": "Servant/Commands/1000900/card_servant_11.png",
+                "status": "Servant/Status/1000900/status_servant_11.png"
             }
         },
         {
@@ -1806,7 +1806,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 0,
                     "cool_down": [
                         12,
@@ -1839,7 +1839,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 C+",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         12,
@@ -1881,7 +1881,7 @@
                 {
                     "slot": 1,
                     "name": "巨型规模 B",
-                    "icon": "CN/SkillIcons/skill_00412.png",
+                    "icon": "SkillIcons/skill_00412.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1959,7 +1959,7 @@
                 {
                     "slot": 2,
                     "name": "幼儿退化 C",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2006,7 +2006,7 @@
                 {
                     "slot": 3,
                     "name": "怪力 EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2039,7 +2039,7 @@
                 {
                     "slot": 3,
                     "name": "大河巨兽 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -2092,7 +2092,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(11%)",
@@ -2112,7 +2112,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -2132,7 +2132,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -2152,7 +2152,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆弱化耐性提升(25%)",
@@ -2181,7 +2181,7 @@
                 {
                     "slot": 0,
                     "name": "高等从者",
-                    "icon": "CN/SkillIcons/skill_999999.png",
+                    "icon": "SkillIcons/skill_999999.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "无效果",
@@ -2200,7 +2200,7 @@
             "nobles": [
                 {
                     "name": "巨影，现于生命之海",
-                    "icon": "CN/Servants/Commands/1000900/card_servant_np.png",
+                    "icon": "Servant/Commands/1000900/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -2246,11 +2246,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1000940/1000940a.png",
-                "faces": "CN/Faces/f_10009400.png",
-                "narrow_figure": "CN/NarrowFigure/1000940/1000940@0.png",
-                "command": "CN/Servants/Commands/1000900/card_servant_12.png",
-                "status": "CN/Servants/Status/1000900/status_servant_12.png"
+                "chara_graph": "Servant/CharaGraph/1000940/1000940a.png",
+                "faces": "Servant/Faces/f_10009400.png",
+                "narrow_figure": "Servant/NarrowFigure/1000940/1000940@0.png",
+                "command": "Servant/Commands/1000900/card_servant_12.png",
+                "status": "Servant/Status/1000900/status_servant_12.png"
             }
         }
     ]

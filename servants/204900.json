@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "守护骑士联盟 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -240,7 +240,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -260,7 +260,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -280,7 +280,7 @@
                 {
                     "slot": 0,
                     "name": "妖精骑士",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
@@ -300,7 +300,7 @@
                 {
                     "slot": 0,
                     "name": "雷云吞噬者",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
@@ -328,7 +328,7 @@
             "nobles": [
                 {
                     "name": "驱灾日轮之角",
-                    "icon": "CN/Servants/Commands/204900/card_servant_np.png",
+                    "icon": "Servant/Commands/204900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -379,11 +379,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/204900/204900a@1.png",
-                "faces": "CN/Faces/f_2049000.png",
-                "narrow_figure": "CN/NarrowFigure/204900/204900@0.png",
-                "command": "CN/Servants/Commands/204900/card_servant_1.png",
-                "status": "CN/Servants/Status/204900/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/204900/204900a@1.png",
+                "faces": "Servant/Faces/f_2049000.png",
+                "narrow_figure": "Servant/NarrowFigure/204900/204900@0.png",
+                "command": "Servant/Commands/204900/card_servant_1.png",
+                "status": "Servant/Status/204900/status_servant_1.png"
             }
         },
         {
@@ -400,7 +400,7 @@
                 {
                     "slot": 1,
                     "name": "守护骑士联盟 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -478,7 +478,7 @@
                 {
                     "slot": 2,
                     "name": "女王守护者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -545,7 +545,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -565,7 +565,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -585,7 +585,7 @@
                 {
                     "slot": 0,
                     "name": "妖精骑士",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
@@ -605,7 +605,7 @@
                 {
                     "slot": 0,
                     "name": "雷云吞噬者",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
@@ -633,7 +633,7 @@
             "nobles": [
                 {
                     "name": "驱灾日轮之角",
-                    "icon": "CN/Servants/Commands/204900/card_servant_np.png",
+                    "icon": "Servant/Commands/204900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -684,11 +684,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/204900/204900a@2.png",
-                "faces": "CN/Faces/f_2049001.png",
-                "narrow_figure": "CN/NarrowFigure/204900/204900@1.png",
-                "command": "CN/Servants/Commands/204900/card_servant_2.png",
-                "status": "CN/Servants/Status/204900/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/204900/204900a@2.png",
+                "faces": "Servant/Faces/f_2049001.png",
+                "narrow_figure": "Servant/NarrowFigure/204900/204900@1.png",
+                "command": "Servant/Commands/204900/card_servant_2.png",
+                "status": "Servant/Status/204900/status_servant_2.png"
             }
         },
         {
@@ -705,7 +705,7 @@
                 {
                     "slot": 1,
                     "name": "守护骑士联盟 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -783,7 +783,7 @@
                 {
                     "slot": 2,
                     "name": "女王守护者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -850,7 +850,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -870,7 +870,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -890,7 +890,7 @@
                 {
                     "slot": 0,
                     "name": "妖精骑士",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
@@ -910,7 +910,7 @@
                 {
                     "slot": 0,
                     "name": "雷云吞噬者",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
@@ -938,7 +938,7 @@
             "nobles": [
                 {
                     "name": "驱灾日轮之角",
-                    "icon": "CN/Servants/Commands/204900/card_servant_np.png",
+                    "icon": "Servant/Commands/204900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -989,11 +989,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/204900/204900b@1.png",
-                "faces": "CN/Faces/f_2049002.png",
-                "narrow_figure": "CN/NarrowFigure/204900/204900@2.png",
-                "command": "CN/Servants/Commands/204900/card_servant_3.png",
-                "status": "CN/Servants/Status/204900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/204900/204900b@1.png",
+                "faces": "Servant/Faces/f_2049002.png",
+                "narrow_figure": "Servant/NarrowFigure/204900/204900@2.png",
+                "command": "Servant/Commands/204900/card_servant_3.png",
+                "status": "Servant/Status/204900/status_servant_3.png"
             }
         },
         {
@@ -1010,7 +1010,7 @@
                 {
                     "slot": 1,
                     "name": "守护骑士联盟 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1088,7 +1088,7 @@
                 {
                     "slot": 2,
                     "name": "女王守护者 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1153,7 +1153,7 @@
                 {
                     "slot": 3,
                     "name": "斯特莱克·韦瑟 B",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1202,7 +1202,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(15%)",
@@ -1222,7 +1222,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -1242,7 +1242,7 @@
                 {
                     "slot": 0,
                     "name": "妖精骑士",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身对〔拥有人之力的敌人〕的暴击威力小幅提升(4%)",
@@ -1262,7 +1262,7 @@
                 {
                     "slot": 0,
                     "name": "雷云吞噬者",
-                    "icon": "CN/SkillIcons/skill_00607.png",
+                    "icon": "SkillIcons/skill_00607.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "仅自身在燃烧场地上时，付与每回合获得宝具值的状态(5%)＆付与灼伤·延烧无效状态",
@@ -1290,7 +1290,7 @@
             "nobles": [
                 {
                     "name": "驱灾日轮之角",
-                    "icon": "CN/Servants/Commands/204900/card_servant_np.png",
+                    "icon": "Servant/Commands/204900/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1341,11 +1341,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/204900/204900b@2.png",
-                "faces": "CN/Faces/f_2049003.png",
-                "narrow_figure": "CN/NarrowFigure/204900/204900_2@0.png",
-                "command": "CN/Servants/Commands/204900/card_servant_3.png",
-                "status": "CN/Servants/Status/204900/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/204900/204900b@2.png",
+                "faces": "Servant/Faces/f_2049003.png",
+                "narrow_figure": "Servant/NarrowFigure/204900/204900_2@0.png",
+                "command": "Servant/Commands/204900/card_servant_3.png",
+                "status": "Servant/Status/204900/status_servant_3.png"
             }
         }
     ]

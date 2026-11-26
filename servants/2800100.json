@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对魔术师攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔魔术师〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -204,7 +204,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -273,7 +273,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -293,7 +293,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -312,7 +312,7 @@
             "nobles": [
                 {
                     "name": "于彼方点缀的梦之童话",
-                    "icon": "CN/Servants/Commands/2800100/card_servant_np.png",
+                    "icon": "Servant/Commands/2800100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -370,11 +370,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800100/2800100a@1.png",
-                "faces": "CN/Faces/f_28001000.png",
-                "narrow_figure": "CN/NarrowFigure/2800100/2800100@0.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_1.png",
-                "status": "CN/Servants/Status/2800100/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/2800100/2800100a@1.png",
+                "faces": "Servant/Faces/f_28001000.png",
+                "narrow_figure": "Servant/NarrowFigure/2800100/2800100@0.png",
+                "command": "Servant/Commands/2800100/card_servant_1.png",
+                "status": "Servant/Status/2800100/status_servant_1.png"
             }
         },
         {
@@ -391,7 +391,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -433,7 +433,7 @@
                 {
                     "slot": 2,
                     "name": "晨之云雀 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -495,7 +495,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -524,7 +524,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -544,7 +544,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -564,7 +564,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -584,7 +584,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -603,7 +603,7 @@
             "nobles": [
                 {
                     "name": "于彼方点缀的梦之童话",
-                    "icon": "CN/Servants/Commands/2800100/card_servant_np.png",
+                    "icon": "Servant/Commands/2800100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -661,11 +661,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800100/2800100a@2.png",
-                "faces": "CN/Faces/f_28001001.png",
-                "narrow_figure": "CN/NarrowFigure/2800100/2800100@1.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_2.png",
-                "status": "CN/Servants/Status/2800100/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/2800100/2800100a@2.png",
+                "faces": "Servant/Faces/f_28001001.png",
+                "narrow_figure": "Servant/NarrowFigure/2800100/2800100@1.png",
+                "command": "Servant/Commands/2800100/card_servant_2.png",
+                "status": "Servant/Status/2800100/status_servant_2.png"
             }
         },
         {
@@ -682,7 +682,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -724,7 +724,7 @@
                 {
                     "slot": 2,
                     "name": "晨之云雀 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -786,7 +786,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -815,7 +815,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -835,7 +835,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -855,7 +855,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -875,7 +875,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -894,7 +894,7 @@
             "nobles": [
                 {
                     "name": "于彼方点缀的梦之童话",
-                    "icon": "CN/Servants/Commands/2800100/card_servant_np.png",
+                    "icon": "Servant/Commands/2800100/card_servant_np.png",
                     "card": "Buster",
                     "rank": "E",
                     "type": "对人宝具",
@@ -952,11 +952,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800100/2800100b@1.png",
-                "faces": "CN/Faces/f_28001002.png",
-                "narrow_figure": "CN/NarrowFigure/2800100/2800100@2.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_3.png",
-                "status": "CN/Servants/Status/2800100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2800100/2800100b@1.png",
+                "faces": "Servant/Faces/f_28001002.png",
+                "narrow_figure": "Servant/NarrowFigure/2800100/2800100@2.png",
+                "command": "Servant/Commands/2800100/card_servant_3.png",
+                "status": "Servant/Status/2800100/status_servant_3.png"
             }
         },
         {
@@ -973,7 +973,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1015,7 +1015,7 @@
                 {
                     "slot": 2,
                     "name": "晨之云雀 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1075,7 +1075,7 @@
                 {
                     "slot": 3,
                     "name": "梦之终结 EX",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1151,7 +1151,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -1180,7 +1180,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -1200,7 +1200,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -1220,7 +1220,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1240,7 +1240,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -1317,11 +1317,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800100/2800100b@2.png",
-                "faces": "CN/Faces/f_28001003.png",
-                "narrow_figure": "CN/NarrowFigure/2800100/2800100_2@0.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_3.png",
-                "status": "CN/Servants/Status/2800100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/2800100/2800100b@2.png",
+                "faces": "Servant/Faces/f_28001003.png",
+                "narrow_figure": "Servant/NarrowFigure/2800100/2800100_2@0.png",
+                "command": "Servant/Commands/2800100/card_servant_3.png",
+                "status": "Servant/Status/2800100/status_servant_3.png"
             }
         },
         {
@@ -1338,7 +1338,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1380,7 +1380,7 @@
                 {
                     "slot": 2,
                     "name": "晨之云雀 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1440,7 +1440,7 @@
                 {
                     "slot": 3,
                     "name": "梦之终结 EX",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1516,7 +1516,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -1545,7 +1545,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -1565,7 +1565,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -1585,7 +1585,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1605,7 +1605,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -1682,11 +1682,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800130/2800130a.png",
-                "faces": "CN/Faces/f_28001300.png",
-                "narrow_figure": "CN/NarrowFigure/2800130/2800130@0.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_11.png",
-                "status": "CN/Servants/Status/2800100/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/2800130/2800130a.png",
+                "faces": "Servant/Faces/f_28001300.png",
+                "narrow_figure": "Servant/NarrowFigure/2800130/2800130@0.png",
+                "command": "Servant/Commands/2800100/card_servant_11.png",
+                "status": "Servant/Status/2800100/status_servant_11.png"
             }
         },
         {
@@ -1703,7 +1703,7 @@
                 {
                     "slot": 1,
                     "name": "夜之帷幕 EX",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1745,7 +1745,7 @@
                 {
                     "slot": 2,
                     "name": "晨之云雀 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1805,7 +1805,7 @@
                 {
                     "slot": 3,
                     "name": "梦之终结 EX",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -1881,7 +1881,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00500.png",
+                    "icon": "SkillIcons/skill_00500.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身在场时，己方全体(包括替补)对〔Foreigner〕职阶以外的弱化付与成功率提升(10%)＋己方全体(包括替补)梅林的强化付与成功率下降【负面效果】(20%)",
@@ -1910,7 +1910,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能小幅提升(1.5%)",
@@ -1930,7 +1930,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(11%)",
@@ -1950,7 +1950,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(10%)",
@@ -1970,7 +1970,7 @@
                 {
                     "slot": 0,
                     "name": "仲夏夜之梦",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常·诅咒无效状态",
@@ -2047,11 +2047,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/2800140/2800140a.png",
-                "faces": "CN/Faces/f_28001400.png",
-                "narrow_figure": "CN/NarrowFigure/2800140/2800140@0.png",
-                "command": "CN/Servants/Commands/2800100/card_servant_12.png",
-                "status": "CN/Servants/Status/2800100/status_servant_12.png"
+                "chara_graph": "Servant/CharaGraph/2800140/2800140a.png",
+                "faces": "Servant/Faces/f_28001400.png",
+                "narrow_figure": "Servant/NarrowFigure/2800140/2800140@0.png",
+                "command": "Servant/Commands/2800100/card_servant_12.png",
+                "status": "Servant/Status/2800100/status_servant_12.png"
             }
         }
     ]

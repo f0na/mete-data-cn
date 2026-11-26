@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "中国拳法 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率小幅提升(6%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "无赖汉",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身迅指令卡性能提升(5%)＆暴击威力提升(5%)",
@@ -263,7 +263,7 @@
             "nobles": [
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对人宝具",
@@ -300,11 +300,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/602600/602600a@1.png",
-                "faces": "CN/Faces/f_6026000.png",
-                "narrow_figure": "CN/NarrowFigure/602600/602600@0.png",
-                "command": "CN/Servants/Commands/602600/card_servant_1.png",
-                "status": "CN/Servants/Status/602600/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/602600/602600a@1.png",
+                "faces": "Servant/Faces/f_6026000.png",
+                "narrow_figure": "Servant/NarrowFigure/602600/602600@0.png",
+                "command": "Servant/Commands/602600/card_servant_1.png",
+                "status": "Servant/Status/602600/status_servant_1.png"
             }
         },
         {
@@ -321,7 +321,7 @@
                 {
                     "slot": 1,
                     "name": "中国拳法 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -372,7 +372,7 @@
                 {
                     "slot": 2,
                     "name": "谍报 A",
-                    "icon": "CN/SkillIcons/skill_00604.png",
+                    "icon": "SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -407,7 +407,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率小幅提升(6%)",
@@ -427,7 +427,7 @@
                 {
                     "slot": 0,
                     "name": "无赖汉",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身迅指令卡性能提升(5%)＆暴击威力提升(5%)",
@@ -457,7 +457,7 @@
             "nobles": [
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对人宝具",
@@ -494,11 +494,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/602600/602600a@2.png",
-                "faces": "CN/Faces/f_6026001.png",
-                "narrow_figure": "CN/NarrowFigure/602600/602600@1.png",
-                "command": "CN/Servants/Commands/602600/card_servant_2.png",
-                "status": "CN/Servants/Status/602600/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/602600/602600a@2.png",
+                "faces": "Servant/Faces/f_6026001.png",
+                "narrow_figure": "Servant/NarrowFigure/602600/602600@1.png",
+                "command": "Servant/Commands/602600/card_servant_2.png",
+                "status": "Servant/Status/602600/status_servant_2.png"
             }
         },
         {
@@ -515,7 +515,7 @@
                 {
                     "slot": 1,
                     "name": "中国拳法 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -566,7 +566,7 @@
                 {
                     "slot": 2,
                     "name": "谍报 A",
-                    "icon": "CN/SkillIcons/skill_00604.png",
+                    "icon": "SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -601,7 +601,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率小幅提升(6%)",
@@ -621,7 +621,7 @@
                 {
                     "slot": 0,
                     "name": "无赖汉",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身迅指令卡性能提升(5%)＆暴击威力提升(5%)",
@@ -651,7 +651,7 @@
             "nobles": [
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对人宝具",
@@ -688,11 +688,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/602600/602600b@1.png",
-                "faces": "CN/Faces/f_6026002.png",
-                "narrow_figure": "CN/NarrowFigure/602600/602600@2.png",
-                "command": "CN/Servants/Commands/602600/card_servant_3.png",
-                "status": "CN/Servants/Status/602600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/602600/602600b@1.png",
+                "faces": "Servant/Faces/f_6026002.png",
+                "narrow_figure": "Servant/NarrowFigure/602600/602600@2.png",
+                "command": "Servant/Commands/602600/card_servant_3.png",
+                "status": "Servant/Status/602600/status_servant_3.png"
             }
         },
         {
@@ -709,7 +709,7 @@
                 {
                     "slot": 1,
                     "name": "中国拳法 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -760,7 +760,7 @@
                 {
                     "slot": 1,
                     "name": "燕青拳 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -847,7 +847,7 @@
                 {
                     "slot": 2,
                     "name": "谍报 A",
-                    "icon": "CN/SkillIcons/skill_00604.png",
+                    "icon": "SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -880,7 +880,7 @@
                 {
                     "slot": 2,
                     "name": "二重身 B+",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -949,7 +949,7 @@
                 {
                     "slot": 3,
                     "name": "天巧星 A+",
-                    "icon": "CN/SkillIcons/skill_00537.png",
+                    "icon": "SkillIcons/skill_00537.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -993,7 +993,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率小幅提升(6%)",
@@ -1013,7 +1013,7 @@
                 {
                     "slot": 0,
                     "name": "无赖汉",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身迅指令卡性能提升(5%)＆暴击威力提升(5%)",
@@ -1043,7 +1043,7 @@
             "nobles": [
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对人宝具",
@@ -1080,7 +1080,7 @@
                 },
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1135,11 +1135,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/602600/602600b@2.png",
-                "faces": "CN/Faces/f_6026003.png",
-                "narrow_figure": "CN/NarrowFigure/602600/602600_2@0.png",
-                "command": "CN/Servants/Commands/602600/card_servant_3.png",
-                "status": "CN/Servants/Status/602600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/602600/602600b@2.png",
+                "faces": "Servant/Faces/f_6026003.png",
+                "narrow_figure": "Servant/NarrowFigure/602600/602600_2@0.png",
+                "command": "Servant/Commands/602600/card_servant_3.png",
+                "status": "Servant/Status/602600/status_servant_3.png"
             }
         },
         {
@@ -1156,7 +1156,7 @@
                 {
                     "slot": 1,
                     "name": "中国拳法 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1207,7 +1207,7 @@
                 {
                     "slot": 1,
                     "name": "燕青拳 EX",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1294,7 +1294,7 @@
                 {
                     "slot": 2,
                     "name": "谍报 A",
-                    "icon": "CN/SkillIcons/skill_00604.png",
+                    "icon": "SkillIcons/skill_00604.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1327,7 +1327,7 @@
                 {
                     "slot": 2,
                     "name": "二重身 B+",
-                    "icon": "CN/SkillIcons/skill_00304.png",
+                    "icon": "SkillIcons/skill_00304.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1396,7 +1396,7 @@
                 {
                     "slot": 3,
                     "name": "天巧星 A+",
-                    "icon": "CN/SkillIcons/skill_00537.png",
+                    "icon": "SkillIcons/skill_00537.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1440,7 +1440,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率小幅提升(6%)",
@@ -1460,7 +1460,7 @@
                 {
                     "slot": 0,
                     "name": "无赖汉",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身迅指令卡性能提升(5%)＆暴击威力提升(5%)",
@@ -1490,7 +1490,7 @@
             "nobles": [
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对人宝具",
@@ -1527,7 +1527,7 @@
                 },
                 {
                     "name": "十面埋伏·无影踪",
-                    "icon": "CN/Servants/Commands/602600/card_servant_np.png",
+                    "icon": "Servant/Commands/602600/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1582,11 +1582,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/602630/602630a.png",
-                "faces": "CN/Faces/f_6026300.png",
-                "narrow_figure": "CN/NarrowFigure/602630/602630@0.png",
-                "command": "CN/Servants/Commands/602600/card_servant_11.png",
-                "status": "CN/Servants/Status/602600/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/602630/602630a.png",
+                "faces": "Servant/Faces/f_6026300.png",
+                "narrow_figure": "Servant/NarrowFigure/602630/602630@0.png",
+                "command": "Servant/Commands/602600/card_servant_11.png",
+                "status": "Servant/Status/602600/status_servant_11.png"
             }
         }
     ]

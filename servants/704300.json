@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对他人格暴击耐性",
-            "icon": "CN/SkillIcons/skill_00417.png",
+            "icon": "SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔他人格〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "盛夏的女神 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -231,7 +231,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(2%)",
@@ -251,7 +251,7 @@
                 {
                     "slot": 0,
                     "name": "龙种",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)＆付与被伤害减免状态(200)",
@@ -280,7 +280,7 @@
                 {
                     "slot": 0,
                     "name": "蛇神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆强化解除耐性提升(20%)",
@@ -310,7 +310,7 @@
             "nobles": [
                 {
                     "name": "伊吹御灵·八脉怒涛",
-                    "icon": "CN/Servants/Commands/704300/card_servant_np.png",
+                    "icon": "Servant/Commands/704300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -363,11 +363,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/704300/704300a@1.png",
-                "faces": "CN/Faces/f_7043000.png",
-                "narrow_figure": "CN/NarrowFigure/704300/704300@0.png",
-                "command": "CN/Servants/Commands/704300/card_servant_1.png",
-                "status": "CN/Servants/Status/704300/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/704300/704300a@1.png",
+                "faces": "Servant/Faces/f_7043000.png",
+                "narrow_figure": "Servant/NarrowFigure/704300/704300@0.png",
+                "command": "Servant/Commands/704300/card_servant_1.png",
+                "status": "Servant/Status/704300/status_servant_1.png"
             }
         },
         {
@@ -384,7 +384,7 @@
                 {
                     "slot": 1,
                     "name": "盛夏的女神 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -453,7 +453,7 @@
                 {
                     "slot": 2,
                     "name": "夏日啦啦队队长 C",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -513,7 +513,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(2%)",
@@ -533,7 +533,7 @@
                 {
                     "slot": 0,
                     "name": "龙种",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)＆付与被伤害减免状态(200)",
@@ -562,7 +562,7 @@
                 {
                     "slot": 0,
                     "name": "蛇神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆强化解除耐性提升(20%)",
@@ -592,7 +592,7 @@
             "nobles": [
                 {
                     "name": "伊吹御灵·八脉怒涛",
-                    "icon": "CN/Servants/Commands/704300/card_servant_np.png",
+                    "icon": "Servant/Commands/704300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -645,11 +645,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/704300/704300a@2.png",
-                "faces": "CN/Faces/f_7043001.png",
-                "narrow_figure": "CN/NarrowFigure/704300/704300@1.png",
-                "command": "CN/Servants/Commands/704300/card_servant_2.png",
-                "status": "CN/Servants/Status/704300/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/704300/704300a@2.png",
+                "faces": "Servant/Faces/f_7043001.png",
+                "narrow_figure": "Servant/NarrowFigure/704300/704300@1.png",
+                "command": "Servant/Commands/704300/card_servant_2.png",
+                "status": "Servant/Status/704300/status_servant_2.png"
             }
         },
         {
@@ -666,7 +666,7 @@
                 {
                     "slot": 1,
                     "name": "盛夏的女神 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -735,7 +735,7 @@
                 {
                     "slot": 2,
                     "name": "夏日啦啦队队长 C",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -795,7 +795,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(2%)",
@@ -815,7 +815,7 @@
                 {
                     "slot": 0,
                     "name": "龙种",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)＆付与被伤害减免状态(200)",
@@ -844,7 +844,7 @@
                 {
                     "slot": 0,
                     "name": "蛇神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆强化解除耐性提升(20%)",
@@ -874,7 +874,7 @@
             "nobles": [
                 {
                     "name": "伊吹御灵·八脉怒涛",
-                    "icon": "CN/Servants/Commands/704300/card_servant_np.png",
+                    "icon": "Servant/Commands/704300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -927,11 +927,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/704300/704300b@1.png",
-                "faces": "CN/Faces/f_7043002.png",
-                "narrow_figure": "CN/NarrowFigure/704300/704300@2.png",
-                "command": "CN/Servants/Commands/704300/card_servant_3.png",
-                "status": "CN/Servants/Status/704300/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/704300/704300b@1.png",
+                "faces": "Servant/Faces/f_7043002.png",
+                "narrow_figure": "Servant/NarrowFigure/704300/704300@2.png",
+                "command": "Servant/Commands/704300/card_servant_3.png",
+                "status": "Servant/Status/704300/status_servant_3.png"
             }
         },
         {
@@ -948,7 +948,7 @@
                 {
                     "slot": 1,
                     "name": "盛夏的女神 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1017,7 +1017,7 @@
                 {
                     "slot": 2,
                     "name": "夏日啦啦队队长 C",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1075,7 +1075,7 @@
                 {
                     "slot": 3,
                     "name": "沙滩启示录 A+",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1146,7 +1146,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(2%)",
@@ -1166,7 +1166,7 @@
                 {
                     "slot": 0,
                     "name": "龙种",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)＆付与被伤害减免状态(200)",
@@ -1195,7 +1195,7 @@
                 {
                     "slot": 0,
                     "name": "蛇神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆强化解除耐性提升(20%)",
@@ -1225,7 +1225,7 @@
             "nobles": [
                 {
                     "name": "伊吹御灵·八脉怒涛",
-                    "icon": "CN/Servants/Commands/704300/card_servant_np.png",
+                    "icon": "Servant/Commands/704300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -1278,11 +1278,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/704300/704300b@2.png",
-                "faces": "CN/Faces/f_7043003.png",
-                "narrow_figure": "CN/NarrowFigure/704300/704300_2@0.png",
-                "command": "CN/Servants/Commands/704300/card_servant_3.png",
-                "status": "CN/Servants/Status/704300/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/704300/704300b@2.png",
+                "faces": "Servant/Faces/f_7043003.png",
+                "narrow_figure": "Servant/NarrowFigure/704300/704300_2@0.png",
+                "command": "Servant/Commands/704300/card_servant_3.png",
+                "status": "Servant/Status/704300/status_servant_3.png"
             }
         },
         {
@@ -1299,7 +1299,7 @@
                 {
                     "slot": 1,
                     "name": "盛夏的女神 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1368,7 +1368,7 @@
                 {
                     "slot": 2,
                     "name": "夏日啦啦队队长 C",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1426,7 +1426,7 @@
                 {
                     "slot": 3,
                     "name": "沙滩启示录 A+",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1497,7 +1497,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(2%)",
@@ -1517,7 +1517,7 @@
                 {
                     "slot": 0,
                     "name": "龙种",
-                    "icon": "CN/SkillIcons/skill_00306.png",
+                    "icon": "SkillIcons/skill_00306.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(12%)＆付与被伤害减免状态(200)",
@@ -1546,7 +1546,7 @@
                 {
                     "slot": 0,
                     "name": "蛇神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(250)＆强化解除耐性提升(20%)",
@@ -1576,7 +1576,7 @@
             "nobles": [
                 {
                     "name": "伊吹御灵·八脉怒涛",
-                    "icon": "CN/Servants/Commands/704300/card_servant_np.png",
+                    "icon": "Servant/Commands/704300/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B+",
                     "type": "对军宝具",
@@ -1629,11 +1629,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/704330/704330a.png",
-                "faces": "CN/Faces/f_7043300.png",
-                "narrow_figure": "CN/NarrowFigure/704330/704330@0.png",
-                "command": "CN/Servants/Commands/704300/card_servant_11.png",
-                "status": "CN/Servants/Status/704300/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/704330/704330a.png",
+                "faces": "Servant/Faces/f_7043300.png",
+                "narrow_figure": "Servant/NarrowFigure/704330/704330@0.png",
+                "command": "Servant/Commands/704300/card_servant_11.png",
+                "status": "Servant/Status/704300/status_servant_11.png"
             }
         }
     ]

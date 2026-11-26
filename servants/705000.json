@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士暴击耐性",
-            "icon": "CN/SkillIcons/skill_00417.png",
+            "icon": "SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "天体轨道调整 B",
-                    "icon": "CN/SkillIcons/skill_00316.png",
+                    "icon": "SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -227,7 +227,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -247,7 +247,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -267,7 +267,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -288,7 +288,7 @@
             "nobles": [
                 {
                     "name": "极星天球壳循环",
-                    "icon": "CN/Servants/Commands/705000/card_servant_np.png",
+                    "icon": "Servant/Commands/705000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -365,11 +365,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/705000/705000a@1.png",
-                "faces": "CN/Faces/f_7050000.png",
-                "narrow_figure": "CN/NarrowFigure/705000/705000@0.png",
-                "command": "CN/Servants/Commands/705000/card_servant_1.png",
-                "status": "CN/Servants/Status/705000/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/705000/705000a@1.png",
+                "faces": "Servant/Faces/f_7050000.png",
+                "narrow_figure": "Servant/NarrowFigure/705000/705000@0.png",
+                "command": "Servant/Commands/705000/card_servant_1.png",
+                "status": "Servant/Status/705000/status_servant_1.png"
             }
         },
         {
@@ -386,7 +386,7 @@
                 {
                     "slot": 1,
                     "name": "天体轨道调整 B",
-                    "icon": "CN/SkillIcons/skill_00316.png",
+                    "icon": "SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -451,7 +451,7 @@
                 {
                     "slot": 2,
                     "name": "北之灾厄 A",
-                    "icon": "CN/SkillIcons/skill_00508.png",
+                    "icon": "SkillIcons/skill_00508.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -536,7 +536,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -556,7 +556,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -576,7 +576,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -597,7 +597,7 @@
             "nobles": [
                 {
                     "name": "极星天球壳循环",
-                    "icon": "CN/Servants/Commands/705000/card_servant_np.png",
+                    "icon": "Servant/Commands/705000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -674,11 +674,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/705000/705000a@2.png",
-                "faces": "CN/Faces/f_7050001.png",
-                "narrow_figure": "CN/NarrowFigure/705000/705000@1.png",
-                "command": "CN/Servants/Commands/705000/card_servant_2.png",
-                "status": "CN/Servants/Status/705000/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/705000/705000a@2.png",
+                "faces": "Servant/Faces/f_7050001.png",
+                "narrow_figure": "Servant/NarrowFigure/705000/705000@1.png",
+                "command": "Servant/Commands/705000/card_servant_2.png",
+                "status": "Servant/Status/705000/status_servant_2.png"
             }
         },
         {
@@ -695,7 +695,7 @@
                 {
                     "slot": 1,
                     "name": "天体轨道调整 B",
-                    "icon": "CN/SkillIcons/skill_00316.png",
+                    "icon": "SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -760,7 +760,7 @@
                 {
                     "slot": 2,
                     "name": "北之灾厄 A",
-                    "icon": "CN/SkillIcons/skill_00508.png",
+                    "icon": "SkillIcons/skill_00508.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -845,7 +845,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -865,7 +865,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -885,7 +885,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -906,7 +906,7 @@
             "nobles": [
                 {
                     "name": "极星天球壳循环",
-                    "icon": "CN/Servants/Commands/705000/card_servant_np.png",
+                    "icon": "Servant/Commands/705000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -983,11 +983,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/705000/705000b@1.png",
-                "faces": "CN/Faces/f_7050002.png",
-                "narrow_figure": "CN/NarrowFigure/705000/705000@2.png",
-                "command": "CN/Servants/Commands/705000/card_servant_3.png",
-                "status": "CN/Servants/Status/705000/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/705000/705000b@1.png",
+                "faces": "Servant/Faces/f_7050002.png",
+                "narrow_figure": "Servant/NarrowFigure/705000/705000@2.png",
+                "command": "Servant/Commands/705000/card_servant_3.png",
+                "status": "Servant/Status/705000/status_servant_3.png"
             }
         },
         {
@@ -1004,7 +1004,7 @@
                 {
                     "slot": 1,
                     "name": "天体轨道调整 B",
-                    "icon": "CN/SkillIcons/skill_00316.png",
+                    "icon": "SkillIcons/skill_00316.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1069,7 +1069,7 @@
                 {
                     "slot": 2,
                     "name": "北之灾厄 A",
-                    "icon": "CN/SkillIcons/skill_00508.png",
+                    "icon": "SkillIcons/skill_00508.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1152,7 +1152,7 @@
                 {
                     "slot": 3,
                     "name": "破灭的难题 B",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1214,7 +1214,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能小幅提升(6%)",
@@ -1234,7 +1234,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1254,7 +1254,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -1275,7 +1275,7 @@
             "nobles": [
                 {
                     "name": "极星天球壳循环",
-                    "icon": "CN/Servants/Commands/705000/card_servant_np.png",
+                    "icon": "Servant/Commands/705000/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B",
                     "type": "对军宝具",
@@ -1352,11 +1352,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/705000/705000b@2.png",
-                "faces": "CN/Faces/f_7050003.png",
-                "narrow_figure": "CN/NarrowFigure/705000/705000_2@0.png",
-                "command": "CN/Servants/Commands/705000/card_servant_3.png",
-                "status": "CN/Servants/Status/705000/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/705000/705000b@2.png",
+                "faces": "Servant/Faces/f_7050003.png",
+                "narrow_figure": "Servant/NarrowFigure/705000/705000_2@0.png",
+                "command": "Servant/Commands/705000/card_servant_3.png",
+                "status": "Servant/Status/705000/status_servant_3.png"
             }
         }
     ]

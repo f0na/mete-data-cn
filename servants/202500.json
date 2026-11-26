@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对骑兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔骑兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "沙滩之花 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -254,7 +254,7 @@
             "nobles": [
                 {
                     "name": "比翼连理",
-                    "icon": "CN/Servants/Commands/202500/card_servant_np.png",
+                    "icon": "Servant/Commands/202500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -300,11 +300,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202500/202500a@1.png",
-                "faces": "CN/Faces/f_2025000.png",
-                "narrow_figure": "CN/NarrowFigure/202500/202500@0.png",
-                "command": "CN/Servants/Commands/202500/card_servant_1.png",
-                "status": "CN/Servants/Status/202500/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/202500/202500a@1.png",
+                "faces": "Servant/Faces/f_2025000.png",
+                "narrow_figure": "Servant/NarrowFigure/202500/202500@0.png",
+                "command": "Servant/Commands/202500/card_servant_1.png",
+                "status": "Servant/Status/202500/status_servant_1.png"
             }
         },
         {
@@ -321,7 +321,7 @@
                 {
                     "slot": 1,
                     "name": "沙滩之花 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -372,7 +372,7 @@
                 {
                     "slot": 2,
                     "name": "财宝搜寻（海） C",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -425,7 +425,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -445,7 +445,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -466,7 +466,7 @@
             "nobles": [
                 {
                     "name": "比翼连理",
-                    "icon": "CN/Servants/Commands/202500/card_servant_np.png",
+                    "icon": "Servant/Commands/202500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -512,11 +512,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202500/202500a@2.png",
-                "faces": "CN/Faces/f_2025001.png",
-                "narrow_figure": "CN/NarrowFigure/202500/202500@1.png",
-                "command": "CN/Servants/Commands/202500/card_servant_2.png",
-                "status": "CN/Servants/Status/202500/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/202500/202500a@2.png",
+                "faces": "Servant/Faces/f_2025001.png",
+                "narrow_figure": "Servant/NarrowFigure/202500/202500@1.png",
+                "command": "Servant/Commands/202500/card_servant_2.png",
+                "status": "Servant/Status/202500/status_servant_2.png"
             }
         },
         {
@@ -533,7 +533,7 @@
                 {
                     "slot": 1,
                     "name": "沙滩之花 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -584,7 +584,7 @@
                 {
                     "slot": 2,
                     "name": "财宝搜寻（海） C",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -637,7 +637,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -657,7 +657,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -678,7 +678,7 @@
             "nobles": [
                 {
                     "name": "比翼连理",
-                    "icon": "CN/Servants/Commands/202500/card_servant_np.png",
+                    "icon": "Servant/Commands/202500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -724,11 +724,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202500/202500b@1.png",
-                "faces": "CN/Faces/f_2025002.png",
-                "narrow_figure": "CN/NarrowFigure/202500/202500@2.png",
-                "command": "CN/Servants/Commands/202500/card_servant_3.png",
-                "status": "CN/Servants/Status/202500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/202500/202500b@1.png",
+                "faces": "Servant/Faces/f_2025002.png",
+                "narrow_figure": "Servant/NarrowFigure/202500/202500@2.png",
+                "command": "Servant/Commands/202500/card_servant_3.png",
+                "status": "Servant/Status/202500/status_servant_3.png"
             }
         },
         {
@@ -745,7 +745,7 @@
                 {
                     "slot": 1,
                     "name": "沙滩之花 A+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -796,7 +796,7 @@
                 {
                     "slot": 2,
                     "name": "财宝搜寻（海） C",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -847,7 +847,7 @@
                 {
                     "slot": 2,
                     "name": "财宝搜寻（海） A",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -916,7 +916,7 @@
                 {
                     "slot": 3,
                     "name": "海盗的尊严 C+",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -969,7 +969,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性小幅提升(12.5%)",
@@ -989,7 +989,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -1010,7 +1010,7 @@
             "nobles": [
                 {
                     "name": "比翼连理",
-                    "icon": "CN/Servants/Commands/202500/card_servant_np.png",
+                    "icon": "Servant/Commands/202500/card_servant_np.png",
                     "card": "Buster",
                     "rank": "C++",
                     "type": "对人宝具",
@@ -1056,11 +1056,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202500/202500b@2.png",
-                "faces": "CN/Faces/f_2025003.png",
-                "narrow_figure": "CN/NarrowFigure/202500/202500_2@0.png",
-                "command": "CN/Servants/Commands/202500/card_servant_3.png",
-                "status": "CN/Servants/Status/202500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/202500/202500b@2.png",
+                "faces": "Servant/Faces/f_2025003.png",
+                "narrow_figure": "Servant/NarrowFigure/202500/202500_2@0.png",
+                "command": "Servant/Commands/202500/card_servant_3.png",
+                "status": "Servant/Status/202500/status_servant_3.png"
             }
         }
     ]

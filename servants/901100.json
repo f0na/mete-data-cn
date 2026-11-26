@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "圣瓦伦丁的圣骸布 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -218,7 +218,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -238,7 +238,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -258,7 +258,7 @@
                 {
                     "slot": 0,
                     "name": "受虐灵媒体质",
-                    "icon": "CN/SkillIcons/skill_00502.png",
+                    "icon": "SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性下降<视为强化状态>【负面效果】(20%)＆付与处于弱化状态时攻击力提升的状态(20%)",
@@ -287,7 +287,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -316,7 +316,7 @@
                 {
                     "slot": 0,
                     "name": "钢之信仰",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身〔恐怖〕无效状态＆付与〔魅惑〕无效状态＆力攻击耐性小幅提升(10%)",
@@ -351,7 +351,7 @@
             "nobles": [
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -404,11 +404,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/901100/901100a@1.png",
-                "faces": "CN/Faces/f_9011000.png",
-                "narrow_figure": "CN/NarrowFigure/901100/901100@0.png",
-                "command": "CN/Servants/Commands/901100/card_servant_1.png",
-                "status": "CN/Servants/Status/901100/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/901100/901100a@1.png",
+                "faces": "Servant/Faces/f_9011000.png",
+                "narrow_figure": "Servant/NarrowFigure/901100/901100@0.png",
+                "command": "Servant/Commands/901100/card_servant_1.png",
+                "status": "Servant/Status/901100/status_servant_1.png"
             }
         },
         {
@@ -425,7 +425,7 @@
                 {
                     "slot": 1,
                     "name": "圣瓦伦丁的圣骸布 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -481,7 +481,7 @@
                 {
                     "slot": 2,
                     "name": "黄金之箭 A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -570,7 +570,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -590,7 +590,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -610,7 +610,7 @@
                 {
                     "slot": 0,
                     "name": "受虐灵媒体质",
-                    "icon": "CN/SkillIcons/skill_00502.png",
+                    "icon": "SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性下降<视为强化状态>【负面效果】(20%)＆付与处于弱化状态时攻击力提升的状态(20%)",
@@ -639,7 +639,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -668,7 +668,7 @@
                 {
                     "slot": 0,
                     "name": "钢之信仰",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身〔恐怖〕无效状态＆付与〔魅惑〕无效状态＆力攻击耐性小幅提升(10%)",
@@ -703,7 +703,7 @@
             "nobles": [
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -756,11 +756,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/901100/901100a@2.png",
-                "faces": "CN/Faces/f_9011001.png",
-                "narrow_figure": "CN/NarrowFigure/901100/901100@1.png",
-                "command": "CN/Servants/Commands/901100/card_servant_2.png",
-                "status": "CN/Servants/Status/901100/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/901100/901100a@2.png",
+                "faces": "Servant/Faces/f_9011001.png",
+                "narrow_figure": "Servant/NarrowFigure/901100/901100@1.png",
+                "command": "Servant/Commands/901100/card_servant_2.png",
+                "status": "Servant/Status/901100/status_servant_2.png"
             }
         },
         {
@@ -777,7 +777,7 @@
                 {
                     "slot": 1,
                     "name": "圣瓦伦丁的圣骸布 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -833,7 +833,7 @@
                 {
                     "slot": 2,
                     "name": "黄金之箭 A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -922,7 +922,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -942,7 +942,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -962,7 +962,7 @@
                 {
                     "slot": 0,
                     "name": "受虐灵媒体质",
-                    "icon": "CN/SkillIcons/skill_00502.png",
+                    "icon": "SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性下降<视为强化状态>【负面效果】(20%)＆付与处于弱化状态时攻击力提升的状态(20%)",
@@ -991,7 +991,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -1020,7 +1020,7 @@
                 {
                     "slot": 0,
                     "name": "钢之信仰",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身〔恐怖〕无效状态＆付与〔魅惑〕无效状态＆力攻击耐性小幅提升(10%)",
@@ -1055,7 +1055,7 @@
             "nobles": [
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1108,11 +1108,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/901100/901100b@1.png",
-                "faces": "CN/Faces/f_9011002.png",
-                "narrow_figure": "CN/NarrowFigure/901100/901100@2.png",
-                "command": "CN/Servants/Commands/901100/card_servant_3.png",
-                "status": "CN/Servants/Status/901100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/901100/901100b@1.png",
+                "faces": "Servant/Faces/f_9011002.png",
+                "narrow_figure": "Servant/NarrowFigure/901100/901100@2.png",
+                "command": "Servant/Commands/901100/card_servant_3.png",
+                "status": "Servant/Status/901100/status_servant_3.png"
             }
         },
         {
@@ -1129,7 +1129,7 @@
                 {
                     "slot": 1,
                     "name": "圣瓦伦丁的圣骸布 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1185,7 +1185,7 @@
                 {
                     "slot": 2,
                     "name": "黄金之箭 A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1272,7 +1272,7 @@
                 {
                     "slot": 3,
                     "name": "魔力放出（爱） A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1370,7 +1370,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -1390,7 +1390,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -1410,7 +1410,7 @@
                 {
                     "slot": 0,
                     "name": "受虐灵媒体质",
-                    "icon": "CN/SkillIcons/skill_00502.png",
+                    "icon": "SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性下降<视为强化状态>【负面效果】(20%)＆付与处于弱化状态时攻击力提升的状态(20%)",
@@ -1439,7 +1439,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -1468,7 +1468,7 @@
                 {
                     "slot": 0,
                     "name": "钢之信仰",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身〔恐怖〕无效状态＆付与〔魅惑〕无效状态＆力攻击耐性小幅提升(10%)",
@@ -1503,7 +1503,7 @@
             "nobles": [
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1556,7 +1556,7 @@
                 },
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -1618,11 +1618,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/901100/901100b@2.png",
-                "faces": "CN/Faces/f_9011003.png",
-                "narrow_figure": "CN/NarrowFigure/901100/901100_2@0.png",
-                "command": "CN/Servants/Commands/901100/card_servant_3.png",
-                "status": "CN/Servants/Status/901100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/901100/901100b@2.png",
+                "faces": "Servant/Faces/f_9011003.png",
+                "narrow_figure": "Servant/NarrowFigure/901100/901100_2@0.png",
+                "command": "Servant/Commands/901100/card_servant_3.png",
+                "status": "Servant/Status/901100/status_servant_3.png"
             }
         },
         {
@@ -1639,7 +1639,7 @@
                 {
                     "slot": 1,
                     "name": "圣瓦伦丁的圣骸布 A",
-                    "icon": "CN/SkillIcons/skill_00403.png",
+                    "icon": "SkillIcons/skill_00403.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1695,7 +1695,7 @@
                 {
                     "slot": 2,
                     "name": "黄金之箭 A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1782,7 +1782,7 @@
                 {
                     "slot": 3,
                     "name": "魔力放出（爱） A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1880,7 +1880,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -1900,7 +1900,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -1920,7 +1920,7 @@
                 {
                     "slot": 0,
                     "name": "受虐灵媒体质",
-                    "icon": "CN/SkillIcons/skill_00502.png",
+                    "icon": "SkillIcons/skill_00502.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性下降<视为强化状态>【负面效果】(20%)＆付与处于弱化状态时攻击力提升的状态(20%)",
@@ -1949,7 +1949,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -1978,7 +1978,7 @@
                 {
                     "slot": 0,
                     "name": "钢之信仰",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身〔恐怖〕无效状态＆付与〔魅惑〕无效状态＆力攻击耐性小幅提升(10%)",
@@ -2013,7 +2013,7 @@
             "nobles": [
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -2066,7 +2066,7 @@
                 },
                 {
                     "name": "无偿无限普遍之爱",
-                    "icon": "CN/Servants/Commands/901100/card_servant_np.png",
+                    "icon": "Servant/Commands/901100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对人宝具",
@@ -2128,11 +2128,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/901130/901130a.png",
-                "faces": "CN/Faces/f_9011300.png",
-                "narrow_figure": "CN/NarrowFigure/901130/901130@0.png",
-                "command": "CN/Servants/Commands/901100/card_servant_11.png",
-                "status": "CN/Servants/Status/901100/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/901130/901130a.png",
+                "faces": "Servant/Faces/f_9011300.png",
+                "narrow_figure": "Servant/NarrowFigure/901130/901130@0.png",
+                "command": "Servant/Commands/901100/card_servant_11.png",
+                "status": "Servant/Status/901100/status_servant_11.png"
             }
         }
     ]

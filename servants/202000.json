@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "美之显现 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -283,7 +283,7 @@
             "nobles": [
                 {
                     "name": "山脉震撼明星之薪",
-                    "icon": "CN/Servants/Commands/202000/card_servant_np.png",
+                    "icon": "Servant/Commands/202000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A++",
                     "type": "对山宝具",
@@ -320,11 +320,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202000/202000a@1.png",
-                "faces": "CN/Faces/f_2020000.png",
-                "narrow_figure": "CN/NarrowFigure/202000/202000@0.png",
-                "command": "CN/Servants/Commands/202000/card_servant_1.png",
-                "status": "CN/Servants/Status/202000/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/202000/202000a@1.png",
+                "faces": "Servant/Faces/f_2020000.png",
+                "narrow_figure": "Servant/NarrowFigure/202000/202000@0.png",
+                "command": "Servant/Commands/202000/card_servant_1.png",
+                "status": "Servant/Status/202000/status_servant_1.png"
             }
         },
         {
@@ -341,7 +341,7 @@
                 {
                     "slot": 1,
                     "name": "美之显现 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -392,7 +392,7 @@
                 {
                     "slot": 2,
                     "name": "闪耀的大王冠 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -441,7 +441,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -461,7 +461,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -481,7 +481,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -511,7 +511,7 @@
             "nobles": [
                 {
                     "name": "山脉震撼明星之薪",
-                    "icon": "CN/Servants/Commands/202000/card_servant_np.png",
+                    "icon": "Servant/Commands/202000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A++",
                     "type": "对山宝具",
@@ -548,11 +548,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202000/202000a@2.png",
-                "faces": "CN/Faces/f_2020001.png",
-                "narrow_figure": "CN/NarrowFigure/202000/202000@1.png",
-                "command": "CN/Servants/Commands/202000/card_servant_2.png",
-                "status": "CN/Servants/Status/202000/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/202000/202000a@2.png",
+                "faces": "Servant/Faces/f_2020001.png",
+                "narrow_figure": "Servant/NarrowFigure/202000/202000@1.png",
+                "command": "Servant/Commands/202000/card_servant_2.png",
+                "status": "Servant/Status/202000/status_servant_2.png"
             }
         },
         {
@@ -569,7 +569,7 @@
                 {
                     "slot": 1,
                     "name": "美之显现 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -620,7 +620,7 @@
                 {
                     "slot": 2,
                     "name": "闪耀的大王冠 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -669,7 +669,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -689,7 +689,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -709,7 +709,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -739,7 +739,7 @@
             "nobles": [
                 {
                     "name": "山脉震撼明星之薪",
-                    "icon": "CN/Servants/Commands/202000/card_servant_np.png",
+                    "icon": "Servant/Commands/202000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A++",
                     "type": "对山宝具",
@@ -776,11 +776,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202000/202000b@1.png",
-                "faces": "CN/Faces/f_2020002.png",
-                "narrow_figure": "CN/NarrowFigure/202000/202000@2.png",
-                "command": "CN/Servants/Commands/202000/card_servant_3.png",
-                "status": "CN/Servants/Status/202000/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/202000/202000b@1.png",
+                "faces": "Servant/Faces/f_2020002.png",
+                "narrow_figure": "Servant/NarrowFigure/202000/202000@2.png",
+                "command": "Servant/Commands/202000/card_servant_3.png",
+                "status": "Servant/Status/202000/status_servant_3.png"
             }
         },
         {
@@ -797,7 +797,7 @@
                 {
                     "slot": 1,
                     "name": "美之显现 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -848,7 +848,7 @@
                 {
                     "slot": 2,
                     "name": "闪耀的大王冠 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -895,7 +895,7 @@
                 {
                     "slot": 3,
                     "name": "魔力放出（宝石） A+",
-                    "icon": "CN/SkillIcons/skill_00318.png",
+                    "icon": "SkillIcons/skill_00318.png",
                     "strength": 0,
                     "cool_down": [
                         5,
@@ -928,7 +928,7 @@
                 {
                     "slot": 3,
                     "name": "绝对豪运宝石圈 A",
-                    "icon": "CN/SkillIcons/skill_00318.png",
+                    "icon": "SkillIcons/skill_00318.png",
                     "strength": 1,
                     "cool_down": [
                         5,
@@ -979,7 +979,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -999,7 +999,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -1019,7 +1019,7 @@
                 {
                     "slot": 0,
                     "name": "女神的神核",
-                    "icon": "CN/SkillIcons/skill_00327.png",
+                    "icon": "SkillIcons/skill_00327.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆弱化耐性提升(22.5%)",
@@ -1049,7 +1049,7 @@
             "nobles": [
                 {
                     "name": "山脉震撼明星之薪",
-                    "icon": "CN/Servants/Commands/202000/card_servant_np.png",
+                    "icon": "Servant/Commands/202000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A++",
                     "type": "对山宝具",
@@ -1086,7 +1086,7 @@
                 },
                 {
                     "name": "山脉震撼明星之薪",
-                    "icon": "CN/Servants/Commands/202000/card_servant_np.png",
+                    "icon": "Servant/Commands/202000/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对山宝具",
@@ -1132,11 +1132,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/202000/202000b@2.png",
-                "faces": "CN/Faces/f_2020003.png",
-                "narrow_figure": "CN/NarrowFigure/202000/202000_2@0.png",
-                "command": "CN/Servants/Commands/202000/card_servant_3.png",
-                "status": "CN/Servants/Status/202000/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/202000/202000b@2.png",
+                "faces": "Servant/Faces/f_2020003.png",
+                "narrow_figure": "Servant/NarrowFigure/202000/202000_2@0.png",
+                "command": "Servant/Commands/202000/card_servant_3.png",
+                "status": "Servant/Status/202000/status_servant_3.png"
             }
         }
     ]

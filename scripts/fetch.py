@@ -15,9 +15,11 @@ Examples:
     python scripts/fetch.py --source nice_servant_lore.json --no-assets
     python scripts/fetch.py                      # downloads the export first
 
-Images are downloaded into images/ (not committed) and JSON stores paths
-relative to the release package's images/ root.  Pass --no-assets to skip the
-download and only store the paths.
+Images are downloaded into assets/ (not committed) and JSON stores paths
+relative to the release package's asset root.  Every source URL is recorded in
+asset_sources.json when the URL is converted to a path; downloads later use
+that map instead of guessing from the path.  Pass --no-assets to skip the
+download but still record the mappings.
 """
 
 from __future__ import annotations
@@ -1308,20 +1310,33 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001 - fall back to Atlas values
             print(f"warning: Mooncell unavailable ({exc}); using Atlas values")
 
+    sources = assets.AssetSources.load(missing_ok=True)
     converted = [
-        (servant, convert_servant(servant, mc_index.get(int(servant["collectionNo"]))))
+        (
+            servant,
+            assets.rewrite(
+                convert_servant(servant, mc_index.get(int(servant["collectionNo"]))),
+                sources,
+            ),
+        )
         for servant in targets
     ]
+
+    # Persist the URL mappings before downloading: a failed download must not
+    # lose the only record of where an asset came from.
+    if targets:
+        sources.save()
+        print(f"recorded {len(sources)} asset source(s) in {sources.path.name}")
 
     refs: list[str] = []
     seen_refs: set[str] = set()
     for _servant, data in converted:
         assets.collect(data, refs, seen_refs)
     if refs and not args.no_assets:
-        assets.download_many(refs, ASSET_JOBS)
+        assets.download_many(refs, ASSET_JOBS, sources)
 
     for servant, data in converted:
-        write_json(args.out_dir / f"{servant['id']}.json", assets.rewrite(data))
+        write_json(args.out_dir / f"{servant['id']}.json", data)
 
     print(f"wrote {len(targets)} servant file(s), kept {skipped} existing file(s)")
     return 0

@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对魔术师攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔魔术师〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "小町传说·容彩 A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -254,7 +254,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)",
@@ -274,7 +274,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -294,7 +294,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆付与即死无效状态",
@@ -322,7 +322,7 @@
             "nobles": [
                 {
                     "name": "小町传说·佳人薄命",
-                    "icon": "CN/Servants/Commands/505800/card_servant_np.png",
+                    "icon": "Servant/Commands/505800/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B++",
                     "type": "对军宝具",
@@ -393,11 +393,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505800/505800a@1.png",
-                "faces": "CN/Faces/f_5058000.png",
-                "narrow_figure": "CN/NarrowFigure/505800/505800@0.png",
-                "command": "CN/Servants/Commands/505800/card_servant_1.png",
-                "status": "CN/Servants/Status/505800/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/505800/505800a@1.png",
+                "faces": "Servant/Faces/f_5058000.png",
+                "narrow_figure": "Servant/NarrowFigure/505800/505800@0.png",
+                "command": "Servant/Commands/505800/card_servant_1.png",
+                "status": "Servant/Status/505800/status_servant_1.png"
             }
         },
         {
@@ -414,7 +414,7 @@
                 {
                     "slot": 1,
                     "name": "小町传说·容彩 A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -506,7 +506,7 @@
                 {
                     "slot": 2,
                     "name": "恋歌 EX",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -566,7 +566,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)",
@@ -586,7 +586,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -606,7 +606,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆付与即死无效状态",
@@ -634,7 +634,7 @@
             "nobles": [
                 {
                     "name": "小町传说·佳人薄命",
-                    "icon": "CN/Servants/Commands/505800/card_servant_np.png",
+                    "icon": "Servant/Commands/505800/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B++",
                     "type": "对军宝具",
@@ -705,11 +705,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505800/505800a@2.png",
-                "faces": "CN/Faces/f_5058001.png",
-                "narrow_figure": "CN/NarrowFigure/505800/505800@1.png",
-                "command": "CN/Servants/Commands/505800/card_servant_2.png",
-                "status": "CN/Servants/Status/505800/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/505800/505800a@2.png",
+                "faces": "Servant/Faces/f_5058001.png",
+                "narrow_figure": "Servant/NarrowFigure/505800/505800@1.png",
+                "command": "Servant/Commands/505800/card_servant_2.png",
+                "status": "Servant/Status/505800/status_servant_2.png"
             }
         },
         {
@@ -726,7 +726,7 @@
                 {
                     "slot": 1,
                     "name": "小町传说·容彩 A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -818,7 +818,7 @@
                 {
                     "slot": 2,
                     "name": "恋歌 EX",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -878,7 +878,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)",
@@ -898,7 +898,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -918,7 +918,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆付与即死无效状态",
@@ -946,7 +946,7 @@
             "nobles": [
                 {
                     "name": "小町传说·佳人薄命",
-                    "icon": "CN/Servants/Commands/505800/card_servant_np.png",
+                    "icon": "Servant/Commands/505800/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B++",
                     "type": "对军宝具",
@@ -1017,11 +1017,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505800/505800b@1.png",
-                "faces": "CN/Faces/f_5058002.png",
-                "narrow_figure": "CN/NarrowFigure/505800/505800@2.png",
-                "command": "CN/Servants/Commands/505800/card_servant_3.png",
-                "status": "CN/Servants/Status/505800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505800/505800b@1.png",
+                "faces": "Servant/Faces/f_5058002.png",
+                "narrow_figure": "Servant/NarrowFigure/505800/505800@2.png",
+                "command": "Servant/Commands/505800/card_servant_3.png",
+                "status": "Servant/Status/505800/status_servant_3.png"
             }
         },
         {
@@ -1038,7 +1038,7 @@
                 {
                     "slot": 1,
                     "name": "小町传说·容彩 A",
-                    "icon": "CN/SkillIcons/skill_00317.png",
+                    "icon": "SkillIcons/skill_00317.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1130,7 +1130,7 @@
                 {
                     "slot": 2,
                     "name": "恋歌 EX",
-                    "icon": "CN/SkillIcons/skill_00609.png",
+                    "icon": "SkillIcons/skill_00609.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1188,7 +1188,7 @@
                 {
                     "slot": 3,
                     "name": "篁之女 B+",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1277,7 +1277,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率小幅提升(4%)",
@@ -1297,7 +1297,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -1317,7 +1317,7 @@
                 {
                     "slot": 0,
                     "name": "？？",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆付与即死无效状态",
@@ -1345,7 +1345,7 @@
             "nobles": [
                 {
                     "name": "小町传说·佳人薄命",
-                    "icon": "CN/Servants/Commands/505800/card_servant_np.png",
+                    "icon": "Servant/Commands/505800/card_servant_np.png",
                     "card": "Quick",
                     "rank": "B++",
                     "type": "对军宝具",
@@ -1416,11 +1416,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505800/505800b@2.png",
-                "faces": "CN/Faces/f_5058003.png",
-                "narrow_figure": "CN/NarrowFigure/505800/505800_2@0.png",
-                "command": "CN/Servants/Commands/505800/card_servant_3.png",
-                "status": "CN/Servants/Status/505800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505800/505800b@2.png",
+                "faces": "Servant/Faces/f_5058003.png",
+                "narrow_figure": "Servant/NarrowFigure/505800/505800_2@0.png",
+                "command": "Servant/Commands/505800/card_servant_3.png",
+                "status": "Servant/Status/505800/status_servant_3.png"
             }
         }
     ]

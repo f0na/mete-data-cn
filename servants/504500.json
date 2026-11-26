@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "希望的魅力 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "独自魔术",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡暴击威力提升(10%)",
@@ -273,7 +273,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "CN/SkillIcons/skill_00417.png",
+                    "icon": "SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -294,7 +294,7 @@
             "nobles": [
                 {
                     "name": "环抱着你的希望之星",
-                    "icon": "CN/Servants/Commands/504500/card_servant_np.png",
+                    "icon": "Servant/Commands/504500/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -338,11 +338,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/504500/504500a@1.png",
-                "faces": "CN/Faces/f_5045000.png",
-                "narrow_figure": "CN/NarrowFigure/504500/504500@0.png",
-                "command": "CN/Servants/Commands/504500/card_servant_1.png",
-                "status": "CN/Servants/Status/504500/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/504500/504500a@1.png",
+                "faces": "Servant/Faces/f_5045000.png",
+                "narrow_figure": "Servant/NarrowFigure/504500/504500@0.png",
+                "command": "Servant/Commands/504500/card_servant_1.png",
+                "status": "Servant/Status/504500/status_servant_1.png"
             }
         },
         {
@@ -359,7 +359,7 @@
                 {
                     "slot": 1,
                     "name": "希望的魅力 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -410,7 +410,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -462,7 +462,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -516,7 +516,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -536,7 +536,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -556,7 +556,7 @@
                 {
                     "slot": 0,
                     "name": "独自魔术",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡暴击威力提升(10%)",
@@ -576,7 +576,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "CN/SkillIcons/skill_00417.png",
+                    "icon": "SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -597,7 +597,7 @@
             "nobles": [
                 {
                     "name": "环抱着你的希望之星",
-                    "icon": "CN/Servants/Commands/504500/card_servant_np.png",
+                    "icon": "Servant/Commands/504500/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -641,11 +641,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/504500/504500a@2.png",
-                "faces": "CN/Faces/f_5045001.png",
-                "narrow_figure": "CN/NarrowFigure/504500/504500@1.png",
-                "command": "CN/Servants/Commands/504500/card_servant_2.png",
-                "status": "CN/Servants/Status/504500/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/504500/504500a@2.png",
+                "faces": "Servant/Faces/f_5045001.png",
+                "narrow_figure": "Servant/NarrowFigure/504500/504500@1.png",
+                "command": "Servant/Commands/504500/card_servant_2.png",
+                "status": "Servant/Status/504500/status_servant_2.png"
             }
         },
         {
@@ -662,7 +662,7 @@
                 {
                     "slot": 1,
                     "name": "希望的魅力 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -713,7 +713,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -765,7 +765,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -819,7 +819,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -839,7 +839,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -859,7 +859,7 @@
                 {
                     "slot": 0,
                     "name": "独自魔术",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡暴击威力提升(10%)",
@@ -879,7 +879,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "CN/SkillIcons/skill_00417.png",
+                    "icon": "SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -900,7 +900,7 @@
             "nobles": [
                 {
                     "name": "环抱着你的希望之星",
-                    "icon": "CN/Servants/Commands/504500/card_servant_np.png",
+                    "icon": "Servant/Commands/504500/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对军宝具",
@@ -944,11 +944,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/504500/504500b@1.png",
-                "faces": "CN/Faces/f_5045002.png",
-                "narrow_figure": "CN/NarrowFigure/504500/504500@2.png",
-                "command": "CN/Servants/Commands/504500/card_servant_3.png",
-                "status": "CN/Servants/Status/504500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/504500/504500b@1.png",
+                "faces": "Servant/Faces/f_5045002.png",
+                "narrow_figure": "Servant/NarrowFigure/504500/504500@2.png",
+                "command": "Servant/Commands/504500/card_servant_3.png",
+                "status": "Servant/Status/504500/status_servant_3.png"
             }
         },
         {
@@ -965,7 +965,7 @@
                 {
                     "slot": 1,
                     "name": "希望的魅力 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1016,7 +1016,7 @@
                 {
                     "slot": 2,
                     "name": "湖之加护 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1068,7 +1068,7 @@
                 {
                     "slot": 2,
                     "name": "阿瓦隆妖精 A",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1120,7 +1120,7 @@
                 {
                     "slot": 3,
                     "name": "选定之剑 EX",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1179,7 +1179,7 @@
                 {
                     "slot": 3,
                     "name": "圣剑锻造 EX",
-                    "icon": "CN/SkillIcons/skill_00305.png",
+                    "icon": "SkillIcons/skill_00305.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1240,7 +1240,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1260,7 +1260,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(12%)",
@@ -1280,7 +1280,7 @@
                 {
                     "slot": 0,
                     "name": "独自魔术",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡暴击威力提升(10%)",
@@ -1300,7 +1300,7 @@
                 {
                     "slot": 0,
                     "name": "妖精眼",
-                    "icon": "CN/SkillIcons/skill_00417.png",
+                    "icon": "SkillIcons/skill_00417.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的被暴击发生耐性提升(20%)",
@@ -1365,11 +1365,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/504500/504500b@2.png",
-                "faces": "CN/Faces/f_5045003.png",
-                "narrow_figure": "CN/NarrowFigure/504500/504500_2@0.png",
-                "command": "CN/Servants/Commands/504500/card_servant_3.png",
-                "status": "CN/Servants/Status/504500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/504500/504500b@2.png",
+                "faces": "Servant/Faces/f_5045003.png",
+                "narrow_figure": "Servant/NarrowFigure/504500/504500_2@0.png",
+                "command": "Servant/Commands/504500/card_servant_3.png",
+                "status": "Servant/Status/504500/status_servant_3.png"
             }
         }
     ]

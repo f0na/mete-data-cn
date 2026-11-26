@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对裁定者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔裁定者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "主神之星 A",
-                    "icon": "CN/SkillIcons/skill_00515.png",
+                    "icon": "SkillIcons/skill_00515.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -253,7 +253,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(7.5%)",
@@ -273,7 +273,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -302,7 +302,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -322,7 +322,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -342,7 +342,7 @@
                 {
                     "slot": 0,
                     "name": "双神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具值获得量小幅提升(5%)＆暴击星发生率小幅提升(5%)",
@@ -381,7 +381,7 @@
             "nobles": [
                 {
                     "name": "双神赞歌",
-                    "icon": "CN/Servants/Commands/104200/card_servant_np.png",
+                    "icon": "Servant/Commands/104200/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -438,11 +438,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/104200/104200a@1.png",
-                "faces": "CN/Faces/f_1042000.png",
-                "narrow_figure": "CN/NarrowFigure/104200/104200@0.png",
-                "command": "CN/Servants/Commands/104200/card_servant_1.png",
-                "status": "CN/Servants/Status/104200/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/104200/104200a@1.png",
+                "faces": "Servant/Faces/f_1042000.png",
+                "narrow_figure": "Servant/NarrowFigure/104200/104200@0.png",
+                "command": "Servant/Commands/104200/card_servant_1.png",
+                "status": "Servant/Status/104200/status_servant_1.png"
             }
         },
         {
@@ -459,7 +459,7 @@
                 {
                     "slot": 1,
                     "name": "主神之星 A",
-                    "icon": "CN/SkillIcons/skill_00515.png",
+                    "icon": "SkillIcons/skill_00515.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -510,7 +510,7 @@
                 {
                     "slot": 2,
                     "name": "航海的守护者 B",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -570,7 +570,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -590,7 +590,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -610,7 +610,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(7.5%)",
@@ -630,7 +630,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -659,7 +659,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -679,7 +679,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -699,7 +699,7 @@
                 {
                     "slot": 0,
                     "name": "双神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具值获得量小幅提升(5%)＆暴击星发生率小幅提升(5%)",
@@ -738,7 +738,7 @@
             "nobles": [
                 {
                     "name": "双神赞歌",
-                    "icon": "CN/Servants/Commands/104200/card_servant_np.png",
+                    "icon": "Servant/Commands/104200/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -795,11 +795,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/104200/104200a@2.png",
-                "faces": "CN/Faces/f_1042001.png",
-                "narrow_figure": "CN/NarrowFigure/104200/104200@1.png",
-                "command": "CN/Servants/Commands/104200/card_servant_2.png",
-                "status": "CN/Servants/Status/104200/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/104200/104200a@2.png",
+                "faces": "Servant/Faces/f_1042001.png",
+                "narrow_figure": "Servant/NarrowFigure/104200/104200@1.png",
+                "command": "Servant/Commands/104200/card_servant_2.png",
+                "status": "Servant/Status/104200/status_servant_2.png"
             }
         },
         {
@@ -816,7 +816,7 @@
                 {
                     "slot": 1,
                     "name": "主神之星 A",
-                    "icon": "CN/SkillIcons/skill_00515.png",
+                    "icon": "SkillIcons/skill_00515.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -867,7 +867,7 @@
                 {
                     "slot": 2,
                     "name": "航海的守护者 B",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -927,7 +927,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -947,7 +947,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -967,7 +967,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(7.5%)",
@@ -987,7 +987,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -1016,7 +1016,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -1036,7 +1036,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -1056,7 +1056,7 @@
                 {
                     "slot": 0,
                     "name": "双神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具值获得量小幅提升(5%)＆暴击星发生率小幅提升(5%)",
@@ -1095,7 +1095,7 @@
             "nobles": [
                 {
                     "name": "双神赞歌",
-                    "icon": "CN/Servants/Commands/104200/card_servant_np.png",
+                    "icon": "Servant/Commands/104200/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -1152,11 +1152,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/104200/104200b@1.png",
-                "faces": "CN/Faces/f_1042002.png",
-                "narrow_figure": "CN/NarrowFigure/104200/104200@2.png",
-                "command": "CN/Servants/Commands/104200/card_servant_3.png",
-                "status": "CN/Servants/Status/104200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/104200/104200b@1.png",
+                "faces": "Servant/Faces/f_1042002.png",
+                "narrow_figure": "Servant/NarrowFigure/104200/104200@2.png",
+                "command": "Servant/Commands/104200/card_servant_3.png",
+                "status": "Servant/Status/104200/status_servant_3.png"
             }
         },
         {
@@ -1173,7 +1173,7 @@
                 {
                     "slot": 1,
                     "name": "主神之星 A",
-                    "icon": "CN/SkillIcons/skill_00515.png",
+                    "icon": "SkillIcons/skill_00515.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1224,7 +1224,7 @@
                 {
                     "slot": 2,
                     "name": "航海的守护者 B",
-                    "icon": "CN/SkillIcons/skill_00302.png",
+                    "icon": "SkillIcons/skill_00302.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1282,7 +1282,7 @@
                 {
                     "slot": 3,
                     "name": "魔力放出（光／古） A",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1340,7 +1340,7 @@
                 {
                     "slot": 3,
                     "name": "魔力放出（光／古） A+",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1418,7 +1418,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(20%)",
@@ -1438,7 +1438,7 @@
                 {
                     "slot": 0,
                     "name": "骑乘",
-                    "icon": "CN/SkillIcons/skill_00102.png",
+                    "icon": "SkillIcons/skill_00102.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的迅指令卡性能提升(8%)",
@@ -1458,7 +1458,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(7.5%)",
@@ -1478,7 +1478,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(18%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(8%)",
@@ -1507,7 +1507,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(6%)",
@@ -1527,7 +1527,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -1547,7 +1547,7 @@
                 {
                     "slot": 0,
                     "name": "双神的神核",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(225)＆宝具值获得量小幅提升(5%)＆暴击星发生率小幅提升(5%)",
@@ -1586,7 +1586,7 @@
             "nobles": [
                 {
                     "name": "双神赞歌",
-                    "icon": "CN/Servants/Commands/104200/card_servant_np.png",
+                    "icon": "Servant/Commands/104200/card_servant_np.png",
                     "card": "Arts",
                     "rank": "B",
                     "type": "对人宝具",
@@ -1643,11 +1643,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/104200/104200b@2.png",
-                "faces": "CN/Faces/f_1042003.png",
-                "narrow_figure": "CN/NarrowFigure/104200/104200_2@0.png",
-                "command": "CN/Servants/Commands/104200/card_servant_3.png",
-                "status": "CN/Servants/Status/104200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/104200/104200b@2.png",
+                "faces": "Servant/Faces/f_1042003.png",
+                "narrow_figure": "Servant/NarrowFigure/104200/104200_2@0.png",
+                "command": "Servant/Commands/104200/card_servant_3.png",
+                "status": "Servant/Status/104200/status_servant_3.png"
             }
         }
     ]

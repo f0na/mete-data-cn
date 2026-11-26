@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对剑士暴击耐性",
-            "icon": "CN/SkillIcons/skill_00417.png",
+            "icon": "SkillIcons/skill_00417.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔剑士〕职阶的被暴击发生耐性提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "鬼种之魔 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -234,7 +234,7 @@
             "nobles": [
                 {
                     "name": "罗生门大怨起",
-                    "icon": "CN/Servants/Commands/702200/card_servant_np.png",
+                    "icon": "Servant/Commands/702200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -278,11 +278,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/702200/702200a@1.png",
-                "faces": "CN/Faces/f_7022000.png",
-                "narrow_figure": "CN/NarrowFigure/702200/702200@0.png",
-                "command": "CN/Servants/Commands/702200/card_servant_1.png",
-                "status": "CN/Servants/Status/702200/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/702200/702200a@1.png",
+                "faces": "Servant/Faces/f_7022000.png",
+                "narrow_figure": "Servant/NarrowFigure/702200/702200@0.png",
+                "command": "Servant/Commands/702200/card_servant_1.png",
+                "status": "Servant/Status/702200/status_servant_1.png"
             }
         },
         {
@@ -299,7 +299,7 @@
                 {
                     "slot": 1,
                     "name": "鬼种之魔 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -350,7 +350,7 @@
                 {
                     "slot": 2,
                     "name": "重整旗鼓 A",
-                    "icon": "CN/SkillIcons/skill_00608.png",
+                    "icon": "SkillIcons/skill_00608.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -392,7 +392,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -413,7 +413,7 @@
             "nobles": [
                 {
                     "name": "罗生门大怨起",
-                    "icon": "CN/Servants/Commands/702200/card_servant_np.png",
+                    "icon": "Servant/Commands/702200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -457,11 +457,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/702200/702200a@2.png",
-                "faces": "CN/Faces/f_7022001.png",
-                "narrow_figure": "CN/NarrowFigure/702200/702200@1.png",
-                "command": "CN/Servants/Commands/702200/card_servant_2.png",
-                "status": "CN/Servants/Status/702200/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/702200/702200a@2.png",
+                "faces": "Servant/Faces/f_7022001.png",
+                "narrow_figure": "Servant/NarrowFigure/702200/702200@1.png",
+                "command": "Servant/Commands/702200/card_servant_2.png",
+                "status": "Servant/Status/702200/status_servant_2.png"
             }
         },
         {
@@ -478,7 +478,7 @@
                 {
                     "slot": 1,
                     "name": "鬼种之魔 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -529,7 +529,7 @@
                 {
                     "slot": 2,
                     "name": "重整旗鼓 A",
-                    "icon": "CN/SkillIcons/skill_00608.png",
+                    "icon": "SkillIcons/skill_00608.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -571,7 +571,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -592,7 +592,7 @@
             "nobles": [
                 {
                     "name": "罗生门大怨起",
-                    "icon": "CN/Servants/Commands/702200/card_servant_np.png",
+                    "icon": "Servant/Commands/702200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -636,11 +636,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/702200/702200b@1.png",
-                "faces": "CN/Faces/f_7022002.png",
-                "narrow_figure": "CN/NarrowFigure/702200/702200@2.png",
-                "command": "CN/Servants/Commands/702200/card_servant_3.png",
-                "status": "CN/Servants/Status/702200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/702200/702200b@1.png",
+                "faces": "Servant/Faces/f_7022002.png",
+                "narrow_figure": "Servant/NarrowFigure/702200/702200@2.png",
+                "command": "Servant/Commands/702200/card_servant_3.png",
+                "status": "Servant/Status/702200/status_servant_3.png"
             }
         },
         {
@@ -657,7 +657,7 @@
                 {
                     "slot": 1,
                     "name": "鬼种之魔 A",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -708,7 +708,7 @@
                 {
                     "slot": 2,
                     "name": "重整旗鼓 A",
-                    "icon": "CN/SkillIcons/skill_00608.png",
+                    "icon": "SkillIcons/skill_00608.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -748,7 +748,7 @@
                 {
                     "slot": 2,
                     "name": "大江之鬼闹 A+",
-                    "icon": "CN/SkillIcons/skill_00608.png",
+                    "icon": "SkillIcons/skill_00608.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -833,7 +833,7 @@
                 {
                     "slot": 3,
                     "name": "变化 A",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -877,7 +877,7 @@
                 {
                     "slot": 0,
                     "name": "狂化",
-                    "icon": "CN/SkillIcons/skill_00106.png",
+                    "icon": "SkillIcons/skill_00106.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的力指令卡性能提升(8%)",
@@ -898,7 +898,7 @@
             "nobles": [
                 {
                     "name": "罗生门大怨起",
-                    "icon": "CN/Servants/Commands/702200/card_servant_np.png",
+                    "icon": "Servant/Commands/702200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -942,11 +942,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/702200/702200b@2.png",
-                "faces": "CN/Faces/f_7022003.png",
-                "narrow_figure": "CN/NarrowFigure/702200/702200_2@0.png",
-                "command": "CN/Servants/Commands/702200/card_servant_3.png",
-                "status": "CN/Servants/Status/702200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/702200/702200b@2.png",
+                "faces": "Servant/Faces/f_7022003.png",
+                "narrow_figure": "Servant/NarrowFigure/702200/702200_2@0.png",
+                "command": "Servant/Commands/702200/card_servant_3.png",
+                "status": "Servant/Status/702200/status_servant_3.png"
             }
         }
     ]

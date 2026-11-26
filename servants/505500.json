@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对降临者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔降临者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "夜之飨宴 A",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -249,7 +249,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -269,7 +269,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -289,7 +289,7 @@
                 {
                     "slot": 0,
                     "name": "传承防御",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身除宝具伤害以外的被伤害减免状态(400)＆付与对〔毒·诅咒·灼伤〕造成的被伤害减免状态(400)",
@@ -318,7 +318,7 @@
                 {
                     "slot": 0,
                     "name": "尤米娜",
-                    "icon": "CN/SkillIcons/skill_00420.png",
+                    "icon": "SkillIcons/skill_00420.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身即死时发动的毅力状态(5次·生命值回复1000)＆付与「毅力发动时，自身生命值回复」的状态(2000)",
@@ -346,7 +346,7 @@
             "nobles": [
                 {
                     "name": "童话怪物，月之油",
-                    "icon": "CN/Servants/Commands/505500/card_servant_np.png",
+                    "icon": "Servant/Commands/505500/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -417,11 +417,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505500/505500a@1.png",
-                "faces": "CN/Faces/f_5055000.png",
-                "narrow_figure": "CN/NarrowFigure/505500/505500@0.png",
-                "command": "CN/Servants/Commands/505500/card_servant_1.png",
-                "status": "CN/Servants/Status/505500/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/505500/505500a@1.png",
+                "faces": "Servant/Faces/f_5055000.png",
+                "narrow_figure": "Servant/NarrowFigure/505500/505500@0.png",
+                "command": "Servant/Commands/505500/card_servant_1.png",
+                "status": "Servant/Status/505500/status_servant_1.png"
             }
         },
         {
@@ -438,7 +438,7 @@
                 {
                     "slot": 1,
                     "name": "夜之飨宴 A",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -525,7 +525,7 @@
                 {
                     "slot": 2,
                     "name": "桥之巨人 C",
-                    "icon": "CN/SkillIcons/skill_00328.png",
+                    "icon": "SkillIcons/skill_00328.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -614,7 +614,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -634,7 +634,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -654,7 +654,7 @@
                 {
                     "slot": 0,
                     "name": "传承防御",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身除宝具伤害以外的被伤害减免状态(400)＆付与对〔毒·诅咒·灼伤〕造成的被伤害减免状态(400)",
@@ -683,7 +683,7 @@
                 {
                     "slot": 0,
                     "name": "尤米娜",
-                    "icon": "CN/SkillIcons/skill_00420.png",
+                    "icon": "SkillIcons/skill_00420.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身即死时发动的毅力状态(5次·生命值回复1000)＆付与「毅力发动时，自身生命值回复」的状态(2000)",
@@ -711,7 +711,7 @@
             "nobles": [
                 {
                     "name": "童话怪物，月之油",
-                    "icon": "CN/Servants/Commands/505500/card_servant_np.png",
+                    "icon": "Servant/Commands/505500/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -782,11 +782,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505500/505500a@2.png",
-                "faces": "CN/Faces/f_5055001.png",
-                "narrow_figure": "CN/NarrowFigure/505500/505500@1.png",
-                "command": "CN/Servants/Commands/505500/card_servant_2.png",
-                "status": "CN/Servants/Status/505500/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/505500/505500a@2.png",
+                "faces": "Servant/Faces/f_5055001.png",
+                "narrow_figure": "Servant/NarrowFigure/505500/505500@1.png",
+                "command": "Servant/Commands/505500/card_servant_2.png",
+                "status": "Servant/Status/505500/status_servant_2.png"
             }
         },
         {
@@ -803,7 +803,7 @@
                 {
                     "slot": 1,
                     "name": "夜之飨宴 A",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -890,7 +890,7 @@
                 {
                     "slot": 2,
                     "name": "桥之巨人 C",
-                    "icon": "CN/SkillIcons/skill_00328.png",
+                    "icon": "SkillIcons/skill_00328.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -979,7 +979,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -999,7 +999,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -1019,7 +1019,7 @@
                 {
                     "slot": 0,
                     "name": "传承防御",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身除宝具伤害以外的被伤害减免状态(400)＆付与对〔毒·诅咒·灼伤〕造成的被伤害减免状态(400)",
@@ -1048,7 +1048,7 @@
                 {
                     "slot": 0,
                     "name": "尤米娜",
-                    "icon": "CN/SkillIcons/skill_00420.png",
+                    "icon": "SkillIcons/skill_00420.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身即死时发动的毅力状态(5次·生命值回复1000)＆付与「毅力发动时，自身生命值回复」的状态(2000)",
@@ -1076,7 +1076,7 @@
             "nobles": [
                 {
                     "name": "童话怪物，月之油",
-                    "icon": "CN/Servants/Commands/505500/card_servant_np.png",
+                    "icon": "Servant/Commands/505500/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对人宝具",
@@ -1147,11 +1147,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505500/505500b@1.png",
-                "faces": "CN/Faces/f_5055002.png",
-                "narrow_figure": "CN/NarrowFigure/505500/505500@2.png",
-                "command": "CN/Servants/Commands/505500/card_servant_3.png",
-                "status": "CN/Servants/Status/505500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505500/505500b@1.png",
+                "faces": "Servant/Faces/f_5055002.png",
+                "narrow_figure": "Servant/NarrowFigure/505500/505500@2.png",
+                "command": "Servant/Commands/505500/card_servant_3.png",
+                "status": "Servant/Status/505500/status_servant_3.png"
             }
         },
         {
@@ -1168,7 +1168,7 @@
                 {
                     "slot": 1,
                     "name": "夜之飨宴 A",
-                    "icon": "CN/SkillIcons/skill_00314.png",
+                    "icon": "SkillIcons/skill_00314.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1255,7 +1255,7 @@
                 {
                     "slot": 2,
                     "name": "桥之巨人 C",
-                    "icon": "CN/SkillIcons/skill_00328.png",
+                    "icon": "SkillIcons/skill_00328.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1342,7 +1342,7 @@
                 {
                     "slot": 3,
                     "name": "被杀的知更鸟 E",
-                    "icon": "CN/SkillIcons/skill_00814.png",
+                    "icon": "SkillIcons/skill_00814.png",
                     "strength": 0,
                     "cool_down": [
                         4,
@@ -1391,7 +1391,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -1411,7 +1411,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -1431,7 +1431,7 @@
                 {
                     "slot": 0,
                     "name": "传承防御",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身除宝具伤害以外的被伤害减免状态(400)＆付与对〔毒·诅咒·灼伤〕造成的被伤害减免状态(400)",
@@ -1460,7 +1460,7 @@
                 {
                     "slot": 0,
                     "name": "尤米娜",
-                    "icon": "CN/SkillIcons/skill_00420.png",
+                    "icon": "SkillIcons/skill_00420.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身即死时发动的毅力状态(5次·生命值回复1000)＆付与「毅力发动时，自身生命值回复」的状态(2000)",
@@ -1559,11 +1559,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505500/505500b@2.png",
-                "faces": "CN/Faces/f_5055003.png",
-                "narrow_figure": "CN/NarrowFigure/505500/505500_2@0.png",
-                "command": "CN/Servants/Commands/505500/card_servant_3.png",
-                "status": "CN/Servants/Status/505500/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505500/505500b@2.png",
+                "faces": "Servant/Faces/f_5055003.png",
+                "narrow_figure": "Servant/NarrowFigure/505500/505500_2@0.png",
+                "command": "Servant/Commands/505500/card_servant_3.png",
+                "status": "Servant/Status/505500/status_servant_3.png"
             }
         }
     ]

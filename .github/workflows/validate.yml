@@ -5,11 +5,13 @@ on:
     paths:
       - "servants/**"
       - "scripts/**"
+      - "asset_sources.json"
       - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "servants/**"
       - "scripts/**"
+      - "asset_sources.json"
       - ".github/workflows/validate.yml"
 
 permissions:
@@ -21,5 +23,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Validate JSON files
-        run: python3 scripts/build.py --version check --check
+      - name: Test version parsing
+        run: python3 scripts/version.py --self-test
+
+      - name: Validate JSON files and source map
+        run: python3 scripts/build.py --version check --check --check-sources

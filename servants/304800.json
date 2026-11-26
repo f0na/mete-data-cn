@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对枪兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔枪兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -240,7 +240,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -260,7 +260,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -281,7 +281,7 @@
             "nobles": [
                 {
                     "name": "尚未知晓的无垢湖光",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np.png",
+                    "icon": "Servant/Commands/304800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对人宝具",
@@ -336,11 +336,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304800/304800a@1.png",
-                "faces": "CN/Faces/f_3048000.png",
-                "narrow_figure": "CN/NarrowFigure/304800/304800@0.png",
-                "command": "CN/Servants/Commands/304800/card_servant_1.png",
-                "status": "CN/Servants/Status/304800/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/304800/304800a@1.png",
+                "faces": "Servant/Faces/f_3048000.png",
+                "narrow_figure": "Servant/NarrowFigure/304800/304800@0.png",
+                "command": "Servant/Commands/304800/card_servant_1.png",
+                "status": "Servant/Status/304800/status_servant_1.png"
             }
         },
         {
@@ -357,7 +357,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -435,7 +435,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -506,7 +506,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -526,7 +526,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -547,7 +547,7 @@
             "nobles": [
                 {
                     "name": "尚未知晓的无垢湖光",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np.png",
+                    "icon": "Servant/Commands/304800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对人宝具",
@@ -602,11 +602,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304800/304800a@2.png",
-                "faces": "CN/Faces/f_3048001.png",
-                "narrow_figure": "CN/NarrowFigure/304800/304800@1.png",
-                "command": "CN/Servants/Commands/304800/card_servant_2.png",
-                "status": "CN/Servants/Status/304800/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/304800/304800a@2.png",
+                "faces": "Servant/Faces/f_3048001.png",
+                "narrow_figure": "Servant/NarrowFigure/304800/304800@1.png",
+                "command": "Servant/Commands/304800/card_servant_2.png",
+                "status": "Servant/Status/304800/status_servant_2.png"
             }
         },
         {
@@ -623,7 +623,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -701,7 +701,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -772,7 +772,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -792,7 +792,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -813,7 +813,7 @@
             "nobles": [
                 {
                     "name": "尚未知晓的无垢湖光",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np.png",
+                    "icon": "Servant/Commands/304800/card_servant_np.png",
                     "card": "Arts",
                     "rank": "A",
                     "type": "对人宝具",
@@ -868,11 +868,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304800/304800b@1.png",
-                "faces": "CN/Faces/f_3048002.png",
-                "narrow_figure": "CN/NarrowFigure/304800/304800@2.png",
-                "command": "CN/Servants/Commands/304800/card_servant_3.png",
-                "status": "CN/Servants/Status/304800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/304800/304800b@1.png",
+                "faces": "Servant/Faces/f_3048002.png",
+                "narrow_figure": "Servant/NarrowFigure/304800/304800@2.png",
+                "command": "Servant/Commands/304800/card_servant_3.png",
+                "status": "Servant/Status/304800/status_servant_3.png"
             }
         },
         {
@@ -889,7 +889,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -967,7 +967,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1036,7 +1036,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1084,7 +1084,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1127,7 +1127,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1147,7 +1147,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -1168,7 +1168,7 @@
             "nobles": [
                 {
                     "name": "无人知晓的无垢搏动",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np_304802.png",
+                    "icon": "Servant/Commands/304800/card_servant_np_304802.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -1221,11 +1221,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304800/304800b@2.png",
-                "faces": "CN/Faces/f_3048003.png",
-                "narrow_figure": "CN/NarrowFigure/304800/304800_2@0.png",
-                "command": "CN/Servants/Commands/304800/card_servant_3.png",
-                "status": "CN/Servants/Status/304800/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/304800/304800b@2.png",
+                "faces": "Servant/Faces/f_3048003.png",
+                "narrow_figure": "Servant/NarrowFigure/304800/304800_2@0.png",
+                "command": "Servant/Commands/304800/card_servant_3.png",
+                "status": "Servant/Status/304800/status_servant_3.png"
             }
         },
         {
@@ -1242,7 +1242,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1320,7 +1320,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1389,7 +1389,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1437,7 +1437,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1480,7 +1480,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1500,7 +1500,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -1521,7 +1521,7 @@
             "nobles": [
                 {
                     "name": "无人知晓的无垢搏动",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np_304802.png",
+                    "icon": "Servant/Commands/304800/card_servant_np_304802.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -1574,11 +1574,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304830/304830a.png",
-                "faces": "CN/Faces/f_3048300.png",
-                "narrow_figure": "CN/NarrowFigure/304830/304830@0.png",
-                "command": "CN/Servants/Commands/304800/card_servant_11.png",
-                "status": "CN/Servants/Status/304800/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/304830/304830a.png",
+                "faces": "Servant/Faces/f_3048300.png",
+                "narrow_figure": "Servant/NarrowFigure/304830/304830@0.png",
+                "command": "Servant/Commands/304800/card_servant_11.png",
+                "status": "Servant/Status/304800/status_servant_11.png"
             }
         },
         {
@@ -1595,7 +1595,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1673,7 +1673,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1742,7 +1742,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1790,7 +1790,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1833,7 +1833,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1853,7 +1853,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -1874,7 +1874,7 @@
             "nobles": [
                 {
                     "name": "无人知晓的无垢搏动",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np_304802.png",
+                    "icon": "Servant/Commands/304800/card_servant_np_304802.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -1927,11 +1927,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304840/304840a.png",
-                "faces": "CN/Faces/f_3048400.png",
-                "narrow_figure": "CN/NarrowFigure/304840/304840@0.png",
-                "command": "CN/Servants/Commands/304800/card_servant_12.png",
-                "status": "CN/Servants/Status/304800/status_servant_12.png"
+                "chara_graph": "Servant/CharaGraph/304840/304840a.png",
+                "faces": "Servant/Faces/f_3048400.png",
+                "narrow_figure": "Servant/NarrowFigure/304840/304840@0.png",
+                "command": "Servant/Commands/304800/card_servant_12.png",
+                "status": "Servant/Status/304800/status_servant_12.png"
             }
         },
         {
@@ -1948,7 +1948,7 @@
                 {
                     "slot": 1,
                     "name": "龙之心 B",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -2026,7 +2026,7 @@
                 {
                     "slot": 2,
                     "name": "佩里舞者 B",
-                    "icon": "CN/SkillIcons/skill_00311.png",
+                    "icon": "SkillIcons/skill_00311.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2095,7 +2095,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2143,7 +2143,7 @@
                 {
                     "slot": 3,
                     "name": "光之地平线 A",
-                    "icon": "CN/SkillIcons/skill_00803.png",
+                    "icon": "SkillIcons/skill_00803.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2186,7 +2186,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -2206,7 +2206,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(9%)",
@@ -2227,7 +2227,7 @@
             "nobles": [
                 {
                     "name": "无人知晓的无垢搏动",
-                    "icon": "CN/Servants/Commands/304800/card_servant_np_304802.png",
+                    "icon": "Servant/Commands/304800/card_servant_np_304802.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对界宝具",
@@ -2280,11 +2280,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/304850/304850a.png",
-                "faces": "CN/Faces/f_3048500.png",
-                "narrow_figure": "CN/NarrowFigure/304850/304850@0.png",
-                "command": "CN/Servants/Commands/304800/card_servant_13.png",
-                "status": "CN/Servants/Status/304800/status_servant_13.png"
+                "chara_graph": "Servant/CharaGraph/304850/304850a.png",
+                "faces": "Servant/Faces/f_3048500.png",
+                "narrow_figure": "Servant/NarrowFigure/304850/304850@0.png",
+                "command": "Servant/Commands/304800/card_servant_13.png",
+                "status": "Servant/Status/304800/status_servant_13.png"
             }
         }
     ]

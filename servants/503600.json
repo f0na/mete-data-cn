@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对狂战士攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔狂战士〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "数秘术 B",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -213,7 +213,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -233,7 +233,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(9%)",
@@ -254,7 +254,7 @@
             "nobles": [
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -291,11 +291,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/503600/503600a@1.png",
-                "faces": "CN/Faces/f_5036000.png",
-                "narrow_figure": "CN/NarrowFigure/503600/503600@0.png",
-                "command": "CN/Servants/Commands/503600/card_servant_1.png",
-                "status": "CN/Servants/Status/503600/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/503600/503600a@1.png",
+                "faces": "Servant/Faces/f_5036000.png",
+                "narrow_figure": "Servant/NarrowFigure/503600/503600@0.png",
+                "command": "Servant/Commands/503600/card_servant_1.png",
+                "status": "Servant/Status/503600/status_servant_1.png"
             }
         },
         {
@@ -312,7 +312,7 @@
                 {
                     "slot": 1,
                     "name": "数秘术 B",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -363,7 +363,7 @@
                 {
                     "slot": 2,
                     "name": "高速咏唱 B+",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -398,7 +398,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -418,7 +418,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(9%)",
@@ -439,7 +439,7 @@
             "nobles": [
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -476,11 +476,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/503600/503600a@2.png",
-                "faces": "CN/Faces/f_5036001.png",
-                "narrow_figure": "CN/NarrowFigure/503600/503600@1.png",
-                "command": "CN/Servants/Commands/503600/card_servant_2.png",
-                "status": "CN/Servants/Status/503600/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/503600/503600a@2.png",
+                "faces": "Servant/Faces/f_5036001.png",
+                "narrow_figure": "Servant/NarrowFigure/503600/503600@1.png",
+                "command": "Servant/Commands/503600/card_servant_2.png",
+                "status": "Servant/Status/503600/status_servant_2.png"
             }
         },
         {
@@ -497,7 +497,7 @@
                 {
                     "slot": 1,
                     "name": "数秘术 B",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -548,7 +548,7 @@
                 {
                     "slot": 2,
                     "name": "高速咏唱 B+",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -583,7 +583,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -603,7 +603,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(9%)",
@@ -624,7 +624,7 @@
             "nobles": [
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -661,7 +661,7 @@
                 },
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -711,11 +711,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/503600/503600b@1.png",
-                "faces": "CN/Faces/f_5036002.png",
-                "narrow_figure": "CN/NarrowFigure/503600/503600@2.png",
-                "command": "CN/Servants/Commands/503600/card_servant_3.png",
-                "status": "CN/Servants/Status/503600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/503600/503600b@1.png",
+                "faces": "Servant/Faces/f_5036002.png",
+                "narrow_figure": "Servant/NarrowFigure/503600/503600@2.png",
+                "command": "Servant/Commands/503600/card_servant_3.png",
+                "status": "Servant/Status/503600/status_servant_3.png"
             }
         },
         {
@@ -732,7 +732,7 @@
                 {
                     "slot": 1,
                     "name": "数秘术 B",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -783,7 +783,7 @@
                 {
                     "slot": 2,
                     "name": "高速咏唱 B+",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -816,7 +816,7 @@
                 {
                     "slot": 3,
                     "name": "平稳的无花果 EX",
-                    "icon": "CN/SkillIcons/skill_00319.png",
+                    "icon": "SkillIcons/skill_00319.png",
                     "strength": 0,
                     "cool_down": [
                         10,
@@ -858,7 +858,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)",
@@ -878,7 +878,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(9%)",
@@ -899,7 +899,7 @@
             "nobles": [
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -936,7 +936,7 @@
                 },
                 {
                     "name": "王冠：睿智之光",
-                    "icon": "CN/Servants/Commands/503600/card_servant_np.png",
+                    "icon": "Servant/Commands/503600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具",
@@ -986,11 +986,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/503600/503600b@2.png",
-                "faces": "CN/Faces/f_5036003.png",
-                "narrow_figure": "CN/NarrowFigure/503600/503600_2@0.png",
-                "command": "CN/Servants/Commands/503600/card_servant_3.png",
-                "status": "CN/Servants/Status/503600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/503600/503600b@2.png",
+                "faces": "Servant/Faces/f_5036003.png",
+                "narrow_figure": "Servant/NarrowFigure/503600/503600_2@0.png",
+                "command": "Servant/Commands/503600/card_servant_3.png",
+                "status": "Servant/Status/503600/status_servant_3.png"
             }
         }
     ]

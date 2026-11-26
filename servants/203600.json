@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对暗匿者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔暗匿者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "射击（FPS） B",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -202,7 +202,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -222,7 +222,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -242,7 +242,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(145)",
@@ -262,7 +262,7 @@
                 {
                     "slot": 0,
                     "name": "要塞构建",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)＆付与被伤害减免状态(200)",
@@ -292,7 +292,7 @@
             "nobles": [
                 {
                     "name": "白鹭城·千式MILIMILI午夜狂欢！",
-                    "icon": "CN/Servants/Commands/203600/card_servant_np.png",
+                    "icon": "Servant/Commands/203600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具（一个大队）",
@@ -342,11 +342,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/203600/203600a@1.png",
-                "faces": "CN/Faces/f_2036000.png",
-                "narrow_figure": "CN/NarrowFigure/203600/203600@0.png",
-                "command": "CN/Servants/Commands/203600/card_servant_1.png",
-                "status": "CN/Servants/Status/203600/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/203600/203600a@1.png",
+                "faces": "Servant/Faces/f_2036000.png",
+                "narrow_figure": "Servant/NarrowFigure/203600/203600@0.png",
+                "command": "Servant/Commands/203600/card_servant_1.png",
+                "status": "Servant/Status/203600/status_servant_1.png"
             }
         },
         {
@@ -363,7 +363,7 @@
                 {
                     "slot": 1,
                     "name": "射击（FPS） B",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -403,7 +403,7 @@
                 {
                     "slot": 2,
                     "name": "公主的夏日假期（伪） A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -452,7 +452,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -472,7 +472,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -492,7 +492,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(145)",
@@ -512,7 +512,7 @@
                 {
                     "slot": 0,
                     "name": "要塞构建",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)＆付与被伤害减免状态(200)",
@@ -542,7 +542,7 @@
             "nobles": [
                 {
                     "name": "白鹭城·千式MILIMILI午夜狂欢！",
-                    "icon": "CN/Servants/Commands/203600/card_servant_np.png",
+                    "icon": "Servant/Commands/203600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具（一个大队）",
@@ -592,11 +592,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/203600/203600a@2.png",
-                "faces": "CN/Faces/f_2036001.png",
-                "narrow_figure": "CN/NarrowFigure/203600/203600@1.png",
-                "command": "CN/Servants/Commands/203600/card_servant_2.png",
-                "status": "CN/Servants/Status/203600/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/203600/203600a@2.png",
+                "faces": "Servant/Faces/f_2036001.png",
+                "narrow_figure": "Servant/NarrowFigure/203600/203600@1.png",
+                "command": "Servant/Commands/203600/card_servant_2.png",
+                "status": "Servant/Status/203600/status_servant_2.png"
             }
         },
         {
@@ -613,7 +613,7 @@
                 {
                     "slot": 1,
                     "name": "射击（FPS） B",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -653,7 +653,7 @@
                 {
                     "slot": 2,
                     "name": "公主的夏日假期（伪） A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -702,7 +702,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -722,7 +722,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -742,7 +742,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(145)",
@@ -762,7 +762,7 @@
                 {
                     "slot": 0,
                     "name": "要塞构建",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)＆付与被伤害减免状态(200)",
@@ -792,7 +792,7 @@
             "nobles": [
                 {
                     "name": "白鹭城·千式MILIMILI午夜狂欢！",
-                    "icon": "CN/Servants/Commands/203600/card_servant_np.png",
+                    "icon": "Servant/Commands/203600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具（一个大队）",
@@ -842,11 +842,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/203600/203600b@1.png",
-                "faces": "CN/Faces/f_2036002.png",
-                "narrow_figure": "CN/NarrowFigure/203600/203600@2.png",
-                "command": "CN/Servants/Commands/203600/card_servant_3.png",
-                "status": "CN/Servants/Status/203600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/203600/203600b@1.png",
+                "faces": "Servant/Faces/f_2036002.png",
+                "narrow_figure": "Servant/NarrowFigure/203600/203600@2.png",
+                "command": "Servant/Commands/203600/card_servant_3.png",
+                "status": "Servant/Status/203600/status_servant_3.png"
             }
         },
         {
@@ -863,7 +863,7 @@
                 {
                     "slot": 1,
                     "name": "射击（FPS） B",
-                    "icon": "CN/SkillIcons/skill_00303.png",
+                    "icon": "SkillIcons/skill_00303.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -903,7 +903,7 @@
                 {
                     "slot": 2,
                     "name": "公主的夏日假期（伪） A",
-                    "icon": "CN/SkillIcons/skill_00700.png",
+                    "icon": "SkillIcons/skill_00700.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -950,7 +950,7 @@
                 {
                     "slot": 3,
                     "name": "千代纸大队长 EX",
-                    "icon": "CN/SkillIcons/skill_00315.png",
+                    "icon": "SkillIcons/skill_00315.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1003,7 +1003,7 @@
                 {
                     "slot": 0,
                     "name": "对魔力",
-                    "icon": "CN/SkillIcons/skill_00100.png",
+                    "icon": "SkillIcons/skill_00100.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化耐性提升(17.5%)",
@@ -1023,7 +1023,7 @@
                 {
                     "slot": 0,
                     "name": "单独行动",
-                    "icon": "CN/SkillIcons/skill_00101.png",
+                    "icon": "SkillIcons/skill_00101.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(10%)",
@@ -1043,7 +1043,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(145)",
@@ -1063,7 +1063,7 @@
                 {
                     "slot": 0,
                     "name": "要塞构建",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(8%)＆付与被伤害减免状态(200)",
@@ -1093,7 +1093,7 @@
             "nobles": [
                 {
                     "name": "白鹭城·千式MILIMILI午夜狂欢！",
-                    "icon": "CN/Servants/Commands/203600/card_servant_np.png",
+                    "icon": "Servant/Commands/203600/card_servant_np.png",
                     "card": "Buster",
                     "rank": "EX",
                     "type": "对军宝具（一个大队）",
@@ -1143,11 +1143,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/203600/203600b@2.png",
-                "faces": "CN/Faces/f_2036003.png",
-                "narrow_figure": "CN/NarrowFigure/203600/203600_2@0.png",
-                "command": "CN/Servants/Commands/203600/card_servant_3.png",
-                "status": "CN/Servants/Status/203600/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/203600/203600b@2.png",
+                "faces": "Servant/Faces/f_2036003.png",
+                "narrow_figure": "Servant/NarrowFigure/203600/203600_2@0.png",
+                "command": "Servant/Commands/203600/card_servant_3.png",
+                "status": "Servant/Status/203600/status_servant_3.png"
             }
         }
     ]

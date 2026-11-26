@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对降临者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔降临者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "后宫的魅力（夏） EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -231,7 +231,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -251,7 +251,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -271,7 +271,7 @@
                 {
                     "slot": 0,
                     "name": "登天的意志",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常无效状态",
@@ -290,7 +290,7 @@
             "nobles": [
                 {
                     "name": "到来吧酷吏僵尸团",
-                    "icon": "CN/Servants/Commands/505200/card_servant_np.png",
+                    "icon": "Servant/Commands/505200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -352,11 +352,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505200/505200a@1.png",
-                "faces": "CN/Faces/f_5052000.png",
-                "narrow_figure": "CN/NarrowFigure/505200/505200@0.png",
-                "command": "CN/Servants/Commands/505200/card_servant_1.png",
-                "status": "CN/Servants/Status/505200/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/505200/505200a@1.png",
+                "faces": "Servant/Faces/f_5052000.png",
+                "narrow_figure": "Servant/NarrowFigure/505200/505200@0.png",
+                "command": "Servant/Commands/505200/card_servant_1.png",
+                "status": "Servant/Status/505200/status_servant_1.png"
             }
         },
         {
@@ -373,7 +373,7 @@
                 {
                     "slot": 1,
                     "name": "后宫的魅力（夏） EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -442,7 +442,7 @@
                 {
                     "slot": 2,
                     "name": "武姓忌姬 A",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -504,7 +504,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -524,7 +524,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -544,7 +544,7 @@
                 {
                     "slot": 0,
                     "name": "登天的意志",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常无效状态",
@@ -563,7 +563,7 @@
             "nobles": [
                 {
                     "name": "到来吧酷吏僵尸团",
-                    "icon": "CN/Servants/Commands/505200/card_servant_np.png",
+                    "icon": "Servant/Commands/505200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -625,11 +625,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505200/505200a@2.png",
-                "faces": "CN/Faces/f_5052001.png",
-                "narrow_figure": "CN/NarrowFigure/505200/505200@1.png",
-                "command": "CN/Servants/Commands/505200/card_servant_2.png",
-                "status": "CN/Servants/Status/505200/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/505200/505200a@2.png",
+                "faces": "Servant/Faces/f_5052001.png",
+                "narrow_figure": "Servant/NarrowFigure/505200/505200@1.png",
+                "command": "Servant/Commands/505200/card_servant_2.png",
+                "status": "Servant/Status/505200/status_servant_2.png"
             }
         },
         {
@@ -646,7 +646,7 @@
                 {
                     "slot": 1,
                     "name": "后宫的魅力（夏） EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -715,7 +715,7 @@
                 {
                     "slot": 2,
                     "name": "武姓忌姬 A",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -777,7 +777,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -797,7 +797,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -817,7 +817,7 @@
                 {
                     "slot": 0,
                     "name": "登天的意志",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常无效状态",
@@ -836,7 +836,7 @@
             "nobles": [
                 {
                     "name": "到来吧酷吏僵尸团",
-                    "icon": "CN/Servants/Commands/505200/card_servant_np.png",
+                    "icon": "Servant/Commands/505200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -898,11 +898,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505200/505200b@1.png",
-                "faces": "CN/Faces/f_5052002.png",
-                "narrow_figure": "CN/NarrowFigure/505200/505200@2.png",
-                "command": "CN/Servants/Commands/505200/card_servant_3.png",
-                "status": "CN/Servants/Status/505200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505200/505200b@1.png",
+                "faces": "Servant/Faces/f_5052002.png",
+                "narrow_figure": "Servant/NarrowFigure/505200/505200@2.png",
+                "command": "Servant/Commands/505200/card_servant_3.png",
+                "status": "Servant/Status/505200/status_servant_3.png"
             }
         },
         {
@@ -919,7 +919,7 @@
                 {
                     "slot": 1,
                     "name": "后宫的魅力（夏） EX",
-                    "icon": "CN/SkillIcons/skill_00300.png",
+                    "icon": "SkillIcons/skill_00300.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -988,7 +988,7 @@
                 {
                     "slot": 2,
                     "name": "武姓忌姬 A",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1048,7 +1048,7 @@
                 {
                     "slot": 3,
                     "name": "皇帝道术 EX",
-                    "icon": "CN/SkillIcons/skill_00508.png",
+                    "icon": "SkillIcons/skill_00508.png",
                     "strength": 0,
                     "cool_down": [
                         9,
@@ -1097,7 +1097,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(10%)",
@@ -1117,7 +1117,7 @@
                 {
                     "slot": 0,
                     "name": "道具作成",
-                    "icon": "CN/SkillIcons/skill_00103.png",
+                    "icon": "SkillIcons/skill_00103.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的弱化付与成功率提升(10%)",
@@ -1137,7 +1137,7 @@
                 {
                     "slot": 0,
                     "name": "登天的意志",
-                    "icon": "CN/SkillIcons/skill_00411.png",
+                    "icon": "SkillIcons/skill_00411.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身精神异常无效状态",
@@ -1156,7 +1156,7 @@
             "nobles": [
                 {
                     "name": "到来吧酷吏僵尸团",
-                    "icon": "CN/Servants/Commands/505200/card_servant_np.png",
+                    "icon": "Servant/Commands/505200/card_servant_np.png",
                     "card": "Buster",
                     "rank": "B",
                     "type": "对军宝具",
@@ -1218,11 +1218,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/505200/505200b@2.png",
-                "faces": "CN/Faces/f_5052003.png",
-                "narrow_figure": "CN/NarrowFigure/505200/505200_2@0.png",
-                "command": "CN/Servants/Commands/505200/card_servant_3.png",
-                "status": "CN/Servants/Status/505200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/505200/505200b@2.png",
+                "faces": "Servant/Faces/f_5052003.png",
+                "narrow_figure": "Servant/NarrowFigure/505200/505200_2@0.png",
+                "command": "Servant/Commands/505200/card_servant_3.png",
+                "status": "Servant/Status/505200/status_servant_3.png"
             }
         }
     ]

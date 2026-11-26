@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对复仇者攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔复仇者〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "钢铁的决意 EX",
-                    "icon": "CN/SkillIcons/skill_00312.png",
+                    "icon": "SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -220,7 +220,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(20%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(10%)",
@@ -249,7 +249,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -269,7 +269,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -290,7 +290,7 @@
             "nobles": [
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -340,11 +340,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1100200/1100200a@1.png",
-                "faces": "CN/Faces/f_11002000.png",
-                "narrow_figure": "CN/NarrowFigure/1100200/1100200@0.png",
-                "command": "CN/Servants/Commands/1100200/card_servant_1.png",
-                "status": "CN/Servants/Status/1100200/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/1100200/1100200a@1.png",
+                "faces": "Servant/Faces/f_11002000.png",
+                "narrow_figure": "Servant/NarrowFigure/1100200/1100200@0.png",
+                "command": "Servant/Commands/1100200/card_servant_1.png",
+                "status": "Servant/Status/1100200/status_servant_1.png"
             }
         },
         {
@@ -361,7 +361,7 @@
                 {
                     "slot": 1,
                     "name": "钢铁的决意 EX",
-                    "icon": "CN/SkillIcons/skill_00312.png",
+                    "icon": "SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -419,7 +419,7 @@
                 {
                     "slot": 2,
                     "name": "黄金律 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -454,7 +454,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(20%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(10%)",
@@ -483,7 +483,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -503,7 +503,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -524,7 +524,7 @@
             "nobles": [
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -574,11 +574,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1100200/1100200a@2.png",
-                "faces": "CN/Faces/f_11002001.png",
-                "narrow_figure": "CN/NarrowFigure/1100200/1100200@1.png",
-                "command": "CN/Servants/Commands/1100200/card_servant_2.png",
-                "status": "CN/Servants/Status/1100200/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/1100200/1100200a@2.png",
+                "faces": "Servant/Faces/f_11002001.png",
+                "narrow_figure": "Servant/NarrowFigure/1100200/1100200@1.png",
+                "command": "Servant/Commands/1100200/card_servant_2.png",
+                "status": "Servant/Status/1100200/status_servant_2.png"
             }
         },
         {
@@ -595,7 +595,7 @@
                 {
                     "slot": 1,
                     "name": "钢铁的决意 EX",
-                    "icon": "CN/SkillIcons/skill_00312.png",
+                    "icon": "SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -653,7 +653,7 @@
                 {
                     "slot": 2,
                     "name": "黄金律 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -688,7 +688,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(20%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(10%)",
@@ -717,7 +717,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -737,7 +737,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -758,7 +758,7 @@
             "nobles": [
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -808,11 +808,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1100200/1100200b@1.png",
-                "faces": "CN/Faces/f_11002002.png",
-                "narrow_figure": "CN/NarrowFigure/1100200/1100200@2.png",
-                "command": "CN/Servants/Commands/1100200/card_servant_3.png",
-                "status": "CN/Servants/Status/1100200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/1100200/1100200b@1.png",
+                "faces": "Servant/Faces/f_11002002.png",
+                "narrow_figure": "Servant/NarrowFigure/1100200/1100200@2.png",
+                "command": "Servant/Commands/1100200/card_servant_3.png",
+                "status": "Servant/Status/1100200/status_servant_3.png"
             }
         },
         {
@@ -829,7 +829,7 @@
                 {
                     "slot": 1,
                     "name": "钢铁的决意 EX",
-                    "icon": "CN/SkillIcons/skill_00312.png",
+                    "icon": "SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -887,7 +887,7 @@
                 {
                     "slot": 2,
                     "name": "黄金律 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -920,7 +920,7 @@
                 {
                     "slot": 2,
                     "name": "基督山的秘宝 A+",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -978,7 +978,7 @@
                 {
                     "slot": 3,
                     "name": "绝境的智慧 A",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1029,7 +1029,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(20%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(10%)",
@@ -1058,7 +1058,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1078,7 +1078,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -1099,7 +1099,7 @@
             "nobles": [
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1149,7 +1149,7 @@
                 },
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -1208,11 +1208,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1100200/1100200b@2.png",
-                "faces": "CN/Faces/f_11002003.png",
-                "narrow_figure": "CN/NarrowFigure/1100200/1100200_2@0.png",
-                "command": "CN/Servants/Commands/1100200/card_servant_3.png",
-                "status": "CN/Servants/Status/1100200/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/1100200/1100200b@2.png",
+                "faces": "Servant/Faces/f_11002003.png",
+                "narrow_figure": "Servant/NarrowFigure/1100200/1100200_2@0.png",
+                "command": "Servant/Commands/1100200/card_servant_3.png",
+                "status": "Servant/Status/1100200/status_servant_3.png"
             }
         },
         {
@@ -1229,7 +1229,7 @@
                 {
                     "slot": 1,
                     "name": "钢铁的决意 EX",
-                    "icon": "CN/SkillIcons/skill_00312.png",
+                    "icon": "SkillIcons/skill_00312.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1287,7 +1287,7 @@
                 {
                     "slot": 2,
                     "name": "黄金律 A",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1320,7 +1320,7 @@
                 {
                     "slot": 2,
                     "name": "基督山的秘宝 A+",
-                    "icon": "CN/SkillIcons/skill_00602.png",
+                    "icon": "SkillIcons/skill_00602.png",
                     "strength": 1,
                     "cool_down": [
                         8,
@@ -1378,7 +1378,7 @@
                 {
                     "slot": 3,
                     "name": "绝境的智慧 A",
-                    "icon": "CN/SkillIcons/skill_00513.png",
+                    "icon": "SkillIcons/skill_00513.png",
                     "strength": 0,
                     "cool_down": [
                         8,
@@ -1429,7 +1429,7 @@
                 {
                     "slot": 0,
                     "name": "复仇者",
-                    "icon": "CN/SkillIcons/skill_00107.png",
+                    "icon": "SkillIcons/skill_00107.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身被伤害时获得的宝具值提升(20%) ＋ 除自身以外的己方全体<包括替补>弱化耐性下降【负面效果】(10%)",
@@ -1458,7 +1458,7 @@
                 {
                     "slot": 0,
                     "name": "忘却补正",
-                    "icon": "CN/SkillIcons/skill_00108.png",
+                    "icon": "SkillIcons/skill_00108.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击威力提升(8%)",
@@ -1478,7 +1478,7 @@
                 {
                     "slot": 0,
                     "name": "自我回复（魔力）",
-                    "icon": "CN/SkillIcons/skill_00109.png",
+                    "icon": "SkillIcons/skill_00109.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身每回合获得宝具值的状态(3%)",
@@ -1499,7 +1499,7 @@
             "nobles": [
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A",
                     "type": "对军宝具",
@@ -1549,7 +1549,7 @@
                 },
                 {
                     "name": "虎啊，煌煌燎燃",
-                    "icon": "CN/Servants/Commands/1100200/card_servant_np.png",
+                    "icon": "Servant/Commands/1100200/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对军宝具",
@@ -1608,11 +1608,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/1100230/1100230a.png",
-                "faces": "CN/Faces/f_11002300.png",
-                "narrow_figure": "CN/NarrowFigure/1100230/1100230@0.png",
-                "command": "CN/Servants/Commands/1100200/card_servant_11.png",
-                "status": "CN/Servants/Status/1100200/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/1100230/1100230a.png",
+                "faces": "Servant/Faces/f_11002300.png",
+                "narrow_figure": "Servant/NarrowFigure/1100230/1100230@0.png",
+                "command": "Servant/Commands/1100200/card_servant_11.png",
+                "status": "Servant/Status/1100200/status_servant_11.png"
             }
         }
     ]

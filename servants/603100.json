@@ -13,7 +13,7 @@
         {
             "slot": 0,
             "name": "追击技巧提升",
-            "icon": "CN/SkillIcons/skill_00301.png",
+            "icon": "SkillIcons/skill_00301.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的额外攻击指令卡性能提升30%",
@@ -42,7 +42,7 @@
         {
             "slot": 0,
             "name": "魔力装填",
-            "icon": "CN/SkillIcons/skill_00601.png",
+            "icon": "SkillIcons/skill_00601.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身以宝具值已达10%的状态开始战斗",
@@ -71,7 +71,7 @@
         {
             "slot": 0,
             "name": "对弓兵攻击适性",
-            "icon": "CN/SkillIcons/skill_00300.png",
+            "icon": "SkillIcons/skill_00300.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身对〔弓兵〕职阶的攻击力提升20%",
@@ -100,7 +100,7 @@
         {
             "slot": 0,
             "name": "特击技巧提升",
-            "icon": "CN/SkillIcons/skill_00303.png",
+            "icon": "SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
             "effect": "自身的暴击威力提升",
@@ -129,7 +129,7 @@
         {
             "slot": 0,
             "name": "技能再装填",
-            "icon": "CN/SkillIcons/skill_00613.png",
+            "icon": "SkillIcons/skill_00613.png",
             "strength": 0,
             "cool_down": [],
             "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
@@ -160,7 +160,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -222,7 +222,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -242,7 +242,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -271,7 +271,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -292,7 +292,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -338,11 +338,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603100/603100a@1.png",
-                "faces": "CN/Faces/f_6031000.png",
-                "narrow_figure": "CN/NarrowFigure/603100/603100@0.png",
-                "command": "CN/Servants/Commands/603100/card_servant_1.png",
-                "status": "CN/Servants/Status/603100/status_servant_1.png"
+                "chara_graph": "Servant/CharaGraph/603100/603100a@1.png",
+                "faces": "Servant/Faces/f_6031000.png",
+                "narrow_figure": "Servant/NarrowFigure/603100/603100@0.png",
+                "command": "Servant/Commands/603100/card_servant_1.png",
+                "status": "Servant/Status/603100/status_servant_1.png"
             }
         },
         {
@@ -359,7 +359,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -419,7 +419,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -472,7 +472,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -492,7 +492,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -521,7 +521,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -542,7 +542,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -588,11 +588,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603100/603100a@2.png",
-                "faces": "CN/Faces/f_6031001.png",
-                "narrow_figure": "CN/NarrowFigure/603100/603100@1.png",
-                "command": "CN/Servants/Commands/603100/card_servant_2.png",
-                "status": "CN/Servants/Status/603100/status_servant_2.png"
+                "chara_graph": "Servant/CharaGraph/603100/603100a@2.png",
+                "faces": "Servant/Faces/f_6031001.png",
+                "narrow_figure": "Servant/NarrowFigure/603100/603100@1.png",
+                "command": "Servant/Commands/603100/card_servant_2.png",
+                "status": "Servant/Status/603100/status_servant_2.png"
             }
         },
         {
@@ -609,7 +609,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -669,7 +669,7 @@
                 {
                     "slot": 1,
                     "name": "四神地相（白鹭） A",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -747,7 +747,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -800,7 +800,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -820,7 +820,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -849,7 +849,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -870,7 +870,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -916,11 +916,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603100/603100b@1.png",
-                "faces": "CN/Faces/f_6031002.png",
-                "narrow_figure": "CN/NarrowFigure/603100/603100@2.png",
-                "command": "CN/Servants/Commands/603100/card_servant_3.png",
-                "status": "CN/Servants/Status/603100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/603100/603100b@1.png",
+                "faces": "Servant/Faces/f_6031002.png",
+                "narrow_figure": "Servant/NarrowFigure/603100/603100@2.png",
+                "command": "Servant/Commands/603100/card_servant_3.png",
+                "status": "Servant/Status/603100/status_servant_3.png"
             }
         },
         {
@@ -937,7 +937,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -997,7 +997,7 @@
                 {
                     "slot": 1,
                     "name": "四神地相（白鹭） A",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1075,7 +1075,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1126,7 +1126,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1184,7 +1184,7 @@
                 {
                     "slot": 3,
                     "name": "城中妖怪 A++",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1226,7 +1226,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -1246,7 +1246,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -1275,7 +1275,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -1296,7 +1296,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -1342,7 +1342,7 @@
                 },
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对城宝具（自身）",
@@ -1401,11 +1401,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603100/603100b@2.png",
-                "faces": "CN/Faces/f_6031003.png",
-                "narrow_figure": "CN/NarrowFigure/603100/603100_2@0.png",
-                "command": "CN/Servants/Commands/603100/card_servant_3.png",
-                "status": "CN/Servants/Status/603100/status_servant_3.png"
+                "chara_graph": "Servant/CharaGraph/603100/603100b@2.png",
+                "faces": "Servant/Faces/f_6031003.png",
+                "narrow_figure": "Servant/NarrowFigure/603100/603100_2@0.png",
+                "command": "Servant/Commands/603100/card_servant_3.png",
+                "status": "Servant/Status/603100/status_servant_3.png"
             }
         },
         {
@@ -1422,7 +1422,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1482,7 +1482,7 @@
                 {
                     "slot": 1,
                     "name": "四神地相（白鹭） A",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1560,7 +1560,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1611,7 +1611,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -1669,7 +1669,7 @@
                 {
                     "slot": 3,
                     "name": "城中妖怪 A++",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1711,7 +1711,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -1731,7 +1731,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -1760,7 +1760,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -1781,7 +1781,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -1827,7 +1827,7 @@
                 },
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对城宝具（自身）",
@@ -1886,11 +1886,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603130/603130a.png",
-                "faces": "CN/Faces/f_6031300.png",
-                "narrow_figure": "CN/NarrowFigure/603130/603130@0.png",
-                "command": "CN/Servants/Commands/603100/card_servant_11.png",
-                "status": "CN/Servants/Status/603100/status_servant_11.png"
+                "chara_graph": "Servant/CharaGraph/603130/603130a.png",
+                "faces": "Servant/Faces/f_6031300.png",
+                "narrow_figure": "Servant/NarrowFigure/603130/603130@0.png",
+                "command": "Servant/Commands/603100/card_servant_11.png",
+                "status": "Servant/Status/603100/status_servant_11.png"
             }
         },
         {
@@ -1907,7 +1907,7 @@
                 {
                     "slot": 1,
                     "name": "变化 A+",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -1967,7 +1967,7 @@
                 {
                     "slot": 1,
                     "name": "四神地相（白鹭） A",
-                    "icon": "CN/SkillIcons/skill_00400.png",
+                    "icon": "SkillIcons/skill_00400.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -2045,7 +2045,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2096,7 +2096,7 @@
                 {
                     "slot": 2,
                     "name": "千代纸操法 EX",
-                    "icon": "CN/SkillIcons/skill_00601.png",
+                    "icon": "SkillIcons/skill_00601.png",
                     "strength": 1,
                     "cool_down": [
                         7,
@@ -2154,7 +2154,7 @@
                 {
                     "slot": 3,
                     "name": "城中妖怪 A++",
-                    "icon": "CN/SkillIcons/skill_00504.png",
+                    "icon": "SkillIcons/skill_00504.png",
                     "strength": 0,
                     "cool_down": [
                         7,
@@ -2196,7 +2196,7 @@
                 {
                     "slot": 0,
                     "name": "阵地建造",
-                    "icon": "CN/SkillIcons/skill_00104.png",
+                    "icon": "SkillIcons/skill_00104.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的技指令卡性能提升(11%)",
@@ -2216,7 +2216,7 @@
                 {
                     "slot": 0,
                     "name": "气息遮断（阴）",
-                    "icon": "CN/SkillIcons/skill_00105.png",
+                    "icon": "SkillIcons/skill_00105.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "自身的暴击星发生率提升(8%)＆弱化耐性下降【负面效果】(10%)",
@@ -2245,7 +2245,7 @@
                 {
                     "slot": 0,
                     "name": "神性",
-                    "icon": "CN/SkillIcons/skill_00326.png",
+                    "icon": "SkillIcons/skill_00326.png",
                     "strength": 0,
                     "cool_down": [],
                     "effect": "付与自身伤害附加状态(150)",
@@ -2266,7 +2266,7 @@
             "nobles": [
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "A+",
                     "type": "对城宝具（自身）",
@@ -2312,7 +2312,7 @@
                 },
                 {
                     "name": "白鹭城百鬼八天堂大人",
-                    "icon": "CN/Servants/Commands/603100/card_servant_np.png",
+                    "icon": "Servant/Commands/603100/card_servant_np.png",
                     "card": "Quick",
                     "rank": "EX",
                     "type": "对城宝具（自身）",
@@ -2371,11 +2371,11 @@
                 }
             ],
             "assets": {
-                "chara_graph": "CN/CharaGraph/603140/603140a.png",
-                "faces": "CN/Faces/f_6031400.png",
-                "narrow_figure": "CN/NarrowFigure/603140/603140@0.png",
-                "command": "CN/Servants/Commands/603100/card_servant_12.png",
-                "status": "CN/Servants/Status/603100/status_servant_12.png"
+                "chara_graph": "Servant/CharaGraph/603140/603140a.png",
+                "faces": "Servant/Faces/f_6031400.png",
+                "narrow_figure": "Servant/NarrowFigure/603140/603140@0.png",
+                "command": "Servant/Commands/603100/card_servant_12.png",
+                "status": "Servant/Status/603100/status_servant_12.png"
             }
         }
     ]
