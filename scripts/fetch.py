@@ -141,6 +141,8 @@ FLAT_BUFFS = {
     "addMaxhp",
     "subMaxhp",
 }
+# Buffs whose numeric svals are internal counters, not displayed values.
+NO_VALUE_BUFFS = {"shortenSkillAfterUseSkill"}
 # Values at or above this are internal ids (buff ids, svt ids, ...).
 INTERNAL_VALUE_THRESHOLD = 100_000
 
@@ -195,6 +197,17 @@ def load_export(args: argparse.Namespace) -> list[dict]:
     if not isinstance(data, list) or not data:
         fail(f"{path}: expected a non-empty JSON array")
     return data
+
+
+def clean_atlas_text(text: object) -> str:
+    """Remove Atlas placeholder artifacts such as `{{1:Value:m}}%`."""
+    value = str(text or "")
+    while re.search(r"\{\{[^{}]*\}\}", value):
+        value = re.sub(r"\{\{[^{}]*\}\}", "", value)
+    # A dangling "%" is left behind when the placeholder supplied the number.
+    value = re.sub(r"(?<=[一-鿿])%", "", value)
+    value = re.sub(r"\[\{\d+\}\]|\{\d+\}", "", value)
+    return value.strip()
 
 
 def split_detail(detail: str) -> list[str]:
@@ -264,6 +277,8 @@ def values_for_function(fn: dict) -> tuple[str, list[int]]:
     raw_values = [v for v in raw_values if isinstance(v, (int, float))]
     raw_values = [v for v in raw_values if abs(v) < INTERNAL_VALUE_THRESHOLD]
 
+    if set(buff_types) & NO_VALUE_BUFFS:
+        return "None", []
     if not raw_values:
         return "None", []
     if func_type in FLAT_FUNCS or set(buff_types) & FLAT_BUFFS:
@@ -352,7 +367,8 @@ def dedupe_effects(effects: list[dict]) -> list[dict]:
 
 def convert_effects(detail: str, functions: list[dict]) -> list[dict]:
     """One effect per displayed segment; unused (hidden) functions are dropped."""
-    segments = split_detail(detail)
+    segments = [clean_atlas_text(part) for part in split_detail(detail)]
+    segments = [part for part in segments if part]
     candidates = [fn for fn in functions if fn.get("funcType") not in SKIP_FUNCS]
 
     # Assign the strongest matches first so a weak keyword hit cannot steal a
@@ -416,7 +432,7 @@ def effect_target(effects: list[dict]) -> str:
 
 
 def convert_skill(skill: dict, slot: int | None = None, collapse_duplicates: bool = False) -> dict:
-    detail = str(skill.get("detail") or "")
+    detail = clean_atlas_text(skill.get("detail"))
     effects = convert_effects(detail, skill.get("functions") or [])
     if collapse_duplicates:
         # Class passives have no skill levels; Atlas still repeats the value
@@ -623,7 +639,7 @@ def build_mooncell_effects(detail: str, effects: list[dict], mc_record: dict | N
 
 
 def convert_noble(noble: dict, mc_record: dict | None = None) -> dict:
-    detail = str(noble.get("detail") or "")
+    detail = clean_atlas_text(noble.get("detail"))
     effects = convert_effects(detail, noble.get("functions") or [])
     effects = build_mooncell_effects(detail, effects, mc_record)
     return {
@@ -1061,10 +1077,21 @@ def mooncell_class_skills(servant: dict, mc_data: dict) -> list[dict] | None:
     if not raws:
         return None
     atlas_index = atlas_skill_index(servant)
-    return [
-        convert_mooncell_class_skill(raw, lookup_atlas_skill(atlas_index, mooncell_name(raw)))
-        for raw in raws
-    ]
+    atlas_class = servant.get("classPassive") or []
+    result = []
+    for index, raw in enumerate(raws):
+        atlas_skill = lookup_atlas_skill(atlas_index, mooncell_name(raw))
+        # Names occasionally differ between Mooncell and Atlas (e.g.
+        # 灵基情报保存 vs 灵基信息保存); fall back to the same position.
+        if atlas_skill is None and index < len(atlas_class):
+            atlas_skill = atlas_class[index]
+        result.append(convert_mooncell_class_skill(raw, atlas_skill))
+
+    first_icon = next((skill["icon"] for skill in result if skill["icon"]), "")
+    for skill in result:
+        if not skill["icon"]:
+            skill["icon"] = first_icon
+    return result
 
 
 def mooncell_nobles_for_stage(servant: dict, mc_data: dict, stage: int) -> list[dict] | None:

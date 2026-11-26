@@ -149,23 +149,24 @@ def download_many(paths: list[str], jobs: int) -> None:
     print(f"downloading {len(paths)} image(s) with {jobs} worker(s) ...")
     done = 0
     failed = 0
+    processed = 0
     started = time.monotonic()
     with ThreadPoolExecutor(max_workers=jobs) as pool:
         futures = {pool.submit(download, rel): rel for rel in paths}
         for future in as_completed(futures):
             rel = futures[future]
+            processed += 1
             try:
                 fetched = future.result()
             except Exception as exc:  # noqa: BLE001 - report and keep going
                 failed += 1
                 print(f"  {rel}: {exc}")
-                continue
-            if fetched:
-                done += 1
-            finished = done + failed
-            if finished % 100 == 0 or finished == len(paths):
+            else:
+                if fetched:
+                    done += 1
+            if processed % 100 == 0 or processed == len(paths):
                 elapsed = time.monotonic() - started
-                print(f"  {finished}/{len(paths)} ({done} new, {failed} failed, {elapsed:.0f}s)")
+                print(f"  {processed}/{len(paths)} ({done} new, {failed} failed, {elapsed:.0f}s)")
     if failed:
         fail(f"{failed} image(s) could not be downloaded")
 

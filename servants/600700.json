@@ -121,10 +121,10 @@
             "icon": "CN/SkillIcons/skill_00303.png",
             "strength": 0,
             "cool_down": [],
-            "effect": "自身的暴击威力提升{{1:Value:m}}%",
+            "effect": "自身的暴击威力提升",
             "effects": [
                 {
-                    "effect": "自身的暴击威力提升{{1:Value:m}}%",
+                    "effect": "自身的暴击威力提升",
                     "kind": "Percent",
                     "values": [
                         2000,
@@ -154,19 +154,8 @@
             "effects": [
                 {
                     "effect": "付与自身「技能使用后所使用的技能充能时间减1状态」(1次<Lv.6～9的话为2次、Lv.10的话为3次,每个技能仅能触发1次>)",
-                    "kind": "Percent",
-                    "values": [
-                        10,
-                        10,
-                        10,
-                        10,
-                        10,
-                        10,
-                        10,
-                        10,
-                        10,
-                        10
-                    ],
+                    "kind": "None",
+                    "values": [],
                     "script": [],
                     "target": "SelfOnly"
                 }
