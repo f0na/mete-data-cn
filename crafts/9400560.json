@@ -1,0 +1,32 @@
+{
+    "id": 9400560,
+    "name": "指令咏唱",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1125,
+    "skills": [
+        {
+            "name": "指令咏唱",
+            "icon": "Craft/SkillIcons/skill_00328.png",
+            "effect": "自身的攻击力与防御力提升25%(3回合)"
+        },
+        {
+            "name": "指令咏唱",
+            "icon": "Craft/SkillIcons/skill_00328.png",
+            "effect": "自身的攻击力与防御力提升30%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400560/9400560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94005600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94005600.png"
+        ]
+    }
+}

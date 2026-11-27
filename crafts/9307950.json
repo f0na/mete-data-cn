@@ -1,0 +1,27 @@
+{
+    "id": 9307950,
+    "name": "被继承的灵魂",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "被继承的灵魂",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "[servantName 205200](弓兵)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆力指令卡性能提升8%＆暴击威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307950/9307950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079500.png"
+        ]
+    }
+}

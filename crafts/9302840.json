@@ -1,0 +1,27 @@
+{
+    "id": 9302840,
+    "name": "传说与事实",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "传说与事实",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 203100](弓兵)装备,且自身在场时,己方全体的力指令卡性能提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302840/9302840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93028400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93028400.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9305430,
+    "name": "延绵后世之物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "延绵后世之物",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 104900](剑士)装备时,自身的暴击威力提升30%＆攻击时一定概率获得5个暴击星"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305430/9305430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054300.png"
+        ]
+    }
+}

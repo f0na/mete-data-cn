@@ -1,0 +1,27 @@
+{
+    "id": 9308810,
+    "name": "作为毕业的证明",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "作为毕业的证明",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 2300800](女性·月之癌)装备时,自身的宝具威力提升30%＆额外攻击指令卡性能提升50%＆付与「额外攻击时,获得10个暴击星的状态」"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308810/9308810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088100.png"
+        ]
+    }
+}

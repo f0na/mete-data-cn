@@ -1,0 +1,32 @@
+{
+    "id": 9401780,
+    "name": "夏日女主人",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "夏日女主人",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "夏日女主人",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升20%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401780/9401780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017800.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401170,
+    "name": "夏日未来视",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "夏日未来视",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆自身的暴击星掉落率提升15%"
+        },
+        {
+            "name": "夏日未来视",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆自身的暴击星掉落率提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401170/9401170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011700.png"
+        ]
+    }
+}

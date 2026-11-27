@@ -1,0 +1,17 @@
+{
+    "id": 8400640,
+    "name": "二天道乐之刀",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400640a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400640.png"
+    },
+    "skills": [
+        {
+            "name": "二天道乐之刀",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在力指令卡上时,被刻印的指令卡暴击威力提升20%"
+        }
+    ],
+    "comment": "在泛人类史中被誉为日本最强剑豪，\n来自异乡的天元之花所持之刀。\n\n虽然流派名很容易被人误解为是二刀流剑术，\n但其本质意味着“通往空之路”的目标。"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401530,
+    "name": "风云仙姬",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "风云仙姬",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身战败退场时己方全体的防御力提升20%(3回合)"
+        },
+        {
+            "name": "风云仙姬",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身战败退场时己方全体的防御力提升25%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401530/9401530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94015300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94015300.png"
+        ]
+    }
+}

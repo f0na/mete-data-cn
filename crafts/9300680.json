@@ -1,0 +1,27 @@
+{
+    "id": 9300680,
+    "name": "五条大桥的邂逅",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "五条大桥的邂逅",
+            "icon": "Craft/SkillIcons/skill_00612.png",
+            "effect": "武藏坊弁庆(枪兵)装备,且自身在场时,己方全体受击时的产生的宝具值获得量提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300680/9300680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93006800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93006800.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9403980,
+    "name": "周日晚餐",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "周日晚餐",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆暴击威力提升5%"
+        },
+        {
+            "name": "周日晚餐",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403980/9403980a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039800.png"
+        ]
+    }
+}

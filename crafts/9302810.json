@@ -1,0 +1,27 @@
+{
+    "id": 9302810,
+    "name": "无穹的尽头",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无穹的尽头",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "[servantName 1000700](他人格)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302810/9302810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93028100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93028100.png"
+        ]
+    }
+}

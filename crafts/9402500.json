@@ -1,0 +1,32 @@
+{
+    "id": 9402500,
+    "name": "幻想种",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "幻想种",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔骑兵〕职阶装备时,宝具威力提升15%"
+        },
+        {
+            "name": "幻想种",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔骑兵〕职阶装备时,宝具威力提升25%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402500/9402500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94025000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94025000.png"
+        ]
+    }
+}

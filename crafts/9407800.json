@@ -1,0 +1,42 @@
+{
+    "id": 9407800,
+    "name": "人偶师的休息",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "人偶师的休息",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具值获得量提升8%＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "古董提灯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "古董提灯的掉落获得数增加1个【『魔法使之夜 After Night』活动限定】"
+        },
+        {
+            "name": "人偶师的休息",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆宝具值获得量提升10%＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "古董提灯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "古董提灯的掉落获得数增加2个[最大解放]【『魔法使之夜 After Night』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407800/9407800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078000.png"
+        ]
+    }
+}

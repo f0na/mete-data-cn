@@ -1,0 +1,32 @@
+{
+    "id": 9400650,
+    "name": "2030年的碎片",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "2030年的碎片",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得8个暴击星的状态"
+        },
+        {
+            "name": "2030年的碎片",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得10个暴击星的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400650/9400650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006500.png"
+        ]
+    }
+}

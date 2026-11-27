@@ -1,0 +1,52 @@
+{
+    "id": 9406990,
+    "name": "Service Games",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "Service Games",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升2%＆力指令卡性能提升2%＆付与每回合获得1个暴击星的状态"
+        },
+        {
+            "name": "死灭蔷薇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "死灭蔷薇的掉落获得数增加1个【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "Service Games",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升3%＆力指令卡性能提升3%＆付与每回合获得2个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "死灭蔷薇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "死灭蔷薇的掉落获得数增加2个[最大解放]【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "死灭蔷薇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "死灭蔷薇的掉落获得数增加1个【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        },
+        {
+            "name": "死灭蔷薇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "死灭蔷薇的掉落获得数增加2个[最大解放]【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406990/9406990a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069900.png"
+        ]
+    }
+}

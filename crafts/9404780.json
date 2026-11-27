@@ -1,0 +1,32 @@
+{
+    "id": 9404780,
+    "name": "随后，在大江山",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "随后，在大江山",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆被暴击发生耐性提升10%"
+        },
+        {
+            "name": "随后，在大江山",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆被暴击发生耐性提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404780/9404780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94047800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94047800.png"
+        ]
+    }
+}

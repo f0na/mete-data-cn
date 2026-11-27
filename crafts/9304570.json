@@ -1,0 +1,27 @@
+{
+    "id": 9304570,
+    "name": "星之光剑，星之光盘",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "星之光剑，星之光盘",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "[servantName 104200](剑士)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304570/9304570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045700.png"
+        ]
+    }
+}

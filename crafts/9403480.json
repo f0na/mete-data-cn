@@ -1,0 +1,42 @@
+{
+    "id": 9403480,
+    "name": "足柄兄弟",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "足柄兄弟",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升3%＆暴击星掉落率提升5%"
+        },
+        {
+            "name": "骷髅爆米花的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "骷髅爆米花的掉落获得数增加1个【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        },
+        {
+            "name": "足柄兄弟",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%＆暴击星掉落率提升10%[最大解放]"
+        },
+        {
+            "name": "骷髅爆米花的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "骷髅爆米花的掉落获得数增加2个[最大解放]【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403480/9403480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94034800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94034800.png"
+        ]
+    }
+}

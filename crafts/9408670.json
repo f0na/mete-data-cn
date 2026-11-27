@@ -1,0 +1,32 @@
+{
+    "id": 9408670,
+    "name": "奏演的圆舞曲",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "奏演的圆舞曲",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升3%＆力指令卡性能提升3%＆宝具威力提升3%"
+        },
+        {
+            "name": "奏演的圆舞曲",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆技指令卡性能提升5%＆力指令卡性能提升5%＆宝具威力提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408670/9408670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086700.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401410,
+    "name": "月灵髓液",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "月灵髓液",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态3次＆付与伤害附加200状态"
+        },
+        {
+            "name": "月灵髓液",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态3次＆付与伤害附加500状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401410/9401410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014100.png"
+        ]
+    }
+}

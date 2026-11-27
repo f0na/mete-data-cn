@@ -1,0 +1,27 @@
+{
+    "id": 9305310,
+    "name": "于彷徨神秘岛",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "于彷徨神秘岛",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 403700](骑兵)装备,且自身在场时,付与己方全体对〔超巨大〕15%的特攻状态＆仅在〔水边〕或〔虚数空间〕场地上时,技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305310/9305310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93053100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93053100.png"
+        ]
+    }
+}

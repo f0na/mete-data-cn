@@ -1,0 +1,42 @@
+{
+    "id": 9403410,
+    "name": "Gilgamesh in NY",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "Gilgamesh in NY",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升20%＆宝具值获得量提升10%"
+        },
+        {
+            "name": "肌肉汉堡的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "肌肉汉堡的掉落获得数增加1个【『BATTLE IN NEWYORK 2019』活动限定】"
+        },
+        {
+            "name": "Gilgamesh in NY",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升25%＆宝具值获得量提升15%[最大解放]"
+        },
+        {
+            "name": "肌肉汉堡的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "肌肉汉堡的掉落获得数增加2个[最大解放]【『BATTLE IN NEWYORK 2019』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403410/9403410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94034100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94034100.png"
+        ]
+    }
+}

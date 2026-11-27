@@ -1,0 +1,27 @@
+{
+    "id": 9306570,
+    "name": "女武神的口粮",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "女武神的口粮",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 604300](暗匿者)装备,且自身在场时,己方全体的技指令卡性能提升10%＋己方全体〔瓦尔基里〕的暴击威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306570/9306570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93065700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93065700.png"
+        ]
+    }
+}

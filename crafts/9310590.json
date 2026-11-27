@@ -1,0 +1,27 @@
+{
+    "id": 9310590,
+    "name": "英灵星行：阿尔托莉雅·卡斯特",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵星行：阿尔托莉雅·卡斯特",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310590/9310590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105900.png"
+        ]
+    }
+}

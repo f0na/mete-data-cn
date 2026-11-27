@@ -1,0 +1,52 @@
+{
+    "id": 9404570,
+    "name": "恐怖礼宾员",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "恐怖礼宾员",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔死灵〕15%的特攻状态"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加1个【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "恐怖礼宾员",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔死灵〕20%的特攻状态[最大解放]"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加2个[最大解放]【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加1个【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加2个[最大解放]【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404570/9404570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045700.png"
+        ]
+    }
+}

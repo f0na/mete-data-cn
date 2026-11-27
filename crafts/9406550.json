@@ -1,0 +1,42 @@
+{
+    "id": 9406550,
+    "name": "以剑为锄",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "以剑为锄",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆宝具值获得量提升5%"
+        },
+        {
+            "name": "高价的卷轴的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高价的卷轴的掉落获得数增加1个【『108人的万圣节·叛乱！』活动限定】"
+        },
+        {
+            "name": "以剑为锄",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "高价的卷轴的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高价的卷轴的掉落获得数增加2个[最大解放]【『108人的万圣节·叛乱！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406550/9406550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065500.png"
+        ]
+    }
+}

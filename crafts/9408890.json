@@ -1,0 +1,32 @@
+{
+    "id": 9408890,
+    "name": "奔赴战场",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "奔赴战场",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(3次)＆技指令卡性能提升8%"
+        },
+        {
+            "name": "奔赴战场",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(3次)＆技指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408890/9408890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94088900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94088900.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9408030,
+    "name": "法悦的净土",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "法悦的净土",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆以宝具值已达40%的状态开始战斗＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "法悦的净土",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆以宝具值已达50%的状态开始战斗＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408030/9408030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080300.png"
+        ]
+    }
+}

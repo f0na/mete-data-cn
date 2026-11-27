@@ -1,0 +1,32 @@
+{
+    "id": 9401750,
+    "name": "捞金鱼",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "捞金鱼",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆力指令卡性能提升8%"
+        },
+        {
+            "name": "捞金鱼",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆力指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401750/9401750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017500.png"
+        ]
+    }
+}

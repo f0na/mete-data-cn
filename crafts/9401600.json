@@ -1,0 +1,32 @@
+{
+    "id": 9401600,
+    "name": "逝去之梦",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "逝去之梦",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔暗匿者〕职阶装备时,宝具威力提升15%"
+        },
+        {
+            "name": "逝去之梦",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔暗匿者〕职阶装备时,宝具威力提升25%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401600/9401600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016000.png"
+        ]
+    }
+}

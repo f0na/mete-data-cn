@@ -1,0 +1,42 @@
+{
+    "id": 9405530,
+    "name": "主人公",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "主人公",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆宝具值获得量提升5%"
+        },
+        {
+            "name": "主人公",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "魔法芝麻的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "魔法芝麻的掉落获得数增加1个【『万圣节·复活归来！』活动限定】"
+        },
+        {
+            "name": "魔法芝麻的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "魔法芝麻的掉落获得数增加2个[最大解放]【『万圣节·复活归来！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405530/9405530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055300.png"
+        ]
+    }
+}

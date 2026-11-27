@@ -1,0 +1,17 @@
+{
+    "id": 8400100,
+    "name": "纹章：治愈",
+    "rarity": 2,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400100a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400100.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：治愈",
+            "icon": "Cmdcodes/SkillIcons/skill_00608.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个自身的毒、诅咒、灼伤状态"
+        }
+    ],
+    "comment": "解放桎梏。\n安康同行。"
+}

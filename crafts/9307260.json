@@ -1,0 +1,27 @@
+{
+    "id": 9307260,
+    "name": "终末之火",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "终末之火",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 3300100](兽)装备时,自身的宝具威力提升30%＆〔持有圣杯〕状态中攻击时,一定概率自身的宝具威力提升10%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307260/9307260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93072600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93072600.png"
+        ]
+    }
+}

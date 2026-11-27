@@ -1,0 +1,32 @@
+{
+    "id": 9401090,
+    "name": "街头巧克力女仆",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "街头巧克力女仆",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的技指令卡性能提升10%＆迅指令卡性能提升10%＆生命值回复量提升20%"
+        },
+        {
+            "name": "街头巧克力女仆",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的技指令卡性能提升15%＆迅指令卡性能提升15%＆生命值回复量提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401090/9401090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94010900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94010900.png"
+        ]
+    }
+}

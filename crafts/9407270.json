@@ -1,0 +1,42 @@
+{
+    "id": 9407270,
+    "name": "圆桌海滩",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "圆桌海滩",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升4%＆力指令卡性能提升4%＆付与每回合获得2个暴击星的状态"
+        },
+        {
+            "name": "科纳咖啡豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "科纳咖啡豆的掉落获得数增加1个【『从者·夏日·庆典2024！』活动限定】"
+        },
+        {
+            "name": "圆桌海滩",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升6%＆力指令卡性能提升6%＆付与每回合获得3个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "科纳咖啡豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "科纳咖啡豆的掉落获得数增加2个[最大解放]【『从者·夏日·庆典2024！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407270/9407270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94072700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94072700.png"
+        ]
+    }
+}

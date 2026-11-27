@@ -1,0 +1,27 @@
+{
+    "id": 9307960,
+    "name": "毗天一太刀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "毗天一太刀",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 901800](裁定者)装备,且自身在场时,己方全体的技指令卡性能提升10%＆付与对〔拥有人之力的敌人〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307960/9307960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079600.png"
+        ]
+    }
+}

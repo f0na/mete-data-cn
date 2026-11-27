@@ -1,0 +1,27 @@
+{
+    "id": 9306310,
+    "name": "高扬斯卡娅的野心～欧亚大陆版～",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "高扬斯卡娅的野心～欧亚大陆版～",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 2500900](降临者)装备,且自身在场时,己方全体的力指令卡性能提升10%＋己方全体〔兽科从者〕的攻击力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306310/9306310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063100.png"
+        ]
+    }
+}

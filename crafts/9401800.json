@@ -1,0 +1,32 @@
+{
+    "id": 9401800,
+    "name": "闪耀女神",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "闪耀女神",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身防御力提升3%＆技指令卡性能提升3%"
+        },
+        {
+            "name": "闪耀女神",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身防御力提升5%＆技指令卡性能提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401800/9401800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018000.png"
+        ]
+    }
+}

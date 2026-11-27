@@ -1,0 +1,42 @@
+{
+    "id": 9404280,
+    "name": "晴朗黎明",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "晴朗黎明",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆技指令卡性能提升8%"
+        },
+        {
+            "name": "河味的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "河味的掉落获得数增加1个【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        },
+        {
+            "name": "晴朗黎明",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆技指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "河味的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "河味的掉落获得数增加2个[最大解放]【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404280/9404280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042800.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401490,
+    "name": "支配者之帽",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401490a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401490.png"
+    },
+    "skills": [
+        {
+            "name": "支配者之帽",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔猛兽〕10%的特攻效果"
+        }
+    ],
+    "comment": "以『严格服从的野性』为宗旨，\n“能干的女人”（暗）头戴的帽子。\n\n虽然存在形式与光之她截然相反，但唯独没有丧失某位贤妻良狐所拥有的『侍奉（attend）体质』。"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401150,
+    "name": "艳丽拳舞",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "艳丽拳舞",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加800状态"
+        },
+        {
+            "name": "艳丽拳舞",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加1000状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401150/9401150a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011500.png"
+        ]
+    }
+}

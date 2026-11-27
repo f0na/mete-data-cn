@@ -1,0 +1,42 @@
+{
+    "id": 9403190,
+    "name": "帝都圣杯战争",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "帝都圣杯战争",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆宝具值获得量提升10%"
+        },
+        {
+            "name": "青蛙香炉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青蛙香炉的掉落获得数增加1个【『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』活动限定】"
+        },
+        {
+            "name": "帝都圣杯战争",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升15%＆力指令卡性能提升15%＆宝具值获得量提升15%[最大解放]"
+        },
+        {
+            "name": "青蛙香炉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青蛙香炉的掉落获得数增加2个[最大解放]【『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403190/9403190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94031900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94031900.png"
+        ]
+    }
+}

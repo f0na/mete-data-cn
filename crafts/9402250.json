@@ -1,0 +1,32 @@
+{
+    "id": 9402250,
+    "name": "胜利者的从容",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "胜利者的从容",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身伤害减免100的状态＆暴击星掉落率提升5%"
+        },
+        {
+            "name": "胜利者的从容",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身伤害减免200的状态＆暴击星掉落率提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402250/9402250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94022500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94022500.png"
+        ]
+    }
+}

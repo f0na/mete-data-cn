@@ -1,0 +1,27 @@
+{
+    "id": 9301060,
+    "name": "黄金律的表现",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黄金律的表现",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "幼吉尔(弓兵)装备,且自身在场时,己方全体的宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301060/9301060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010600.png"
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "id": 50,
+    "name": "金色庆典",
+    "shortName": "金色庆典",
+    "skills": [
+        {
+            "name": "魔力放出",
+            "icon": "Mystic/SkillIcons/skill_00306.png",
+            "effect": "己方单体的力指令卡性能超幅提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的力指令卡性能超幅提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        4800,
+                        5000,
+                        5200,
+                        5400,
+                        5600,
+                        6000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "对胜利的确信",
+            "icon": "Mystic/SkillIcons/skill_00603.png",
+            "effect": "获得大量暴击星",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "SelfOnly",
+            "effects": [
+                {
+                    "effect": "获得大量暴击星",
+                    "kind": "Int",
+                    "values": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        20
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "骑士的誓言",
+            "icon": "Mystic/SkillIcons/skill_00404.png",
+            "effect": "付与己方单体毅力状态(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体毅力状态(1回合)",
+                    "kind": "Int",
+                    "values": [
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        2800,
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        4000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00051.png",
+            "female": "Mystic/Items/masterequip00052.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00051.png",
+            "female": "Mystic/Items/masterequip00052.png"
+        }
+    }
+}

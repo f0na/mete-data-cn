@@ -1,0 +1,27 @@
+{
+    "id": 9401290,
+    "name": "Last Encore",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Last Encore",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆付与每回合获得3个暴击星的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401290/9401290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012900.png"
+        ]
+    }
+}

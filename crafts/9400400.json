@@ -1,0 +1,32 @@
+{
+    "id": 9400400,
+    "name": "宇宙棱镜",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "宇宙棱镜",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加8%的状态"
+        },
+        {
+            "name": "宇宙棱镜",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加10%的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400400/9400400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94004000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94004000.png"
+        ]
+    }
+}

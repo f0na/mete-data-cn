@@ -1,0 +1,32 @@
+{
+    "id": 9401270,
+    "name": "屠龙王子",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "屠龙王子",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆对〔龙〕8%的特攻状态"
+        },
+        {
+            "name": "屠龙王子",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆对〔龙〕10%的特攻状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401270/9401270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012700.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400770,
+    "name": "Grand New Year",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "Grand New Year",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身目标集中状态(1回合)＆无敌状态(1回合)＆弱化耐性提升10%"
+        },
+        {
+            "name": "Grand New Year",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身目标集中状态(1回合)＆无敌状态(1回合)＆弱化耐性提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400770/9400770a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007700.png"
+        ]
+    }
+}

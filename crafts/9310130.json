@@ -1,0 +1,27 @@
+{
+    "id": 9310130,
+    "name": "英灵祝装：尼古拉·特斯拉",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：尼古拉·特斯拉",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310130/9310130a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93101300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93101300.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9408320,
+    "name": "蛇前辈s",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "蛇前辈s",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升3%＆力指令卡性能提升3%＆弱化付与成功率提升2%"
+        },
+        {
+            "name": "龙食的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙食的掉落获得数增加1个【『培育吧！ 我的小小龙』活动限定】"
+        },
+        {
+            "name": "蛇前辈s",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升5%＆力指令卡性能提升5%＆弱化付与成功率提升3%[最大解放]"
+        },
+        {
+            "name": "龙食的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙食的掉落获得数增加2个[最大解放]【『培育吧！ 我的小小龙』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408320/9408320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94083200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94083200.png"
+        ]
+    }
+}

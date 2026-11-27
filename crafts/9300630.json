@@ -1,0 +1,27 @@
+{
+    "id": 9300630,
+    "name": "贫者一灯",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "贫者一灯",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "迦尔纳(枪兵)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300630/9300630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93006300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93006300.png"
+        ]
+    }
+}

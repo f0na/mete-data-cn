@@ -1,0 +1,32 @@
+{
+    "id": 9408110,
+    "name": "矿石科的君主",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "矿石科的君主",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(3次)＆强化解除耐性提升10%"
+        },
+        {
+            "name": "矿石科的君主",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(3次)＆强化解除耐性提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408110/9408110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94081100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94081100.png"
+        ]
+    }
+}

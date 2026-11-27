@@ -1,0 +1,27 @@
+{
+    "id": 9301180,
+    "name": "神便鬼毒酒",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神便鬼毒酒",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "酒吞童子(暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301180/9301180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93011800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93011800.png"
+        ]
+    }
+}

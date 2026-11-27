@@ -1,0 +1,27 @@
+{
+    "id": 9301800,
+    "name": "FGO THE STAGE",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "FGO THE STAGE",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301800/9301800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93018000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93018000.png"
+        ]
+    }
+}

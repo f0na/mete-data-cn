@@ -1,0 +1,27 @@
+{
+    "id": 9302280,
+    "name": "英灵正装：阿斯忒里俄斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵正装：阿斯忒里俄斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302280/9302280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93022800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93022800.png"
+        ]
+    }
+}

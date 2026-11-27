@@ -1,0 +1,32 @@
+{
+    "id": 9402310,
+    "name": "卡美洛咖啡店",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "卡美洛咖啡店",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升8%＆弱化耐性提升8%＆防御力提升8%"
+        },
+        {
+            "name": "卡美洛咖啡店",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升10%＆弱化耐性提升10%＆防御力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402310/9402310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023100.png"
+        ]
+    }
+}

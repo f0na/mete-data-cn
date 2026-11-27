@@ -1,0 +1,32 @@
+{
+    "id": 9403110,
+    "name": "欺瞒",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "欺瞒",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化付与成功率提升3%"
+        },
+        {
+            "name": "欺瞒",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化付与成功率提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403110/9403110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94031100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94031100.png"
+        ]
+    }
+}

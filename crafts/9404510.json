@@ -1,0 +1,42 @@
+{
+    "id": 9404510,
+    "name": "淘汰赛明星",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "淘汰赛明星",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆付与被伤害减免300的状态"
+        },
+        {
+            "name": "点数宝石的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "点数宝石的掉落获得数增加1个【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        },
+        {
+            "name": "淘汰赛明星",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆付与被伤害减免400的状态[最大解放]"
+        },
+        {
+            "name": "点数宝石的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "点数宝石的掉落获得数增加2个[最大解放]【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404510/9404510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045100.png"
+        ]
+    }
+}

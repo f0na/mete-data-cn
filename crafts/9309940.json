@@ -1,0 +1,27 @@
+{
+    "id": 9309940,
+    "name": "英灵祝装：斯卡哈",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：斯卡哈",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309940/9309940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93099400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93099400.png"
+        ]
+    }
+}

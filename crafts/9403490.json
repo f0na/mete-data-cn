@@ -1,0 +1,42 @@
+{
+    "id": 9403490,
+    "name": "皇家糖霜",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "皇家糖霜",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆宝具威力提升20%"
+        },
+        {
+            "name": "技攻击的威力提升＆友谊点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:神秘之国的ONILAND!! 轻量版』活动中,技攻击的威力提升100～500%<根据友谊点数量变化>＆友谊点数的获得量增加30%【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        },
+        {
+            "name": "皇家糖霜",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆宝具威力提升25%[最大解放]"
+        },
+        {
+            "name": "技攻击的威力提升＆友谊点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:神秘之国的ONILAND!! 轻量版』活动中,技攻击的威力提升100～500%<根据友谊点数量变化>＆友谊点数的获得量增加60%[最大解放]【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403490/9403490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94034900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94034900.png"
+        ]
+    }
+}

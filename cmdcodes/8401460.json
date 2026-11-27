@@ -1,0 +1,17 @@
+{
+    "id": 8401460,
+    "name": "雪之婴儿的战友",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401460a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401460.png"
+    },
+    "skills": [
+        {
+            "name": "雪之婴儿的战友",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在技指令卡上时,被刻印的指令卡的暴击威力提升15%"
+        }
+    ],
+    "comment": "被神代魔术多重强化，存在形式较为接近精灵，\n外表是熊，但原本是犬之使魔。\n\n或许只是比自己身体更大的\n犹如弟弟般的存在吧。"
+}

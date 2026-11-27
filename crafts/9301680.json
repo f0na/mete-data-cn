@@ -1,0 +1,27 @@
+{
+    "id": 9301680,
+    "name": "摇篮之梦",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "摇篮之梦",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 1000300](他人格)装备时,自身的技指令卡性能提升20%＆最大生命值增加3000＋自身在场时,除自身以外的己方全体最大生命值减少1000【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301680/9301680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93016800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93016800.png"
+        ]
+    }
+}

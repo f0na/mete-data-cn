@@ -1,0 +1,17 @@
+{
+    "id": 8401650,
+    "name": "涉越苍穹的天元之花",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401650a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401650.png"
+    },
+    "skills": [
+        {
+            "name": "涉越苍穹的天元之花",
+            "icon": "Cmdcodes/SkillIcons/skill_00312.png",
+            "effect": "付与被刻印的指令卡无敌贯通效果＆暴击威力提升10%"
+        }
+    ],
+    "comment": "「有人曾对我说过。\n　要随心所欲地活下去。\n　让我——按自己的意愿活下去。\n\n　嗯，我会照做！\n　虽然我过去也是这么做的，\n　但今后，我将真正做到随心所欲。\n\n　——————就像飞翔在极致蓝天中的鸟儿那样！」"
+}

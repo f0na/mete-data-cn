@@ -1,0 +1,17 @@
+{
+    "id": 8400910,
+    "name": "对剑士用决战兵器",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400910a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400910.png"
+    },
+    "skills": [
+        {
+            "name": "对剑士用决战兵器",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔剑士〕20%的特攻效果"
+        }
+    ],
+    "comment": "「听说除了我以外还有其他剑士！\n　飒爽地乘坐爱机东·斯塔利恩Ⅱ来——\n　不，这次并没有故障哦？　没错。\n\n　话说哪儿有剑士，剑士在哪儿啊。\n　我要将那些个红色白色黑色统统消灭！\n　对御主来说最优秀的剑只有我一个就够了！\n\n　什么？　暗匿者？　你在说什么呢？」"
+}

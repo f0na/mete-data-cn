@@ -1,0 +1,99 @@
+{
+    "id": 80,
+    "name": "月之海的记忆",
+    "shortName": "月之海的记忆",
+    "skills": [
+        {
+            "name": "灵子提升",
+            "icon": "Mystic/SkillIcons/skill_00305.png",
+            "effect": "己方单体的技指令卡性能提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的技指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "通往完胜的布局",
+            "icon": "Mystic/SkillIcons/skill_00604.png",
+            "effect": "己方单体的暴击星掉落率提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的暴击星掉落率提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        5000,
+                        5500,
+                        6000,
+                        6500,
+                        7000,
+                        7500,
+                        8000,
+                        8500,
+                        9000,
+                        10000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "惩罚",
+            "icon": "Mystic/SkillIcons/skill_00521.png",
+            "effect": "付与敌方单体强化无效状态(1次)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "Enemy",
+            "effects": [
+                {
+                    "effect": "付与敌方单体强化无效状态(1次)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "Enemy"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00081.png",
+            "female": "Mystic/Items/masterequip00082.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00081.png",
+            "female": "Mystic/Items/masterequip00082.png"
+        }
+    }
+}

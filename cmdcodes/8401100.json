@@ -1,0 +1,17 @@
+{
+    "id": 8401100,
+    "name": "逆转因果的魔枪",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401100a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401100.png"
+    },
+    "skills": [
+        {
+            "name": "逆转因果的魔枪",
+            "icon": "Cmdcodes/SkillIcons/skill_00310.png",
+            "effect": "付与被刻印的指令卡必中效果＆暴击威力提升10%"
+        }
+    ],
+    "comment": "被誉为只要刺出后就能切实贯穿敌人的心脏的\n由凯尔特英雄运用的包含着诅咒的枪。\n\n这是因为\n“这把枪已经命中心脏”的\n“结果已经具备了”，\n因此无法防御也无法回避。\n\n根据传承，只要投掷出去，分散出无数枪尖，\n能一击打倒多个敌人。"
+}

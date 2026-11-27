@@ -1,0 +1,42 @@
+{
+    "id": 9402890,
+    "name": "魔女厨房",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "魔女厨房",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升3%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "奇幻砂糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "奇幻砂糖的掉落获得数增加1个【『情人节2019』活动限定】"
+        },
+        {
+            "name": "魔女厨房",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升5%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "奇幻砂糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "奇幻砂糖的掉落获得数增加2个[最大解放]【『情人节2019』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402890/9402890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94028900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94028900.png"
+        ]
+    }
+}

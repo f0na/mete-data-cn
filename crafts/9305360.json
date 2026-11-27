@@ -1,0 +1,27 @@
+{
+    "id": 9305360,
+    "name": "向夜空祈祷",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "向夜空祈祷",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305360/9305360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93053600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93053600.png"
+        ]
+    }
+}

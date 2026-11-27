@@ -1,0 +1,32 @@
+{
+    "id": 9404890,
+    "name": "阖被炉欢笑招福来",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "阖被炉欢笑招福来",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆暴击星集中度提升100%"
+        },
+        {
+            "name": "阖被炉欢笑招福来",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆暴击星集中度提升200%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404890/9404890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048900.png"
+        ]
+    }
+}

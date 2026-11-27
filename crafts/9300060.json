@@ -1,0 +1,27 @@
+{
+    "id": 9300060,
+    "name": "赤原猎兵",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "赤原猎兵",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "只有当卫宫(弓兵)装备时,自身的宝具威力提升30%＆攻击时概率获得5个暴击星"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300060/9300060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93000600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93000600.png"
+        ]
+    }
+}

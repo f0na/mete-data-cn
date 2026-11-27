@@ -44,7 +44,9 @@ def fail(message: str) -> None:
     raise SystemExit(1)
 
 
-def patch_name(base: str, from_patch: int, to_patch: int) -> str:
+def patch_name(base: str, from_patch: int, to_patch: int, prefix: str = "") -> str:
+    if prefix:
+        return f"patch-{prefix}-{base}-{from_patch:03d}-{to_patch:03d}.zip"
     return f"patch-{base}-{from_patch:03d}-{to_patch:03d}.zip"
 
 
@@ -63,10 +65,19 @@ def collect_refs_from_dir(directory: Path = SERVANTS_DIR) -> set[str]:
     return refs
 
 
-def collect_refs_from_tag(tag: str) -> set[str]:
-    """Return the asset paths referenced by servants/*.json at a git tag."""
+def collect_refs_from_tag(tag: str, directory: Path = SERVANTS_DIR) -> set[str]:
+    """Return the asset paths referenced by a dataset directory at a git tag."""
+    # A dataset introduced after the base tag has no path there yet; treat it
+    # as empty so its first patch (or base) can still be built.
+    exists = subprocess.run(
+        ["git", "-C", str(ROOT), "cat-file", "-e", f"{tag}:{directory.name}"],
+        capture_output=True,
+    )
+    if exists.returncode != 0:
+        return set()
+
     proc = subprocess.run(
-        ["git", "-C", str(ROOT), "archive", "--format=tar", tag, "servants"],
+        ["git", "-C", str(ROOT), "archive", "--format=tar", tag, directory.name],
         capture_output=True,
     )
     if proc.returncode != 0:
@@ -141,15 +152,17 @@ def build_patches(
     current_refs: set[str],
     assets_dir: Path,
     dist_dir: Path,
+    directory: Path = SERVANTS_DIR,
+    prefix: str = "",
 ) -> list[dict]:
     """Create cumulative and adjacent patch archives for a patch release."""
     if version.patch <= 0:
         return []
 
-    base_refs = collect_refs_from_tag(version.base_tag)
+    base_refs = collect_refs_from_tag(version.base_tag, directory)
     prev_patch = previous_patch(version)
     prev_refs = (
-        collect_refs_from_tag(patch_tag(version.base, prev_patch))
+        collect_refs_from_tag(patch_tag(version.base, prev_patch), directory)
         if prev_patch
         else base_refs
     )
@@ -158,17 +171,25 @@ def build_patches(
 
     cumulative = current_refs - base_refs
     if cumulative:
-        name = patch_name(version.base, 0, version.patch)
+        name = patch_name(version.base, 0, version.patch, prefix)
         info = build_patch_archive(dist_dir / name, cumulative, assets_dir)
         entries.append({"from": 0, "to": version.patch, **info})
         print(f"Built {name} ({len(cumulative)} new file(s))")
+    else:
+        # Publish an empty cumulative patch.  Without an entry the client
+        # cannot tell "nothing changed" from "no patch available" and falls
+        # back to downloading the full resource archive.
+        name = patch_name(version.base, 0, version.patch, prefix)
+        info = build_patch_archive(dist_dir / name, set(), assets_dir)
+        entries.append({"from": 0, "to": version.patch, **info})
+        print(f"Built {name} (no new files)")
 
     if prev_patch:
         adjacent = current_refs - prev_refs
         # If the previous patch added nothing, adjacent is identical to the
         # cumulative archive; publishing a second copy would be pure waste.
         if adjacent and adjacent != cumulative:
-            name = patch_name(version.base, prev_patch, version.patch)
+            name = patch_name(version.base, prev_patch, version.patch, prefix)
             info = build_patch_archive(dist_dir / name, adjacent, assets_dir)
             entries.append({"from": prev_patch, "to": version.patch, **info})
             print(f"Built {name} ({len(adjacent)} new file(s))")
@@ -178,11 +199,15 @@ def build_patches(
     return entries
 
 
-def describe(version: version_mod.Version, current_refs: set[str]) -> tuple[int, int, int]:
-    base_refs = collect_refs_from_tag(version.base_tag)
+def describe(
+    version: version_mod.Version,
+    current_refs: set[str],
+    directory: Path = SERVANTS_DIR,
+) -> tuple[int, int, int]:
+    base_refs = collect_refs_from_tag(version.base_tag, directory)
     prev_patch = previous_patch(version)
     prev_refs = (
-        collect_refs_from_tag(patch_tag(version.base, prev_patch))
+        collect_refs_from_tag(patch_tag(version.base, prev_patch), directory)
         if prev_patch
         else base_refs
     )

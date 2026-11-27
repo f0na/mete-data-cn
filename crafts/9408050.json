@@ -1,0 +1,32 @@
+{
+    "id": 9408050,
+    "name": "连结大海的樱之梦",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "连结大海的樱之梦",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆以宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "连结大海的樱之梦",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆以宝具值已达20%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408050/9408050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080500.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9407030,
+    "name": "机关大师",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "机关大师",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆宝具值获得量提升5%"
+        },
+        {
+            "name": "机关护具的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "机关护具的掉落获得数增加1个【『风云机关伊莉雅城』活动限定】"
+        },
+        {
+            "name": "机关大师",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "机关护具的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "机关护具的掉落获得数增加2个[最大解放]【『风云机关伊莉雅城』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407030/9407030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070300.png"
+        ]
+    }
+}

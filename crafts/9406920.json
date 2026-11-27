@@ -1,0 +1,52 @@
+{
+    "id": 9406920,
+    "name": "始终燃烧",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "始终燃烧",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆力指令卡性能提升3%"
+        },
+        {
+            "name": "ZERY豆饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "ZERY豆饼的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升10%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "始终燃烧",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆力指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "ZERY豆饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "ZERY豆饼的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升20%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406920/9406920a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069200.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401700,
+    "name": "幸运的青鸟",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401700a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401700.png"
+    },
+    "skills": [
+        {
+            "name": "幸运的青鸟",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡的暴击星集中度提升25%＆宝具值获得量提升3%"
+        }
+    ],
+    "comment": "侍奉最后魔女的\n童话怪物（Ploy Kickshaw）之一。\n\n基于鹅妈妈童谣中的知更鸟创作而成。\n虽被主人当作废物对待，却是存在本身就具有意义的梅茵斯特（纯血魔女）最后的怪物。\n\n「抱歉留下了你一个人。\n　只愿幸运能常伴你的左右。」\n\n还具有代替术者死去的绝技。\n"
+}

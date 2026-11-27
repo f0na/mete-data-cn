@@ -1,0 +1,164 @@
+{
+    "id": 360,
+    "name": "三咲高中校服",
+    "shortName": "三咲高中校服",
+    "skills": [
+        {
+            "name": "Assemble",
+            "icon": "Mystic/SkillIcons/skill_00315.png",
+            "effect": "己方全体的技指令卡性能提升(1回合)＆力指令卡性能提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的技指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "力指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "Go for it",
+            "icon": "Mystic/SkillIcons/skill_00311.png",
+            "effect": "己方单体的暴击星集中度提升(1回合)＋获得暴击星",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方单体的暴击星集中度提升(1回合)",
+                    "kind": "Int",
+                    "values": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "Never give up",
+            "icon": "Mystic/SkillIcons/skill_00404.png",
+            "effect": "付与己方单体毅力状态(1次·1回合)＆宝具值增加",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体毅力状态(1次·1回合)",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00361.png",
+            "female": "Mystic/Items/masterequip00362.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00361.png",
+            "female": "Mystic/Items/masterequip00362.png"
+        }
+    }
+}

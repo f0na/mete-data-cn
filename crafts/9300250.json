@@ -1,0 +1,27 @@
+{
+    "id": 9300250,
+    "name": "女神的闪耀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "女神的闪耀",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "斯忒诺(暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300250/9300250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002500.png"
+        ]
+    }
+}

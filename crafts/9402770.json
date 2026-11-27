@@ -1,0 +1,42 @@
+{
+    "id": 9402770,
+    "name": "古早形态",
+    "type": "SvtEquipEventReward",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "古早形态",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升3%＆力指令卡性能提升3%"
+        },
+        {
+            "name": "〔骷髅系〕〔稻草人系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔骷髅系〕〔稻草人系〕敌人的追加出现率提升25%【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        },
+        {
+            "name": "古早形态",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升5%＆力指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "〔骷髅系〕〔稻草人系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔骷髅系〕〔稻草人系〕敌人的追加出现率提升100%[最大解放]【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402770/9402770a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027700.png"
+        ]
+    }
+}

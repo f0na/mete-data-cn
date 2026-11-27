@@ -1,0 +1,42 @@
+{
+    "id": 9406210,
+    "name": "富岳巡游",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "富岳巡游",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星的状态＆技指令卡性能提升8%＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "转转手鞠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "转转手鞠的掉落获得数增加1个【『南溟弓张八犬传』活动限定】"
+        },
+        {
+            "name": "富岳巡游",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得4个暴击星的状态＆技指令卡性能提升10%＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "转转手鞠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "转转手鞠的掉落获得数增加2个[最大解放]【『南溟弓张八犬传』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406210/9406210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94062100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94062100.png"
+        ]
+    }
+}

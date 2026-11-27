@@ -1,0 +1,27 @@
+{
+    "id": 9310950,
+    "name": "大陆之风",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "大陆之风",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "[servantName 306100](枪兵)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310950/9310950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93109500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93109500.png"
+        ]
+    }
+}

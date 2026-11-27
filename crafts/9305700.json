@@ -1,0 +1,27 @@
+{
+    "id": 9305700,
+    "name": "夏日冒险回忆",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "夏日冒险回忆",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "[servantName 901200](裁定者)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305700/9305700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93057000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93057000.png"
+        ]
+    }
+}

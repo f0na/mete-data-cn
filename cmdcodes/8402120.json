@@ -1,0 +1,17 @@
+{
+    "id": 8402120,
+    "name": "鲜血魔女系偶像",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402120a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402120.png"
+    },
+    "skills": [
+        {
+            "name": "鲜血魔女系偶像",
+            "icon": "Cmdcodes/SkillIcons/skill_00527.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体诅咒状态(500伤害·3回合)＋被刻印的指令卡的宝具值获得量提升5%＆付与无视防御效果"
+        }
+    ],
+    "comment": "「没问题！　好了，要出发了！　赶紧准备。\n　去干什么？　当然是演唱会的时间啦！\n\n　顺便帮你把敌人也收拾掉！\n　只要听了我的热门单曲，\n　不管是什么猪都会喜悦地叫着被一击必杀哦！\n\n　结束之后就举办通宵特别演唱会吧！\n　你肯定愿意奉陪吧！」"
+}

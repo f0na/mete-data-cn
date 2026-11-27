@@ -1,0 +1,17 @@
+{
+    "id": 8401500,
+    "name": "打垮神之鞭",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401500a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401500.png"
+    },
+    "skills": [
+        {
+            "name": "打垮神之鞭",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔神性〕10%的特攻效果＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "据说某位太公盼望已久的贤者\n为了将将众多仙人与道士封为神，\n而奉天命获赐的铁鞭。\n\n原本具有使用限制，\n但作为英灵现界之际，限制消失了。\n据说在使用时，会从天上飞来将敌人连同大地一并击穿。"
+}

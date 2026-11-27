@@ -1,0 +1,27 @@
+{
+    "id": 9308310,
+    "name": "鞑靼之枪",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "鞑靼之枪",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 305500](枪兵)装备,且自身在场时,付与己方全体对〔龙〕10%的特攻状态＆对〔拥有地之力的敌人〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308310/9308310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93083100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93083100.png"
+        ]
+    }
+}

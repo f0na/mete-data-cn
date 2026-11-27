@@ -1,0 +1,17 @@
+{
+    "id": 8401940,
+    "name": "红色唐伞",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401940a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401940.png"
+    },
+    "skills": [
+        {
+            "name": "红色唐伞",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡对〔拥有人之力的敌人〕的暴击威力提升15%"
+        }
+    ],
+    "comment": "与家相宜之物\n唐伞、橱柜、提壶、酒注子。\n\n那位名列『女房三十六歌仙』的歌人也曾爱用……\n虽不知是不是真的，\n但的确是诺子小姐总是随身携带的红色唐伞。\n遮阳、挡雨、旋转攻击，什么都能做到。\n\n颜色肯定还是比红梅更鲜艳的赤红比较好。\n因为无论身在哪里，都一定能被一眼看到。"
+}

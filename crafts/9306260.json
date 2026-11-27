@@ -1,0 +1,27 @@
+{
+    "id": 9306260,
+    "name": "打神鞭",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "打神鞭",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 404300](骑兵)装备,且自身在场时,付与己方全体对〔神性〕15%的特攻状态＆对〔魔性〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306260/9306260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062600.png"
+        ]
+    }
+}

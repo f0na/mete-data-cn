@@ -1,0 +1,42 @@
+{
+    "id": 9406850,
+    "name": "后面座位的可爱家伙",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "后面座位的可爱家伙",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔拥有人之力的敌人〕20%的特攻状态＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "甜甜蜜蜜爱心点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜爱心点数的掉落获得量提升30%【『若安小姐与未确认之爱』活动限定】"
+        },
+        {
+            "name": "后面座位的可爱家伙",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔拥有人之力的敌人〕25%的特攻状态＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "甜甜蜜蜜爱心点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜爱心点数的掉落获得量提升60%[最大解放]【『若安小姐与未确认之爱』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406850/9406850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068500.png"
+        ]
+    }
+}

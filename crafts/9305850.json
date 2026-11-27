@@ -1,0 +1,27 @@
+{
+    "id": 9305850,
+    "name": "英灵巡游：织田信胜",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵巡游：织田信胜",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305850/9305850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93058500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93058500.png"
+        ]
+    }
+}

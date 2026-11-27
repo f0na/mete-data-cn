@@ -1,0 +1,32 @@
+{
+    "id": 9402060,
+    "name": "甜蜜水晶",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "甜蜜水晶",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "甜蜜水晶",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402060/9402060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020600.png"
+        ]
+    }
+}

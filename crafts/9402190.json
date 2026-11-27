@@ -1,0 +1,32 @@
+{
+    "id": 9402190,
+    "name": "谜之面具群",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "谜之面具群",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身暴击星集中度提升100%＆暴击星掉落率提升5%"
+        },
+        {
+            "name": "谜之面具群",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身暴击星集中度提升200%＆暴击星掉落率提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402190/9402190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021900.png"
+        ]
+    }
+}

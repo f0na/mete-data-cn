@@ -1,0 +1,32 @@
+{
+    "id": 9408020,
+    "name": "慎二坦克出击！",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "慎二坦克出击！",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化状态付与成功率提升12%＆暴击威力提升5%"
+        },
+        {
+            "name": "慎二坦克出击！",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化状态付与成功率提升15%＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408020/9408020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080200.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9405150,
+    "name": "卡美洛课程",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "卡美洛课程",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆力指令卡性能提升3%"
+        },
+        {
+            "name": "伟大之魂毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "伟大之魂毛巾的掉落获得数增加1个【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        },
+        {
+            "name": "卡美洛课程",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆力指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "伟大之魂毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "伟大之魂毛巾的掉落获得数增加2个[最大解放]【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405150/9405150a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051500.png"
+        ]
+    }
+}

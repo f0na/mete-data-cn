@@ -1,0 +1,27 @@
+{
+    "id": 9306350,
+    "name": "苏醒",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "苏醒",
+            "icon": "Craft/SkillIcons/skill_00527.png",
+            "effect": "[servantName 1001200](他人格)装备时,自身的宝具威力提升30%＆毅力发动时,付与敌方全体诅咒状态(3000伤害·5回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306350/9306350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063500.png"
+        ]
+    }
+}

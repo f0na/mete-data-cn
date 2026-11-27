@@ -1,0 +1,42 @@
+{
+    "id": 9407500,
+    "name": "宛若沙漏",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "宛若沙漏",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆暴击威力提升10%＆暴击星掉落率提升10%"
+        },
+        {
+            "name": "珊瑚杖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "珊瑚杖的掉落获得数增加1个【『雪原的圣诞快乐2024』活动限定】"
+        },
+        {
+            "name": "宛若沙漏",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升15%＆暴击星掉落率提升15%[最大解放]"
+        },
+        {
+            "name": "珊瑚杖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "珊瑚杖的掉落获得数增加2个[最大解放]【『雪原的圣诞快乐2024』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407500/9407500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94075000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94075000.png"
+        ]
+    }
+}

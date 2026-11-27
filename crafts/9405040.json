@@ -1,0 +1,42 @@
+{
+    "id": 9405040,
+    "name": "迦勒底十一人",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "迦勒底十一人",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆技指令卡性能提升2%＆暴击威力提升3%"
+        },
+        {
+            "name": "旅行者马克杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "旅行者马克杯的掉落获得数增加1个【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        },
+        {
+            "name": "迦勒底十一人",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆技指令卡性能提升3%＆暴击威力提升5%[最大解放]"
+        },
+        {
+            "name": "旅行者马克杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "旅行者马克杯的掉落获得数增加2个[最大解放]【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405040/9405040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94050400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94050400.png"
+        ]
+    }
+}

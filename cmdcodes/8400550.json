@@ -1,0 +1,17 @@
+{
+    "id": 8400550,
+    "name": "奥尔良的少女",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400550a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400550.png"
+    },
+    "skills": [
+        {
+            "name": "奥尔良的少女",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的生命值回复1000(使用后需等待3回合才可再次使用)"
+        }
+    ],
+    "comment": "「我的本质只是为主献身的普通栋雷米女孩。\n\n　但如果您打算不断挺身面对苦难的话，\n　打算继续不断前行的话，\n　就高揭，并挥舞这杆旗帜吧。\n\n　——在主的名下。」"
+}

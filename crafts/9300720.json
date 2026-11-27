@@ -1,0 +1,27 @@
+{
+    "id": 9300720,
+    "name": "永不消失的火焰",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "永不消失的火焰",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "布伦希尔德(枪兵)装备,且自身在场时,己方全体的力指令卡性能提升10%＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300720/9300720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007200.png"
+        ]
+    }
+}

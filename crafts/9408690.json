@@ -1,0 +1,32 @@
+{
+    "id": 9408690,
+    "name": "神秘的解体",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "神秘的解体",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆以宝具值已达25%的状态开始战斗＆宝具值获得量提升15%"
+        },
+        {
+            "name": "神秘的解体",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆以宝具值已达40%的状态开始战斗＆宝具值获得量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408690/9408690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086900.png"
+        ]
+    }
+}

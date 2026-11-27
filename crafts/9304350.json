@@ -1,0 +1,27 @@
+{
+    "id": 9304350,
+    "name": "铁处女（夏）",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "铁处女（夏）",
+            "icon": "Craft/SkillIcons/skill_00512.png",
+            "effect": "[servantName 403600](骑兵)装备时,自身的宝具威力提升30%＆攻击时极低概率付与技能封印状态(1回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304350/9304350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043500.png"
+        ]
+    }
+}

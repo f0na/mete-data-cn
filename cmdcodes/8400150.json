@@ -1,0 +1,17 @@
+{
+    "id": 8400150,
+    "name": "赤色宝石小姐的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400150a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400150.png"
+    },
+    "skills": [
+        {
+            "name": "赤色宝石小姐的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升10%"
+        }
+    ],
+    "comment": "某位御主的令印。\n纹样酷似注入了魔力的宝石。"
+}

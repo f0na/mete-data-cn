@@ -1,0 +1,42 @@
+{
+    "id": 9404820,
+    "name": "好似飞鸟",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "好似飞鸟",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升10%＆力指令卡的暴击威力提升15%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』中的攻击威力提升100%【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        },
+        {
+            "name": "好似飞鸟",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%＆力指令卡的暴击威力提升20%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』中的攻击威力提升200%[最大解放]【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404820/9404820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048200.png"
+        ]
+    }
+}

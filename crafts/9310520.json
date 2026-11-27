@@ -1,0 +1,27 @@
+{
+    "id": 9310520,
+    "name": "境界猫帽子",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "境界猫帽子",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 2301100](月之癌)装备时,自身的宝具威力提升30%＆〔月下〕状态时,宝具值获得量提升30%＆〔日轮〕状态时,暴击星掉落率提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310520/9310520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105200.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9308650,
+    "name": "英灵博装：风魔小太郎",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵博装：风魔小太郎",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308650/9308650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93086500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93086500.png"
+        ]
+    }
+}

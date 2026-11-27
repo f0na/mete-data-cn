@@ -1,0 +1,17 @@
+{
+    "id": 8401380,
+    "name": "革新者之耳",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401380a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401380.png"
+    },
+    "skills": [
+        {
+            "name": "革新者之耳",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔人类〕10%的特攻效果"
+        }
+    ],
+    "comment": "以『自由奔放的野性』为宗旨，\n也是世界上屈指可数的民间军事公司的最高经营负责人，\n某位万能美女秘书（光）佩戴的耳饰。\n\n顺便一提，\nSPY形象和公司名显得相当狐狸（Fox），\n但归根结底还是兔子（Bunny）。"
+}

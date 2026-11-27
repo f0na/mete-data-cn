@@ -1,0 +1,32 @@
+{
+    "id": 9400830,
+    "name": "正射必中",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "正射必中",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升3%"
+        },
+        {
+            "name": "正射必中",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400830/9400830a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94008300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94008300.png"
+        ]
+    }
+}

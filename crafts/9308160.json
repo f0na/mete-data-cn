@@ -1,0 +1,27 @@
+{
+    "id": 9308160,
+    "name": "英灵逢魔：狂战士",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵逢魔：狂战士",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308160/9308160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93081600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93081600.png"
+        ]
+    }
+}

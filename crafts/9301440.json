@@ -1,0 +1,27 @@
+{
+    "id": 9301440,
+    "name": "地底的信仰",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "地底的信仰",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "弗拉德三世〔EXTRA〕(枪兵)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301440/9301440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93014400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93014400.png"
+        ]
+    }
+}

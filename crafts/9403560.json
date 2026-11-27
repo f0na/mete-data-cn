@@ -1,0 +1,32 @@
+{
+    "id": 9403560,
+    "name": "不死鸟落于大地",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "不死鸟落于大地",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加4%的状态＆宝具值获得量提升10%"
+        },
+        {
+            "name": "不死鸟落于大地",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加5%的状态＆宝具值获得量提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403560/9403560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94035600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94035600.png"
+        ]
+    }
+}

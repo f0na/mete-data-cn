@@ -1,0 +1,32 @@
+{
+    "id": 9400110,
+    "name": "Azoth剑",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1000,
+    "skills": [
+        {
+            "name": "Azoth剑",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升8%"
+        },
+        {
+            "name": "Azoth剑",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400110/9400110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001100.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9407710,
+    "name": "一帆风顺",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "一帆风顺",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆宝具威力提升5%"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "一帆风顺",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407710/9407710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94077100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94077100.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401790,
+    "name": "黄昏回忆",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "黄昏回忆",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "付与自身回避状态(1次)＆迅指令卡性能提升8%"
+        },
+        {
+            "name": "黄昏回忆",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "付与自身回避状态(1次)＆迅指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401790/9401790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017900.png"
+        ]
+    }
+}

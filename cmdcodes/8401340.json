@@ -1,0 +1,17 @@
+{
+    "id": 8401340,
+    "name": "深渊神殿骑士",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401340a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401340.png"
+    },
+    "skills": [
+        {
+            "name": "深渊神殿骑士",
+            "icon": "Cmdcodes/SkillIcons/skill_00527.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体诅咒状态(500伤害·3回合)＋获得3个暴击星"
+        }
+    ],
+    "comment": "「哼哼～！\n\n　今天也精力充沛地在巴黎的中心播撒诅——\n　呃，不是这样？\n　那是征讨银币？\n　也不是？　唔。\n\n　反正什么都可以啦～，只要开心就好。\n　但是如果不开心的就，就要咒杀掉～！」"
+}

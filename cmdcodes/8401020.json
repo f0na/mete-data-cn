@@ -1,0 +1,17 @@
+{
+    "id": 8401020,
+    "name": "信选组",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401020a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401020.png"
+    },
+    "skills": [
+        {
+            "name": "信选组",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在迅指令卡上时,被刻印的指令卡暴击威力提升15%"
+        }
+    ],
+    "comment": "因圣杯的失控而诞生的，\n某位英灵潜在意识实体化的存在——\n的，某浪士组队版本？\n\n依然对组织的存在形式持有疑问，为惩奸除恶而出走的，志向有点高远的正义迷你信。\n\n据说同时具备足以作为密探从事谍报行动的\n高度变通能力与锐利到毫无意义的剑技。"
+}

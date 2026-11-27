@@ -1,0 +1,27 @@
+{
+    "id": 9300590,
+    "name": "炙热之门",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "炙热之门",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "列奥尼达一世(枪兵)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300590/9300590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93005900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93005900.png"
+        ]
+    }
+}

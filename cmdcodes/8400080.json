@@ -1,0 +1,17 @@
+{
+    "id": 8400080,
+    "name": "纹章：爆裂",
+    "rarity": 2,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400080a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400080.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：爆裂",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升3%"
+        }
+    ],
+    "comment": "干净利落的起手。\n定然粉碎的目标。"
+}

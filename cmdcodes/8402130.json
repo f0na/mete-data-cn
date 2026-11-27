@@ -1,0 +1,17 @@
+{
+    "id": 8402130,
+    "name": "火箭拳",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402130a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402130.png"
+    },
+    "skills": [
+        {
+            "name": "火箭拳",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡的暴击威力提升10%＆暴击星集中度提升25%＋当使用被刻印的指令卡进行攻击时,获得1个暴击星"
+        }
+    ],
+    "comment": "恰赫季斯城的守护神发射的正义火箭拳。\n以马赫速度飞向目标，给予铁锤制裁。\n\n拥有精准无比的追踪功能，\n一旦锁定，无论怎么回避都是徒劳。\n\n最后贯穿一切障碍，将对手轰得粉身碎骨。"
+}

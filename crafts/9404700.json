@@ -1,0 +1,42 @@
+{
+    "id": 9404700,
+    "name": "高揭吾心",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "高揭吾心",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆力指令卡性能提升8%"
+        },
+        {
+            "name": "战士的名牌获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "战士的名牌的掉落获得数增加1个【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        },
+        {
+            "name": "高揭吾心",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆力指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "战士的名牌获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "战士的名牌的掉落获得数增加2个[最大解放]【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404700/9404700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94047000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94047000.png"
+        ]
+    }
+}

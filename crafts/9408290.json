@@ -1,0 +1,32 @@
+{
+    "id": 9408290,
+    "name": "遗迹破坏者",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "遗迹破坏者",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2026"
+        },
+        {
+            "name": "遗迹破坏者",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2026＋自身的暴击星集中度提升2.5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408290/9408290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94082900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94082900.png"
+        ]
+    }
+}

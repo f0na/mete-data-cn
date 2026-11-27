@@ -1,0 +1,32 @@
+{
+    "id": 9401840,
+    "name": "虚影之尘风刨冰",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "虚影之尘风刨冰",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆弱化耐性提升5%"
+        },
+        {
+            "name": "虚影之尘风刨冰",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401840/9401840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018400.png"
+        ]
+    }
+}

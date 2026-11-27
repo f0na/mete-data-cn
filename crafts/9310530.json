@@ -1,0 +1,27 @@
+{
+    "id": 9310530,
+    "name": "汐彩·循环",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "汐彩·循环",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 1001900](他人格)装备,且自身在场时,己方全体的技指令卡性能提升10%＆付与对〔精神异常〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310530/9310530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105300.png"
+        ]
+    }
+}

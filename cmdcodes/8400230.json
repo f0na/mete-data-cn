@@ -1,0 +1,17 @@
+{
+    "id": 8400230,
+    "name": "起始与终结之剑",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400230a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400230.png"
+    },
+    "skills": [
+        {
+            "name": "起始与终结之剑",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "被刻印的指令卡造成的攻击伤害增加1000"
+        }
+    ],
+    "comment": "在构筑了近代炼金术基础的人物之轶事中登场的剑。\n常被用作成人仪式中师长或双亲赠送的纪念品。"
+}

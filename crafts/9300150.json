@@ -1,0 +1,27 @@
+{
+    "id": 9300150,
+    "name": "他赐予的杖",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "他赐予的杖",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "只有当玛尔达(骑兵)装备,且自身在场时,己方全体生命值回复量提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300150/9300150a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93001500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93001500.png"
+        ]
+    }
+}

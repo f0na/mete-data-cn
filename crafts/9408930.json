@@ -1,0 +1,42 @@
+{
+    "id": 9408930,
+    "name": "太空女主人",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "太空女主人",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔女性〕15%的特攻状态＆宝具值获得量提升15%＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "朋克摇滚龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朋克摇滚龙的掉落获得数增加1个【『终结·万圣节2026』活动限定】"
+        },
+        {
+            "name": "太空女主人",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔女性〕20%的特攻状态＆宝具值获得量提升20%＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "朋克摇滚龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朋克摇滚龙的掉落获得数增加2个[最大解放]【『终结·万圣节2026』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408930/9408930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94089300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94089300.png"
+        ]
+    }
+}

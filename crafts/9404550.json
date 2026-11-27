@@ -1,0 +1,52 @@
+{
+    "id": 9404550,
+    "name": "甜蜜湖泊",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "甜蜜湖泊",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆对〔灼伤〕35%的特攻状态"
+        },
+        {
+            "name": "迷你链锯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迷你链锯的掉落获得数增加1个【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "甜蜜湖泊",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆对〔灼伤〕40%的特攻状态[最大解放]"
+        },
+        {
+            "name": "迷你链锯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迷你链锯的掉落获得数增加2个[最大解放]【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "迷你链锯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迷你链锯的掉落获得数增加1个【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        },
+        {
+            "name": "迷你链锯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迷你链锯的掉落获得数增加2个[最大解放]【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404550/9404550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045500.png"
+        ]
+    }
+}

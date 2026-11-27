@@ -1,0 +1,27 @@
+{
+    "id": 9302720,
+    "name": "卡吕冬的毛皮",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "卡吕冬的毛皮",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 703000](狂战士)装备,且自身在场时,己方全体的迅指令卡性能提升15%＆暴击威力提升15%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302720/9302720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93027200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93027200.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9306300,
+    "name": "去新年参拜吧",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "去新年参拜吧",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306300/9306300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063000.png"
+        ]
+    }
+}

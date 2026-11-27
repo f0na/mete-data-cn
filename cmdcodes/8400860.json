@@ -1,0 +1,17 @@
+{
+    "id": 8400860,
+    "name": "恋人们的圣骸布",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400860a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400860.png"
+    },
+    "skills": [
+        {
+            "name": "恋人们的圣骸布",
+            "icon": "Cmdcodes/SkillIcons/skill_00608.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个自身的防御弱化状态＆生命值回复200"
+        }
+    ],
+    "comment": "冠以某位祭司之名的圣遗物。\n这位圣人现在成了东西方鼓励人们追逐爱情、寻求恋情，为人们带去甜美一刻的“那一天”的象征。\n\n另外，这绝不是什么用来束缚男性的布。"
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9408780,
+    "name": "沉睡的森林战士",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "沉睡的森林战士",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升5%＆暴击威力提升8%＆宝具威力提升8%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·Ｕ－夏日岛』中,自身的攻击威力提升100%【『迦勒底·Ｕ－夏日岛』活动限定】"
+        },
+        {
+            "name": "沉睡的森林战士",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆暴击威力提升10%＆宝具威力提升10%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·Ｕ－夏日岛』中,自身的攻击威力提升200%[最大解放]【『迦勒底·Ｕ－夏日岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408780/9408780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087800.png"
+        ]
+    }
+}

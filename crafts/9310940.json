@@ -1,0 +1,27 @@
+{
+    "id": 9310940,
+    "name": "普通的饭团",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "普通的饭团",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 605100](暗匿者)装备,且自身在场时,付与己方全体对〔拥有人之力的敌人〕15%的特攻状态＆对〔神性〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310940/9310940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93109400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93109400.png"
+        ]
+    }
+}

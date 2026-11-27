@@ -1,0 +1,42 @@
+{
+    "id": 9407570,
+    "name": "萍水相逢",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "萍水相逢",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆迅指令卡性能提升3%＆暴击威力提升10%"
+        },
+        {
+            "name": "江户饭团的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "江户饭团的掉落获得数增加1个【『盈月剑风帖』活动限定】"
+        },
+        {
+            "name": "萍水相逢",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆迅指令卡性能提升5%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "江户饭团的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "江户饭团的掉落获得数增加2个[最大解放]【『盈月剑风帖』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407570/9407570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94075700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94075700.png"
+        ]
+    }
+}

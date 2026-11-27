@@ -1,0 +1,32 @@
+{
+    "id": 9402140,
+    "name": "射初一矢",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "射初一矢",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆自身技指令卡的性能提升8%"
+        },
+        {
+            "name": "射初一矢",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆自身技指令卡的性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402140/9402140a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021400.png"
+        ]
+    }
+}

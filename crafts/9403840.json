@@ -1,0 +1,52 @@
+{
+    "id": 9403840,
+    "name": "冬日祈祷",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "冬日祈祷",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆暴击威力提升10%"
+        },
+        {
+            "name": "高级兔偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级兔偶的掉落获得数增加1个【『淑女·莱妮丝事件簿』活动限定】"
+        },
+        {
+            "name": "冬日祈祷",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "高级兔偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级兔偶的掉落获得数增加2个[最大解放]【『淑女·莱妮丝事件簿』活动限定】"
+        },
+        {
+            "name": "高级兔偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级兔偶的掉落获得数增加1个【『复刻版:淑女·莱妮丝事件簿 -Plus Episode-』活动限定】"
+        },
+        {
+            "name": "高级兔偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级兔偶的掉落获得数增加2个[最大解放]【『复刻版:淑女·莱妮丝事件簿 -Plus Episode-』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403840/9403840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038400.png"
+        ]
+    }
+}

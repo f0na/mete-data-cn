@@ -1,0 +1,27 @@
+{
+    "id": 9300020,
+    "name": "王之遗物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "王之遗物",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "只有当诸葛孔明(魔术师)装备,且自身在场时,己方全体力指令卡的性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300020/9300020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93000200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93000200.png"
+        ]
+    }
+}

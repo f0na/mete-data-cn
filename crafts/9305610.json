@@ -1,0 +1,27 @@
+{
+    "id": 9305610,
+    "name": "笨拙的欢悦",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "笨拙的欢悦",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "[servantName 204300](弓兵)装备时,自身的宝具威力提升30%＆攻击时一定概率自身的宝具值增加5%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305610/9305610a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056100.png"
+        ]
+    }
+}

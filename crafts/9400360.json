@@ -1,0 +1,27 @@
+{
+    "id": 9400360,
+    "name": "旅途的开始",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 3,
+    "atk": 50,
+    "hp": 50,
+    "skills": [
+        {
+            "name": "旅途的开始",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋75"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400360/9400360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94003600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94003600.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9809380,
+    "name": "露淇玛！",
+    "type": "SvtEquipChocolate",
+    "rarity": 4,
+    "cost": 3,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "露淇玛！",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        },
+        {
+            "name": "露淇玛！",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "闪耀点数的掉落获得量提升10%【『小野小町古今抄』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9809380/9809380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98093800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98093800.png"
+        ]
+    }
+}

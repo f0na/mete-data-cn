@@ -1,0 +1,32 @@
+{
+    "id": 9401240,
+    "name": "月下四影",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "月下四影",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升12%＆暴击星掉落率提升12%＆付与每回合生命值回复200的状态"
+        },
+        {
+            "name": "月下四影",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆暴击星掉落率提升15%＆付与每回合生命值回复300的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401240/9401240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012400.png"
+        ]
+    }
+}

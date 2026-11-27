@@ -1,0 +1,17 @@
+{
+    "id": 8400680,
+    "name": "皇家兔女郎",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400680a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400680.png"
+    },
+    "skills": [
+        {
+            "name": "皇家兔女郎",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的迅指令卡性能提升10%(1回合)或技指令卡性能提升10%(1回合)或力指令卡性能提升10%(1回合)"
+        }
+    ],
+    "comment": "「发牌员是冷静而完美的存在。\n　无论面对什么样的强敌，无论深陷何等苦境，\n　都不能慌张，将全部都倾注于指尖——\n　我是被这么教导的，\n　如何？\n　但愿我能成为你胜利的女神。」"
+}

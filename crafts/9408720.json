@@ -1,0 +1,42 @@
+{
+    "id": 9408720,
+    "name": "风暴之夜",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "风暴之夜",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魅惑〕15%的特攻状态＆宝具值获得量提升15%＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "终极游泳圈的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "终极游泳圈的掉落获得数增加1个【『迦勒底·Ｕ－夏日岛』活动限定】"
+        },
+        {
+            "name": "风暴之夜",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魅惑〕20%的特攻状态＆宝具值获得量提升20%＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "终极游泳圈的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "终极游泳圈的掉落获得数增加2个[最大解放]【『迦勒底·Ｕ－夏日岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408720/9408720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087200.png"
+        ]
+    }
+}

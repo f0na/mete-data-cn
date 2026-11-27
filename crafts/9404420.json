@@ -1,0 +1,42 @@
+{
+    "id": 9404420,
+    "name": "乱世甚佳",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "乱世甚佳",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值1%的状态＆暴击威力提升3%＆宝具威力提升3%"
+        },
+        {
+            "name": "诡异的麦袋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "诡异的麦袋的掉落获得数增加1个【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        },
+        {
+            "name": "乱世甚佳",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值2%的状态＆暴击威力提升5%＆宝具威力提升5%[最大解放]"
+        },
+        {
+            "name": "诡异的麦袋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "诡异的麦袋的掉落获得数增加2个[最大解放]【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404420/9404420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94044200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94044200.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400610,
+    "name": "淡青尸者的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400610a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400610.png"
+    },
+    "skills": [
+        {
+            "name": "淡青尸者的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔死灵〕10%的特攻效果"
+        }
+    ],
+    "comment": "某位御主的令印。\n纹样参考了被称为死神的少女所居住的，冠以曾作为亚文化圣地被人们所熟知的土地之名的临海都市的样子。"
+}

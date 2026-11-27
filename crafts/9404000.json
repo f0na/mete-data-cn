@@ -1,0 +1,52 @@
+{
+    "id": 9404000,
+    "name": "迎宾兔女郎",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "迎宾兔女郎",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆暴击威力提升10%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "梦想筹码的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梦想筹码的掉落获得数增加1个【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "迎宾兔女郎",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆暴击威力提升15%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "梦想筹码的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梦想筹码的掉落获得数增加2个[最大解放]【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "梦想筹码的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梦想筹码的掉落获得数增加1个【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        },
+        {
+            "name": "梦想筹码的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梦想筹码的掉落获得数增加2个[最大解放]【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404000/9404000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94040000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94040000.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9308090,
+    "name": "神谕锁链",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神谕锁链",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 405500](骑兵)装备时,自身的宝具威力提升30%＆付与毅力状态(1次·生命值回复20%·可与其他毅力状态叠加)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308090/9308090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93080900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93080900.png"
+        ]
+    }
+}

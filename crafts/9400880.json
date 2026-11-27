@@ -1,0 +1,32 @@
+{
+    "id": 9400880,
+    "name": "爱之灵药",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "爱之灵药",
+            "icon": "Craft/SkillIcons/skill_00509.png",
+            "effect": "自身的魅惑付与成功率提升12%"
+        },
+        {
+            "name": "爱之灵药",
+            "icon": "Craft/SkillIcons/skill_00509.png",
+            "effect": "自身的魅惑付与成功率提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400880/9400880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94008800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94008800.png"
+        ]
+    }
+}

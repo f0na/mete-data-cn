@@ -1,0 +1,27 @@
+{
+    "id": 9303340,
+    "name": "天狗变装套装",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天狗变装套装",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 603400](暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303340/9303340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93033400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93033400.png"
+        ]
+    }
+}

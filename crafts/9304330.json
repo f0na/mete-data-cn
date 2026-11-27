@@ -1,0 +1,27 @@
+{
+    "id": 9304330,
+    "name": "独演舞台",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "独演舞台",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 304000](枪兵)装备时,自身的技指令卡性能提升20%＆暴击威力提升30%＋自身在场时,除自身以外的己方全体暴击威力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304330/9304330a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043300.png"
+        ]
+    }
+}

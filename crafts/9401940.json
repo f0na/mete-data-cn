@@ -1,0 +1,32 @@
+{
+    "id": 9401940,
+    "name": "对月咆哮",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "对月咆哮",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆弱化耐性降低20%【负面效果】"
+        },
+        {
+            "name": "对月咆哮",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆弱化耐性降低20%【负面效果】[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401940/9401940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94019400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94019400.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400310,
+    "name": "白蔷薇的新娘",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400310a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400310.png"
+    },
+    "skills": [
+        {
+            "name": "白蔷薇的新娘",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,己方全体的生命值回复200"
+        }
+    ],
+    "comment": "「倘若要娶余这把极致之剑，\n　剑鞘也必须是极致的才行。\n　只不过光论极致这个词，其实也存在千差万别，\n　大家都有各自“擅长”的方面。\n　余之御主啊，\n　不用害怕，说出自己的梦想吧。\n　余乃是为了实现那个梦想而挥舞的剑。\n　呵，余之爱比龙之吐息更为炙热。\n　做好觉悟吧——将其纳入手中！」"
+}

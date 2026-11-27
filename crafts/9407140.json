@@ -1,0 +1,32 @@
+{
+    "id": 9407140,
+    "name": "赤色庶胤之梦",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "赤色庶胤之梦",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身的攻击力提升25%(3回合)＆被暴击发生耐性提升25%(3回合)"
+        },
+        {
+            "name": "赤色庶胤之梦",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身的攻击力提升30%(3回合)＆被暴击发生耐性提升30%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407140/9407140a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94071400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94071400.png"
+        ]
+    }
+}

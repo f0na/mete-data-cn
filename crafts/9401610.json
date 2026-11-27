@@ -1,0 +1,32 @@
+{
+    "id": 9401610,
+    "name": "特辣麻婆豆腐",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "特辣麻婆豆腐",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身生命值回复量提升10%"
+        },
+        {
+            "name": "特辣麻婆豆腐",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身生命值回复量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401610/9401610a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016100.png"
+        ]
+    }
+}

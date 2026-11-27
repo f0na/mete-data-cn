@@ -1,0 +1,27 @@
+{
+    "id": 9306520,
+    "name": "皇帝道士的暑假",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "皇帝道士的暑假",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 505200](魔术师)装备,且自身在场时,付与己方全体对〔死灵〕15%的特攻状态＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306520/9306520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93065200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93065200.png"
+        ]
+    }
+}

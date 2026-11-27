@@ -1,0 +1,27 @@
+{
+    "id": 9302670,
+    "name": "不明之杯",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "不明之杯",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 603200](暗匿者)装备,且自身在场时,己方全体的力指令卡性能提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302670/9302670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93026700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93026700.png"
+        ]
+    }
+}

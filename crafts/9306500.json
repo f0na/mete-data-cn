@@ -1,0 +1,27 @@
+{
+    "id": 9306500,
+    "name": "赤剑",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "赤剑",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 105400](剑士)装备,自身在场且场地为〔阳光照射〕特性时,己方全体的力指令卡性能提升10%＆暴击威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306500/9306500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93065000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93065000.png"
+        ]
+    }
+}

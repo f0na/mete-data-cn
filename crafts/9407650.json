@@ -1,0 +1,42 @@
+{
+    "id": 9407650,
+    "name": "变幻莫测",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "变幻莫测",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆技指令卡性能提升8%＆宝具威力提升15%"
+        },
+        {
+            "name": "博爱马卡龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "博爱马卡龙的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "变幻莫测",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆技指令卡性能提升10%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "博爱马卡龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "博爱马卡龙的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407650/9407650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94076500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94076500.png"
+        ]
+    }
+}

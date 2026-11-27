@@ -1,0 +1,27 @@
+{
+    "id": 9309760,
+    "name": "英灵祝装：重瞳",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：重瞳",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309760/9309760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93097600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93097600.png"
+        ]
+    }
+}

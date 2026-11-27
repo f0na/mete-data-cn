@@ -1,0 +1,27 @@
+{
+    "id": 9301970,
+    "name": "英灵正装：尤瑞艾莉",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵正装：尤瑞艾莉",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301970/9301970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93019700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93019700.png"
+        ]
+    }
+}

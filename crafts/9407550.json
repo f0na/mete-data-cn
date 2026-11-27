@@ -1,0 +1,32 @@
+{
+    "id": 9407550,
+    "name": "于环太平洋地带",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "于环太平洋地带",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2025"
+        },
+        {
+            "name": "于环太平洋地带",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2025＋自身的技指令卡性能提升2.4%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407550/9407550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94075500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94075500.png"
+        ]
+    }
+}

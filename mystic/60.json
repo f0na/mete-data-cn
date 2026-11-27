@@ -1,0 +1,99 @@
+{
+    "id": 60,
+    "name": "王室品牌",
+    "shortName": "王室品牌",
+    "skills": [
+        {
+            "name": "反应强化",
+            "icon": "Mystic/SkillIcons/skill_00304.png",
+            "effect": "己方单体的迅指令卡性能超幅提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的迅指令卡性能超幅提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "铁之专心",
+            "icon": "Mystic/SkillIcons/skill_00311.png",
+            "effect": "己方单体的暴击星集中度提升",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的暴击星集中度提升",
+                    "kind": "Percent",
+                    "values": [
+                        50000,
+                        55000,
+                        60000,
+                        65000,
+                        70000,
+                        75000,
+                        80000,
+                        85000,
+                        90000,
+                        100000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "必至",
+            "icon": "Mystic/SkillIcons/skill_00310.png",
+            "effect": "付与己方单体必中状态(1回合)",
+            "cool_down": [
+                10,
+                9,
+                8
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体必中状态(1回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00061.png",
+            "female": "Mystic/Items/masterequip00062.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00061.png",
+            "female": "Mystic/Items/masterequip00062.png"
+        }
+    }
+}

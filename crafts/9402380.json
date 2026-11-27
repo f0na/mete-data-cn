@@ -1,0 +1,32 @@
+{
+    "id": 9402380,
+    "name": "日轮之城",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "日轮之城",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%＆暴击星掉落率提升15%＆宝具值已达25%的状态开始战斗"
+        },
+        {
+            "name": "日轮之城",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升20%＆暴击星掉落率提升20%＆宝具值已达40%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402380/9402380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023800.png"
+        ]
+    }
+}

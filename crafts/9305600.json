@@ -1,0 +1,27 @@
+{
+    "id": 9305600,
+    "name": "用胃打倒",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "用胃打倒",
+            "icon": "Craft/SkillIcons/skill_00412.png",
+            "effect": "[servantName 105000](剑士)装备时,自身的宝具威力提升30%＆攻击时一定概率付与自身最大生命值增加500的状态(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305600/9305600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056000.png"
+        ]
+    }
+}

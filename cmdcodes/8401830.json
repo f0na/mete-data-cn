@@ -1,0 +1,17 @@
+{
+    "id": 8401830,
+    "name": "妖精王之冠",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401830a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401830.png"
+    },
+    "skills": [
+        {
+            "name": "妖精王之冠",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔秩序〕15%的特攻效果＆宝具值获得量提升5%"
+        }
+    ],
+    "comment": "奔走于各种地区、引领人心、\n童话中王子般的人物头戴的冠冕。\n哪怕曾是妖精之森国王的他\n如今只是个在故事上漂泊的存在，\n他依然戴着这顶冠冕。\n\n「你是说这个的光辉和故事里的相比更为黯淡了？\n　效果可没有变，放心吧。\n　因为说到底，这从一开始就是赝品啦☆」"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9407130,
+    "name": "残花的迷宫",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2400,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "残花的迷宫",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆暴击威力提升15%＆技指令卡的暴击星集中度提升100%"
+        },
+        {
+            "name": "残花的迷宫",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆暴击威力提升20%＆技指令卡的暴击星集中度提升200%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407130/9407130a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94071300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94071300.png"
+        ]
+    }
+}

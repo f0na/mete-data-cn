@@ -1,0 +1,153 @@
+{
+    "id": 410,
+    "name": "冬日便装",
+    "shortName": "冬日便装",
+    "skills": [
+        {
+            "name": "雪球大战",
+            "icon": "Mystic/SkillIcons/skill_00314.png",
+            "effect": "己方全体的迅指令卡性能提升(1回合)＆技指令卡性能提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的迅指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "技指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "冷酷滑冰",
+            "icon": "Mystic/SkillIcons/skill_00402.png",
+            "effect": "付与己方单体回避状态(1次·3回合)＋获得暴击星",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体回避状态(1次·3回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "热可可小憩",
+            "icon": "Mystic/SkillIcons/skill_00600.png",
+            "effect": "己方全体的生命值回复＆宝具值增加",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的生命值回复",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00411.png",
+            "female": "Mystic/Items/masterequip00412.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00411.png",
+            "female": "Mystic/Items/masterequip00412.png"
+        }
+    }
+}

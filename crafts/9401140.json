@@ -1,0 +1,32 @@
+{
+    "id": 9401140,
+    "name": "三重结界",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "三重结界",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身被伤害减免1000(3次)"
+        },
+        {
+            "name": "三重结界",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身被伤害减免1200(3次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401140/9401140a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011400.png"
+        ]
+    }
+}

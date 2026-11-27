@@ -1,0 +1,52 @@
+{
+    "id": 9403920,
+    "name": "群雄割据",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "群雄割据",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆自身以宝具值已达40%的状态开始战斗"
+        },
+        {
+            "name": "布阵味噌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "布阵味噌的掉落获得数增加1个【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "群雄割据",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升12%＆力指令卡性能提升12%＆自身以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "布阵味噌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "布阵味噌的掉落获得数增加2个[最大解放]【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "布阵味噌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "布阵味噌的掉落获得数增加1个【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        },
+        {
+            "name": "布阵味噌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "布阵味噌的掉落获得数增加2个[最大解放]【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403920/9403920a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039200.png"
+        ]
+    }
+}

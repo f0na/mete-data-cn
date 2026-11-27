@@ -1,0 +1,32 @@
+{
+    "id": 9404360,
+    "name": "格兰·卡瓦洛",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "格兰·卡瓦洛",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加1%＆魔术礼装经验增加1%"
+        },
+        {
+            "name": "格兰·卡瓦洛",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加5%＆魔术礼装经验增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404360/9404360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94043600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94043600.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400520,
+    "name": "万圣节公主",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "万圣节公主",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "万圣节公主",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升20%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400520/9400520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94005200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94005200.png"
+        ]
+    }
+}

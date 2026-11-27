@@ -1,0 +1,42 @@
+{
+    "id": 9408740,
+    "name": "犹如爸爸",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "犹如爸爸",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升3%＆技指令卡性能提升3%＆弱化付与成功率提升2%"
+        },
+        {
+            "name": "超级麦秸帽的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "超级麦秸帽的掉落获得数增加1个【『迦勒底·Ｕ－夏日岛』活动限定】"
+        },
+        {
+            "name": "犹如爸爸",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升5%＆技指令卡性能提升5%＆弱化付与成功率提升3%[最大解放]"
+        },
+        {
+            "name": "超级麦秸帽的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "超级麦秸帽的掉落获得数增加2个[最大解放]【『迦勒底·Ｕ－夏日岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408740/9408740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087400.png"
+        ]
+    }
+}

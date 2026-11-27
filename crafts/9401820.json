@@ -1,0 +1,32 @@
+{
+    "id": 9401820,
+    "name": "迦勒底救生员",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "迦勒底救生员",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆宝具值获得量提升15%"
+        },
+        {
+            "name": "迦勒底救生员",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆宝具值获得量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401820/9401820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018200.png"
+        ]
+    }
+}

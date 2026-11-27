@@ -1,0 +1,32 @@
+{
+    "id": 9403550,
+    "name": "深闺丽人",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "深闺丽人",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的被强化成功率提升10%"
+        },
+        {
+            "name": "深闺丽人",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的被强化成功率提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403550/9403550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94035500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94035500.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401360,
+    "name": "引导迦勒底的少女",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "引导迦勒底的少女",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星的状态＆力指令卡性能提升10%"
+        },
+        {
+            "name": "引导迦勒底的少女",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得4个暴击星的状态＆力指令卡性能提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401360/9401360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94013600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94013600.png"
+        ]
+    }
+}

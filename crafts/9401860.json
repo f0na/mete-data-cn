@@ -1,0 +1,42 @@
+{
+    "id": 9401860,
+    "name": "见敌必杀",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "见敌必杀",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆宝具威力提升15%"
+        },
+        {
+            "name": "魔法☆武士道武藏的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "魔法☆武士道武藏的掉落获得数增加1个【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "见敌必杀",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "魔法☆武士道武藏的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "魔法☆武士道武藏的掉落获得数增加2个[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401860/9401860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018600.png"
+        ]
+    }
+}

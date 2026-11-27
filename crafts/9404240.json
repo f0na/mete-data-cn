@@ -1,0 +1,32 @@
+{
+    "id": 9404240,
+    "name": "野心的嚆矢",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "野心的嚆矢",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆生命值回复量提升10%"
+        },
+        {
+            "name": "野心的嚆矢",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆生命值回复量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404240/9404240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042400.png"
+        ]
+    }
+}

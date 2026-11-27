@@ -1,0 +1,27 @@
+{
+    "id": 9307120,
+    "name": "清澈心灵之盾",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "清澈心灵之盾",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307120/9307120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93071200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93071200.png"
+        ]
+    }
+}

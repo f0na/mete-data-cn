@@ -1,0 +1,27 @@
+{
+    "id": 9306280,
+    "name": "迦勒底卫星基站",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "迦勒底卫星基站",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306280/9306280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062800.png"
+        ]
+    }
+}

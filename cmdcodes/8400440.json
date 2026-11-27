@@ -1,0 +1,17 @@
+{
+    "id": 8400440,
+    "name": "浮世蛸",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400440a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400440.png"
+    },
+    "skills": [
+        {
+            "name": "浮世蛸",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方的宝具威力提升状态＆解除成功时,对技攻击的防御力减少10%(3回合)"
+        }
+    ],
+    "comment": "可爱而又极其可疑的章鱼。\n然而其真面目，\n则是足以影响全世界艺术家的伟大浮世绘画师。\n\n之所以变成这种模样，\n是因为过度追求成为『真正的画工』，\n从而不小心受到了自己面对的宇宙对面的影响，\n还是因为……\n\n不管怎么说，只要能接近真实，\n这些对他来说或许都不过是微不足道的小事吧。"
+}

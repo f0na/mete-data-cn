@@ -1,0 +1,42 @@
+{
+    "id": 9405730,
+    "name": "沉睡之都",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "沉睡之都",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆暴击威力提升3%＆宝具值获得量提升3%"
+        },
+        {
+            "name": "沉睡之都",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆暴击威力提升5%＆宝具值获得量提升5%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升＆牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身在『通古斯卡·圣域』的主线关卡以及团体战关卡中的攻击威力提升20%＋己方全体<包括替补>在『通古斯卡·圣域』的主线关卡以及团体战关卡通关时获得的牵绊点数增加10%【『通古斯卡·圣域』活动限定】"
+        },
+        {
+            "name": "攻击威力提升＆牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身在『通古斯卡·圣域』的主线关卡以及团体战关卡中的攻击威力提升30%＋己方全体<包括替补>在『通古斯卡·圣域』的主线关卡以及团体战关卡通关时获得的牵绊点数增加15%[最大解放]【『通古斯卡·圣域』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405730/9405730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94057300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94057300.png"
+        ]
+    }
+}

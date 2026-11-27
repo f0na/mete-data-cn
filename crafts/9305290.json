@@ -1,0 +1,27 @@
+{
+    "id": 9305290,
+    "name": "证",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "证",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 1001000](他人格)装备,且自身在场时,〔混沌〕特性的己方全体的宝具威力提升15%＋〔恶〕特性的己方全体的宝具威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305290/9305290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93052900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93052900.png"
+        ]
+    }
+}

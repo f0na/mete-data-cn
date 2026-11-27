@@ -1,0 +1,52 @@
+{
+    "id": 9404050,
+    "name": "数羊歌",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "数羊歌",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆宝具威力提升5%"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加1个【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "数羊歌",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加2个[最大解放]【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加1个【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加2个[最大解放]【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404050/9404050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94040500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94040500.png"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "id": 9402660,
+    "name": "为御主喝彩",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "为御主喝彩",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升6%＆技指令卡性能提升6%＆力指令卡性能提升6%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "真红的花瓣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "真红的花瓣的掉落获得数增加1个【『尼禄祭再临 ～2018 Autumn～』活动限定】"
+        },
+        {
+            "name": "为御主喝彩",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "真红的花瓣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "真红的花瓣的掉落获得数增加2个[最大解放]【『尼禄祭再临 ～2018 Autumn～』活动限定】"
+        },
+        {
+            "name": "真红的花瓣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "真红的花瓣的掉落获得数增加1个【『复刻:Grand尼禄祭 ～2022 Early Summer～』活动限定】"
+        },
+        {
+            "name": "真红的花瓣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "真红的花瓣的掉落获得数增加2个[最大解放]【『复刻:Grand尼禄祭 ～2022 Early Summer～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402660/9402660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94026600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94026600.png"
+        ]
+    }
+}

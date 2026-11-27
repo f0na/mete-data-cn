@@ -1,0 +1,27 @@
+{
+    "id": 9408920,
+    "name": "立于暗匿者之巅者",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1000,
+    "skills": [
+        {
+            "name": "立于暗匿者之巅者",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "〔暗匿者〕的从者装备时,关卡通关时获得的御主经验增加20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408920/9408920a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94089200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94089200.png"
+        ]
+    }
+}

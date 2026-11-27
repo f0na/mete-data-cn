@@ -1,0 +1,27 @@
+{
+    "id": 9303810,
+    "name": "梦境的终点",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "梦境的终点",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 103800](剑士)装备,且自身在场时,己方全体的技指令卡的性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303810/9303810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93038100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93038100.png"
+        ]
+    }
+}

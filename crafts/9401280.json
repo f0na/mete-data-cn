@@ -1,0 +1,32 @@
+{
+    "id": 9401280,
+    "name": "喧嚣沉迷",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "喧嚣沉迷",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%＆宝具威力提升15%＆魅惑成功率提升12%"
+        },
+        {
+            "name": "喧嚣沉迷",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升20%＆宝具威力提升20%＆魅惑成功率提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401280/9401280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012800.png"
+        ]
+    }
+}

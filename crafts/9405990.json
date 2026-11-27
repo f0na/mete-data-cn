@@ -1,0 +1,42 @@
+{
+    "id": 9405990,
+    "name": "天下往来",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "天下往来",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复50的状态＆迅指令卡性能提升3%"
+        },
+        {
+            "name": "神秘藤的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神秘藤的掉落获得数增加1个【『水怪危机 无垢者们的浮岛』活动限定】"
+        },
+        {
+            "name": "天下往来",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复100的状态＆迅指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "神秘藤的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神秘藤的掉落获得数增加2个[最大解放]【『水怪危机 无垢者们的浮岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405990/9405990a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94059900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94059900.png"
+        ]
+    }
+}

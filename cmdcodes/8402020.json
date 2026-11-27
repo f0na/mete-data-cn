@@ -1,0 +1,17 @@
+{
+    "id": 8402020,
+    "name": "讨魔之刃",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402020a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402020.png"
+    },
+    "skills": [
+        {
+            "name": "讨魔之刃",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔魔性〕10%的特攻效果＆暴击威力提升10%"
+        }
+    ],
+    "comment": "毗湿奴神转生者持有的不灭之刃。\n自出生时起便一直随身佩戴。\n\n对魔性之敌能发挥出惊人的威力，\n有时还会被狠狠投掷出去。\n那一击，甚至足以令罗刹王屈服。"
+}

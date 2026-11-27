@@ -1,0 +1,27 @@
+{
+    "id": 9308020,
+    "name": "妖精国新年演出",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "妖精国新年演出",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308020/9308020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93080200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93080200.png"
+        ]
+    }
+}

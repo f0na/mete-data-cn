@@ -1,0 +1,32 @@
+{
+    "id": 9401220,
+    "name": "老师与我",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "老师与我",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗＆暴击星集中度提升300%"
+        },
+        {
+            "name": "老师与我",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达60%的状态开始战斗＆暴击星集中度提升400%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401220/9401220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012200.png"
+        ]
+    }
+}

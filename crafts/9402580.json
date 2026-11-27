@@ -1,0 +1,52 @@
+{
+    "id": 9402580,
+    "name": "盛夏一刻",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "盛夏一刻",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升10%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "镁合金车轮的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "镁合金车轮的掉落获得数增加2个【『难解难分·夏日锦标赛！轻量版』活动限定】"
+        },
+        {
+            "name": "康诺特币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "康诺特币的掉落获得数增加2个【『死亡监狱·夏日大逃脱 轻量版』活动限定】"
+        },
+        {
+            "name": "盛夏一刻",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆暴击威力提升15%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "镁合金车轮的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "镁合金车轮的掉落获得数增加3个[最大解放]【『难解难分·夏日锦标赛！轻量版』活动限定】"
+        },
+        {
+            "name": "康诺特币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "康诺特币的掉落获得数增加3个[最大解放]【『死亡监狱·夏日大逃脱 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402580/9402580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94025800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94025800.png"
+        ]
+    }
+}

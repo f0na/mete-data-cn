@@ -1,0 +1,32 @@
+{
+    "id": 9407160,
+    "name": "灵树的宿根",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "灵树的宿根",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔精灵根〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "灵树的宿根",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔精灵根〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407160/9407160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94071600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94071600.png"
+        ]
+    }
+}

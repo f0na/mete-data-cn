@@ -1,0 +1,153 @@
+{
+    "id": 240,
+    "name": "总耶高中校服",
+    "shortName": "总耶高中校服",
+    "skills": [
+        {
+            "name": "高级咖喱面包",
+            "icon": "Mystic/SkillIcons/skill_00306.png",
+            "effect": "己方单体的力指令卡性能提升(1回合)＆生命值回复",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的力指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "生命值回复",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "目视边界",
+            "icon": "Mystic/SkillIcons/skill_00514.png",
+            "effect": "敌方单体的即死耐性降低(1回合)＋获得暴击星",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "Enemy",
+            "effects": [
+                {
+                    "effect": "敌方单体的即死耐性降低(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "Enemy"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "夕阳中的教室",
+            "icon": "Mystic/SkillIcons/skill_00608.png",
+            "effect": "解除己方单体的精神异常状态＆宝具值增加",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "解除己方单体的精神异常状态",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00241.png",
+            "female": "Mystic/Items/masterequip00242.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00241.png",
+            "female": "Mystic/Items/masterequip00242.png"
+        }
+    }
+}

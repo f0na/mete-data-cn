@@ -1,0 +1,27 @@
+{
+    "id": 9303470,
+    "name": "美妙的饲料桶",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "美妙的饲料桶",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 403100](骑兵)装备,且自身在场时,己方全体的迅指令卡性能提升15%＆暴击威力提升15%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303470/9303470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93034700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93034700.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9310310,
+    "name": "英灵祝装：曼迪卡尔多",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：曼迪卡尔多",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310310/9310310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93103100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93103100.png"
+        ]
+    }
+}

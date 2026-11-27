@@ -1,0 +1,27 @@
+{
+    "id": 9300180,
+    "name": "对胜利的渴望",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "对胜利的渴望",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "只有当布狄卡(骑兵)装备,且自身在场时,己方全体暴击星掉落率提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300180/9300180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93001800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93001800.png"
+        ]
+    }
+}

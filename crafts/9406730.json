@@ -1,0 +1,32 @@
+{
+    "id": 9406730,
+    "name": "蛮崇的伪神像",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "蛮崇的伪神像",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔蛮神心脏〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "蛮崇的伪神像",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔蛮神心脏〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406730/9406730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94067300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94067300.png"
+        ]
+    }
+}

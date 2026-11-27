@@ -1,0 +1,32 @@
+{
+    "id": 9400630,
+    "name": "魔猪",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "魔猪",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%(3回合)"
+        },
+        {
+            "name": "魔猪",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升20%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400630/9400630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006300.png"
+        ]
+    }
+}

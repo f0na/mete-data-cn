@@ -1,0 +1,27 @@
+{
+    "id": 9300520,
+    "name": "雾夜伦敦",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "雾夜伦敦",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "雾都弃子(暗匿者)装备,且自身在场时,己方全体的暴击威力提升25%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300520/9300520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93005200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93005200.png"
+        ]
+    }
+}

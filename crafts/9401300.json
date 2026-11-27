@@ -1,0 +1,27 @@
+{
+    "id": 9401300,
+    "name": "[Heaven's Feel]",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "[Heaven's Feel]",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆以宝具值已达40%的状态开始战斗"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401300/9401300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94013000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94013000.png"
+        ]
+    }
+}

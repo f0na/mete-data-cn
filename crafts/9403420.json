@@ -1,0 +1,42 @@
+{
+    "id": 9403420,
+    "name": "闪耀于摩天楼之上",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "闪耀于摩天楼之上",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆暴击威力提升15%"
+        },
+        {
+            "name": "坚韧热狗的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "坚韧热狗的掉落获得数增加1个【『BATTLE IN NEWYORK 2019』活动限定】"
+        },
+        {
+            "name": "闪耀于摩天楼之上",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "坚韧热狗的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "坚韧热狗的掉落获得数增加2个[最大解放]【『BATTLE IN NEWYORK 2019』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403420/9403420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94034200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94034200.png"
+        ]
+    }
+}

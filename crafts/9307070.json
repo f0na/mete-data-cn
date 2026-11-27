@@ -1,0 +1,27 @@
+{
+    "id": 9307070,
+    "name": "阿米特",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "阿米特",
+            "icon": "Craft/SkillIcons/skill_00522.png",
+            "effect": "[servantName 1101500](复仇者)装备,且自身在场时,己方全体的即死付与成功率提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307070/9307070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070700.png"
+        ]
+    }
+}

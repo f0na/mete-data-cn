@@ -1,0 +1,42 @@
+{
+    "id": 9406000,
+    "name": "明星的假日",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "明星的假日",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆宝具威力提升5%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "精神的涳、开朗的涳、勇敢的涳的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "精神的涳、开朗的涳、勇敢的涳的掉落获得数增加1个【『水怪危机 无垢者们的浮岛』活动限定】"
+        },
+        {
+            "name": "明星的假日",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆宝具威力提升8%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "精神的涳、开朗的涳、勇敢的涳的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "精神的涳、开朗的涳、勇敢的涳的掉落获得数增加2个[最大解放]【『水怪危机 无垢者们的浮岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406000/9406000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94060000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94060000.png"
+        ]
+    }
+}

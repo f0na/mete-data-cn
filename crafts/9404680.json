@@ -1,0 +1,42 @@
+{
+    "id": 9404680,
+    "name": "地狱厨房",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "地狱厨房",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆宝具威力提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "斯卡哈硬币〔银〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔银〕的掉落获得数增加1个【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        },
+        {
+            "name": "地狱厨房",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆宝具威力提升15%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "斯卡哈硬币〔银〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔银〕的掉落获得数增加2个[最大解放]【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404680/9404680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94046800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94046800.png"
+        ]
+    }
+}

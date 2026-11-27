@@ -1,0 +1,42 @@
+{
+    "id": 9407210,
+    "name": "你的冒险",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "你的冒险",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆迅指令卡性能提升2%＆技指令卡性能提升2%"
+        },
+        {
+            "name": "守钥者的火把的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "守钥者的火把的掉落获得数增加1个【『圣杯战线 ～白昼之城、黑夜之城～』活动限定】"
+        },
+        {
+            "name": "你的冒险",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆迅指令卡性能提升3%＆技指令卡性能提升3%[最大解放]"
+        },
+        {
+            "name": "守钥者的火把的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "守钥者的火把的掉落获得数增加2个[最大解放]【『圣杯战线 ～白昼之城、黑夜之城～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407210/9407210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94072100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94072100.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301790,
+    "name": "Fate/Apocrypha",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Fate/Apocrypha",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301790/9301790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93017900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93017900.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9406010,
+    "name": "狼的故事",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "狼的故事",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆掉落的量子量增加0.5%＆关卡通关时获得的牵绊点数增加0.5%"
+        },
+        {
+            "name": "狼的故事",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆掉落的量子量增加2.5%＆关卡通关时获得的牵绊点数增加2.5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406010/9406010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94060100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94060100.png"
+        ]
+    }
+}

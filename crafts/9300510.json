@@ -1,0 +1,27 @@
+{
+    "id": 9300510,
+    "name": "我是谁？",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "我是谁？",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "莫德雷德(剑士)装备,且自身在场时,己方全体的宝具威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300510/9300510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93005100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93005100.png"
+        ]
+    }
+}

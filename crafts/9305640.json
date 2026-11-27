@@ -1,0 +1,27 @@
+{
+    "id": 9305640,
+    "name": "于无穹之空的角落",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "于无穹之空的角落",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 105100](剑士)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305640/9305640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056400.png"
+        ]
+    }
+}

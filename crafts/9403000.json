@@ -1,0 +1,32 @@
+{
+    "id": 9403000,
+    "name": "最后的叙述者",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "最后的叙述者",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升10%"
+        },
+        {
+            "name": "最后的叙述者",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆宝具威力提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403000/9403000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94030000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94030000.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401210,
+    "name": "破坏之星",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401210a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401210.png"
+    },
+    "skills": [
+        {
+            "name": "破坏之星",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升10%(1回合)＋付与被刻印的指令卡对〔拥有天之力的敌人〕10%的特攻效果"
+        }
+    ],
+    "comment": "「我就是为战斗而存在的。\n　从一开始就是这样。\n　唯独这一点，到最后也不会改变。\n　所以我会战斗，我会挥剑。\n\n　——来吧，文明啊。\n　——终结你们的破坏已经到来了。」"
+}

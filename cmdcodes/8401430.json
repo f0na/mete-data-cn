@@ -1,0 +1,17 @@
+{
+    "id": 8401430,
+    "name": "碧色灵子的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401430a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401430.png"
+    },
+    "skills": [
+        {
+            "name": "碧色灵子的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡的暴击威力提升5%＋当使用被刻印的指令卡进行攻击时,敌方单体的暴击率降低10%(1回合)"
+        }
+    ],
+    "comment": "某位御主的令印。\n在遥远的月之海拼命奔走的某位人类与英灵的维系。"
+}

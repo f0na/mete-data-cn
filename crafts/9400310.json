@@ -1,0 +1,32 @@
+{
+    "id": 9400310,
+    "name": "元素转换",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "元素转换",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升25%"
+        },
+        {
+            "name": "元素转换",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400310/9400310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94003100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94003100.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401740,
+    "name": "王之相伴",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "王之相伴",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具值已达50%的状态开始战斗"
+        },
+        {
+            "name": "王之相伴",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆宝具值已达60%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401740/9401740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017400.png"
+        ]
+    }
+}

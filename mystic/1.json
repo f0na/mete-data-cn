@@ -1,0 +1,99 @@
+{
+    "id": 1,
+    "name": "魔术礼装·迦勒底",
+    "shortName": "迦勒底",
+    "skills": [
+        {
+            "name": "应急处置",
+            "icon": "Mystic/SkillIcons/skill_00600.png",
+            "effect": "己方单体的生命值大回复",
+            "cool_down": [
+                9,
+                8,
+                7
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的生命值大回复",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1200,
+                        1400,
+                        1600,
+                        1800,
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "瞬间强化",
+            "icon": "Mystic/SkillIcons/skill_00300.png",
+            "effect": "己方单体的攻击力极大提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的攻击力极大提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "紧急回避",
+            "icon": "Mystic/SkillIcons/skill_00402.png",
+            "effect": "为己方单体付与回避状态(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "为己方单体付与回避状态(1回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00001.png",
+            "female": "Mystic/Items/masterequip00002.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00001.png",
+            "female": "Mystic/Items/masterequip00002.png"
+        }
+    }
+}

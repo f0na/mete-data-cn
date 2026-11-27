@@ -1,0 +1,17 @@
+{
+    "id": 8401390,
+    "name": "神圣纸袋",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401390a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401390.png"
+    },
+    "skills": [
+        {
+            "name": "神圣纸袋",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的攻击力提升状态＋被刻印的指令卡的暴击威力提升5%"
+        }
+    ],
+    "comment": "通过赐予拟似灵基中性爱之神的名字\n创造而出的使魔为隐藏其身姿\n而套上的纸袋。\n\n虽然怎么看都是个普通的纸袋面具，\n但奇妙的是这个能通过神圣的力量，\n隐藏、保护佩戴者的真名、社会地位、隐私。\n简直就是神之干扰。\n\n另外虽然其原理不明，\n但似乎比真面目更为“表情丰富”。"
+}

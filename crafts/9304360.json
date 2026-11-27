@@ -1,0 +1,27 @@
+{
+    "id": 9304360,
+    "name": "椿说弓张月",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "椿说弓张月",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 104000](剑士)装备时,自身的宝具威力提升30%＋自身战败退场时除自身以外的己方全体宝具威力增加15%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304360/9304360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043600.png"
+        ]
+    }
+}

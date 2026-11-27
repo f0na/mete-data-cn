@@ -1,0 +1,32 @@
+{
+    "id": 9402040,
+    "name": "佛拉格拉克",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "佛拉格拉克",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升200%"
+        },
+        {
+            "name": "佛拉格拉克",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402040/9402040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020400.png"
+        ]
+    }
+}

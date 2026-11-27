@@ -1,0 +1,42 @@
+{
+    "id": 9408610,
+    "name": "睡莲环绕之中",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "睡莲环绕之中",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升3%＆暴击威力提升15%"
+        },
+        {
+            "name": "晴朗羽毛的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "晴朗羽毛的掉落获得数增加1个【『因陀罗的大试炼』活动限定】"
+        },
+        {
+            "name": "睡莲环绕之中",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升5%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "晴朗羽毛的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "晴朗羽毛的掉落获得数增加2个[最大解放]【『因陀罗的大试炼』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408610/9408610a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086100.png"
+        ]
+    }
+}

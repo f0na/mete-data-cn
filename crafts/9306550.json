@@ -1,0 +1,27 @@
+{
+    "id": 9306550,
+    "name": "最后的武器",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "最后的武器",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 604500](暗匿者)装备,且自身在场时,己方全体的技指令卡性能提升10%＋己方全体〔瓦尔基里〕的暴击威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306550/9306550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93065500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93065500.png"
+        ]
+    }
+}

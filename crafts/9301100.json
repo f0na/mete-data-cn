@@ -1,0 +1,27 @@
+{
+    "id": 9301100,
+    "name": "最后的碎片",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "最后的碎片",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "安哥拉曼纽(复仇者)装备时,付与自身对〔Beast〕职阶的攻击优势状态＆毅力状态(回复20%生命值,1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301100/9301100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93011000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93011000.png"
+        ]
+    }
+}

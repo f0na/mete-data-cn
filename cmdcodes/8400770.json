@@ -1,0 +1,17 @@
+{
+    "id": 8400770,
+    "name": "天帝的贵妃",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400770a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400770.png"
+    },
+    "skills": [
+        {
+            "name": "天帝的贵妃",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡对〔灼伤〕状态的暴击威力提升30%"
+        }
+    ],
+    "comment": "「呀嗬～！　我是玉玉～☆\n　比任何人都接近地辅佐、支持您的选择。\n　我的目标就是成为这样普通的从者～！\n　哎嘿嘿～。\n　好嘞！　全力以赴地演奏吧！！」"
+}

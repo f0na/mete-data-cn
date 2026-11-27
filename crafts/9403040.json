@@ -1,0 +1,32 @@
+{
+    "id": 9403040,
+    "name": "斗争",
+    "type": "Normal",
+    "rarity": 1,
+    "cost": 1,
+    "atk": 300,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "斗争",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身的攻击力提升2%"
+        },
+        {
+            "name": "斗争",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身的攻击力提升4%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403040/9403040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94030400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94030400.png"
+        ]
+    }
+}

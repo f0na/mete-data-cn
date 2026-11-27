@@ -1,0 +1,42 @@
+{
+    "id": 9408140,
+    "name": "星月巡游",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "星月巡游",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升8%＆宝具威力提升15%"
+        },
+        {
+            "name": "彩绘油漆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "彩绘油漆的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】"
+        },
+        {
+            "name": "星月巡游",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆技指令卡性能提升10%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "彩绘油漆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "彩绘油漆的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408140/9408140a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94081400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94081400.png"
+        ]
+    }
+}

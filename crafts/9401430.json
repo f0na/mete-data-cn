@@ -1,0 +1,32 @@
+{
+    "id": 9401430,
+    "name": "自我强制证文",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "自我强制证文",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的眩晕付与成功率提升12%"
+        },
+        {
+            "name": "自我强制证文",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的眩晕付与成功率提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401430/9401430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014300.png"
+        ]
+    }
+}

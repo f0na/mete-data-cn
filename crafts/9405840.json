@@ -1,0 +1,42 @@
+{
+    "id": 9405840,
+    "name": "警员搭档",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "警员搭档",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升5%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "冷静活页册的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "冷静活页册的掉落获得数增加1个【『15位理智性眼镜们』活动限定】"
+        },
+        {
+            "name": "警员搭档",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升8%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "冷静活页册的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "冷静活页册的掉落获得数增加2个[最大解放]【『15位理智性眼镜们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405840/9405840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94058400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94058400.png"
+        ]
+    }
+}

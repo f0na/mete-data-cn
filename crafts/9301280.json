@@ -1,0 +1,27 @@
+{
+    "id": 9301280,
+    "name": "王之马",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "王之马",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "阿尔托莉雅(枪兵)装备,且自身在场时,己方全体的攻击力提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301280/9301280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93012800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93012800.png"
+        ]
+    }
+}

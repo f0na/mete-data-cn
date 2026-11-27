@@ -1,0 +1,27 @@
+{
+    "id": 9302760,
+    "name": "包容世界之物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "包容世界之物",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "[servantName 402900](骑兵)装备时,自身宝具威力提升30%＆自身登场时付与己方全体无敌状态(1次·3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302760/9302760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93027600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93027600.png"
+        ]
+    }
+}

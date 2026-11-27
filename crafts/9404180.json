@@ -1,0 +1,32 @@
+{
+    "id": 9404180,
+    "name": "迦勒底晚餐时光",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "迦勒底晚餐时光",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加1%＆御主经验增加1%"
+        },
+        {
+            "name": "迦勒底晚餐时光",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加5%＆御主经验增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404180/9404180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94041800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94041800.png"
+        ]
+    }
+}

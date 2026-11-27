@@ -1,0 +1,52 @@
+{
+    "id": 9404580,
+    "name": "隐匿猎手",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "隐匿猎手",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆暴击威力提升15%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "『从者·夏令营！ ～迦勒底·惊悚之夜～』中的攻击威力提升100%【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "隐匿猎手",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆暴击威力提升20%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "『从者·夏令营！ ～迦勒底·惊悚之夜～』中的攻击威力提升200%[最大解放]【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』中的攻击威力提升100%【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』中的攻击威力提升200%[最大解放]【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404580/9404580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045800.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9303310,
+    "name": "英灵旅装：莱昂纳多·达·芬奇",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵旅装：莱昂纳多·达·芬奇",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303310/9303310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93033100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93033100.png"
+        ]
+    }
+}

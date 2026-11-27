@@ -1,0 +1,27 @@
+{
+    "id": 9308000,
+    "name": "2024年的神圣奔走",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "2024年的神圣奔走",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 405300](骑兵)装备,且自身在场时,己方全体的宝具威力提升10%＆付与对〔恶〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308000/9308000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93080000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93080000.png"
+        ]
+    }
+}

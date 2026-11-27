@@ -1,0 +1,42 @@
+{
+    "id": 9403670,
+    "name": "感质记忆",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "感质记忆",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆宝具值获得量提升3%＆暴击威力提升3%"
+        },
+        {
+            "name": "记言之纸的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "记言之纸的掉落获得数增加1个【『情人节2020』活动限定】"
+        },
+        {
+            "name": "感质记忆",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆宝具值获得量提升5%＆暴击威力提升5%[最大解放]"
+        },
+        {
+            "name": "记言之纸的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "记言之纸的掉落获得数增加2个[最大解放]【『情人节2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403670/9403670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036700.png"
+        ]
+    }
+}

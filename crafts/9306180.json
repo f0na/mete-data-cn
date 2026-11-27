@@ -1,0 +1,27 @@
+{
+    "id": 9306180,
+    "name": "昏暗森渊之护符",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "昏暗森渊之护符",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 2501000](降临者)装备,且自身在场时,付与己方全体对〔诅咒〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306180/9306180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93061800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93061800.png"
+        ]
+    }
+}

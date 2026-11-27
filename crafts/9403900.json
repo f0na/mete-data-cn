@@ -1,0 +1,32 @@
+{
+    "id": 9403900,
+    "name": "那日之后",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "那日之后",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值1%的状态＆弱化耐性提升5%"
+        },
+        {
+            "name": "那日之后",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值2%的状态＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403900/9403900a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039000.png"
+        ]
+    }
+}

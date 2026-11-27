@@ -1,0 +1,17 @@
+{
+    "id": 8400580,
+    "name": "魔神油灯",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400580a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400580.png"
+    },
+    "skills": [
+        {
+            "name": "魔神油灯",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(300伤害·3回合)＋获得2个暴击星"
+        }
+    ],
+    "comment": "某位谜团众多的女王拥有的黄金香炉。\n\n正如她曾向那位以智慧著称的魔术王提出了三个谜题一样，\n据说寄宿于灯内的三胞胎灵鬼（镇尼）也会向敌人提出难题。"
+}

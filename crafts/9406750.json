@@ -1,0 +1,32 @@
+{
+    "id": 9406750,
+    "name": "奋勉的弹药",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "奋勉的弹药",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔振荡火药〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "奋勉的弹药",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔振荡火药〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406750/9406750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94067500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94067500.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400180,
+    "name": "龙脉",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "龙脉",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "龙脉",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400180/9400180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001800.png"
+        ]
+    }
+}

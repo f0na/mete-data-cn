@@ -1,0 +1,27 @@
+{
+    "id": 9300280,
+    "name": "通往巴比伦之门",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "通往巴比伦之门",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "大流士三世(狂战士)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300280/9300280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002800.png"
+        ]
+    }
+}

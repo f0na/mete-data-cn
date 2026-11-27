@@ -1,0 +1,17 @@
+{
+    "id": 8401330,
+    "name": "青龙九节棍",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401330a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401330.png"
+    },
+    "skills": [
+        {
+            "name": "青龙九节棍",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡的暴击星集中度提升50%＋当使用被刻印的指令卡进行攻击时,解除1个敌方单体的暴击率提升状态"
+        }
+    ],
+    "comment": "陪伴在为某些缘由而募集“好汉”的少女身边，\n为其指名方向的青龙形态棍子。\n\n外表抓人眼球，\n实际能伸长或变形成各式各样的形态，非常帅气，\n也非常优秀的武器。\n甚至可以耕田。"
+}

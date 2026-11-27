@@ -1,0 +1,32 @@
+{
+    "id": 9405950,
+    "name": "无尽的尘山",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "无尽的尘山",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔虚影之尘〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "无尽的尘山",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔虚影之尘〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405950/9405950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94059500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94059500.png"
+        ]
+    }
+}

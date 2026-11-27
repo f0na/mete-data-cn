@@ -1,0 +1,27 @@
+{
+    "id": 9310560,
+    "name": "「FGO 藤丸立香想不明白」Season3",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "「FGO 藤丸立香想不明白」Season3",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310560/9310560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105600.png"
+        ]
+    }
+}

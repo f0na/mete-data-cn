@@ -1,0 +1,32 @@
+{
+    "id": 9402530,
+    "name": "星光盛会",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "星光盛会",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升100%＆迅指令卡的性能提升2%"
+        },
+        {
+            "name": "星光盛会",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升200%＆迅指令卡的性能提升3%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402530/9402530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94025300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94025300.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9400790,
+    "name": "Happy x 3 Order",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 3,
+    "atk": 0,
+    "hp": 2017,
+    "skills": [
+        {
+            "name": "Happy x 3 Order",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400790/9400790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007900.png"
+        ]
+    }
+}

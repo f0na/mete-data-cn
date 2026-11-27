@@ -1,0 +1,27 @@
+{
+    "id": 9401050,
+    "name": "英灵肖像：梅菲斯托费勒斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 5,
+    "atk": 500,
+    "hp": 500,
+    "skills": [
+        {
+            "name": "英灵肖像：梅菲斯托费勒斯",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401050/9401050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94010500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94010500.png"
+        ]
+    }
+}

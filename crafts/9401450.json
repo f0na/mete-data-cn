@@ -1,0 +1,32 @@
+{
+    "id": 9401450,
+    "name": "应至之地",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "应至之地",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星状态＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "应至之地",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得4个暴击星状态＆以宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401450/9401450a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014500.png"
+        ]
+    }
+}

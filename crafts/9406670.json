@@ -1,0 +1,42 @@
+{
+    "id": 9406670,
+    "name": "花之解说员",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "花之解说员",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆宝具威力提升5%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "明日灵血古标牌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "明日灵血古标牌的掉落获得数增加1个【『迦勒底妖精骑士杯』活动限定】"
+        },
+        {
+            "name": "花之解说员",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆宝具威力提升10%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "明日灵血古标牌的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "明日灵血古标牌的掉落获得数增加2个[最大解放]【『迦勒底妖精骑士杯』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406670/9406670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94066700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94066700.png"
+        ]
+    }
+}

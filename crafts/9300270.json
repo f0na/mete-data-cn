@@ -1,0 +1,27 @@
+{
+    "id": 9300270,
+    "name": "约柜",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "约柜",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "大卫(弓兵)装备时,自身宝具威力提升30%＆攻击时极低概率付与敌人即死效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300270/9300270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002700.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9407590,
+    "name": "舍月求实",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "舍月求实",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升10%＆自身的宝具威力提升10%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『盈月剑风帖』中,自身的攻击威力提升100%【『盈月剑风帖』活动限定】"
+        },
+        {
+            "name": "舍月求实",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升20%＆自身的宝具威力提升15%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『盈月剑风帖』中,自身的攻击威力提升200%[最大解放]【『盈月剑风帖』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407590/9407590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94075900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94075900.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9304320,
+    "name": "超越苍穹",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "超越苍穹",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 604000](暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升15%＆暴击威力提升15%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304320/9304320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043200.png"
+        ]
+    }
+}

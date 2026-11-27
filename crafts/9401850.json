@@ -1,0 +1,42 @@
+{
+    "id": 9401850,
+    "name": "苍玉之魔法少女",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "苍玉之魔法少女",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升25%＆宝具值已达40%的状态开始战斗"
+        },
+        {
+            "name": "狮子号君的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狮子号君的掉落获得数增加1个【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "苍玉之魔法少女",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升30%＆宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "狮子号君的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狮子号君的掉落获得数增加2个[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401850/9401850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018500.png"
+        ]
+    }
+}

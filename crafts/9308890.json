@@ -1,0 +1,27 @@
+{
+    "id": 9308890,
+    "name": "迎新书法",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2026,
+    "skills": [
+        {
+            "name": "迎新书法",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的被强化成功率提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308890/9308890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088900.png"
+        ]
+    }
+}

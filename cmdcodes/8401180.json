@@ -1,0 +1,17 @@
+{
+    "id": 8401180,
+    "name": "空中庭园的女帝",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401180a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401180.png"
+    },
+    "skills": [
+        {
+            "name": "空中庭园的女帝",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升10%(1回合)＋获得2个暴击星"
+        }
+    ],
+    "comment": "「哦，想得到我的助力？\n\n　无妨，但好歹也是借用我的力量，\n　自然需要有相应的觉悟吧？\n　让我想想，比方说——\n　一口饮尽我给你的毒杯，如何。\n\n　呵呵……玩笑，当然是开玩笑。\n　那么，我问你。\n　你愿意饮尽我手上的这一杯吗？」"
+}

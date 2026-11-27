@@ -1,0 +1,32 @@
+{
+    "id": 9403070,
+    "name": "觉醒",
+    "type": "Normal",
+    "rarity": 1,
+    "cost": 1,
+    "atk": 150,
+    "hp": 250,
+    "skills": [
+        {
+            "name": "觉醒",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升50%"
+        },
+        {
+            "name": "觉醒",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升100%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403070/9403070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94030700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94030700.png"
+        ]
+    }
+}

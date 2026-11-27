@@ -1,0 +1,27 @@
+{
+    "id": 9806660,
+    "name": "我们无法召唤！",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 3,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "我们无法召唤！",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9806660/9806660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98066600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98066600.png"
+        ]
+    }
+}

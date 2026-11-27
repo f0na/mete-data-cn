@@ -1,0 +1,52 @@
+{
+    "id": 9407000,
+    "name": "摇篮之歌",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "摇篮之歌",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具值获得量提升5%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『螺旋证明世界 Lilim Harlot』中,自身的攻击威力提升100%【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "摇篮之歌",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆宝具值获得量提升8%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『螺旋证明世界 Lilim Harlot』中,自身的攻击威力提升200%[最大解放]【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『螺旋证明世界 Lilim Harlot 复刻版』中,自身的攻击威力提升100%【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『螺旋证明世界 Lilim Harlot 复刻版』中,自身的攻击威力提升200%[最大解放]【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407000/9407000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070000.png"
+        ]
+    }
+}

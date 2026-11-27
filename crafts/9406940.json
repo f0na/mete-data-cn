@@ -1,0 +1,52 @@
+{
+    "id": 9406940,
+    "name": "夜幕燃灯",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "夜幕燃灯",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆被暴击发生耐性提升3%"
+        },
+        {
+            "name": "ZERY豆饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "ZERY豆饼的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升10%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "夜幕燃灯",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆被暴击发生耐性提升5%[最大解放]"
+        },
+        {
+            "name": "ZERY豆饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "ZERY豆饼的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升20%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406940/9406940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069400.png"
+        ]
+    }
+}

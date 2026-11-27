@@ -1,0 +1,17 @@
+{
+    "id": 8400750,
+    "name": "利维坦",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400750a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400750.png"
+    },
+    "skills": [
+        {
+            "name": "利维坦",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的生命值回复100＋获得1个暴击星"
+        }
+    ],
+    "comment": "企。\n\n并非可爱的水族馆偶像，\n而是某位冰上首席女舞者所说的海中魔兽。\n其名字包含了「扭曲」「旋涡」等意思，\n据说掌管七大罪中的嫉妒。\n\n鹅。"
+}

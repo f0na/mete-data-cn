@@ -1,0 +1,27 @@
+{
+    "id": 9300600,
+    "name": "海顿四重奏",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "海顿四重奏",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "阿马德乌斯(魔术师)装备,且自身在场时,己方全体的宝具威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300600/9300600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93006000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93006000.png"
+        ]
+    }
+}

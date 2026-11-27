@@ -1,0 +1,17 @@
+{
+    "id": 8400040,
+    "name": "纹章：邪恶",
+    "rarity": 1,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400040a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400040.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：邪恶",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔魔性〕5%的特攻效果"
+        }
+    ],
+    "comment": "紧握这诱惑强烈的手。\n漫漫前路深藏于黑暗之中。"
+}

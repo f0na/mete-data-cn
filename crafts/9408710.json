@@ -1,0 +1,27 @@
+{
+    "id": 9408710,
+    "name": "立于彼方之巅者",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1000,
+    "skills": [
+        {
+            "name": "立于彼方之巅者",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "〔额外职阶Ⅱ〕的从者装备时,关卡通关时获得的御主经验增加20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408710/9408710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087100.png"
+        ]
+    }
+}

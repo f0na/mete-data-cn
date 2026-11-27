@@ -1,0 +1,32 @@
+{
+    "id": 9401440,
+    "name": "觉醒之前",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "觉醒之前",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身防御力提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%＆迅指令卡性能提升8%"
+        },
+        {
+            "name": "觉醒之前",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身防御力提升10%＆技指令卡性能提升10%＆力指令卡性能提升10%＆迅指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401440/9401440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014400.png"
+        ]
+    }
+}

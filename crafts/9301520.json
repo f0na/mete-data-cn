@@ -1,0 +1,27 @@
+{
+    "id": 9301520,
+    "name": "克律萨俄耳",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "克律萨俄耳",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "戈耳工(复仇者)装备,且自身在场时,己方全体的力指令卡性能提升10%＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301520/9301520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015200.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9405020,
+    "name": "冰上圆桌骑士",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "冰上圆桌骑士",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆被伤害减免300的状态"
+        },
+        {
+            "name": "时钟塔钥匙扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "时钟塔钥匙扣的掉落获得数增加1个【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        },
+        {
+            "name": "冰上圆桌骑士",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆被伤害减免400的状态[最大解放]"
+        },
+        {
+            "name": "时钟塔钥匙扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "时钟塔钥匙扣的掉落获得数增加2个[最大解放]【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405020/9405020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94050200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94050200.png"
+        ]
+    }
+}

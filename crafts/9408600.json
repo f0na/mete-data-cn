@@ -1,0 +1,27 @@
+{
+    "id": 9408600,
+    "name": "立于狂战士之巅者",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1000,
+    "skills": [
+        {
+            "name": "立于狂战士之巅者",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "〔狂战士〕职阶的从者装备时,关卡通关时获得的御主经验增加20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408600/9408600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086000.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9303480,
+    "name": "老当益壮",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "老当益壮",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 603600](暗匿者)装备,且自身在场时,己方全体的技指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303480/9303480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93034800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93034800.png"
+        ]
+    }
+}

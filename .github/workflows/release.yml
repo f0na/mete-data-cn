@@ -22,19 +22,14 @@ jobs:
       - name: Download assets
         run: python3 scripts/assets.py --jobs 32
 
-      - name: Build data and asset packages
+      - name: Build data and resource packages
         run: python3 scripts/build.py --version "$GITHUB_REF_NAME" --strict-version
 
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          assets=(dist/mete-data-cn.zip dist/mete-data-cn-servant.zip dist/manifest.json)
-          for patch in dist/patch-*.zip; do
-            if [ -e "$patch" ]; then
-              assets+=("$patch")
-            fi
-          done
+          assets=(dist/manifest.json dist/*.zip)
           gh release create "$GITHUB_REF_NAME" "${assets[@]}" \
             --title "$GITHUB_REF_NAME" \
             --generate-notes

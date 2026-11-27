@@ -1,0 +1,32 @@
+{
+    "id": 9400080,
+    "name": "丰收",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 250,
+    "hp": 375,
+    "skills": [
+        {
+            "name": "丰收",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "丰收",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达20%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400080/9400080a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94000800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94000800.png"
+        ]
+    }
+}

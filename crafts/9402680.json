@@ -1,0 +1,32 @@
+{
+    "id": 9402680,
+    "name": "愿之所向",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "愿之所向",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆力指令卡性能提升10%"
+        },
+        {
+            "name": "愿之所向",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升600%＆力指令卡性能提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402680/9402680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94026800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94026800.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9309470,
+    "name": "英灵祝装：威廉·退尔",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：威廉·退尔",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309470/9309470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93094700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93094700.png"
+        ]
+    }
+}

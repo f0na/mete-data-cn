@@ -1,0 +1,32 @@
+{
+    "id": 9406800,
+    "name": "于那遥远之夜",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "于那遥远之夜",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆以宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "于那遥远之夜",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆以宝具值已达20%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406800/9406800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068000.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9402960,
+    "name": "欢迎用餐",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "欢迎用餐",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆暴击星掉落率提升3%＆暴击威力提升3%＆暴击星集中度提升30%"
+        },
+        {
+            "name": "欢迎用餐",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆暴击星掉落率提升5%＆暴击威力提升5%＆暴击星集中度提升50%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402960/9402960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94029600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94029600.png"
+        ]
+    }
+}

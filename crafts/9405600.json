@@ -1,0 +1,52 @@
+{
+    "id": 9405600,
+    "name": "花与舞妓",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "花与舞妓",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔性〕25%的特攻状态＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "花与舞妓",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔性〕30%的特攻状态＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨龙马千钧一发！』中,自身的攻击威力提升100%【『唠唠叨叨龙马千钧一发！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨龙马千钧一发！』中,自身的攻击威力提升200%[最大解放]【『唠唠叨叨龙马千钧一发！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨龙马千钧一发！』中,自身的攻击威力提升100%【『复刻:唠唠叨叨龙马千钧一发！ 轻量版』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨龙马千钧一发！』中,自身的攻击威力提升200%[最大解放]【『复刻:唠唠叨叨龙马千钧一发！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405600/9405600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94056000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94056000.png"
+        ]
+    }
+}

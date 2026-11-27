@@ -1,0 +1,52 @@
+{
+    "id": 9405110,
+    "name": "无法操纵之物",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "无法操纵之物",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆暴击威力提升10%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "自身在『秋叶原·爆裂！』关卡通关时获得的牵绊点数增加100%(作为助战时无效)【『秋叶原·爆裂！』活动限定】"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "仅当玛修·基列莱特(盾兵)装备时,己方全体<包括替补>的『秋叶原·爆裂！』关卡通关时获得的牵绊点数增加20%(作为助战时无效)【『秋叶原·爆裂！』活动限定】"
+        },
+        {
+            "name": "无法操纵之物",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆暴击威力提升15%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "自身在『秋叶原·爆裂！』关卡通关时获得的牵绊点数增加200%(作为助战时无效)[最大解放]【『秋叶原·爆裂！』活动限定】"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "仅当玛修·基列莱特(盾兵)装备时,己方全体<包括替补>的『秋叶原·爆裂！』关卡通关时获得的牵绊点数增加40%(作为助战时无效)[最大解放]【『秋叶原·爆裂！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405110/9405110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051100.png"
+        ]
+    }
+}

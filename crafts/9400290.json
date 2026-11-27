@@ -1,0 +1,32 @@
+{
+    "id": 9400290,
+    "name": "天之晚餐",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1125,
+    "skills": [
+        {
+            "name": "天之晚餐",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升25%"
+        },
+        {
+            "name": "天之晚餐",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400290/9400290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94002900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94002900.png"
+        ]
+    }
+}

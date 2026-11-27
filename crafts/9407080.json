@@ -1,0 +1,42 @@
+{
+    "id": 9407080,
+    "name": "呕心沥血",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "呕心沥血",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升3%＆宝具值获得量提升15%"
+        },
+        {
+            "name": "攻击威力提升<★5及以下装备时>",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『魔眼·交响曲』中,★5(SSR)及以下的从者装备时,自身的攻击威力提升50%【『魔眼·交响曲』活动限定】"
+        },
+        {
+            "name": "呕心沥血",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升5%＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升<★5及以下装备时>",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『魔眼·交响曲』中,★5(SSR)及以下的从者装备时,自身的攻击威力提升100%[最大解放]【『魔眼·交响曲』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407080/9407080a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070800.png"
+        ]
+    }
+}

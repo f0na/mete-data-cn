@@ -1,0 +1,27 @@
+{
+    "id": 9308260,
+    "name": "秘传员工餐",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "秘传员工餐",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 704900](狂战士)装备时,自身的宝具威力提升30%＆付与毅力状态(1次·生命值回复20%)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308260/9308260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082600.png"
+        ]
+    }
+}

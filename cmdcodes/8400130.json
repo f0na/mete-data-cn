@@ -1,0 +1,17 @@
+{
+    "id": 8400130,
+    "name": "胜利的兵装",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400130a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400130.png"
+    },
+    "skills": [
+        {
+            "name": "胜利的兵装",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡暴击星集中度提升100%"
+        }
+    ],
+    "comment": "此乃冠以胜利之名的剑。\n据说周身缠绕的光芒包含了人们的感情。"
+}

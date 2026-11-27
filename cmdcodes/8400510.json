@@ -1,0 +1,17 @@
+{
+    "id": 8400510,
+    "name": "宇宙天秤",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400510a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400510.png"
+    },
+    "skills": [
+        {
+            "name": "宇宙天秤",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔人类的威胁〕10%的特攻效果＆对〔剑士〕10%的特攻效果"
+        }
+    ],
+    "comment": "被视作宇宙尽头阶级标示的双头圣枪。\n曾沉睡于秘密组织·银河警察的中枢，\n但机缘巧合地被一位少女获得，\n乃是宇宙最古老的人工制品。\n\n那传说中甚至能斩断银河星云的光芒，\n据说会不分善恶，铲除所有一切。"
+}

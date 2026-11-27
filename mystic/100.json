@@ -1,0 +1,109 @@
+{
+    "id": 100,
+    "name": "2004年的碎片",
+    "shortName": "2004年的碎片",
+    "skills": [
+        {
+            "name": "代号:F",
+            "icon": "Mystic/SkillIcons/skill_00302.png",
+            "effect": "己方单体的宝具威力提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的宝具威力提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "代号:U",
+            "icon": "Mystic/SkillIcons/skill_00308.png",
+            "effect": "己方单体的力指令卡暴击星集中度提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的力指令卡暴击星集中度提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        500000,
+                        550000,
+                        600000,
+                        650000,
+                        700000,
+                        750000,
+                        800000,
+                        850000,
+                        900000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "代号:H",
+            "icon": "Mystic/SkillIcons/skill_00602.png",
+            "effect": "己方单体的宝具值获得量提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的宝具值获得量提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        3800,
+                        4000,
+                        4200,
+                        4400,
+                        4600,
+                        5000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00101.png",
+            "female": "Mystic/Items/masterequip00102.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00101.png",
+            "female": "Mystic/Items/masterequip00102.png"
+        }
+    }
+}

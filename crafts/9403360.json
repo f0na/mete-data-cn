@@ -1,0 +1,42 @@
+{
+    "id": 9403360,
+    "name": "水光潋滟",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "水光潋滟",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升15%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "同人活动力的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "同人活动力的获得量增加30%【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        },
+        {
+            "name": "水光潋滟",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升20%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "同人活动力的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "同人活动力的获得量增加60%[最大解放]【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403360/9403360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94033600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94033600.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401710,
+    "name": "单人教学",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "单人教学",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加2%"
+        },
+        {
+            "name": "单人教学",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401710/9401710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017100.png"
+        ]
+    }
+}

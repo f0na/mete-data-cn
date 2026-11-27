@@ -1,0 +1,42 @@
+{
+    "id": 9400280,
+    "name": "虚数魔术",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1125,
+    "skills": [
+        {
+            "name": "虚数魔术",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达60%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』中的攻击威力提升30%【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        },
+        {
+            "name": "虚数魔术",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达75%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』中的攻击威力提升60%[最大解放]【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400280/9400280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94002800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94002800.png"
+        ]
+    }
+}

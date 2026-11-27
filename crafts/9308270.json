@@ -1,0 +1,27 @@
+{
+    "id": 9308270,
+    "name": "同款围裙",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "同款围裙",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "[servantName 1001700](他人格)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆力指令卡性能提升8%＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308270/9308270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082700.png"
+        ]
+    }
+}

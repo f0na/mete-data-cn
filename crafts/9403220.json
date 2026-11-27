@@ -1,0 +1,42 @@
+{
+    "id": 9403220,
+    "name": "白衣水手小姐",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "白衣水手小姐",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "〔迷你信系〕追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』的关卡中,〔迷你信系〕的敌人追加出现率提升25%【『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』活动限定"
+        },
+        {
+            "name": "白衣水手小姐",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升15%＆力指令卡性能提升15%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "〔迷你信系〕追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』的关卡中,〔迷你信系〕的敌人追加出现率提升100%[最大解放]【『复刻:唠唠叨叨帝都圣杯奇谭 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403220/9403220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94032200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94032200.png"
+        ]
+    }
+}

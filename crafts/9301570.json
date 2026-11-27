@@ -1,0 +1,27 @@
+{
+    "id": 9301570,
+    "name": "空之佛",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "空之佛",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "宫本武藏(剑士)装备时,自身宝具威力提升30%＆付与弱化无效状态(3次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301570/9301570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015700.png"
+        ]
+    }
+}

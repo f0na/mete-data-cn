@@ -1,0 +1,32 @@
+{
+    "id": 9408490,
+    "name": "固有时制御",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "固有时制御",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得6个暴击星的状态＆暴击威力提升15%"
+        },
+        {
+            "name": "固有时制御",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得8个暴击星的状态＆暴击威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408490/9408490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94084900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94084900.png"
+        ]
+    }
+}

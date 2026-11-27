@@ -1,0 +1,42 @@
+{
+    "id": 9404500,
+    "name": "任务开始",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "任务开始",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆暴击威力提升8%＆以宝具值已达40%的状态开始战斗"
+        },
+        {
+            "name": "生命计数器的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "生命计数器的掉落获得数增加1个【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        },
+        {
+            "name": "任务开始",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆暴击威力提升10%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "生命计数器的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "生命计数器的掉落获得数增加2个[最大解放]【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404500/9404500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045000.png"
+        ]
+    }
+}

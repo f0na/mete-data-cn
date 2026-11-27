@@ -1,0 +1,27 @@
+{
+    "id": 9307160,
+    "name": "Love it",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2024,
+    "skills": [
+        {
+            "name": "Love it",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307160/9307160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93071600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93071600.png"
+        ]
+    }
+}

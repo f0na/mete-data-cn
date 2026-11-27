@@ -1,0 +1,32 @@
+{
+    "id": 9402320,
+    "name": "极恶非道",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "极恶非道",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(1回合)＆宝具值获得量提升15%"
+        },
+        {
+            "name": "极恶非道",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(1回合)＆宝具值获得量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402320/9402320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023200.png"
+        ]
+    }
+}

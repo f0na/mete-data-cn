@@ -1,0 +1,27 @@
+{
+    "id": 9302530,
+    "name": "向剑祈祷为命许愿",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "向剑祈祷为命许愿",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302530/9302530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93025300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93025300.png"
+        ]
+    }
+}

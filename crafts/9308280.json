@@ -1,0 +1,27 @@
+{
+    "id": 9308280,
+    "name": "Fate/stay night REMASTERED",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Fate/stay night REMASTERED",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308280/9308280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082800.png"
+        ]
+    }
+}

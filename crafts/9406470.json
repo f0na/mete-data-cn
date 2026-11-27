@@ -1,0 +1,42 @@
+{
+    "id": 9406470,
+    "name": "旅途饯行",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "旅途饯行",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升8%＆力指令卡性能提升8%＆宝具值获得量提升5%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "绿茶叶、黄茶叶、红茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "绿茶叶、黄茶叶、红茶叶的掉落获得数增加1个【『唠唠叨叨新邪马台国』活动限定】"
+        },
+        {
+            "name": "旅途饯行",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆宝具值获得量提升8%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "绿茶叶、黄茶叶、红茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "绿茶叶、黄茶叶、红茶叶的掉落获得数增加2个[最大解放]【『唠唠叨叨新邪马台国』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406470/9406470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94064700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94064700.png"
+        ]
+    }
+}

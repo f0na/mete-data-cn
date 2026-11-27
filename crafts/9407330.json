@@ -1,0 +1,32 @@
+{
+    "id": 9407330,
+    "name": "在那光之一角",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "在那光之一角",
+            "icon": "Craft/SkillIcons/skill_00416.png",
+            "effect": "自身的强化解除耐性提升5%＆弱化耐性提升5%"
+        },
+        {
+            "name": "在那光之一角",
+            "icon": "Craft/SkillIcons/skill_00416.png",
+            "effect": "自身的强化解除耐性提升10%＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407330/9407330a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94073300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94073300.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401060,
+    "name": "万疵必应修补",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401060a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401060.png"
+    },
+    "skills": [
+        {
+            "name": "万疵必应修补",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,己方全体的生命值回复150"
+        }
+    ],
+    "comment": "既是受月之女神传授了魔术的神代魔术师，\n也是一国公主的惹人怜爱少女所持的治疗宝具。\n\n能将所有诅咒、魔术造成的损伤归零，\n打破除“死亡”以外所有的不讲理。\n\n对于身为善之魔女，想相信人们间牵绊的纯真少女来说，\n这或许是一把适合她的杖子吧。"
+}

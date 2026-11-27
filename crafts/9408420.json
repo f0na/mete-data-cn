@@ -1,0 +1,42 @@
+{
+    "id": 9408420,
+    "name": "天气预报＜Ｐ＞",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "天气预报＜Ｐ＞",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升3%＆力指令卡性能提升3%＆宝具值获得量提升3%"
+        },
+        {
+            "name": "老式餐盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "老式餐盘的掉落获得数增加1个【『CBC2026 其名为但丁』活动限定】"
+        },
+        {
+            "name": "天气预报＜Ｐ＞",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆技指令卡性能提升5%＆力指令卡性能提升5%＆宝具值获得量提升5%[最大解放]"
+        },
+        {
+            "name": "老式餐盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "老式餐盘的掉落获得数增加2个[最大解放]【『CBC2026 其名为但丁』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408420/9408420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94084200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94084200.png"
+        ]
+    }
+}

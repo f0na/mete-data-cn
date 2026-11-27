@@ -1,0 +1,32 @@
+{
+    "id": 9402260,
+    "name": "熔岩巧克力蛋糕",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "熔岩巧克力蛋糕",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔神性〕25%的特攻状态＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "熔岩巧克力蛋糕",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔神性〕30%的特攻状态＆宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402260/9402260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94022600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94022600.png"
+        ]
+    }
+}

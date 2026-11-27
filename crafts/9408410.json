@@ -1,0 +1,42 @@
+{
+    "id": 9408410,
+    "name": "烈火烹油",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "烈火烹油",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升6%＆技指令卡性能提升6%＆力指令卡性能提升6%"
+        },
+        {
+            "name": "怀旧房间钥匙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "怀旧房间钥匙的掉落获得数增加1个【『CBC2026 其名为但丁』活动限定】"
+        },
+        {
+            "name": "烈火烹油",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%[最大解放]"
+        },
+        {
+            "name": "怀旧房间钥匙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "怀旧房间钥匙的掉落获得数增加2个[最大解放]【『CBC2026 其名为但丁』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408410/9408410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94084100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94084100.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9300710,
+    "name": "歼灭清单",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "歼灭清单",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "谜之女主角X(暗匿者)装备,且自身在场时,为己方全体付与对〔剑士〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300710/9300710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007100.png"
+        ]
+    }
+}

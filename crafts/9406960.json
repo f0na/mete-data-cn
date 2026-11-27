@@ -1,0 +1,32 @@
+{
+    "id": 9406960,
+    "name": "迦勒底的男人",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "迦勒底的男人",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆关卡通关时获得的御主经验增加0.5%＆关卡通关时获得的魔术礼装经验增加0.5%"
+        },
+        {
+            "name": "迦勒底的男人",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆关卡通关时获得的御主经验增加2.5%＆关卡通关时获得的魔术礼装经验增加2.5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406960/9406960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069600.png"
+        ]
+    }
+}

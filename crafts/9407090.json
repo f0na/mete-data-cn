@@ -1,0 +1,42 @@
+{
+    "id": 9407090,
+    "name": "太阳之花",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "太阳之花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升4%＆技指令卡性能提升4%＆付与每回合获得2个暴击星的状态"
+        },
+        {
+            "name": "攻击威力提升<★4及以下装备时>",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『魔眼·交响曲』中,★4(SR)及以下的从者装备时,自身的攻击威力提升40%【『魔眼·交响曲』活动限定】"
+        },
+        {
+            "name": "太阳之花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升6%＆技指令卡性能提升6%＆付与每回合获得3个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "攻击威力提升<★4及以下装备时>",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『魔眼·交响曲』中,★4(SR)及以下的从者装备时,自身的攻击威力提升80%[最大解放]【『魔眼·交响曲』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407090/9407090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070900.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9405640,
+    "name": "圣洁之心",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "圣洁之心",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆暴击威力提升10%＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "圣洁之心",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆暴击威力提升15%＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "醇厚黄油的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "醇厚黄油的掉落获得数增加1个【『Making Christmas Party！』活动限定】"
+        },
+        {
+            "name": "醇厚黄油的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "醇厚黄油的掉落获得数增加2个[最大解放]【『Making Christmas Party！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405640/9405640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94056400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94056400.png"
+        ]
+    }
+}

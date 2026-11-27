@@ -1,0 +1,32 @@
+{
+    "id": 9403910,
+    "name": "家人的肖像",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "家人的肖像",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升15%＆付与被伤害减免300的状态"
+        },
+        {
+            "name": "家人的肖像",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升20%＆付与被伤害减免400的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403910/9403910a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039100.png"
+        ]
+    }
+}

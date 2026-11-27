@@ -1,0 +1,32 @@
+{
+    "id": 9403100,
+    "name": "繁荣",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 0,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "繁荣",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复30状态"
+        },
+        {
+            "name": "繁荣",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复50状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403100/9403100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94031000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94031000.png"
+        ]
+    }
+}

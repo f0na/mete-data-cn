@@ -1,0 +1,17 @@
+{
+    "id": 8400190,
+    "name": "屠龙之剑",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400190a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400190.png"
+    },
+    "skills": [
+        {
+            "name": "屠龙之剑",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡对〔龙〕的暴击威力提升25%"
+        }
+    ],
+    "comment": "蕴藏着神代魔力的黄昏大剑。\n据说根据持有者的不同，可成为圣剑也可成为魔剑。"
+}

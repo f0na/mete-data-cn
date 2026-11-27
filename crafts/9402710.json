@@ -1,0 +1,32 @@
+{
+    "id": 9402710,
+    "name": "神造兵器",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "神造兵器",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔剑士〕职阶装备时宝具威力提升15%"
+        },
+        {
+            "name": "神造兵器",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔剑士〕职阶装备时宝具威力提升25%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402710/9402710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027100.png"
+        ]
+    }
+}

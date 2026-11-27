@@ -1,0 +1,32 @@
+{
+    "id": 9402300,
+    "name": "如您所愿",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "如您所愿",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(1回合)＆宝具值获得量提升25%"
+        },
+        {
+            "name": "如您所愿",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(1回合)＆宝具值获得量提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402300/9402300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023000.png"
+        ]
+    }
+}

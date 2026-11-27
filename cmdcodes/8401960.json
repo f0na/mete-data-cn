@@ -1,0 +1,17 @@
+{
+    "id": 8401960,
+    "name": "闪耀平安女子",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401960a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401960.png"
+    },
+    "skills": [
+        {
+            "name": "闪耀平安女子",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔拥有人之力的敌人〕10%的特攻效果＆对〔中立从者〕10%的特攻效果＆对〔影从者〕10%的特攻效果"
+        }
+    ],
+    "comment": "「亲御，要不要拍张纪念照？\n　你问纪念什么……当然是纪念今天啦。\n　就算没什么事的时候也可以拍啦。\n　因为同一天不会再次到来，每一天都很特别，\n　而我们随时都是最棒的！\n　世上万事相当带感哦！」"
+}

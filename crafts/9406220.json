@@ -1,0 +1,42 @@
+{
+    "id": 9406220,
+    "name": "武之谯楼",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "武之谯楼",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆迅指令卡性能提升3%＆力指令卡性能提升3%"
+        },
+        {
+            "name": "啃啃绳索的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "啃啃绳索的掉落获得数增加1个【『南溟弓张八犬传』活动限定】"
+        },
+        {
+            "name": "武之谯楼",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆迅指令卡性能提升5%＆力指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "啃啃绳索的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "啃啃绳索的掉落获得数增加2个[最大解放]【『南溟弓张八犬传』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406220/9406220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94062200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94062200.png"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "id": 9404170,
+    "name": "太阳之兽",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "太阳之兽",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "全体攻击威力提升＆阿尔托莉元素的获得数提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『Saber Wars2 ～前往初始宇宙～』中己方全体<包括替补>的攻击威力提升50%＋阿尔托莉元素的掉落获得数增加1个【『Saber Wars2 ～前往初始宇宙～』活动限定】"
+        },
+        {
+            "name": "太阳之兽",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升15%＆力指令卡性能提升15%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "全体攻击威力提升＆阿尔托莉元素的获得数提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『Saber Wars2 ～前往初始宇宙～』中己方全体<包括替补>的攻击威力提升100%＋阿尔托莉元素的掉落获得数增加2个[最大解放]【『Saber Wars2 ～前往初始宇宙～』活动限定】"
+        },
+        {
+            "name": "全体攻击威力提升＆阿尔托莉元素的获得数提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:Saber Wars2 ～前往初始宇宙～轻量版』中己方全体<包括替补>的攻击威力提升50%＋阿尔托莉元素的掉落获得数增加1个【『复刻:Saber Wars2 ～前往初始宇宙～ 轻量版』活动限定】"
+        },
+        {
+            "name": "全体攻击威力提升＆阿尔托莉元素的获得数提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:Saber Wars2 ～前往初始宇宙～轻量版』中己方全体<包括替补>的攻击威力提升100%＋阿尔托莉元素的掉落获得数增加2个[最大解放]【『复刻:Saber Wars2 ～前往初始宇宙～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404170/9404170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94041700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94041700.png"
+        ]
+    }
+}

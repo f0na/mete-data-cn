@@ -1,0 +1,27 @@
+{
+    "id": 9308200,
+    "name": "十四之石",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "十四之石",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 1101700](复仇者)装备,且自身在场时,付与己方全体对〔灼伤〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308200/9308200a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082000.png"
+        ]
+    }
+}

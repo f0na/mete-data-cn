@@ -1,0 +1,27 @@
+{
+    "id": 9305490,
+    "name": "塞浦路斯的记忆",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "塞浦路斯的记忆",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 703900](狂战士)装备时,付与自身毅力状态(1次·生命值回复20%)＆毅力发动时付与己方全体宝具值增加20%的状态(1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305490/9305490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054900.png"
+        ]
+    }
+}

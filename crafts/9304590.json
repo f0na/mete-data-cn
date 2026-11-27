@@ -1,0 +1,27 @@
+{
+    "id": 9304590,
+    "name": "至天际",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "至天际",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 304200](枪兵)装备,且自身在场时,〔罗马〕特性的己方全体攻击力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304590/9304590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045900.png"
+        ]
+    }
+}

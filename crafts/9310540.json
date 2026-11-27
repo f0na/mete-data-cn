@@ -1,0 +1,27 @@
+{
+    "id": 9310540,
+    "name": "英灵祝装：旺吉娜",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：旺吉娜",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310540/9310540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105400.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401980,
+    "name": "红色皮夹克",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401980a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401980.png"
+    },
+    "skills": [
+        {
+            "name": "红色皮夹克",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升5%＋当使用被刻印的指令卡进行攻击时,自身的即死付与成功率提升10%(1回合)"
+        }
+    ],
+    "comment": "某位拥有魔眼之人常穿的皮夹克。\n平时是套在和服外面的。\n\n这件衣服似乎有什么特殊的来历，\n但知道内情的人很少。"
+}

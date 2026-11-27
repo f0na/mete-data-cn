@@ -1,0 +1,17 @@
+{
+    "id": 8401070,
+    "name": "雀之旅馆的老板娘",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401070a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401070.png"
+    },
+    "skills": [
+        {
+            "name": "雀之旅馆的老板娘",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔混沌〕15%的特攻效果＆对〔恶〕15%的特攻效果"
+        }
+    ],
+    "comment": "「啾啾。\n　用一宿一饭报答平日的恩情，\n　也是身为老板娘应尽的义务啾！\n　报答岂能少如雀泪雀！\n　使用了大量山珍海味的种种美食，\n　还请好好品尝啾，大人。」"
+}

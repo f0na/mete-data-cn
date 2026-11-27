@@ -1,0 +1,27 @@
+{
+    "id": 9309030,
+    "name": "侍神者",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "侍神者",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "[servantName 901900](裁定者)装备时,自身的宝具威力提升30%＆提供的生命值回复量提升100%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309030/9309030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93090300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93090300.png"
+        ]
+    }
+}

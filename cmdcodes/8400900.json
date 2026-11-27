@@ -1,0 +1,17 @@
+{
+    "id": 8400900,
+    "name": "陨铁之鞴",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400900a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400900.png"
+    },
+    "skills": [
+        {
+            "name": "陨铁之鞴",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(500伤害·3回合)＋被刻印的指令卡暴击星集中度提升50%"
+        }
+    ],
+    "comment": "被某位宫廷魔术师称作，\n「星之泪」\n或是评价为\n「由于非此星之物，故旅人之星亦无从知晓的，\n　希望碎片」的，\n据说在遥远的过去坠落到地上的灵石。\n\n蔷薇皇帝使用这个亲手打造而成的\n极品华贵之物。\n虽然不是宝具，但会与主人高涨的感情相呼应，身缠火焰，\n是一把会察言观色的宝剑。"
+}

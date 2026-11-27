@@ -1,0 +1,32 @@
+{
+    "id": 9402030,
+    "name": "玛塔·哈丽的酒吧",
+    "type": "SvtEquipEventReward",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "玛塔·哈丽的酒吧",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升2%＆技指令卡性能提升2%＆力指令卡性能提升2%＆暴击威力提升5%"
+        },
+        {
+            "name": "玛塔·哈丽的酒吧",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升3%＆技指令卡性能提升3%＆力指令卡性能提升3%＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402030/9402030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020300.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9300420,
+    "name": "觉悟的护额",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "觉悟的护额",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "冲田总司(剑士)装备,且自身在场时,己方全体的暴击威力提升25%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300420/9300420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93004200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93004200.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9303620,
+    "name": "其为双手捧满的",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "其为双手捧满的",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 1000900](他人格)装备时,自身的力指令卡性能提升20%＆处于〔增殖〕状态时,攻击力提升20%＋自身在场时,除自身以外的己方全体迅指令卡性能降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303620/9303620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93036200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93036200.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301090,
+    "name": "百人藏书",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "百人藏书",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "百貌哈桑(暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301090/9301090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010900.png"
+        ]
+    }
+}

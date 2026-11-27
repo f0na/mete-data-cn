@@ -1,0 +1,42 @@
+{
+    "id": 9403740,
+    "name": "教师与我",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "教师与我",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆宝具威力提升5%"
+        },
+        {
+            "name": "狡猾擦拭布的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狡猾擦拭布的掉落获得数增加1个【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        },
+        {
+            "name": "教师与我",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "狡猾擦拭布的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狡猾擦拭布的掉落获得数增加2个[最大解放]【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403740/9403740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94037400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94037400.png"
+        ]
+    }
+}

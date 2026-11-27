@@ -1,0 +1,17 @@
+{
+    "id": 8401130,
+    "name": "上校型自动人偶",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401130a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401130.png"
+    },
+    "skills": [
+        {
+            "name": "上校型自动人偶",
+            "icon": "Cmdcodes/SkillIcons/skill_00309.png",
+            "effect": "仅当被刻印在技指令卡上时,被刻印的指令卡的暴击星集中度提升50%＆暴击威力提升10%"
+        }
+    ],
+    "comment": "模仿某位女性神智学者左膀右臂的使魔。\n\n或许是由于生前两人非常信任彼此吧，\n以至于她成为了英灵的现在，\n依然将其作为侍从留在身边。"
+}

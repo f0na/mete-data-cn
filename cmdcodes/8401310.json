@@ -1,0 +1,17 @@
+{
+    "id": 8401310,
+    "name": "日轮的宠姬",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401310a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401310.png"
+    },
+    "skills": [
+        {
+            "name": "日轮的宠姬",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(500伤害·3回合)＋被刻印的指令卡暴击威力提升15%"
+        }
+    ],
+    "comment": "「天上日轮，地上黄金，\n　为了获得这世上的一切，\n　妾身绚烂豪华地驾到！\n\n　你们就感激不尽地承受\n　极致燃烧的茶茶之业火吧！！」"
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400300,
+    "name": "断星的邪圣剑",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400300a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400300.png"
+    },
+    "skills": [
+        {
+            "name": "断星的邪圣剑",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡对〔剑士〕职阶的暴击威力提升25%"
+        }
+    ],
+    "comment": "传说连五星评价的☆都能斩断的暗黑之剑。\n尽管真伪不明，但在Alter元素的指引下，交由黑暗圆桌最终兵器的剑能够发挥巨大的威力。\n\n顺便一提，尽管这把剑可以通过网购获得，但由于其深受谜之文学美少女爱用的传言传开，因此商品的价格水涨船高。"
+}

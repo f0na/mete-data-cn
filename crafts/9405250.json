@@ -1,0 +1,52 @@
+{
+    "id": 9405250,
+    "name": "粉色沙滩",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "粉色沙滩",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆迅指令卡性能提升5%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "粉色沙滩",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆迅指令卡性能提升8%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "海盗啤酒杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗啤酒杯的掉落获得数增加1个【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "海盗啤酒杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗啤酒杯的掉落获得数增加2个[最大解放]【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "海盗啤酒杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗啤酒杯的掉落获得数增加1个【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        },
+        {
+            "name": "海盗啤酒杯的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗啤酒杯的掉落获得数增加2个[最大解放]【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405250/9405250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94052500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94052500.png"
+        ]
+    }
+}

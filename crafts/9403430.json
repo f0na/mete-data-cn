@@ -1,0 +1,42 @@
+{
+    "id": 9403430,
+    "name": "开演时间",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "开演时间",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升3%＆宝具威力提升8%"
+        },
+        {
+            "name": "野性薯条的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "野性薯条的掉落获得数增加1个【『BATTLE IN NEWYORK 2019』活动限定】"
+        },
+        {
+            "name": "开演时间",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%＆宝具威力提升10% [最大解放]"
+        },
+        {
+            "name": "野性薯条的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "野性薯条的掉落获得数增加2个[最大解放]【『BATTLE IN NEWYORK 2019』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403430/9403430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94034300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94034300.png"
+        ]
+    }
+}

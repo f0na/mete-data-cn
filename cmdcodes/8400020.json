@@ -1,0 +1,17 @@
+{
+    "id": 8400020,
+    "name": "纹章：野兽",
+    "rarity": 1,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400020a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400020.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：野兽",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔猛兽〕5%的特攻效果"
+        }
+    ],
+    "comment": "聆听兽的嘶吼之后，\n你将紧握胜利。"
+}

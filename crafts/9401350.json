@@ -1,0 +1,32 @@
+{
+    "id": 9401350,
+    "name": "迦勒底的学者",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "迦勒底的学者",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达30%的状态开始战斗＆生命值回复量提升20%"
+        },
+        {
+            "name": "迦勒底的学者",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗＆生命值回复量提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401350/9401350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94013500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94013500.png"
+        ]
+    }
+}

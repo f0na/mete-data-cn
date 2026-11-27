@@ -1,0 +1,32 @@
+{
+    "id": 9400760,
+    "name": "雨林规则",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "雨林规则",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2015"
+        },
+        {
+            "name": "雨林规则",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2016[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400760/9400760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007600.png"
+        ]
+    }
+}

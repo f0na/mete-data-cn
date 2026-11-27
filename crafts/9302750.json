@@ -1,0 +1,27 @@
+{
+    "id": 9302750,
+    "name": "春天还会远吗",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "春天还会远吗",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复42生命值的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302750/9302750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93027500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93027500.png"
+        ]
+    }
+}

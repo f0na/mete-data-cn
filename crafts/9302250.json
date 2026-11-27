@@ -1,0 +1,27 @@
+{
+    "id": 9302250,
+    "name": "英灵正装：弗兰肯斯坦",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵正装：弗兰肯斯坦",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302250/9302250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93022500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93022500.png"
+        ]
+    }
+}

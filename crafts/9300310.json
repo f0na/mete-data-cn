@@ -1,0 +1,27 @@
+{
+    "id": 9300310,
+    "name": "三星腰带",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "三星腰带",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "俄里翁(弓兵)装备,且自身在场时,己方全体的暴击威力提升25%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300310/9300310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93003100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93003100.png"
+        ]
+    }
+}

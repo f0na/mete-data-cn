@@ -1,0 +1,27 @@
+{
+    "id": 9300210,
+    "name": "王律之键",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "王律之键",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "吉尔伽美什(弓兵)装备时,自身宝具威力提升30%＆攻击时一定概率自身的暴击威力提升10%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300210/9300210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002100.png"
+        ]
+    }
+}

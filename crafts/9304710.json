@@ -1,0 +1,27 @@
+{
+    "id": 9304710,
+    "name": "气球偃月刀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "气球偃月刀",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "[servantName 2500700](降临者)装备时,自身的宝具威力提升30%＆付与弱化无效状态(3次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304710/9304710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93047100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93047100.png"
+        ]
+    }
+}

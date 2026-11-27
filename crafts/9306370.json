@@ -1,0 +1,27 @@
+{
+    "id": 9306370,
+    "name": "曾为野兽的时候",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "曾为野兽的时候",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 504700](魔术师)装备,且自身在场时,付与己方全体对〔拥有地之力的敌人〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306370/9306370a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063700.png"
+        ]
+    }
+}

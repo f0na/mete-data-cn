@@ -1,0 +1,27 @@
+{
+    "id": 9401030,
+    "name": "英灵肖像：牛若丸",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 5,
+    "atk": 500,
+    "hp": 500,
+    "skills": [
+        {
+            "name": "英灵肖像：牛若丸",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401030/9401030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94010300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94010300.png"
+        ]
+    }
+}

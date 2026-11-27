@@ -1,0 +1,17 @@
+{
+    "id": 8400030,
+    "name": "纹章：死尸",
+    "rarity": 1,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400030a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400030.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：死尸",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔死灵〕5%的特攻效果"
+        }
+    ],
+    "comment": "自地底响彻的同胞之音。\n成为呼唤亡者的乐章。"
+}

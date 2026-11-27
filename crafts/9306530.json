@@ -1,0 +1,27 @@
+{
+    "id": 9306530,
+    "name": "夏日力量助威花",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "夏日力量助威花",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "[servantName 704300](狂战士)装备,且自身在场时,己方全体的技指令卡性能提升8%＆力指令卡性能提升8%＆付与对〔拥有地之力的敌人〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306530/9306530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93065300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93065300.png"
+        ]
+    }
+}

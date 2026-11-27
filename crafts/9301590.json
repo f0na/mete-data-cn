@@ -1,0 +1,27 @@
+{
+    "id": 9301590,
+    "name": "黑骑士君",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黑骑士君",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "谜之女主角X〔Alter〕(狂战士)装备,且自身在场时,为己方全体付与对〔剑士〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301590/9301590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015900.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9408040,
+    "name": "逃避的开端",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "逃避的开端",
+            "icon": "Craft/SkillIcons/skill_00309.png",
+            "effect": "自身的技指令卡的暴击星集中度提升300%＆付与被伤害减免300的状态"
+        },
+        {
+            "name": "逃避的开端",
+            "icon": "Craft/SkillIcons/skill_00309.png",
+            "effect": "自身的技指令卡的暴击星集中度提升400%＆付与被伤害减免400的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408040/9408040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080400.png"
+        ]
+    }
+}

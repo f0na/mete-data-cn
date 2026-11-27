@@ -1,0 +1,32 @@
+{
+    "id": 9406130,
+    "name": "天宠的尾羽",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天宠的尾羽",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔凤凰羽毛〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "天宠的尾羽",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔凤凰羽毛〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406130/9406130a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94061300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94061300.png"
+        ]
+    }
+}

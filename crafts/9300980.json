@@ -1,0 +1,27 @@
+{
+    "id": 9300980,
+    "name": "骑士的誓言",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "骑士的誓言",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "迪尔姆德·奥迪那(枪兵)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300980/9300980a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93009800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93009800.png"
+        ]
+    }
+}

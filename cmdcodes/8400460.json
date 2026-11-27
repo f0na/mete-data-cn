@@ -1,0 +1,17 @@
+{
+    "id": 8400460,
+    "name": "花之魔术师",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400460a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400460.png"
+    },
+    "skills": [
+        {
+            "name": "花之魔术师",
+            "icon": "Cmdcodes/SkillIcons/skill_00601.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具值增加10%(使用后需等待3回合才可再次使用)"
+        }
+    ],
+    "comment": "「哎呀，需要我的帮助吗？　没问题没问题。\n　不管怎么样，只要有求于我，我自会帮忙。\n　虽说如果不靠自己打倒敌人就无法解决麻烦事，\n　但只要为了亲爱的朋友，我定会全力以赴。\n　问我为什么？\n　因为这样一来人们的生活就会变得滋润，\n　也关系到我的各种利益嘛。\n\n　你想呀。人生就是这样吧？」"
+}

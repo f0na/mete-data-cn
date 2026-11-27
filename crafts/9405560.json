@@ -1,0 +1,42 @@
+{
+    "id": 9405560,
+    "name": "熊王聚首",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "熊王聚首",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆力指令卡的暴击威力提升25%"
+        },
+        {
+            "name": "熊王聚首",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆力指令卡的暴击威力提升30%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升＆〔猿〕〔蛇〕〔童话〕的追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『万圣节·复活归来！』中,自身的攻击威力提升100%＋在『万圣节·复活归来！』的自由关卡中,〔猿〕〔蛇〕〔童话〕的敌人追加出现率提升25%【『万圣节·复活归来！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升＆〔猿〕〔蛇〕〔童话〕的追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『万圣节·复活归来！』中,自身的攻击威力提升200%＋在『万圣节·复活归来！』的自由关卡中,〔猿〕〔蛇〕〔童话〕的敌人追加出现率提升100%[最大解放]【『万圣节·复活归来！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405560/9405560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055600.png"
+        ]
+    }
+}

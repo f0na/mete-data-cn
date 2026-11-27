@@ -1,0 +1,42 @@
+{
+    "id": 9406350,
+    "name": "冰雹之拳",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "冰雹之拳",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升10%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "北极式天然冰的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "北极式天然冰的掉落获得数增加1个【『北极·夏日世界！』活动限定】"
+        },
+        {
+            "name": "冰雹之拳",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆暴击威力提升15%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "北极式天然冰的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "北极式天然冰的掉落获得数增加2个[最大解放]【『北极·夏日世界！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406350/9406350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94063500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94063500.png"
+        ]
+    }
+}

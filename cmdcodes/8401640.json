@@ -1,0 +1,17 @@
+{
+    "id": 8401640,
+    "name": "红玉之书",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401640a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401640.png"
+    },
+    "skills": [
+        {
+            "name": "红玉之书",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(500伤害·3回合)＋被刻印的指令卡的宝具值获得量提升5%"
+        }
+    ],
+    "comment": "曾被某位江户浪人拜师学习魔术的\n会飞的南蛮书籍。\n\n虽身为书籍，但因为拥有独立的意志，\n可以通过言语，而非文字来传授知识、\n与人沟通。\n\n本人曰，\n自己就像是代为成为了那位浪人的双亲。"
+}

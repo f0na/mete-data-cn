@@ -1,0 +1,17 @@
+{
+    "id": 8401670,
+    "name": "圣玛利亚舵轮",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401670a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401670.png"
+    },
+    "skills": [
+        {
+            "name": "圣玛利亚舵轮",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得2个暴击星＋解除1个敌方单体的暴击率提升状态"
+        }
+    ],
+    "comment": "经由曾被认定为不可能实现的西向航路，某位冒险家抵达未开辟海域时所驾驶船舶的舵轮。\n与锚相连，也可作为武器使用。\n\n与被冠以的船名截然相反，他在航海抵达之地的所作所为令人发指，可即便如此——\n\n他为了梦想而贯彻自己信念的那种“绝不放弃”，却依然散发着足以铭刻于人类史上的灿烂光辉。"
+}

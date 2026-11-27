@@ -1,0 +1,27 @@
+{
+    "id": 9300790,
+    "name": "我的人生令人厌恶",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "我的人生令人厌恶",
+            "icon": "Craft/SkillIcons/skill_00522.png",
+            "effect": "桑松(暗匿者)装备,且自身在场时,己方全体的即死付与成功率提升10%＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300790/9300790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007900.png"
+        ]
+    }
+}

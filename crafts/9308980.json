@@ -1,0 +1,27 @@
+{
+    "id": 9308980,
+    "name": "高梨的宝刀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "高梨的宝刀",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 106200](剑士)装备,且自身在场时,付与己方全体对〔蛇、龙〕10%的特攻状态＆暴击威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308980/9308980a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93089800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93089800.png"
+        ]
+    }
+}

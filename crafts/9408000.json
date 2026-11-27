@@ -1,0 +1,32 @@
+{
+    "id": 9408000,
+    "name": "欢迎来到博览会",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "欢迎来到博览会",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆暴击威力提升3%＆宝具威力提升3%"
+        },
+        {
+            "name": "欢迎来到博览会",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力提升5%＆宝具威力提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408000/9408000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080000.png"
+        ]
+    }
+}

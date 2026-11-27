@@ -1,0 +1,32 @@
+{
+    "id": 9407780,
+    "name": "彼方的时光",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "彼方的时光",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升15%"
+        },
+        {
+            "name": "彼方的时光",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星的状态＆弱化耐性提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407780/9407780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94077800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94077800.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400590,
+    "name": "藤香御局",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400590a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400590.png"
+    },
+    "skills": [
+        {
+            "name": "藤香御局",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔魔性〕20%的特攻效果"
+        }
+    ],
+    "comment": "「无论是如鲜花般绽放的情感，还是飘落凋零的情感，\n　这些邂逅全都是心爱的你的故事。\n\n　而陪伴左右，将这些书写下来，\n　就是我的存在方式。\n　但愿这些词句鲜亮精彩……」"
+}

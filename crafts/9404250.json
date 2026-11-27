@@ -1,0 +1,32 @@
+{
+    "id": 9404250,
+    "name": "崇高的碎片",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "崇高的碎片",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的技指令卡暴击威力提升25%"
+        },
+        {
+            "name": "崇高的碎片",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的技指令卡暴击威力提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404250/9404250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042500.png"
+        ]
+    }
+}

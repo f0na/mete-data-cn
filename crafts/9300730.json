@@ -1,0 +1,27 @@
+{
+    "id": 9300730,
+    "name": "月桂树戒指",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "月桂树戒指",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "尼禄·克劳狄乌斯〔新娘〕(剑士)装备,且自身在场时,己方全体的技指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300730/9300730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007300.png"
+        ]
+    }
+}

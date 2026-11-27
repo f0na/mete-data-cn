@@ -1,0 +1,32 @@
+{
+    "id": 9403230,
+    "name": "阿特拉斯的婴儿",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "阿特拉斯的婴儿",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆付与对〔狂战士〕职阶35%的特攻状态"
+        },
+        {
+            "name": "阿特拉斯的婴儿",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆付与对〔狂战士〕职阶40%的特攻状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403230/9403230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94032300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94032300.png"
+        ]
+    }
+}

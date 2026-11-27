@@ -1,0 +1,17 @@
+{
+    "id": 8402150,
+    "name": "万圣节帽",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402150a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402150.png"
+    },
+    "skills": [
+        {
+            "name": "万圣节帽",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(300伤害·3回合)＋获得1个暴击星"
+        }
+    ],
+    "comment": "被万圣节的热潮冲昏头脑，\n自称·偶像的从者所戴的尖顶帽。\n\n在节日的气氛中兴致高涨，\n用鲜明强烈的歌声\n提升万圣节之夜舞台的热度。\n\n（各种意义上）\n毫无疑问会成为令人难以忘怀的夜晚！"
+}

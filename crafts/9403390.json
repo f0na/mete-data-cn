@@ -1,0 +1,42 @@
+{
+    "id": 9403390,
+    "name": "奋笔疾书",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "奋笔疾书",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升5%＆宝具威力提升5%"
+        },
+        {
+            "name": "吉尔＄纸币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "吉尔＄纸币的掉落获得数增加1个【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        },
+        {
+            "name": "奋笔疾书",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升10%＆宝具威力提升10% [最大解放]"
+        },
+        {
+            "name": "吉尔＄纸币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "吉尔＄纸币的掉落获得数增加2个[最大解放]【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403390/9403390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94033900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94033900.png"
+        ]
+    }
+}

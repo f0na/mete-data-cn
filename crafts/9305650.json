@@ -1,0 +1,27 @@
+{
+    "id": 9305650,
+    "name": "夏天与冰淇淋与维",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "夏天与冰淇淋与维",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 204400](弓兵)装备,且自身在场时,己方全体的技指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305650/9305650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056500.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400010,
+    "name": "顽强",
+    "type": "Normal",
+    "rarity": 1,
+    "cost": 1,
+    "atk": 0,
+    "hp": 300,
+    "skills": [
+        {
+            "name": "顽强",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升3%"
+        },
+        {
+            "name": "顽强",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400010/9400010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94000100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94000100.png"
+        ]
+    }
+}

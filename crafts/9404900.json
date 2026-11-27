@@ -1,0 +1,32 @@
+{
+    "id": 9404900,
+    "name": "勇敢者",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "勇敢者",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2022"
+        },
+        {
+            "name": "勇敢者",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2022＋自身的力指令卡性能提升2.1%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404900/9404900a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049000.png"
+        ]
+    }
+}

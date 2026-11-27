@@ -1,0 +1,32 @@
+{
+    "id": 9403300,
+    "name": "秉持风雅",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "秉持风雅",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加1%(助战时增加3%)"
+        },
+        {
+            "name": "秉持风雅",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加5%(助战时增加15%)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403300/9403300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94033000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94033000.png"
+        ]
+    }
+}

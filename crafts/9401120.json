@@ -1,0 +1,32 @@
+{
+    "id": 9401120,
+    "name": "老成之翁",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "老成之翁",
+            "icon": "Craft/SkillIcons/skill_00407.png",
+            "effect": "自身的即死耐性提升60%"
+        },
+        {
+            "name": "老成之翁",
+            "icon": "Craft/SkillIcons/skill_00407.png",
+            "effect": "自身的即死耐性提升80%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401120/9401120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011200.png"
+        ]
+    }
+}

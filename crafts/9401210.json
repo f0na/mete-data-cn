@@ -1,0 +1,32 @@
+{
+    "id": 9401210,
+    "name": "吻君之手",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "吻君之手",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆迅指令卡性能提升10%"
+        },
+        {
+            "name": "吻君之手",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的技指令卡性能提升12%＆力指令卡性能提升12%＆迅指令卡性能提升12%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401210/9401210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012100.png"
+        ]
+    }
+}

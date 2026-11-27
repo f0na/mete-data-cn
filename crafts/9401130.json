@@ -1,0 +1,32 @@
+{
+    "id": 9401130,
+    "name": "冠位人偶师",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "冠位人偶师",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗＆技指令卡性能提升15%(3回合)"
+        },
+        {
+            "name": "冠位人偶师",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达60%的状态开始战斗＆技指令卡性能提升20%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401130/9401130a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011300.png"
+        ]
+    }
+}

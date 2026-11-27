@@ -1,0 +1,27 @@
+{
+    "id": 9306440,
+    "name": "楚楚可怜的公主与忠诚的骑士",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "楚楚可怜的公主与忠诚的骑士",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 305100](枪兵)装备,且自身在场时,付与己方全体对〔巨人〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306440/9306440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93064400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93064400.png"
+        ]
+    }
+}

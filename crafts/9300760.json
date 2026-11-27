@@ -1,0 +1,27 @@
+{
+    "id": 9300760,
+    "name": "螺湮城教本",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "螺湮城教本",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "吉尔·德·雷(剑士)装备,且自身在场时,己方全体的力指令卡性能提升20%＆弱化耐性降低20%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300760/9300760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007600.png"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 9310440,
+    "name": "已成过去的观星之证",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "已成过去的观星之证",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 4000100](越兽)装备,且自身在场时,己方全体〔拥有人或星之力的存在或活在当下的人类〕的攻击力提升15%＆宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310440/9310440a.png",
+            "Craft/CharaGraph/9310450/9310450a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93104400.png",
+            "Craft/Faces/f_93104500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93104400.png",
+            "Craft/EquipFaces/f_93104500.png"
+        ]
+    }
+}

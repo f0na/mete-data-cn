@@ -1,0 +1,42 @@
+{
+    "id": 9408080,
+    "name": "浅眠之歌",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "浅眠之歌",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆技指令卡性能提升3%＆强化解除耐性提升5%"
+        },
+        {
+            "name": "巨大的饼干的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "巨大的饼干的掉落获得数增加1个【『妖精双六虫笼游戏』活动限定】"
+        },
+        {
+            "name": "浅眠之歌",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升5%＆强化解除耐性提升10%[最大解放]"
+        },
+        {
+            "name": "巨大的饼干的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "巨大的饼干的掉落获得数增加2个[最大解放]【『妖精双六虫笼游戏』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408080/9408080a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080800.png"
+        ]
+    }
+}

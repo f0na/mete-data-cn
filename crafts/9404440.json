@@ -1,0 +1,42 @@
+{
+    "id": 9404440,
+    "name": "爹地来信直播",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "爹地来信直播",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升100%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "诡异的麦袋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "诡异的麦袋的掉落获得数增加1个【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        },
+        {
+            "name": "爹地来信直播",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升200%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "诡异的麦袋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "诡异的麦袋的掉落获得数增加2个[最大解放]【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404440/9404440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94044400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94044400.png"
+        ]
+    }
+}

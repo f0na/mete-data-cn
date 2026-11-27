@@ -1,0 +1,27 @@
+{
+    "id": 9301430,
+    "name": "痛觉共有",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "痛觉共有",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "克洛伊·冯·爱因兹贝伦(弓兵)装备,且自身在场时,己方全体的暴击威力提升30%＆付与每回合生命值减少200的状态【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301430/9301430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93014300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93014300.png"
+        ]
+    }
+}

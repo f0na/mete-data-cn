@@ -1,0 +1,32 @@
+{
+    "id": 9406020,
+    "name": "幻想公主",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "幻想公主",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔狂战士〕职阶装备时,自身的宝具威力提升60%"
+        },
+        {
+            "name": "幻想公主",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "〔狂战士〕职阶装备时,自身的宝具威力提升80%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406020/9406020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94060200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94060200.png"
+        ]
+    }
+}

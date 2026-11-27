@@ -1,0 +1,27 @@
+{
+    "id": 9305400,
+    "name": "蹴鞠也是有趣",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2022,
+    "skills": [
+        {
+            "name": "蹴鞠也是有趣",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305400/9305400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054000.png"
+        ]
+    }
+}

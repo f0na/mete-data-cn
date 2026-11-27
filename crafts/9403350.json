@@ -1,0 +1,42 @@
+{
+    "id": 9403350,
+    "name": "狐狸女士",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "狐狸女士",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升15%＆付与被伤害减免100的状态"
+        },
+        {
+            "name": "同人空想力的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "同人空想力的获得量增加30%【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        },
+        {
+            "name": "狐狸女士",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆宝具威力提升20%＆付与被伤害减免200的状态[最大解放]"
+        },
+        {
+            "name": "同人空想力的掉落获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "同人空想力的获得量增加60%[最大解放]【『复刻:从者·夏日·庆典！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403350/9403350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94033500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94033500.png"
+        ]
+    }
+}

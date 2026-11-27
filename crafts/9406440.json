@@ -1,0 +1,42 @@
+{
+    "id": 9406440,
+    "name": "出自黄泉的报应",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "出自黄泉的报应",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升3%＆宝具威力提升15%"
+        },
+        {
+            "name": "赤乐茶碗的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "赤乐茶碗的掉落获得数增加1个【『唠唠叨叨新邪马台国』活动限定】"
+        },
+        {
+            "name": "出自黄泉的报应",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升5%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "赤乐茶碗的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "赤乐茶碗的掉落获得数增加2个[最大解放]【『唠唠叨叨新邪马台国』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406440/9406440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94064400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94064400.png"
+        ]
+    }
+}

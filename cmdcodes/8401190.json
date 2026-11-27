@@ -1,0 +1,17 @@
+{
+    "id": 8401190,
+    "name": "蓝色巨牛",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401190a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401190.png"
+    },
+    "skills": [
+        {
+            "name": "蓝色巨牛",
+            "icon": "Cmdcodes/SkillIcons/skill_00334.png",
+            "effect": "付与被刻印的指令卡无视防御效果"
+        }
+    ],
+    "comment": "在某个堆积起蓝雪的冬日，\n一位伐木少女，救下了一只巨大蓝色的牛。\n\n皮肤光滑有弹性，完全不像是牛的这只怪物得到了少女的精心照顾，并被取名为贝比。\n据说从那以后，它一直作为朋友，以及搭档，陪伴在少女的身边。"
+}

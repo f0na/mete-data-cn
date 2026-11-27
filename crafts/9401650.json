@@ -1,0 +1,32 @@
+{
+    "id": 9401650,
+    "name": "秘剑·雉鸡返",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "秘剑·雉鸡返",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升3%＆暴击威力提升8%"
+        },
+        {
+            "name": "秘剑·雉鸡返",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401650/9401650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016500.png"
+        ]
+    }
+}

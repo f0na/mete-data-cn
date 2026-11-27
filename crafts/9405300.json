@@ -1,0 +1,52 @@
+{
+    "id": 9405300,
+    "name": "海上飞行者",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "海上飞行者",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升5%＆宝具威力提升10%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "海上飞行者",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆宝具威力提升15%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·夏日冒险！』中,自身的攻击威力提升100%【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·夏日冒险！』中,自身的攻击威力提升200%[最大解放]【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·夏日冒险！ 复刻版』中,自身的攻击威力提升100%【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底·夏日冒险！ 复刻版』中,自身的攻击威力提升200%[最大解放]【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405300/9405300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94053000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94053000.png"
+        ]
+    }
+}

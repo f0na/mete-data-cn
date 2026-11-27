@@ -1,0 +1,17 @@
+{
+    "id": 8401110,
+    "name": "冥界之花",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401110a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401110.png"
+    },
+    "skills": [
+        {
+            "name": "冥界之花",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔死灵〕20%的特攻效果"
+        }
+    ],
+    "comment": "「我正是统治地底的女神。\n　领教这庄严的守护吧！\n　　\n　呵呵呵……完美的必杀台词呢。\n　好，就这么办——呃，哎？\n　等，等一下还不能看啦！」"
+}

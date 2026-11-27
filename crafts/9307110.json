@@ -1,0 +1,27 @@
+{
+    "id": 9307110,
+    "name": "月之片段",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "月之片段",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307110/9307110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93071100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93071100.png"
+        ]
+    }
+}

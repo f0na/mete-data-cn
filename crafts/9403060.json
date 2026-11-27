@@ -1,0 +1,32 @@
+{
+    "id": 9403060,
+    "name": "断绝",
+    "type": "Normal",
+    "rarity": 1,
+    "cost": 1,
+    "atk": 0,
+    "hp": 450,
+    "skills": [
+        {
+            "name": "断绝",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免30的状态"
+        },
+        {
+            "name": "断绝",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免50的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403060/9403060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94030600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94030600.png"
+        ]
+    }
+}

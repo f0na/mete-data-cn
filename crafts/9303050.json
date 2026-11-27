@@ -1,0 +1,27 @@
+{
+    "id": 9303050,
+    "name": "英灵旅装：刑部姬",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵旅装：刑部姬",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303050/9303050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93030500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93030500.png"
+        ]
+    }
+}

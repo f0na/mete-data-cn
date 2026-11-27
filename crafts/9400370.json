@@ -1,0 +1,32 @@
+{
+    "id": 9400370,
+    "name": "芦苇海",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "芦苇海",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆弱化耐性提升5%"
+        },
+        {
+            "name": "芦苇海",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400370/9400370a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94003700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94003700.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9407060,
+    "name": "暮景冥想",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "暮景冥想",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆掉落的量子量增加0.5%＆关卡通关时获得的魔术礼装经验增加0.5%"
+        },
+        {
+            "name": "暮景冥想",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆掉落的量子量增加2.5%＆关卡通关时获得的魔术礼装经验增加2.5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407060/9407060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070600.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9405520,
+    "name": "小猫咪的回旋曲",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "小猫咪的回旋曲",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆暴击威力提升8%＆宝具值获得量提升8%"
+        },
+        {
+            "name": "小猫咪的回旋曲",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升10%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "糖果屋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "糖果屋的掉落获得数增加1个【『万圣节·复活归来！』活动限定】"
+        },
+        {
+            "name": "糖果屋的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "糖果屋的掉落获得数增加2个[最大解放]【『万圣节·复活归来！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405520/9405520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055200.png"
+        ]
+    }
+}

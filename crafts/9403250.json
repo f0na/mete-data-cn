@@ -1,0 +1,32 @@
+{
+    "id": 9403250,
+    "name": "樱的特制便当",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "樱的特制便当",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身提供的生命值回复量提升5%"
+        },
+        {
+            "name": "樱的特制便当",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身提供的生命值回复量提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403250/9403250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94032500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94032500.png"
+        ]
+    }
+}

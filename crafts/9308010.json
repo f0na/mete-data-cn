@@ -1,0 +1,27 @@
+{
+    "id": 9308010,
+    "name": "舞龙",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2025,
+    "skills": [
+        {
+            "name": "舞龙",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308010/9308010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93080100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93080100.png"
+        ]
+    }
+}

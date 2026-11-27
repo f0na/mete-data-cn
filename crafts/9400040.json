@@ -1,0 +1,32 @@
+{
+    "id": 9400040,
+    "name": "先制",
+    "type": "Normal",
+    "rarity": 1,
+    "cost": 1,
+    "atk": 300,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "先制",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升3%"
+        },
+        {
+            "name": "先制",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400040/9400040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94000400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94000400.png"
+        ]
+    }
+}

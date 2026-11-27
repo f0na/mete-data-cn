@@ -1,0 +1,42 @@
+{
+    "id": 9404410,
+    "name": "自我中心学生会",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "自我中心学生会",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身提供的生命值回复量提升10%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "可怕的草药的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "可怕的草药的掉落获得数增加1个【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        },
+        {
+            "name": "自我中心学生会",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身提供的生命值回复量提升15%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "可怕的草药的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "可怕的草药的掉落获得数增加2个[最大解放]【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404410/9404410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94044100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94044100.png"
+        ]
+    }
+}

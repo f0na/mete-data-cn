@@ -1,0 +1,27 @@
+{
+    "id": 9301040,
+    "name": "至无阳光映照之处",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "至无阳光映照之处",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "卫宫(暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301040/9301040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010400.png"
+        ]
+    }
+}

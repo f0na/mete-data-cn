@@ -1,0 +1,42 @@
+{
+    "id": 9406640,
+    "name": "通往星辰之路",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "通往星辰之路",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆技指令卡性能提升3%＆暴击威力提升5%"
+        },
+        {
+            "name": "摩根奖章〔银〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "摩根奖章〔银〕的掉落获得数增加1个【『迦勒底妖精骑士杯』活动限定】"
+        },
+        {
+            "name": "通往星辰之路",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆技指令卡性能提升5%＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "摩根奖章〔银〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "摩根奖章〔银〕的掉落获得数增加2个[最大解放]【『迦勒底妖精骑士杯』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406640/9406640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94066400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94066400.png"
+        ]
+    }
+}

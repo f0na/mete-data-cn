@@ -1,0 +1,27 @@
+{
+    "id": 9309060,
+    "name": "死、死、死",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "死、死、死",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 705100](狂战士)装备时,自身的宝具威力提升30%＆对〔秩序〕特性的暴击威力提升30%＆对〔善〕特性的暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309060/9309060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93090600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93090600.png"
+        ]
+    }
+}

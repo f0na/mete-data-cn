@@ -1,0 +1,42 @@
+{
+    "id": 9404930,
+    "name": "坐下",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "坐下",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆暴击威力提升5%"
+        },
+        {
+            "name": "顽皮煎饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "顽皮煎饼的掉落获得数增加1个【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        },
+        {
+            "name": "坐下",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "顽皮煎饼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "顽皮煎饼的掉落获得数增加2个[最大解放]【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404930/9404930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049300.png"
+        ]
+    }
+}

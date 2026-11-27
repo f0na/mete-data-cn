@@ -1,0 +1,42 @@
+{
+    "id": 9408350,
+    "name": "等待之人的声音",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "等待之人的声音",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆技指令卡性能提升3%＆弱化耐性提升5%"
+        },
+        {
+            "name": "低语短笺的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "低语短笺的掉落获得数增加1个【『小野小町古今抄』活动限定】"
+        },
+        {
+            "name": "等待之人的声音",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升5%＆弱化耐性提升10%[最大解放]"
+        },
+        {
+            "name": "低语短笺的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "低语短笺的掉落获得数增加2个[最大解放]【『小野小町古今抄』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408350/9408350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94083500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94083500.png"
+        ]
+    }
+}

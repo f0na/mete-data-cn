@@ -1,0 +1,17 @@
+{
+    "id": 8400240,
+    "name": "圣夜的极光",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400240a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400240.png"
+    },
+    "skills": [
+        {
+            "name": "圣夜的极光",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得4个暴击星"
+        }
+    ],
+    "comment": "「就算是圣诞节，我也不会妥协或宽容。\n　好孩子的条件有三点。\n\n　其一，要彬彬有礼地迎接圣诞老人。\n　其二，要面带笑容地慰劳圣诞老人。\n　其三，要充满感谢地欢送圣诞老人。\n\n　另外最后还有一点。\n　那就是心怀希望地，等待明年的圣诞节。\n\n　只有能遵守这些条件的人，\n　才有机会迎来降落的我与驯鹿。\n　尽管礼物是随机的，但不准抱怨。」"
+}

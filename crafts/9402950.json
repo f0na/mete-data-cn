@@ -1,0 +1,32 @@
+{
+    "id": 9402950,
+    "name": "迦勒底特别搜查班",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "迦勒底特别搜查班",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升5%＆力指令卡性能提升5%"
+        },
+        {
+            "name": "迦勒底特别搜查班",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升8%＆力指令卡性能提升8%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402950/9402950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94029500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94029500.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9302880,
+    "name": "龙与龙之剑士",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "龙与龙之剑士",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302880/9302880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93028800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93028800.png"
+        ]
+    }
+}

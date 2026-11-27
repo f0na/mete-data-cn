@@ -1,0 +1,27 @@
+{
+    "id": 9807210,
+    "name": "概念礼装经验卡：初始的咖喱",
+    "type": "SvtEquipExp",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "概念礼装经验卡：初始的咖喱",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9807210/9807210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98072100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98072100.png"
+        ]
+    }
+}

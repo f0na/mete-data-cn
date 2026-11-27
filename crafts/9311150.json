@@ -1,0 +1,27 @@
+{
+    "id": 9311150,
+    "name": "可怕的教团手册",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "可怕的教团手册",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "[servantName 1102200](复仇者)装备时,自身战败退场时,除自身以外的己方全体的宝具值充能30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9311150/9311150a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93111500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93111500.png"
+        ]
+    }
+}

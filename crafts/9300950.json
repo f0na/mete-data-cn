@@ -1,0 +1,27 @@
+{
+    "id": 9300950,
+    "name": "被隐藏的女神",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "被隐藏的女神",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "海伦娜·布拉瓦茨基(魔术师)装备,且自身在场时,为己方全体付与对〔暗匿者〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300950/9300950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93009500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93009500.png"
+        ]
+    }
+}

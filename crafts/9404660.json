@@ -1,0 +1,52 @@
+{
+    "id": 9404660,
+    "name": "死党烧烤",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "死党烧烤",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆宝具威力提升3%＆暴击威力提升3%"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加1个【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "死党烧烤",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆宝具威力提升5%＆暴击威力提升5%[最大解放]"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加2个[最大解放]【『从者·夏令营！ ～迦勒底·惊悚之夜～』活动限定】"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加1个【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        },
+        {
+            "name": "极干燥的柴火的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "极干燥的柴火的掉落获得数增加2个[最大解放]【『复刻:从者·夏令营！ ～迦勒底·惊悚之夜～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404660/9404660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94046600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94046600.png"
+        ]
+    }
+}

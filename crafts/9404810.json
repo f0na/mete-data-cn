@@ -1,0 +1,42 @@
+{
+    "id": 9404810,
+    "name": "真我色彩",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "真我色彩",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆宝具值获得量提升5%"
+        },
+        {
+            "name": "虚数触须的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "虚数触须的掉落获得数增加1个【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        },
+        {
+            "name": "真我色彩",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "虚数触须的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "虚数触须的掉落获得数增加2个[最大解放]【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404810/9404810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048100.png"
+        ]
+    }
+}

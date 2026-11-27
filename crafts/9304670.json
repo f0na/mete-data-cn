@@ -1,0 +1,27 @@
+{
+    "id": 9304670,
+    "name": "掌上楼阁",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "掌上楼阁",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 2300400](月之癌)装备时,付与自身毅力状态(1次·回复100%的生命值·可与其他毅力状态叠加)＋自身在场时,除自身以外的己方全体最大生命值减少1000【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304670/9304670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93046700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93046700.png"
+        ]
+    }
+}

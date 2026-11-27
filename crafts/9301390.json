@@ -1,0 +1,27 @@
+{
+    "id": 9301390,
+    "name": "梦幻召唤（Install）",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "梦幻召唤（Install）",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "伊莉雅丝菲尔(魔术师)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301390/9301390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93013900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93013900.png"
+        ]
+    }
+}

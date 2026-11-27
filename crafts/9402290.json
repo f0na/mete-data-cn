@@ -1,0 +1,32 @@
+{
+    "id": 9402290,
+    "name": "侦探爱德蒙～早春旅情篇～",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "侦探爱德蒙～早春旅情篇～",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡的性能提升8%"
+        },
+        {
+            "name": "侦探爱德蒙～早春旅情篇～",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402290/9402290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94022900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94022900.png"
+        ]
+    }
+}

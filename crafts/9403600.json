@@ -1,0 +1,42 @@
+{
+    "id": 9403600,
+    "name": "圣女的教示",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "圣女的教示",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升8%＆力指令卡性能提升8%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "朋友毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朋友毛巾的掉落获得数增加1个【『圣诞节2019 Holy·Samba·Night』活动限定】"
+        },
+        {
+            "name": "圣女的教示",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "朋友毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朋友毛巾的掉落获得数增加2个[最大解放]【『圣诞节2019 Holy·Samba·Night』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403600/9403600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036000.png"
+        ]
+    }
+}

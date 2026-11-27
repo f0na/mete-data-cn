@@ -1,0 +1,42 @@
+{
+    "id": 9404990,
+    "name": "花与咖啡店",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "花与咖啡店",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆迅指令卡性能提升10%"
+        },
+        {
+            "name": "梅杰玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梅杰玩偶的掉落获得数增加1个【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        },
+        {
+            "name": "花与咖啡店",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升600%＆迅指令卡性能提升15%[最大解放]"
+        },
+        {
+            "name": "梅杰玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梅杰玩偶的掉落获得数增加2个[最大解放]【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404990/9404990a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049900.png"
+        ]
+    }
+}

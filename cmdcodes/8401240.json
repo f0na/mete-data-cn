@@ -1,0 +1,17 @@
+{
+    "id": 8401240,
+    "name": "流离失所的爱之刃",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401240a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401240.png"
+    },
+    "skills": [
+        {
+            "name": "流离失所的爱之刃",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔魔性〕15%的特攻效果＆对〔拥有天或地之力的从者(拟似从者、亚从者除外)〕15%的特攻效果"
+        }
+    ],
+    "comment": "「你希望妈妈为你做什么？\n\n　如果疲劳了，妈妈会借膝盖给你当枕头。\n　好好地枕着休息吧。\n　如果想要太刀，妈妈会尽情为你挥舞。\n　无论是鬼是魔，都会当即斩于刀下给你看。\n\n　呵呵呵。\n　希望妈妈为你做哪种呢？\n　妈妈为你做什么都可以哦？」"
+}

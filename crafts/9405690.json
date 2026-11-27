@@ -1,0 +1,32 @@
+{
+    "id": 9405690,
+    "name": "庭园的守护者",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "庭园的守护者",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "庭园的守护者",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405690/9405690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94056900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94056900.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9302170,
+    "name": "英灵正装：阿马德乌斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵正装：阿马德乌斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302170/9302170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93021700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93021700.png"
+        ]
+    }
+}

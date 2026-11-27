@@ -1,0 +1,128 @@
+{
+    "id": 160,
+    "name": "第五真说要素环境用迦勒底制服",
+    "shortName": "第五环境用\n迦勒底制服",
+    "skills": [
+        {
+            "name": "同时突击",
+            "icon": "Mystic/SkillIcons/skill_00306.png",
+            "effect": "己方全体的力指令卡性能提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的力指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        2900,
+                        3000,
+                        3100,
+                        3200,
+                        3300,
+                        3500
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "三重治疗",
+            "icon": "Mystic/SkillIcons/skill_00606.png",
+            "effect": "付与己方单体每回合生命值回复的状态(3回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体每回合生命值回复的状态(3回合)",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "魔力变换",
+            "icon": "Mystic/SkillIcons/skill_00601.png",
+            "effect": "己方单体的宝具值增加＆宝具值获得量提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        2800,
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        4000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "宝具值获得量提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00161.png",
+            "female": "Mystic/Items/masterequip00162.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00161.png",
+            "female": "Mystic/Items/masterequip00162.png"
+        }
+    }
+}

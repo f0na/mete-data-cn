@@ -1,0 +1,27 @@
+{
+    "id": 9310570,
+    "name": "Fate/hollow ataraxia REMASTERED",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Fate/hollow ataraxia REMASTERED",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310570/9310570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105700.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9404610,
+    "name": "头脑风暴",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "头脑风暴",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%＆宝具使用时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "头脑风暴",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升20%＆宝具使用时充能阶段上升1级(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404610/9404610a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94046100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94046100.png"
+        ]
+    }
+}

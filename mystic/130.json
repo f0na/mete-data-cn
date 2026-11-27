@@ -1,0 +1,128 @@
+{
+    "id": 130,
+    "name": "华美的新年",
+    "shortName": "华美的新年",
+    "skills": [
+        {
+            "name": "新年初阳",
+            "icon": "Mystic/SkillIcons/skill_00302.png",
+            "effect": "己方全体的宝具威力提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的宝具威力提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        2500,
+                        2600,
+                        2700,
+                        2800,
+                        2900,
+                        3000,
+                        3100,
+                        3200,
+                        3300,
+                        3500
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "小小赠礼",
+            "icon": "Mystic/SkillIcons/skill_00601.png",
+            "effect": "己方单体的宝具值增加＋获得暴击星",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "御节料理",
+            "icon": "Mystic/SkillIcons/skill_00412.png",
+            "effect": "己方单体的最大生命值提升(1回合)",
+            "cool_down": [
+                10,
+                9,
+                8
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的最大生命值提升(1回合)",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1200,
+                        1400,
+                        1600,
+                        1800,
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00131.png",
+            "female": "Mystic/Items/masterequip00132.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00131.png",
+            "female": "Mystic/Items/masterequip00132.png"
+        }
+    }
+}

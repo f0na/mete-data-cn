@@ -1,0 +1,32 @@
+{
+    "id": 9400710,
+    "name": "死灵魔术",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "死灵魔术",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "自身生命值为0时一定概率发动毅力状态(生命值回复500)"
+        },
+        {
+            "name": "死灵魔术",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "自身生命值为0时一定概率发动毅力状态(生命值回复1000)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400710/9400710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007100.png"
+        ]
+    }
+}

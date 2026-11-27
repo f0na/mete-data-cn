@@ -1,0 +1,17 @@
+{
+    "id": 8401560,
+    "name": "车手信",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401560a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401560.png"
+    },
+    "skills": [
+        {
+            "name": "车手信",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "仅当被刻印在迅指令卡上,且使用被刻印的指令卡进行攻击时,获得3个暴击星"
+        }
+    ],
+    "comment": "因圣杯的失控产生的迷之生物——？\n但这次是名副其实驾驶着车辆狂飙。\n\n驾驶着鲜红色敞篷车，今天也在尾张岭上轰响引擎声的Nice信。不经意间展现的驾驶技术已到了赛车手级。\n\n另外，油价始终令它们非常烦恼。\n假期会和团队伙伴一起驾车去箱根信！"
+}

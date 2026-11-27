@@ -1,0 +1,32 @@
+{
+    "id": 9400620,
+    "name": "唠唠叨叨看板娘",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "唠唠叨叨看板娘",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(3回合)＆攻击力提升60%(3回合)"
+        },
+        {
+            "name": "唠唠叨叨看板娘",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(3回合)＆攻击力提升80%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400620/9400620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006200.png"
+        ]
+    }
+}

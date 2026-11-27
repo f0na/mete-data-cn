@@ -1,0 +1,17 @@
+{
+    "id": 8400780,
+    "name": "不识爱的悲哀之龙",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400780a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400780.png"
+    },
+    "skills": [
+        {
+            "name": "不识爱的悲哀之龙",
+            "icon": "Cmdcodes/SkillIcons/skill_00510.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体毒状态(300伤害·3回合)＋被刻印的指令卡暴击威力提升5%"
+        }
+    ],
+    "comment": "传说曾栖息于某条河川边，\n拥有甲壳与六条腿的怪物。\n虽化身口吐烈火吞噬人类的暴虐俘虏，\n但据说这一切皆是为了寻求母爱。\n\n但最终被某位圣女的爱说服了。爱，是很重要的。"
+}

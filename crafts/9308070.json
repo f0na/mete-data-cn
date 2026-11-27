@@ -1,0 +1,27 @@
+{
+    "id": 9308070,
+    "name": "白刀大小",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "白刀大小",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 505400](魔术师)装备,且自身在场时,己方全体的技指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308070/9308070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93080700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93080700.png"
+        ]
+    }
+}

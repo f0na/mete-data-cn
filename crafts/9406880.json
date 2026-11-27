@@ -1,0 +1,52 @@
+{
+    "id": 9406880,
+    "name": "证明与反证",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "证明与反证",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升6%＆力指令卡性能提升6%＆使用宝具时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升20%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "证明与反证",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆使用宝具时充能阶段上升1级(1次)[最大解放]"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升40%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406880/9406880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068800.png"
+        ]
+    }
+}

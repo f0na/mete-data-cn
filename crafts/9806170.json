@@ -1,0 +1,27 @@
+{
+    "id": 9806170,
+    "name": "概念礼装经验卡：BB注射！",
+    "type": "SvtEquipExp",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "概念礼装经验卡：BB注射！",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9806170/9806170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98061700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98061700.png"
+        ]
+    }
+}

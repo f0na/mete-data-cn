@@ -1,0 +1,17 @@
+{
+    "id": 8401000,
+    "name": "幻象的铁处女",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401000a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401000.png"
+    },
+    "skills": [
+        {
+            "name": "幻象的铁处女",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔女性〕15%的特攻效果"
+        }
+    ],
+    "comment": "据说鲜血少女使用过的圣母形象的拷问器具。\n\n传说中是以保持自己的美貌为目的，\n为榨取纯洁少女的鲜血而制作的，\n但经过了长年的调查，\n通常认为其并不存在。\n\n不惜变得无比残忍，\n都执着于自己保持美貌之人的罪业——作为其象征。"
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401760,
+    "name": "虞大人人偶",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401760a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401760.png"
+    },
+    "skills": [
+        {
+            "name": "虞大人人偶",
+            "icon": "Cmdcodes/SkillIcons/skill_00527.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体诅咒状态（300伤害·3回合）＋自身的生命值回复100"
+        }
+    ],
+    "comment": "曾侍奉秦国的道士（方士）珍爱的玩偶。\n\n是以被她赞美为『可爱、优雅、绽放于荒野的花朵』的\n永恒崇拜对象为原型制作的。\n\n另外不只是玩偶，还存在背包或零钱包等\n各式各样的款式。\n\n当然，这全都是她倾尽全力亲手制作的。"
+}

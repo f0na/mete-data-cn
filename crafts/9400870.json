@@ -1,0 +1,32 @@
+{
+    "id": 9400870,
+    "name": "魔力计",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "魔力计",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔术师〕职阶8%的特攻状态"
+        },
+        {
+            "name": "魔力计",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔术师〕职阶10%的特攻状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400870/9400870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94008700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94008700.png"
+        ]
+    }
+}

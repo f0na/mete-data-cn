@@ -1,0 +1,27 @@
+{
+    "id": 9808000,
+    "name": "概念礼装经验卡：谜之兰丸X飞来！",
+    "type": "SvtEquipExp",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "概念礼装经验卡：谜之兰丸X飞来！",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9808000/9808000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98080000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98080000.png"
+        ]
+    }
+}

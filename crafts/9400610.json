@@ -1,0 +1,32 @@
+{
+    "id": 9400610,
+    "name": "唠叨哦",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "唠叨哦",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身的暴击威力提升15%＆宝具威力提升15%"
+        },
+        {
+            "name": "唠叨哦",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身的暴击威力提升20%＆宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400610/9400610a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006100.png"
+        ]
+    }
+}

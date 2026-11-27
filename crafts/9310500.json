@@ -1,0 +1,27 @@
+{
+    "id": 9310500,
+    "name": "海滨与青春的幻影",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "海滨与青春的幻影",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "[servantName 205400](弓兵)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆付与每回合获得宝具值3%的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310500/9310500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93105000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93105000.png"
+        ]
+    }
+}

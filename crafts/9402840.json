@@ -1,0 +1,32 @@
+{
+    "id": 9402840,
+    "name": "阿瓦隆庆典",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "阿瓦隆庆典",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆宝具值获得量提升10%"
+        },
+        {
+            "name": "阿瓦隆庆典",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆宝具值获得量提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402840/9402840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94028400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94028400.png"
+        ]
+    }
+}

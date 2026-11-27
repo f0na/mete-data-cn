@@ -1,0 +1,32 @@
+{
+    "id": 9400190,
+    "name": "魔术矿石",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "魔术矿石",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%"
+        },
+        {
+            "name": "魔术矿石",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400190/9400190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001900.png"
+        ]
+    }
+}

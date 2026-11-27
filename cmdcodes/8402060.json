@@ -1,0 +1,17 @@
+{
+    "id": 8402060,
+    "name": "极北女王之杖",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402060a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402060.png"
+    },
+    "skills": [
+        {
+            "name": "极北女王之杖",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的宝具威力提升状态＋被刻印的指令卡的暴击威力提升10%"
+        }
+    ],
+    "comment": "改变了灵基、化身夏日女神的女王持有的杖子。\n\n平时会用其将敌人冻得硬邦邦的，\n或是向身边的鱼下达指令。\n\n但传言说，\n她私底下会偷偷用这个制作冰淇淋……"
+}

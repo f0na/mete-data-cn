@@ -1,0 +1,27 @@
+{
+    "id": 9307300,
+    "name": "浮现眼帘",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "浮现眼帘",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 604900](暗匿者)装备,且自身在场时,付与己方全体对〔束缚〕状态30%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307300/9307300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073000.png"
+        ]
+    }
+}

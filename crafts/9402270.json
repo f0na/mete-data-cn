@@ -1,0 +1,32 @@
+{
+    "id": 9402270,
+    "name": "自由业者",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "自由业者",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身迅指令卡暴击威力提升25%"
+        },
+        {
+            "name": "自由业者",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身迅指令卡暴击威力提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402270/9402270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94022700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94022700.png"
+        ]
+    }
+}

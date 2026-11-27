@@ -1,0 +1,32 @@
+{
+    "id": 9401950,
+    "name": "白蔷薇姬",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "白蔷薇姬",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "白蔷薇姬",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆宝具值已达20%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401950/9401950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94019500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94019500.png"
+        ]
+    }
+}

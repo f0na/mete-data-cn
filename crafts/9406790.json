@@ -1,0 +1,32 @@
+{
+    "id": 9406790,
+    "name": "兔人的诅咒",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "兔人的诅咒",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2024"
+        },
+        {
+            "name": "兔人的诅咒",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2024＋自身的宝具威力提升2.3%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406790/9406790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94067900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94067900.png"
+        ]
+    }
+}

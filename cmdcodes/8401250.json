@@ -1,0 +1,17 @@
+{
+    "id": 8401250,
+    "name": "晚安，维",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401250a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401250.png"
+    },
+    "skills": [
+        {
+            "name": "晚安，维",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的暴击率提升状态＆解除成功时,对技攻击的防御力减少10%(3回合)"
+        }
+    ],
+    "comment": "反复无常、不可思议，\n也是普通人类绝对看不见的「某种存在」。\n附在历代沙皇身上的「不可思议的东西」。\n\n那只妖精，或是精灵，在某位皇女临终之际，\n静静地依偎在她的身旁。\n\n就像哪怕永恒的黑夜降临，\n也要维系住她的生命似的。"
+}

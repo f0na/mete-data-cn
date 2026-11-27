@@ -1,0 +1,32 @@
+{
+    "id": 9404230,
+    "name": "祈祷救济之人",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "祈祷救济之人",
+            "icon": "Craft/SkillIcons/skill_00313.png",
+            "effect": "自身使用宝具时充能阶段上升2级(3次)"
+        },
+        {
+            "name": "祈祷救济之人",
+            "icon": "Craft/SkillIcons/skill_00313.png",
+            "effect": "自身使用宝具时充能阶段上升2级(4次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404230/9404230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042300.png"
+        ]
+    }
+}

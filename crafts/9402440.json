@@ -1,0 +1,42 @@
+{
+    "id": 9402440,
+    "name": "月之海的学生会",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "月之海的学生会",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%"
+        },
+        {
+            "name": "变形者系敌人追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "变形者系敌人的追加出现率提升20%【『Fate/EXTRA CCC 特别活动』活动限定】"
+        },
+        {
+            "name": "月之海的学生会",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升15%＆自身的力指令卡性能提升15%[最大解放]"
+        },
+        {
+            "name": "变形者系敌人追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "变形者系敌人的追加出现率提升50%[最大解放]【『Fate/EXTRA CCC 特别活动』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402440/9402440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94024400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94024400.png"
+        ]
+    }
+}

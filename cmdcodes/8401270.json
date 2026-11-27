@@ -1,0 +1,17 @@
+{
+    "id": 8401270,
+    "name": "雪原的婴儿",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401270a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401270.png"
+    },
+    "skills": [
+        {
+            "name": "雪原的婴儿",
+            "icon": "Cmdcodes/SkillIcons/skill_00608.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个自身的弱化状态＆生命值回复250"
+        }
+    ],
+    "comment": "「唔～。\n　这个，还真有趣呢。\n　成了从者后，也会做这种事哦。\n\n　北之传承、雪之秘密、冬之女神。\n　让你见识一下三位神灵的力量吧。\n　因为我是姐姐嘛。\n　温和、严厉、美丽的战斗～！」"
+}

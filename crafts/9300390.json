@@ -1,0 +1,27 @@
+{
+    "id": 9300390,
+    "name": "曾经的辉煌",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "曾经的辉煌",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "萨奇(骑兵)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300390/9300390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93003900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93003900.png"
+        ]
+    }
+}

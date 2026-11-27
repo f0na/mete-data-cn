@@ -1,0 +1,99 @@
+{
+    "id": 30,
+    "name": "魔术礼装·魔术协会制服",
+    "shortName": "魔术协会制服",
+    "skills": [
+        {
+            "name": "全体回复",
+            "icon": "Mystic/SkillIcons/skill_00600.png",
+            "effect": "己方全体的生命值回复",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的生命值回复",
+                    "kind": "Int",
+                    "values": [
+                        800,
+                        1000,
+                        1200,
+                        1400,
+                        1600,
+                        1800,
+                        2000,
+                        2200,
+                        2400,
+                        2800
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "灵子转让",
+            "icon": "Mystic/SkillIcons/skill_00601.png",
+            "effect": "己方单体的宝具值增加",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "洗牌",
+            "icon": "Mystic/SkillIcons/skill_00703.png",
+            "effect": "重新抽取指令卡",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "Other",
+            "effects": [
+                {
+                    "effect": "重新抽取指令卡",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "Other"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00031.png",
+            "female": "Mystic/Items/masterequip00032.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00031.png",
+            "female": "Mystic/Items/masterequip00032.png"
+        }
+    }
+}

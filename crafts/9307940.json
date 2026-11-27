@@ -1,0 +1,27 @@
+{
+    "id": 9307940,
+    "name": "旺吉娜头盔",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "旺吉娜头盔",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 2501300](降临者)装备,且自身在场时,己方全体的宝具威力提升15%＋除自身以外〔拥有人之力的己方〕全体宝具威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307940/9307940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079400.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401110,
+    "name": "斩首兔女郎2016",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "斩首兔女郎2016",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通效果＆迅指令卡性能提升8%"
+        },
+        {
+            "name": "斩首兔女郎2016",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通效果＆迅指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401110/9401110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011100.png"
+        ]
+    }
+}

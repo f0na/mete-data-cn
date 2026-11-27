@@ -1,0 +1,27 @@
+{
+    "id": 9303460,
+    "name": "未读完的书",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "未读完的书",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "[servantName 603500](暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303460/9303460a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93034600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93034600.png"
+        ]
+    }
+}

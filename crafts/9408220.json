@@ -1,0 +1,32 @@
+{
+    "id": 9408220,
+    "name": "秘密任务",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "秘密任务",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔骑兵〕职阶的牵绊点数增加4%"
+        },
+        {
+            "name": "秘密任务",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔骑兵〕职阶的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408220/9408220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94082200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94082200.png"
+        ]
+    }
+}

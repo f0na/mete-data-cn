@@ -1,0 +1,17 @@
+{
+    "id": 8401970,
+    "name": "天使之剑",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401970a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401970.png"
+    },
+    "skills": [
+        {
+            "name": "天使之剑",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得2个暴击星＋被刻印的指令卡的宝具值获得量提升5%"
+        }
+    ],
+    "comment": "剑锋被磨平，以防御为主体的剑。\n由某位诗人哲学家的男子持有。\n传说曾为天使所有，也有说法称这把剑在男子的额头上刻下了文字。\n\n「呵呵……要玩誓约胜利之剑游戏吗……？」"
+}

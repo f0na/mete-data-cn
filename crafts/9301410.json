@@ -1,0 +1,27 @@
+{
+    "id": 9301410,
+    "name": "神圣拳套",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神圣拳套",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "玛尔达(裁定者)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301410/9301410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93014100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93014100.png"
+        ]
+    }
+}

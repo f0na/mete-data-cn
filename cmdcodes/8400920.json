@@ -1,0 +1,17 @@
+{
+    "id": 8400920,
+    "name": "妖兽的符咒",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400920a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400920.png"
+    },
+    "skills": [
+        {
+            "name": "妖兽的符咒",
+            "icon": "Cmdcodes/SkillIcons/skill_00527.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体诅咒状态(300伤害·3回合)＋获得1个暴击星"
+        }
+    ],
+    "comment": "生活于平安时代的毒辣阴阳师所用的式符。\n不仅可以诅咒对象，\n还能生成并使役自己的分身。"
+}

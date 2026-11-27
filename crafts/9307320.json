@@ -1,0 +1,27 @@
+{
+    "id": 9307320,
+    "name": "牛牧的菜刀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "牛牧的菜刀",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "[servantName 305400](枪兵)装备时,自身的宝具威力提升30%＋自身登场时获得20个暴击星(1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307320/9307320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073200.png"
+        ]
+    }
+}

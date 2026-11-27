@@ -1,0 +1,32 @@
+{
+    "id": 9400850,
+    "name": "化为红莲的影之国",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "化为红莲的影之国",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加状态(每回合效果提升·最大＋1000)"
+        },
+        {
+            "name": "化为红莲的影之国",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加状态(每回合效果提升·最大＋1200)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400850/9400850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94008500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94008500.png"
+        ]
+    }
+}

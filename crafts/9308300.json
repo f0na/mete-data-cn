@@ -1,0 +1,27 @@
+{
+    "id": 9308300,
+    "name": "月虹",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "月虹",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "[servantName 2300900](月之癌)装备时,自身的宝具威力提升30%＆付与每回合获得宝具值5%的状态＆每回合回复500生命值的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308300/9308300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93083000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93083000.png"
+        ]
+    }
+}

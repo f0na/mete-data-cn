@@ -1,0 +1,27 @@
+{
+    "id": 9300850,
+    "name": "红色夹克衫",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "红色夹克衫",
+            "icon": "Craft/SkillIcons/skill_00522.png",
+            "effect": "两仪式(暗匿者)装备,且自身在场时,己方全体的即死付与成功率提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300850/9300850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93008500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93008500.png"
+        ]
+    }
+}

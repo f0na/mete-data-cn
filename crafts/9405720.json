@@ -1,0 +1,42 @@
+{
+    "id": 9405720,
+    "name": "一阳来复",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "一阳来复",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升3%＆宝具值获得量提升5%＆宝具使用时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "一阳来复",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升5%＆宝具值获得量提升10%＆宝具使用时充能阶段上升1级(1次)[最大解放]"
+        },
+        {
+            "name": "攻击威力提升＆牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身在『通古斯卡·圣域』的主线关卡以及团体战关卡中的攻击威力提升50%＋己方全体<包括替补>在『通古斯卡·圣域』的主线关卡以及团体战关卡通关时获得的牵绊点数增加20%【『通古斯卡·圣域』活动限定】"
+        },
+        {
+            "name": "攻击威力提升＆牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "自身在『通古斯卡·圣域』的主线关卡以及团体战关卡中的攻击威力提升65%＋己方全体<包括替补>在『通古斯卡·圣域』的主线关卡以及团体战关卡通关时获得的牵绊点数增加25%[最大解放]【『通古斯卡·圣域』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405720/9405720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94057200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94057200.png"
+        ]
+    }
+}

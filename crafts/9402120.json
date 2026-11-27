@@ -1,0 +1,32 @@
+{
+    "id": 9402120,
+    "name": "奇迹求道者",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "奇迹求道者",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "当拥有〔神性〕特性的从者装备时,宝具威力提升15%"
+        },
+        {
+            "name": "奇迹求道者",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "当拥有〔神性〕特性的从者装备时,宝具威力提升25%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402120/9402120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021200.png"
+        ]
+    }
+}

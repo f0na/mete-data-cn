@@ -1,0 +1,17 @@
+{
+    "id": 8400430,
+    "name": "石鸟的纹章",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400430a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400430.png"
+    },
+    "skills": [
+        {
+            "name": "石鸟的纹章",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,己方全体的暴击威力提升5%(1次·1回合)"
+        }
+    ],
+    "comment": "拥有不屈之精神、不放弃之心，以及不灰心之灵魂的\n某个名门魔术师一族的纹章。\n\n尽管这个家系身为魔术师的发展已经出现了衰落的迹象，\n但他们培养的“除此以外的牵绊”\n或许终有一天能让石之鸟化为火焰。"
+}

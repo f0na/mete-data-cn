@@ -1,0 +1,27 @@
+{
+    "id": 9303750,
+    "name": "无劫的彼方",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无劫的彼方",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 1100700](复仇者)装备,且自身在场时,己方全体的力指令卡性能提升15%＆宝具威力提升10%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303750/9303750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93037500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93037500.png"
+        ]
+    }
+}

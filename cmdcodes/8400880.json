@@ -1,0 +1,17 @@
+{
+    "id": 8400880,
+    "name": "优雅典雅的怪盗帽",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400880a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400880.png"
+    },
+    "skills": [
+        {
+            "name": "优雅典雅的怪盗帽",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方的宝具威力提升状态＆解除成功时,对力攻击的防御力减少10%(3回合)"
+        }
+    ],
+    "comment": "渴望救济众生的青年，为救出某件东西而扮装时使用的怪盗服装中的帽子。\n\n据说不单纯是扮装道具，而是实际具备正常灵衣的功能。\n\n「因为规矩是很重要的嘛。」"
+}

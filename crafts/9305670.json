@@ -1,0 +1,27 @@
+{
+    "id": 9305670,
+    "name": "献给你的幻想",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "献给你的幻想",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 504800](魔术师)装备,且自身在场时,付与己方全体对〔技能封印〕状态30%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305670/9305670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056700.png"
+        ]
+    }
+}

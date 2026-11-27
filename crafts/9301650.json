@@ -1,0 +1,27 @@
+{
+    "id": 9301650,
+    "name": "誓言的羽织",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "誓言的羽织",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 702500](狂战士)装备时,付与自身毅力状态(生命值回复1·1次)＆暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301650/9301650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93016500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93016500.png"
+        ]
+    }
+}

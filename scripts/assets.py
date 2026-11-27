@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Mirror servant image assets using an explicit local-path -> source-URL map.
+"""Mirror game image assets using an explicit local-path -> source-URL map.
 
 Images are NOT committed to the repository.  They are downloaded into
-`assets/` (gitignored) and packed into the separate resource archive by
+`assets/` (gitignored) and packed into one resource archive per dataset by
 scripts/build.py.  JSON stores paths relative to `assets/`:
 
     "assets": {"chara_graph": "Servant/CharaGraph/100100/100100a@1.png"}
+
+Asset roots by dataset: `Servant/` + `SkillIcons/` (servants), `Craft/`,
+`Mystic/`, `Cmdcodes/`.
 
 `asset_sources.json` is the authoritative list of where each local asset came
 from.  Downloads only use that map; nothing is inferred from the local path.
@@ -30,12 +33,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SERVANTS_DIR = ROOT / "servants"
+DATA_DIRS = {
+    "servants": SERVANTS_DIR,
+    "crafts": ROOT / "crafts",
+    "mystic": ROOT / "mystic",
+    "cmdcodes": ROOT / "cmdcodes",
+}
 ASSETS_DIR = ROOT / "assets"
 SOURCES_PATH = ROOT / "asset_sources.json"
 
 ATLAS_BASE = "https://static.atlasacademy.io"
 MOONCELL_BASE = "https://media.fgo.wiki"
-LOCAL_ROOTS = ("Servant/", "SkillIcons/")
+LOCAL_ROOTS = ("Servant/", "SkillIcons/", "Craft/", "Mystic/", "Cmdcodes/")
 LEGACY_ROOTS = ("CN/", "fgo.wiki/")
 ASSET_HOSTS = ("static.atlasacademy.io", "media.fgo.wiki")
 
@@ -339,11 +348,23 @@ def main() -> int:
     parser.add_argument("--jobs", type=int, default=16, help="parallel downloads")
     parser.add_argument("--check", action="store_true", help="verify only; do not download")
     parser.add_argument("--sources", type=Path, default=SOURCES_PATH, help="source map path")
+    parser.add_argument(
+        "--dataset",
+        choices=sorted(DATA_DIRS),
+        action="append",
+        help="only process this dataset (repeatable; default: all)",
+    )
     args = parser.parse_args()
 
-    files = sorted(SERVANTS_DIR.glob("*.json"))
+    datasets = args.dataset or sorted(DATA_DIRS)
+    files: list[Path] = []
+    for name in datasets:
+        directory = DATA_DIRS[name]
+        if not directory.is_dir():
+            continue
+        files.extend(sorted(directory.glob("*.json")))
     if not files:
-        fail(f"no servant files found in {SERVANTS_DIR}")
+        fail(f"no data files found in {', '.join(str(DATA_DIRS[name]) for name in datasets)}")
 
     sources = AssetSources.load(args.sources)
     refs: list[str] = []

@@ -1,0 +1,32 @@
+{
+    "id": 9401620,
+    "name": "宝石剑泽尔里奇",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "宝石剑泽尔里奇",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升5%＆以宝具值已达25%的状态开始战斗"
+        },
+        {
+            "name": "宝石剑泽尔里奇",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升10%＆以宝具值已达40%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401620/9401620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016200.png"
+        ]
+    }
+}

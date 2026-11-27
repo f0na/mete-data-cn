@@ -1,0 +1,32 @@
+{
+    "id": 9405190,
+    "name": "宝石的魔弹",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "宝石的魔弹",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "宝石的魔弹",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405190/9405190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051900.png"
+        ]
+    }
+}

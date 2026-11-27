@@ -1,0 +1,27 @@
+{
+    "id": 9300740,
+    "name": "最后之战",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "最后之战",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "贝奥武夫(狂战士)装备,且自身在场时,为己方全体付与对〔龙〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300740/9300740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93007400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93007400.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401880,
+    "name": "星辰拐杖糖",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401880a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401880.png"
+    },
+    "skills": [
+        {
+            "name": "星辰拐杖糖",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡的暴击星集中度提升75%＋当使用被刻印的指令卡进行攻击时,获得1个暴击星"
+        }
+    ],
+    "comment": "西方的大王，持有星之纹章的剑姬\n于神圣之夜获得的拐杖糖。\n军神之剑受到了觉醒成圣诞老人的持有者影响，\n改变了自己外形的产物。\n\n据说被这把杖轻轻敲打之人，\n会被赐予美好的祝福与恩惠。"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9402470,
+    "name": "瓦砾的圣堂",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "瓦砾的圣堂",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕15%的特防状态"
+        },
+        {
+            "name": "瓦砾的圣堂",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕20%的特防状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402470/9402470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94024700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94024700.png"
+        ]
+    }
+}

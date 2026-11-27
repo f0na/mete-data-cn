@@ -1,0 +1,27 @@
+{
+    "id": 9303350,
+    "name": "日积月累的时间结晶",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "日积月累的时间结晶",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 703100](狂战士)装备,且自身在场时,己方全体的力指令卡性能提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303350/9303350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93033500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93033500.png"
+        ]
+    }
+}

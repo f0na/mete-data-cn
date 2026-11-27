@@ -1,0 +1,27 @@
+{
+    "id": 9301010,
+    "name": "焰刑地狱",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "焰刑地狱",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "贞德〔Alter〕(复仇者)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301010/9301010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010100.png"
+        ]
+    }
+}

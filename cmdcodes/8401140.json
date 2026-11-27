@@ -1,0 +1,17 @@
+{
+    "id": 8401140,
+    "name": "终焉的大木马",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401140a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401140.png"
+    },
+    "skills": [
+        {
+            "name": "终焉的大木马",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得2个暴击星＋解除1个敌方单体的攻击力提升状态"
+        }
+    ],
+    "comment": "于某长篇叙事诗中记载的发生在古代都市的大战中，\n善于智谋的将领使用的大型坐骑。\n\n全身覆盖着令人联想到战略女神加护的神钢装甲，\n甚至可以变化成酷似巨人的歼灭形态。\n\n它用其威力证明了——自己能够压制激烈大战的原因。"
+}

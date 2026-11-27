@@ -1,0 +1,32 @@
+{
+    "id": 9400740,
+    "name": "2016年的平稳",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "2016年的平稳",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复200状态＆攻击力降低10%【负面效果】"
+        },
+        {
+            "name": "2016年的平稳",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复300状态[最大解放]＆攻击力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400740/9400740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007400.png"
+        ]
+    }
+}

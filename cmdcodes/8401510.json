@@ -1,0 +1,17 @@
+{
+    "id": 8401510,
+    "name": "君临尽头的大王",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401510a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401510.png"
+    },
+    "skills": [
+        {
+            "name": "君临尽头的大王",
+            "icon": "Cmdcodes/SkillIcons/skill_00306.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,己方全体的力指令卡性能提升10%(1次·1回合)"
+        }
+    ],
+    "comment": "「你是否怀有野心？\n　若有，则展示出这种欲望吧。\n　既然率领着众多英灵，就更不用说了。\n　若非如此，人民与臣下是绝不会追随你的！\n\n　来吧，身披沙尘，开辟霸道吧！\n　向着大海，高唱凯歌吧！\n　ＡＡＡＡＬａＬａＬａＬａＬａｉｅ！！」"
+}

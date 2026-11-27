@@ -1,0 +1,27 @@
+{
+    "id": 9310960,
+    "name": "诚之旗",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "诚之旗",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "[servantName 106400](剑士)装备,且自身在场时,己方全体〔新选组〕的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%＆暴击威力提升5%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310960/9310960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93109600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93109600.png"
+        ]
+    }
+}

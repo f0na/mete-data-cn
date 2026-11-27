@@ -1,0 +1,32 @@
+{
+    "id": 9400670,
+    "name": "圣者的行进",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "圣者的行进",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复200的状态＆每回合宝具值增加3%的状态"
+        },
+        {
+            "name": "圣者的行进",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复300的状态＆每回合宝具值增加4%的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400670/9400670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006700.png"
+        ]
+    }
+}

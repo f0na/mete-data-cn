@@ -1,0 +1,52 @@
+{
+    "id": 9404310,
+    "name": "治愈水疗",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "治愈水疗",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升10%＆付与每回合获得宝具值2%的状态＆每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "自身在『救援！ Amazones.com』关卡通关时获得的牵绊点数增加100%(作为助战时无效)【『救援！ Amazones.com』活动限定】"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "玛修·基列莱特(盾兵)装备时,己方全体<包括替补>在『救援！ Amazones.com』关卡通关时获得的牵绊点数增加20%(作为助战时无效)【『救援！ Amazones.com』活动限定】"
+        },
+        {
+            "name": "治愈水疗",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆付与每回合获得宝具值3%的状态＆每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "自身在『救援！ Amazones.com』关卡通关时获得的牵绊点数增加200%(作为助战时无效)[最大解放]【『救援！ Amazones.com』活动限定】"
+        },
+        {
+            "name": "牵绊获得量提升",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "玛修·基列莱特(盾兵)装备时,己方全体<包括替补>在『救援！ Amazones.com』关卡通关时获得的牵绊点数增加40%(作为助战时无效)[最大解放]【『救援！ Amazones.com』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404310/9404310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94043100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94043100.png"
+        ]
+    }
+}

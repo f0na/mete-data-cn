@@ -1,0 +1,52 @@
+{
+    "id": 9403950,
+    "name": "饿着肚子没法打仗",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "饿着肚子没法打仗",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨最终本能寺2020』中的攻击威力提升100%【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "饿着肚子没法打仗",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升15%＆技指令卡性能提升15%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『唠唠叨叨最终本能寺2020』中的攻击威力提升200%[最大解放]【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:唠唠叨叨最终本能寺2020 轻量版』中的攻击威力提升100%【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:唠唠叨叨最终本能寺2020 轻量版』中的攻击威力提升200%[最大解放]【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403950/9403950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039500.png"
+        ]
+    }
+}

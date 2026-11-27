@@ -1,0 +1,27 @@
+{
+    "id": 9307240,
+    "name": "Run Alter Run！",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 640,
+    "hp": 1024,
+    "skills": [
+        {
+            "name": "Run Alter Run！",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307240/9307240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93072400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93072400.png"
+        ]
+    }
+}

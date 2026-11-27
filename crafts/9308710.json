@@ -1,0 +1,27 @@
+{
+    "id": 9308710,
+    "name": "英灵博装：玛丽·安托瓦内特",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵博装：玛丽·安托瓦内特",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308710/9308710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93087100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93087100.png"
+        ]
+    }
+}

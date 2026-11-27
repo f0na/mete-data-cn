@@ -1,0 +1,42 @@
+{
+    "id": 9402730,
+    "name": "魅影之夜",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "魅影之夜",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "导弹苏打糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "导弹苏打糖的掉落获得数增加1个【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        },
+        {
+            "name": "魅影之夜",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "导弹苏打糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "导弹苏打糖的掉落获得数增加2个[最大解放]【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402730/9402730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027300.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401090,
+    "name": "搭档戒指〔GOLD〕",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401090a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401090.png"
+    },
+    "skills": [
+        {
+            "name": "搭档戒指〔GOLD〕",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得1个暴击星＋自身的弱化耐性提升10%(1回合)"
+        }
+    ],
+    "comment": "迦勒底谨制的金戒指。\n象征着平日里的感谢与牵绊。"
+}

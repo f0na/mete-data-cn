@@ -1,0 +1,27 @@
+{
+    "id": 9307430,
+    "name": "英灵催装：阿斯克勒庇俄斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵催装：阿斯克勒庇俄斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307430/9307430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93074300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93074300.png"
+        ]
+    }
+}

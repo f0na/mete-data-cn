@@ -1,0 +1,27 @@
+{
+    "id": 9301450,
+    "name": "万圣邀请函",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "万圣邀请函",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "伊丽莎白·巴托里〔勇者〕(剑士)装备,且自身在场时,己方全体的力指令卡性能提升20%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301450/9301450a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93014500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93014500.png"
+        ]
+    }
+}

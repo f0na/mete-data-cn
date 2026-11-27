@@ -1,0 +1,42 @@
+{
+    "id": 9406560,
+    "name": "舞在芙蓉",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "舞在芙蓉",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆力指令卡性能提升8%＆暴击威力提升15%"
+        },
+        {
+            "name": "〔军务〕的获得进行度提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "关卡通关时〔军务〕的获得进行度提升10%【『108人的万圣节·叛乱！』活动限定】"
+        },
+        {
+            "name": "舞在芙蓉",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆力指令卡性能提升10%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "〔军务〕的获得进行度提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "关卡通关时〔军务〕的获得进行度提升20%[最大解放]【『108人的万圣节·叛乱！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406560/9406560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065600.png"
+        ]
+    }
+}

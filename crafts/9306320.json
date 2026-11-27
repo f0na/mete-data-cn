@@ -1,0 +1,27 @@
+{
+    "id": 9306320,
+    "name": "受托之物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "受托之物",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "[servantName 2800200](身披角色者)装备时,自身的宝具威力提升30%＋自身战败退场时除自身以外的己方全体宝具值充能10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306320/9306320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063200.png"
+        ]
+    }
+}

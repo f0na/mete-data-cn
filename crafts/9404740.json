@@ -1,0 +1,52 @@
+{
+    "id": 9404740,
+    "name": "巫女姬的片刻闲暇",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "巫女姬的片刻闲暇",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升10%＆力指令卡的暴击威力提升15%＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『超古代新选组列传 唠唠叨叨邪马台国2021』中的攻击威力提升100%【『超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "巫女姬的片刻闲暇",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升15%＆力指令卡的暴击威力提升20%＆宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『超古代新选组列传 唠唠叨叨邪马台国2021』中的攻击威力提升200%[最大解放]【『超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』中的攻击威力提升100%【『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』中的攻击威力提升200%[最大解放]【『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404740/9404740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94047400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94047400.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301580,
+    "name": "幽谷之渊",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "幽谷之渊",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "“山中老人”(暗匿者)装备时,自身弱化耐性提升100%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301580/9301580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015800.png"
+        ]
+    }
+}

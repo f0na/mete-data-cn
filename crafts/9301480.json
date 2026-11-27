@@ -1,0 +1,27 @@
+{
+    "id": 9301480,
+    "name": "胡姆巴巴之花",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "胡姆巴巴之花",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "恩奇都(枪兵)装备,且自身在场时,己方全体每回合回复500生命值"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301480/9301480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93014800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93014800.png"
+        ]
+    }
+}

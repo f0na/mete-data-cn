@@ -1,0 +1,42 @@
+{
+    "id": 9401870,
+    "name": "ZUNGA ZUNGA！",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "ZUNGA ZUNGA！",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆生命值回复量提升5%"
+        },
+        {
+            "name": "高级布丁的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级布丁的掉落获得数增加1个【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "ZUNGA ZUNGA！",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆生命值回复量提升10%[最大解放]"
+        },
+        {
+            "name": "高级布丁的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "高级布丁的掉落获得数增加2个[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401870/9401870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018700.png"
+        ]
+    }
+}

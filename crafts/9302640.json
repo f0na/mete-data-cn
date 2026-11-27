@@ -1,0 +1,27 @@
+{
+    "id": 9302640,
+    "name": "伊吕波歌留多",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2019,
+    "skills": [
+        {
+            "name": "伊吕波歌留多",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值1%的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302640/9302640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93026400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93026400.png"
+        ]
+    }
+}

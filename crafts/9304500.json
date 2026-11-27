@@ -1,0 +1,27 @@
+{
+    "id": 9304500,
+    "name": "紫玉之笛",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "紫玉之笛",
+            "icon": "Craft/SkillIcons/skill_00511.png",
+            "effect": "[servantName 2500400](降临者)装备时,自身的宝具威力提升30%＆攻击时付与敌方单体延烧状态(灼伤效果量提升20%的状态)(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304500/9304500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045000.png"
+        ]
+    }
+}

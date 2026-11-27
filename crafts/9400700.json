@@ -1,0 +1,32 @@
+{
+    "id": 9400700,
+    "name": "时钟塔",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "时钟塔",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加2%的状态"
+        },
+        {
+            "name": "时钟塔",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加3%的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400700/9400700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007000.png"
+        ]
+    }
+}

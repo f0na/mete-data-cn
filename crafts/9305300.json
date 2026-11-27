@@ -1,0 +1,27 @@
+{
+    "id": 9305300,
+    "name": "终与始的故事",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "终与始的故事",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 104700](剑士)装备,且自身在场时,付与己方全体对〔魔性〕15%的特攻状态＆对〔鬼〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305300/9305300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93053000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93053000.png"
+        ]
+    }
+}

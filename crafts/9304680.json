@@ -1,0 +1,27 @@
+{
+    "id": 9304680,
+    "name": "喷溅☆彩虹！",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "喷溅☆彩虹！",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "[servantName 204200](弓兵)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304680/9304680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93046800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93046800.png"
+        ]
+    }
+}

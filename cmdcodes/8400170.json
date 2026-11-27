@@ -1,0 +1,17 @@
+{
+    "id": 8400170,
+    "name": "天之楔",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400170a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400170.png"
+    },
+    "skills": [
+        {
+            "name": "天之楔",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔从者〕20%的特攻效果[特攻对拥有特别星之力的从者无效]"
+        }
+    ],
+    "comment": "「刻印乃是展示力量方式之物。\n　以本王为纹样是理所当然的选择。\n　充分发挥这份力量吧……！」"
+}

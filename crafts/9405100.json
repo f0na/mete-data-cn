@@ -1,0 +1,42 @@
+{
+    "id": 9405100,
+    "name": "好吃？",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "好吃？",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升3%＆宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "仅当★3(R)或以下从者装备时，攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『秋叶原·爆裂！』中,仅当★3(R)或以下从者或玛修装备时,自身的攻击威力提升30%【『秋叶原·爆裂！』活动限定】"
+        },
+        {
+            "name": "好吃？",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升5%＆宝具值已达20%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "仅当★3(R)或以下从者装备时，攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『秋叶原·爆裂！』中,仅当★3(R)或以下从者或玛修装备时,自身的攻击威力提升60%[最大解放]【『秋叶原·爆裂！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405100/9405100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051000.png"
+        ]
+    }
+}

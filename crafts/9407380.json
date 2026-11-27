@@ -1,0 +1,42 @@
+{
+    "id": 9407380,
+    "name": "微笑骑士",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "微笑骑士",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免300的状态＆宝具威力提升15%"
+        },
+        {
+            "name": "袋鼠回旋镖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "袋鼠回旋镖的掉落获得数增加1个【『旺吉娜·世界之旅！』活动限定】"
+        },
+        {
+            "name": "微笑骑士",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免400的状态＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "袋鼠回旋镖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "袋鼠回旋镖的掉落获得数增加2个[最大解放]【『旺吉娜·世界之旅！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407380/9407380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94073800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94073800.png"
+        ]
+    }
+}

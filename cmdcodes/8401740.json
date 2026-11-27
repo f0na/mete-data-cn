@@ -1,0 +1,17 @@
+{
+    "id": 8401740,
+    "name": "散发着妖气的大骨刀",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401740a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401740.png"
+    },
+    "skills": [
+        {
+            "name": "散发着妖气的大骨刀",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(500伤害·3回合)＋被刻印的指令卡的暴击威力提升10%"
+        }
+    ],
+    "comment": "大江山的鬼之魁首所持的武器。\n是由骨头而非金属锻造而成的。\n没有刀铭。\n\n她用火焰缠绕着这把刀\n与自己的利爪并施展暴行。"
+}

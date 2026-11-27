@@ -1,0 +1,17 @@
+{
+    "id": 8400010,
+    "name": "纹章：人类",
+    "rarity": 1,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400010a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400010.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：人类",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔人类〕5%的特攻效果"
+        }
+    ],
+    "comment": "宛如亲手解开绳结一般，\n自触碰之处开始崩坏。"
+}

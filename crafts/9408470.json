@@ -1,0 +1,42 @@
+{
+    "id": 9408470,
+    "name": "配送疗愈",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "配送疗愈",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆迅指令卡性能提升2%＆技指令卡性能提升2%"
+        },
+        {
+            "name": "经典毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "经典毛巾的掉落获得数增加1个【『CBC2026 其名为但丁』活动限定】"
+        },
+        {
+            "name": "配送疗愈",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆迅指令卡性能提升3%＆技指令卡性能提升3%[最大解放]"
+        },
+        {
+            "name": "经典毛巾的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "经典毛巾的掉落获得数增加2个[最大解放]【『CBC2026 其名为但丁』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408470/9408470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94084700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94084700.png"
+        ]
+    }
+}

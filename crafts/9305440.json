@@ -1,0 +1,27 @@
+{
+    "id": 9305440,
+    "name": "痣丸",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "痣丸",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 1101000](复仇者)装备时,自身的宝具威力提升30%＆付与自身毅力状态(1次·生命值回复20%)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305440/9305440a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054400.png"
+        ]
+    }
+}

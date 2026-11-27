@@ -1,0 +1,17 @@
+{
+    "id": 8400410,
+    "name": "窄身锻造的名刀",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400410a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400410.png"
+    },
+    "skills": [
+        {
+            "name": "窄身锻造的名刀",
+            "icon": "Cmdcodes/SkillIcons/skill_00312.png",
+            "effect": "付与被刻印的指令卡无敌贯通效果"
+        }
+    ],
+    "comment": "刀刃乱纹犹如排列着八重樱的花瓣，刀身犹如蕴含着晶莹露水的美丽古刀。\n\n刀上刻有表示了刀工流派的『—』之铭文，雕着象征着不老长寿的菊花纹——\n\n然而讽刺的是，将此作为爱刀的剑士却年纪轻轻因病落下了帷幕。"
+}

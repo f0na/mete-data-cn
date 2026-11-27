@@ -1,0 +1,27 @@
+{
+    "id": 9305710,
+    "name": "高扬斯卡娅的野心～东海岸版～",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "高扬斯卡娅的野心～东海岸版～",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 604200](暗匿者)装备,且自身在场时,付与己方全体对〔人类〕15%的特攻状态＆对〔拥有人之力的敌人〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305710/9305710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93057100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93057100.png"
+        ]
+    }
+}

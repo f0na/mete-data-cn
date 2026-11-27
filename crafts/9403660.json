@@ -1,0 +1,42 @@
+{
+    "id": 9403660,
+    "name": "瓦尔基里风格",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "瓦尔基里风格",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆宝具威力提升15%"
+        },
+        {
+            "name": "思情之墨的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "思情之墨的掉落获得数增加1个【『情人节2020』活动限定】"
+        },
+        {
+            "name": "瓦尔基里风格",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "思情之墨的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "思情之墨的掉落获得数增加2个[最大解放]【『情人节2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403660/9403660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036600.png"
+        ]
+    }
+}

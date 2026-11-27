@@ -1,0 +1,27 @@
+{
+    "id": 9300580,
+    "name": "留存之物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "留存之物",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "乔尔乔斯(骑兵)装备,自身战败退场时,付与除自身以外的己方全体无敌状态(1次)＆付与被伤害减免1000的状态(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300580/9300580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93005800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93005800.png"
+        ]
+    }
+}

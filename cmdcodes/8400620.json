@@ -1,0 +1,17 @@
+{
+    "id": 8400620,
+    "name": "星之海的航海证",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400620a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400620.png"
+    },
+    "skills": [
+        {
+            "name": "星之海的航海证",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得2个暴击星＋解除1个自身的毒、诅咒、灼伤状态"
+        }
+    ],
+    "comment": "刺绣了意味着『船』这词语的布制纹章。\n\n闪耀于星间旅行的少年心中的那个，\n是遥远故乡托付给他的，\n\n——梦想与希望的证明。"
+}

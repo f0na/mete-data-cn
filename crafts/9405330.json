@@ -1,0 +1,32 @@
+{
+    "id": 9405330,
+    "name": "夏日周年庆",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "夏日周年庆",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆力指令卡的暴击威力提升15%＆以宝具值已达50%的状态开始战斗"
+        },
+        {
+            "name": "夏日周年庆",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆力指令卡的暴击威力提升20%＆以宝具值已达60%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405330/9405330a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94053300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94053300.png"
+        ]
+    }
+}

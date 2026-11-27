@@ -1,0 +1,32 @@
+{
+    "id": 9402050,
+    "name": "天之逆月",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "天之逆月",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆弱化耐性提升5%"
+        },
+        {
+            "name": "天之逆月",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402050/9402050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020500.png"
+        ]
+    }
+}

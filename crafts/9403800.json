@@ -1,0 +1,52 @@
+{
+    "id": 9403800,
+    "name": "春光明媚",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "春光明媚",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆暴击威力提升15%"
+        },
+        {
+            "name": "月胭脂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "月胭脂的掉落获得数增加1个【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "春光明媚",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "月胭脂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "月胭脂的掉落获得数增加2个[最大解放]【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "月胭脂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "月胭脂的掉落获得数增加1个【『复刻:德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "月胭脂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "月胭脂的掉落获得数增加2个[最大解放]【『复刻:德川回天迷宫 大奥』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403800/9403800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038000.png"
+        ]
+    }
+}

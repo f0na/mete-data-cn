@@ -1,0 +1,27 @@
+{
+    "id": 9306340,
+    "name": "小象们",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "小象们",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "[servantName 105300](剑士)装备,且自身在场时,己方全体的技指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306340/9306340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063400.png"
+        ]
+    }
+}

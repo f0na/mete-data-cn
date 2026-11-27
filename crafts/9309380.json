@@ -1,0 +1,27 @@
+{
+    "id": 9309380,
+    "name": "英灵祝装：阿斯克勒庇俄斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：阿斯克勒庇俄斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309380/9309380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93093800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93093800.png"
+        ]
+    }
+}

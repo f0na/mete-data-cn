@@ -1,0 +1,42 @@
+{
+    "id": 9404690,
+    "name": "蓝天校园",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "蓝天校园",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆技指令卡性能提升3%"
+        },
+        {
+            "name": "斯卡哈硬币〔铜〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔铜〕的掉落获得数增加1个【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        },
+        {
+            "name": "蓝天校园",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆技指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "斯卡哈硬币〔铜〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔铜〕的掉落获得数增加2个[最大解放]【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404690/9404690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94046900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94046900.png"
+        ]
+    }
+}

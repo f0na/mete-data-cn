@@ -1,0 +1,17 @@
+{
+    "id": 8400740,
+    "name": "魔小姐",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400740a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400740.png"
+    },
+    "skills": [
+        {
+            "name": "魔小姐",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡暴击星集中度提升100%＆暴击威力提升10%"
+        }
+    ],
+    "comment": "「本应只显现一次后就会消失的我\n　竟然被委以如此重要的职责……\n　就像吃竹轮麸时一样，非常高兴。\n　高兴。\n\n　既然如此，我不惜拼上此身、这灵基的一切，\n　也要报答您的这份恩情，御主。」"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401230,
+    "name": "对决",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "对决",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔神性〕80%的特攻状态(3回合)＆对〔神性〕40%的特防状态(3回合)"
+        },
+        {
+            "name": "对决",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔神性〕100%的特攻状态(3回合)＆对〔神性〕50%的特防状态(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401230/9401230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012300.png"
+        ]
+    }
+}

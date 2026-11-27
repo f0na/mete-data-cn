@@ -1,0 +1,27 @@
+{
+    "id": 9302190,
+    "name": "英灵正装：咒腕哈桑",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵正装：咒腕哈桑",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302190/9302190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93021900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93021900.png"
+        ]
+    }
+}

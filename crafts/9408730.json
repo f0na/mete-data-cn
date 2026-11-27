@@ -1,0 +1,42 @@
+{
+    "id": 9408730,
+    "name": "女帝的任务",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "女帝的任务",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆力指令卡性能提升3%＆强化解除耐性提升5%"
+        },
+        {
+            "name": "究极捕虫网的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "究极捕虫网的掉落获得数增加1个【『迦勒底·Ｕ－夏日岛』活动限定】"
+        },
+        {
+            "name": "女帝的任务",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆力指令卡性能提升5%＆强化解除耐性提升10%[最大解放]"
+        },
+        {
+            "name": "究极捕虫网的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "究极捕虫网的掉落获得数增加2个[最大解放]【『迦勒底·Ｕ－夏日岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408730/9408730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087300.png"
+        ]
+    }
+}

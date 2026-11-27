@@ -1,0 +1,32 @@
+{
+    "id": 9400500,
+    "name": "不给糖就捣蛋",
+    "type": "SvtEquipEventReward",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "不给糖就捣蛋",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化状态付与成功率提升10%"
+        },
+        {
+            "name": "不给糖就捣蛋",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "自身的弱化状态付与成功率提升12%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400500/9400500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94005000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94005000.png"
+        ]
+    }
+}

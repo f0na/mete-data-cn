@@ -1,0 +1,32 @@
+{
+    "id": 9400460,
+    "name": "符文石",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "符文石",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的弱化耐性提升5%&暴击星集中度提升100%"
+        },
+        {
+            "name": "符文石",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的弱化耐性提升10%&暴击星集中度提升200%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400460/9400460a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94004600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94004600.png"
+        ]
+    }
+}

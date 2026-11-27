@@ -1,0 +1,17 @@
+{
+    "id": 8400060,
+    "name": "纹章：祝福",
+    "rarity": 2,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400060a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400060.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：祝福",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,回复自身生命值100"
+        }
+    ],
+    "comment": "向慈爱的雨献上感谢。\n为水之治愈感到满足。"
+}

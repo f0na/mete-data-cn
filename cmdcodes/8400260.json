@@ -1,0 +1,17 @@
+{
+    "id": 8400260,
+    "name": "八叶之镜",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400260a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400260.png"
+    },
+    "skills": [
+        {
+            "name": "八叶之镜",
+            "icon": "Cmdcodes/SkillIcons/skill_00411.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与自身无法行动无效状态（1次·2回合）"
+        }
+    ],
+    "comment": "原本拥有足以能让死者从黄泉返回的力量，\n是冥界神宝中的神宝。\n但是，在现在持有者的手中，\n能发挥的性能仅被限定为其中一部分。"
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9400990,
+    "name": "英灵肖像：贞德",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 5,
+    "atk": 500,
+    "hp": 500,
+    "skills": [
+        {
+            "name": "英灵肖像：贞德",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400990/9400990a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94009900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94009900.png"
+        ]
+    }
+}

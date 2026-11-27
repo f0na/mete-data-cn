@@ -1,0 +1,17 @@
+{
+    "id": 8400370,
+    "name": "赤心臣下的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400370a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400370.png"
+    },
+    "skills": [
+        {
+            "name": "赤心臣下的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在力指令卡上时,被刻印的指令卡暴击威力提升15%"
+        }
+    ],
+    "comment": "某位御主的令印。\n纹样参考了他侍奉的伟大帝王的外套。"
+}

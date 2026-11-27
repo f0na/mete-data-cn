@@ -1,0 +1,17 @@
+{
+    "id": 8400120,
+    "name": "第一位从者",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400120a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400120.png"
+    },
+    "skills": [
+        {
+            "name": "第一位从者",
+            "icon": "Cmdcodes/SkillIcons/skill_00400.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与自身被伤害减免300的状态(1次·1回合)"
+        }
+    ],
+    "comment": "「这是新的从者支援术式，\n　『指令纹章』……好厉害啊，前辈！\n　说是只要贴在指令卡上，\n　就能发挥各式各样的效果！」"
+}

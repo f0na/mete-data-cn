@@ -1,0 +1,27 @@
+{
+    "id": 9305620,
+    "name": "2千4百年后的约定",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "2千4百年后的约定",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "[servantName 404200](骑兵)装备,且自身在场时,除自身以外的己方全体〔女性〕的生命值回复量提升50%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305620/9305620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056200.png"
+        ]
+    }
+}

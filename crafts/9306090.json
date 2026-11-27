@@ -1,0 +1,27 @@
+{
+    "id": 9306090,
+    "name": "灯光少女",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "灯光少女",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306090/9306090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93060900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93060900.png"
+        ]
+    }
+}

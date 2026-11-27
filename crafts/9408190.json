@@ -1,0 +1,42 @@
+{
+    "id": 9408190,
+    "name": "花之人偶",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "花之人偶",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆自身的暴击威力提升5%＆宝具威力提升5%"
+        },
+        {
+            "name": "快乐之叉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "快乐之叉的掉落获得数增加1个【『波赫约拉的圣诞前夜』活动限定】"
+        },
+        {
+            "name": "花之人偶",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆自身的暴击威力提升10%＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "快乐之叉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "快乐之叉的掉落获得数增加2个[最大解放]【『波赫约拉的圣诞前夜』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408190/9408190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94081900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94081900.png"
+        ]
+    }
+}

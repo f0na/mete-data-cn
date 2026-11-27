@@ -1,0 +1,32 @@
+{
+    "id": 9401490,
+    "name": "恋谈火焰行",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "恋谈火焰行",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔男性〕25%的特攻状态＆弱化付与成功率提升12%"
+        },
+        {
+            "name": "恋谈火焰行",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔男性〕30%的特攻状态＆弱化付与成功率提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401490/9401490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014900.png"
+        ]
+    }
+}

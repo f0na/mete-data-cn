@@ -1,0 +1,42 @@
+{
+    "id": 9408630,
+    "name": "光之祭典",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "光之祭典",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔性〕15%的特攻状态"
+        },
+        {
+            "name": "雨天滑翔机的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雨天滑翔机的掉落获得数增加1个【『因陀罗的大试炼』活动限定】"
+        },
+        {
+            "name": "光之祭典",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔魔性〕20%的特攻状态[最大解放]"
+        },
+        {
+            "name": "雨天滑翔机的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雨天滑翔机的掉落获得数增加2个[最大解放]【『因陀罗的大试炼』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408630/9408630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086300.png"
+        ]
+    }
+}

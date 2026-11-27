@@ -1,0 +1,42 @@
+{
+    "id": 9408580,
+    "name": "去往大海",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "去往大海",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆暴击星掉落率提升5%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "材料收集点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "材料收集点数的掉落获得量提升30%【『落泪之翼』活动限定】"
+        },
+        {
+            "name": "去往大海",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆暴击星掉落率提升10%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "材料收集点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "材料收集点数的掉落获得量提升60%[最大解放]【『落泪之翼』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408580/9408580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94085800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94085800.png"
+        ]
+    }
+}

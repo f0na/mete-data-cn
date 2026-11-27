@@ -1,0 +1,42 @@
+{
+    "id": 9406660,
+    "name": "拉伸计数",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "拉伸计数",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆技指令卡性能提升8%"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底妖精骑士杯』中,自身的攻击威力提升100%【『迦勒底妖精骑士杯』活动限定】"
+        },
+        {
+            "name": "拉伸计数",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆技指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『迦勒底妖精骑士杯』中,自身的攻击威力提升200%[最大解放]【『迦勒底妖精骑士杯』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406660/9406660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94066600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94066600.png"
+        ]
+    }
+}

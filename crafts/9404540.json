@@ -1,0 +1,32 @@
+{
+    "id": 9404540,
+    "name": "自由坐席",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "自由坐席",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加1%＆关卡通关时获得的魔术礼装经验增加1%"
+        },
+        {
+            "name": "自由坐席",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加5%＆关卡通关时获得的魔术礼装经验增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404540/9404540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045400.png"
+        ]
+    }
+}

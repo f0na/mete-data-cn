@@ -1,0 +1,52 @@
+{
+    "id": 9406900,
+    "name": "春阳灿灿",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "春阳灿灿",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆宝具值获得量提升15%"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升20%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "春阳灿灿",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升40%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406900/9406900a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069000.png"
+        ]
+    }
+}

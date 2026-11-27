@@ -1,0 +1,42 @@
+{
+    "id": 9405540,
+    "name": "翡翠发丝",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "翡翠发丝",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆宝具值获得量提升8%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "翡翠发丝",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具值获得量提升10%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "攻击威力提升＆〔鬼〕〔铁皮〕〔南瓜〕的追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『万圣节·复活归来！』中,自身的攻击威力提升100%＋在『万圣节·复活归来！』的自由关卡中,〔鬼〕〔铁皮〕〔南瓜〕的敌人追加出现率提升25%【『万圣节·复活归来！』活动限定】"
+        },
+        {
+            "name": "攻击威力提升＆〔鬼〕〔铁皮〕〔南瓜〕的追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『万圣节·复活归来！』中,自身的攻击威力提升200%＋在『万圣节·复活归来！』的自由关卡中,〔鬼〕〔铁皮〕〔南瓜〕的敌人追加出现率提升100%[最大解放]【『万圣节·复活归来！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405540/9405540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055400.png"
+        ]
+    }
+}

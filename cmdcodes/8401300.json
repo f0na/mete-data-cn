@@ -1,0 +1,17 @@
+{
+    "id": 8401300,
+    "name": "久远之镜",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401300a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401300.png"
+    },
+    "skills": [
+        {
+            "name": "久远之镜",
+            "icon": "Cmdcodes/SkillIcons/skill_00411.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与自身封印无效状态(1次·2回合)"
+        }
+    ],
+    "comment": "传说是古代日本某位女王举行仪式时使用的铜镜。\n\n据说时而能预测睿智，时而能预测恩惠的这个，就像为了映照森罗万象一样被打造了很多面——\n\n听说在那些中存在一面，\n特别的一面。"
+}

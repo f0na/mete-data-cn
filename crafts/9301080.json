@@ -1,0 +1,27 @@
+{
+    "id": 9301080,
+    "name": "见识一下你的枪吧",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "见识一下你的枪吧",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "比利小子(弓兵)装备,且自身在场时,己方全体的暴击威力提升25%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301080/9301080a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010800.png"
+        ]
+    }
+}

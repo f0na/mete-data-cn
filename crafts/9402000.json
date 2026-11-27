@@ -1,0 +1,32 @@
+{
+    "id": 9402000,
+    "name": "罗玛尼·阿其曼伯爵的款待",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "罗玛尼·阿其曼伯爵的款待",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升5%＆防御力提升3%"
+        },
+        {
+            "name": "罗玛尼·阿其曼伯爵的款待",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升10%＆防御力提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402000/9402000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020000.png"
+        ]
+    }
+}

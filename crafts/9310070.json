@@ -1,0 +1,27 @@
+{
+    "id": 9310070,
+    "name": "英灵祝装：特斯卡特利波卡",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：特斯卡特利波卡",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310070/9310070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93100700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93100700.png"
+        ]
+    }
+}

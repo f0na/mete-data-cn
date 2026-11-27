@@ -1,0 +1,42 @@
+{
+    "id": 9405140,
+    "name": "迦勒底群星",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "迦勒底群星",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆技指令卡性能提升3%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "皇帝团扇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "皇帝团扇的掉落获得数增加1个【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        },
+        {
+            "name": "迦勒底群星",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆技指令卡性能提升5%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "皇帝团扇的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "皇帝团扇的掉落获得数增加2个[最大解放]【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405140/9405140a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051400.png"
+        ]
+    }
+}

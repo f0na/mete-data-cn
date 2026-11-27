@@ -1,0 +1,27 @@
+{
+    "id": 9302510,
+    "name": "Electrologica Diagram",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Electrologica Diagram",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 1000400](他人格)装备,且自身在场时,己方全体的力指令卡性能提升20%＆弱化耐性降低20%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302510/9302510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93025100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93025100.png"
+        ]
+    }
+}

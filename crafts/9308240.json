@@ -1,0 +1,27 @@
+{
+    "id": 9308240,
+    "name": "waiting in the sky",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "waiting in the sky",
+            "icon": "Craft/SkillIcons/skill_00815.png",
+            "effect": "[servantName 2501400](降临者)装备时,自身的宝具威力提升30%＆付与「每回合付与1个〔魔弹〕状态」的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308240/9308240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082400.png"
+        ]
+    }
+}

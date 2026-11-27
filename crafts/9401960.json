@@ -1,0 +1,32 @@
+{
+    "id": 9401960,
+    "name": "联合演唱会",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "联合演唱会",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆暴击威力提升15%"
+        },
+        {
+            "name": "联合演唱会",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升20%＆暴击威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401960/9401960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94019600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94019600.png"
+        ]
+    }
+}

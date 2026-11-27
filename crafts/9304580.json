@@ -1,0 +1,27 @@
+{
+    "id": 9304580,
+    "name": "海神的三叉戟",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "海神的三叉戟",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 304100](枪兵)装备,且自身在场时,己方全体的力指令卡性能提升15%＆暴击威力提升15%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304580/9304580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045800.png"
+        ]
+    }
+}

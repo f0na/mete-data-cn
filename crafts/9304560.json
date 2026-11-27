@@ -1,0 +1,27 @@
+{
+    "id": 9304560,
+    "name": "冒险的象征",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "冒险的象征",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "[servantName 403800](骑兵)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304560/9304560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045600.png"
+        ]
+    }
+}

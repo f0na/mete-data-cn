@@ -1,0 +1,27 @@
+{
+    "id": 9307980,
+    "name": "男儿的志气",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "男儿的志气",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 704800](狂战士)装备,且自身在场时,己方全体力指令卡的暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307980/9307980a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079800.png"
+        ]
+    }
+}

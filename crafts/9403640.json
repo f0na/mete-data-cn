@@ -1,0 +1,52 @@
+{
+    "id": 9403640,
+    "name": "银雪的女神们",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "银雪的女神们",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升6%＆技指令卡性能提升6%＆力指令卡性能提升6%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "木材的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "木材的掉落获得数增加1个【『雀之旅馆的活动日志』活动限定】"
+        },
+        {
+            "name": "银雪的女神们",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆力指令卡性能提升8%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "木材的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "木材的掉落获得数增加2个[最大解放]【『雀之旅馆的活动日志』活动限定】"
+        },
+        {
+            "name": "木材的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "木材的掉落获得数增加1个【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        },
+        {
+            "name": "木材的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "木材的掉落获得数增加2个[最大解放]【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403640/9403640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036400.png"
+        ]
+    }
+}

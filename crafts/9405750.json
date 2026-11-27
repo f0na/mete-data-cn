@@ -1,0 +1,32 @@
+{
+    "id": 9405750,
+    "name": "尽心之作",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "尽心之作",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复200生命值的状态＆宝具威力提升15%"
+        },
+        {
+            "name": "尽心之作",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复300生命值的状态＆宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405750/9405750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94057500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94057500.png"
+        ]
+    }
+}

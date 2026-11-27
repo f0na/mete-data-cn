@@ -1,0 +1,32 @@
+{
+    "id": 9401100,
+    "name": "甜蜜之心",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "甜蜜之心",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕100%的特防状态(3次)＆暴击星掉落率提升10%"
+        },
+        {
+            "name": "甜蜜之心",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕100%的特防状态(3次)＆暴击星掉落率提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401100/9401100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94011000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94011000.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301510,
+    "name": "天命之泥板",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天命之泥板",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "吉尔伽美什(魔术师)装备,且自身在场时,己方全体的宝具威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301510/9301510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015100.png"
+        ]
+    }
+}

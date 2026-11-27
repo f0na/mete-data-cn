@@ -1,0 +1,42 @@
+{
+    "id": 9406240,
+    "name": "碎心者",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "碎心者",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升4%＆力指令卡性能提升4%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "犬士点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "犬士点数的掉落获得量提升30%【『南溟弓张八犬传』活动限定】"
+        },
+        {
+            "name": "碎心者",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆技指令卡性能提升6%＆力指令卡性能提升6%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "犬士点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "犬士点数的掉落获得量提升60%[最大解放]【『南溟弓张八犬传』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406240/9406240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94062400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94062400.png"
+        ]
+    }
+}

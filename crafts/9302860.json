@@ -1,0 +1,27 @@
+{
+    "id": 9302860,
+    "name": "神铁之盾",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神铁之盾",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "[servantName 303300](枪兵)装备,且自身在场时,己方全体的宝具值获得量提升10%＆暴击威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302860/9302860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93028600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93028600.png"
+        ]
+    }
+}

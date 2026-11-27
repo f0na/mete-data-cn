@@ -1,0 +1,32 @@
+{
+    "id": 9400950,
+    "name": "圣者凭依之躯",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "圣者凭依之躯",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(3次)＆宝具值获得量提升15%"
+        },
+        {
+            "name": "圣者凭依之躯",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(3次)＆宝具值获得量提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400950/9400950a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94009500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94009500.png"
+        ]
+    }
+}

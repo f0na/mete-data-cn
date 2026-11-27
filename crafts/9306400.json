@@ -1,0 +1,27 @@
+{
+    "id": 9306400,
+    "name": "所有一切都消失不在了",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "所有一切都消失不在了",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 404700](骑兵)装备时,自身战败退场时,除自身以外的己方全体攻击力提升20%(3回合)＆生命值回复5000"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306400/9306400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93064000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93064000.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400410,
+    "name": "不夜蔷薇",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 2000,
+    "skills": [
+        {
+            "name": "不夜蔷薇",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复500)"
+        },
+        {
+            "name": "不夜蔷薇",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1000)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400410/9400410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94004100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94004100.png"
+        ]
+    }
+}

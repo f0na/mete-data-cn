@@ -1,0 +1,27 @@
+{
+    "id": 9306270,
+    "name": "兹梅·戈里尼奇",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "兹梅·戈里尼奇",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 404400](骑兵)装备,且自身在场时,付与己方全体对〔龙〕15%的特攻状态＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306270/9306270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062700.png"
+        ]
+    }
+}

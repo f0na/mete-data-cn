@@ -1,0 +1,32 @@
+{
+    "id": 9400750,
+    "name": "主人公的新年",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "主人公的新年",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆防御力提升8%"
+        },
+        {
+            "name": "主人公的新年",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身弱化无效状态(1次)＆防御力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400750/9400750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007500.png"
+        ]
+    }
+}

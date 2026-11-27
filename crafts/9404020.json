@@ -1,0 +1,52 @@
+{
+    "id": 9404020,
+    "name": "夏日阎魔亭",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "夏日阎魔亭",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆宝具威力提升5%"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加1个【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "夏日阎魔亭",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加2个[最大解放]【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加1个【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        },
+        {
+            "name": "幸运骰子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "幸运骰子的掉落获得数增加2个[最大解放]【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404020/9404020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94040200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94040200.png"
+        ]
+    }
+}

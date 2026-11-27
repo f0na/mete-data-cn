@@ -1,0 +1,42 @@
+{
+    "id": 9408550,
+    "name": "心愿之味",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "心愿之味",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升15%＆付与弱化无效状态(1次)"
+        },
+        {
+            "name": "电池单元的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "电池单元的掉落获得数增加1个【『落泪之翼』活动限定】"
+        },
+        {
+            "name": "心愿之味",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆宝具威力提升20%＆付与弱化无效状态(1次)[最大解放]"
+        },
+        {
+            "name": "电池单元的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "电池单元的掉落获得数增加2个[最大解放]【『落泪之翼』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408550/9408550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94085500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94085500.png"
+        ]
+    }
+}

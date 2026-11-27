@@ -1,0 +1,27 @@
+{
+    "id": 9301550,
+    "name": "尽头之塔",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "尽头之塔",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "梅林(魔术师)装备,且自身在场时,己方全体的力指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301550/9301550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015500.png"
+        ]
+    }
+}

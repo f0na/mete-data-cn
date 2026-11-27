@@ -1,0 +1,17 @@
+{
+    "id": 8401540,
+    "name": "普利多温",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401540a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401540.png"
+    },
+    "skills": [
+        {
+            "name": "普利多温",
+            "icon": "Cmdcodes/SkillIcons/skill_00334.png",
+            "effect": "付与被刻印的指令卡无视防御效果＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "原本是骑士王持有的道具，\n但被某位圆桌骑士借来，化作了冲浪板。\n今天依然精神百倍地乘风破浪。\n\n乍一看似乎是个有些过分的恶作剧，\n但倘若这对她来说是第一次兴奋开心的日子的话。\n\n任凭她随意折腾，\n或许也是身为御主的出息吧。\n\n不过，希望她不要在迦勒底设施内使用。"
+}

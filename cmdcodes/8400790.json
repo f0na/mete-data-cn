@@ -1,0 +1,17 @@
+{
+    "id": 8400790,
+    "name": "龙之圣女之杖",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400790a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400790.png"
+    },
+    "skills": [
+        {
+            "name": "龙之圣女之杖",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在力指令卡上时,被刻印的指令卡对〔龙〕的暴击威力提升30%"
+        }
+    ],
+    "comment": "由「他」赐予温柔、美丽，闪耀着光辉之淑女的圣杖。\n\n通过高举这把圣杖展现的神圣威光，\n可以镇压所有邪恶，令其俯首称臣。\n绝不是什么物理的方式。绝对不是。"
+}

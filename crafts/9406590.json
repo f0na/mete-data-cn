@@ -1,0 +1,32 @@
+{
+    "id": 9406590,
+    "name": "神树的莳种",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "神树的莳种",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔世界树之种〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "神树的莳种",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔世界树之种〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406590/9406590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065900.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9406230,
+    "name": "草原雄士",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "草原雄士",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升5%＆被暴击发生耐性提升3%"
+        },
+        {
+            "name": "白白米饭的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "白白米饭的掉落获得数增加1个【『南溟弓张八犬传』活动限定】"
+        },
+        {
+            "name": "草原雄士",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升10%＆被暴击发生耐性提升5%[最大解放]"
+        },
+        {
+            "name": "白白米饭的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "白白米饭的掉落获得数增加2个[最大解放]【『南溟弓张八犬传』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406230/9406230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94062300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94062300.png"
+        ]
+    }
+}

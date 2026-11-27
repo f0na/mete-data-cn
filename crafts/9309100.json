@@ -1,0 +1,27 @@
+{
+    "id": 9309100,
+    "name": "无常果实",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无常果实",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 2801100](身披角色者)装备时,自身的宝具威力提升30%＆付与「普通攻击造成伤害前,暴击威力提升10%(3回合)＆付与诅咒状态(200伤害·3回合)【负面效果】」的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309100/9309100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93091000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93091000.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9309970,
+    "name": "英灵祝装：斯忒诺",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：斯忒诺",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309970/9309970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93099700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93099700.png"
+        ]
+    }
+}

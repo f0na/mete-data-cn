@@ -1,0 +1,52 @@
+{
+    "id": 9401900,
+    "name": "悖论的王牌杀手",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "悖论的王牌杀手",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆宝具威力提升8%"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "当〔女性〕从者装备时,其在『复刻版:魔法少女纪行 ～Prisma·Codes～』中的攻击威力提升50%【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "迅威力提升(仅限World End Match)",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "当〔女性〕从者装备时,其在「World End Match」中的迅指令卡威力提升50%【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "悖论的王牌杀手",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "当〔女性〕从者装备时,其在『复刻版:魔法少女纪行 ～Prisma·Codes～』中的攻击威力提升100%[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "迅威力提升(仅限World End Match)",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "当〔女性〕从者装备时,其在「World End Match」中的迅指令卡威力提升100%[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401900/9401900a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94019000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94019000.png"
+        ]
+    }
+}

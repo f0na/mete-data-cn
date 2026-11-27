@@ -1,0 +1,17 @@
+{
+    "id": 8401630,
+    "name": "困境之伴",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401630a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401630.png"
+    },
+    "skills": [
+        {
+            "name": "困境之伴",
+            "icon": "Cmdcodes/SkillIcons/skill_00608.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个自身的攻击弱化状态＆生命值回复100"
+        }
+    ],
+    "comment": "看似平平无奇的饭团和腌萝卜。\n\n据说可以在江户街头摊贩买到的这个，\n不仅能填饱肚子，\n还能通过吃下治愈受伤的身体。\n\n倘若是由关心哥哥的义妹亲手捏制的，\n或许能让人觉得可以实现任何愿望吧。"
+}

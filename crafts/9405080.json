@@ -1,0 +1,42 @@
+{
+    "id": 9405080,
+    "name": "梦诞生的街道",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "梦诞生的街道",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆技指令卡性能提升8%＆力指令卡性能提升8%"
+        },
+        {
+            "name": "仅当★5(SSR)或以下从者装备时，攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『秋叶原·爆裂！』中,仅当★5(SSR)或以下从者装备时,自身的攻击威力提升50%【『秋叶原·爆裂！』活动限定】"
+        },
+        {
+            "name": "梦诞生的街道",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆技指令卡性能提升10%＆力指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "仅当★5(SSR)或以下从者装备时，攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『秋叶原·爆裂！』中,仅当★5(SSR)或以下从者装备时,自身的攻击威力提升100%[最大解放]【『秋叶原·爆裂！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405080/9405080a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94050800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94050800.png"
+        ]
+    }
+}

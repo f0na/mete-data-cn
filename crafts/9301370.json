@@ -1,0 +1,27 @@
+{
+    "id": 9301370,
+    "name": "存在的证明",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "存在的证明",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "静谧哈桑(暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301370/9301370a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93013700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93013700.png"
+        ]
+    }
+}

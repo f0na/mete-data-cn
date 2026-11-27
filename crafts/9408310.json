@@ -1,0 +1,42 @@
+{
+    "id": 9408310,
+    "name": "猎龙",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "猎龙",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔龙〕15%的特攻状态＆力指令卡性能提升8%"
+        },
+        {
+            "name": "龙碟的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙碟的掉落获得数增加1个【『培育吧！ 我的小小龙』活动限定】"
+        },
+        {
+            "name": "猎龙",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔龙〕20%的特攻状态＆力指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "龙碟的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙碟的掉落获得数增加2个[最大解放]【『培育吧！ 我的小小龙』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408310/9408310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94083100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94083100.png"
+        ]
+    }
+}

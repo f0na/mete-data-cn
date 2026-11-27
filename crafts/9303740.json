@@ -1,0 +1,27 @@
+{
+    "id": 9303740,
+    "name": "Grace note",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Grace note",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303740/9303740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93037400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93037400.png"
+        ]
+    }
+}

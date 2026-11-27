@@ -1,0 +1,32 @@
+{
+    "id": 9402180,
+    "name": "返老还童的灵药",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "返老还童的灵药",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身攻击弱化耐性提升25%"
+        },
+        {
+            "name": "返老还童的灵药",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身攻击弱化耐性提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402180/9402180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021800.png"
+        ]
+    }
+}

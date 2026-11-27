@@ -1,0 +1,42 @@
+{
+    "id": 9405870,
+    "name": "究极调和",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "究极调和",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升2%＆技指令卡性能提升2%＆付与每回合获得1个暴击星的状态"
+        },
+        {
+            "name": "聪慧纸张的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "聪慧纸张的掉落获得数增加1个【『15位理智性眼镜们』活动限定】"
+        },
+        {
+            "name": "究极调和",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升3%＆技指令卡性能提升3%＆付与每回合获得2个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "聪慧纸张的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "聪慧纸张的掉落获得数增加2个[最大解放]【『15位理智性眼镜们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405870/9405870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94058700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94058700.png"
+        ]
+    }
+}

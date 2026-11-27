@@ -1,0 +1,42 @@
+{
+    "id": 9402820,
+    "name": "欢悦绵羊",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "欢悦绵羊",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "冥界之砂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "冥界之砂的掉落获得数增加1个【『复刻:冥界的圣诞快乐 轻量版』活动限定】"
+        },
+        {
+            "name": "欢悦绵羊",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "冥界之砂的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "冥界之砂的掉落获得数增加2个[最大解放]【『复刻:冥界的圣诞快乐 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402820/9402820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94028200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94028200.png"
+        ]
+    }
+}

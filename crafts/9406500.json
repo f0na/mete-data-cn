@@ -1,0 +1,32 @@
+{
+    "id": 9406500,
+    "name": "拂晓之前",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "拂晓之前",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        },
+        {
+            "name": "拂晓之前",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋50(可以重复)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406500/9406500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065000.png"
+        ]
+    }
+}

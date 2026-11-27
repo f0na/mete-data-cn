@@ -1,0 +1,27 @@
+{
+    "id": 9310470,
+    "name": "美妙的赠礼（鲨鱼）",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "美妙的赠礼（鲨鱼）",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 405800](骑兵)装备,且自身在场时,己方全体的力指令卡性能提升10%＋〔混沌〕特性己方全体的宝具威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310470/9310470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93104700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93104700.png"
+        ]
+    }
+}

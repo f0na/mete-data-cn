@@ -1,0 +1,27 @@
+{
+    "id": 9304860,
+    "name": "英灵纪行：刑部姬",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵纪行：刑部姬",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304860/9304860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93048600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93048600.png"
+        ]
+    }
+}

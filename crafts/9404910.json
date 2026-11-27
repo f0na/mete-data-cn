@@ -1,0 +1,42 @@
+{
+    "id": 9404910,
+    "name": "一寸公主",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "一寸公主",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "战役最中的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "战役最中的掉落获得数增加1个【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        },
+        {
+            "name": "一寸公主",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升15%＆力指令卡性能提升15%＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "战役最中的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "战役最中的掉落获得数增加2个[最大解放]【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404910/9404910a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049100.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9303680,
+    "name": "在美食之门中",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "在美食之门中",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "[servantName 2300300](月之癌)装备时,付与自身每回合获得8个暴击星的状态＋自身在场时,己方全体每回合回复300生命值"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303680/9303680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93036800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93036800.png"
+        ]
+    }
+}

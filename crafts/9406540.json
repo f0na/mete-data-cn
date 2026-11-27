@@ -1,0 +1,42 @@
+{
+    "id": 9406540,
+    "name": "湖畔的天女",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "湖畔的天女",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星的状态＆宝具使用时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "白虎的瓷瓶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "白虎的瓷瓶的掉落获得数增加1个【『108人的万圣节·叛乱！』活动限定】"
+        },
+        {
+            "name": "湖畔的天女",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得4个暴击星的状态＆宝具使用时充能阶段上升1级(1次)[最大解放]"
+        },
+        {
+            "name": "白虎的瓷瓶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "白虎的瓷瓶的掉落获得数增加2个[最大解放]【『108人的万圣节·叛乱！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406540/9406540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065400.png"
+        ]
+    }
+}

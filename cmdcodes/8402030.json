@@ -1,0 +1,17 @@
+{
+    "id": 8402030,
+    "name": "风神之子",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402030a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402030.png"
+    },
+    "skills": [
+        {
+            "name": "风神之子",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升15%＋当使用被刻印的指令卡进行攻击时,解除1个敌方单体的防御力提升状态"
+        }
+    ],
+    "comment": "「哟，御主！　有事吗？\n　肚子饿了的话，想吃什么我都能为你做哦。\n\n　怎么，是希望我帮忙啊。\n　没问题，交给我吧。\n　不管什么样的对手，\n　我都会完美地料理那家伙！\n　真令人跃跃欲试呢！」"
+}

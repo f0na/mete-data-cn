@@ -1,0 +1,42 @@
+{
+    "id": 9408300,
+    "name": "某财宝",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "某财宝",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具威力提升8%＆使用宝具时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "龙珠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙珠的掉落获得数增加1个【『培育吧！ 我的小小龙』活动限定】"
+        },
+        {
+            "name": "某财宝",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆宝具威力提升10%＆使用宝具时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "龙珠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙珠的掉落获得数增加2个[最大解放]【『培育吧！ 我的小小龙』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408300/9408300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94083000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94083000.png"
+        ]
+    }
+}

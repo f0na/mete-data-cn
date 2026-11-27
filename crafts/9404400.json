@@ -1,0 +1,42 @@
+{
+    "id": 9404400,
+    "name": "侦探爱德蒙～开启新章篇～",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "侦探爱德蒙～开启新章篇～",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆暴击威力提升10%＆付与被伤害减免100的状态"
+        },
+        {
+            "name": "可怕的草药的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "可怕的草药的掉落获得数增加1个【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        },
+        {
+            "name": "侦探爱德蒙～开启新章篇～",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升15%＆付与被伤害减免200的状态[最大解放]"
+        },
+        {
+            "name": "可怕的草药的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "可怕的草药的掉落获得数增加2个[最大解放]【『艾尤的春风 ～魔女和愉快的伙伴们与崭新的冒险～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404400/9404400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94044000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94044000.png"
+        ]
+    }
+}

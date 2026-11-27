@@ -1,0 +1,32 @@
+{
+    "id": 9408900,
+    "name": "花落之时",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "花落之时",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆迅指令卡性能提升3%＆宝具威力提升5%"
+        },
+        {
+            "name": "花落之时",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆迅指令卡性能提升5%＆宝具威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408900/9408900a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94089000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94089000.png"
+        ]
+    }
+}

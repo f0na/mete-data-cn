@@ -1,0 +1,27 @@
+{
+    "id": 9306380,
+    "name": "故乡",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "故乡",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 304900](枪兵)装备,且自身在场时,己方全体〔女性〕的技指令卡性能提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306380/9306380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063800.png"
+        ]
+    }
+}

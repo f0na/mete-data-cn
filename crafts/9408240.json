@@ -1,0 +1,42 @@
+{
+    "id": 9408240,
+    "name": "岁末的礼物",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "岁末的礼物",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升15%＆宝具值获得量提升5%＆付与每回合获得宝具值2%的状态"
+        },
+        {
+            "name": "空月亚钥扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "空月亚钥扣的掉落获得数增加1个【『Space Phantasmoon』活动限定】"
+        },
+        {
+            "name": "岁末的礼物",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升20%＆宝具值获得量提升10%＆付与每回合获得宝具值3%的状态[最大解放]"
+        },
+        {
+            "name": "空月亚钥扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "空月亚钥扣的掉落获得数增加2个[最大解放]【『Space Phantasmoon』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408240/9408240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94082400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94082400.png"
+        ]
+    }
+}

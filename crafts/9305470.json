@@ -1,0 +1,27 @@
+{
+    "id": 9305470,
+    "name": "Fate/Grand Order Memories Ⅲ",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Fate/Grand Order Memories Ⅲ",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305470/9305470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054700.png"
+        ]
+    }
+}

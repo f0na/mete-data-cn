@@ -1,0 +1,27 @@
+{
+    "id": 9300220,
+    "name": "黄金眼镜",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黄金眼镜",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "坂田金时(狂战士)装备时,自身宝具威力提升30%＆攻击时一定概率自身宝具值提升5%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300220/9300220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002200.png"
+        ]
+    }
+}

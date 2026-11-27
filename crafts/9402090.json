@@ -1,0 +1,32 @@
+{
+    "id": 9402090,
+    "name": "圣夜晚餐",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "圣夜晚餐",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达30%的状态开始战斗＆暴击威力提升10%＆宝具威力提升10%"
+        },
+        {
+            "name": "圣夜晚餐",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗＆暴击威力提升15%＆宝具威力提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402090/9402090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94020900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94020900.png"
+        ]
+    }
+}

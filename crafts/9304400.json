@@ -1,0 +1,27 @@
+{
+    "id": 9304400,
+    "name": "流星拉拉队女孩",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "流星拉拉队女孩",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "[servantName 203700](弓兵)装备时,自身的宝具威力提升30%＋自身登场时获得20个暴击星(1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304400/9304400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93044000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93044000.png"
+        ]
+    }
+}

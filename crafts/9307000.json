@@ -1,0 +1,27 @@
+{
+    "id": 9307000,
+    "name": "黑勾玉",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黑勾玉",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 901500](裁定者)装备,且自身在场时,付与己方全体对〔神性〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307000/9307000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070000.png"
+        ]
+    }
+}

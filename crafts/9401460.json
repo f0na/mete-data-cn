@@ -1,0 +1,32 @@
+{
+    "id": 9401460,
+    "name": "遮那王流离谭",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "遮那王流离谭",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＋自身战败退场时己方全体的迅指令卡性能提升20%(1回合)"
+        },
+        {
+            "name": "遮那王流离谭",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＋自身战败退场时己方全体的迅指令卡性能提升30%(1回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401460/9401460a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014600.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9300910,
+    "name": "不屈不挠",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "不屈不挠",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "南丁格尔(狂战士)装备,且自身在场时,己方全体的力指令卡性能提升10%＆生命值回复量提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300910/9300910a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93009100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93009100.png"
+        ]
+    }
+}

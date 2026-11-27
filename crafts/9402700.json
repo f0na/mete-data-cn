@@ -1,0 +1,32 @@
+{
+    "id": 9402700,
+    "name": "梦之痕迹",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "梦之痕迹",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "弱化付与成功率提升3%＆弱化耐性提升5%"
+        },
+        {
+            "name": "梦之痕迹",
+            "icon": "Craft/SkillIcons/skill_00500.png",
+            "effect": "弱化付与成功率提升5%＆弱化耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402700/9402700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027000.png"
+        ]
+    }
+}

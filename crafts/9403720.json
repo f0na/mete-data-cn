@@ -1,0 +1,42 @@
+{
+    "id": 9403720,
+    "name": "深谋远虑",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "深谋远虑",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态&宝具值获得量提升15%"
+        },
+        {
+            "name": "狡猾擦拭布的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狡猾擦拭布的掉落获得数增加1个【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        },
+        {
+            "name": "深谋远虑",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态&宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "狡猾擦拭布的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "狡猾擦拭布的掉落获得数增加2个[最大解放]【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403720/9403720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94037200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94037200.png"
+        ]
+    }
+}

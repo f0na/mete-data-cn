@@ -1,0 +1,42 @@
+{
+    "id": 9407860,
+    "name": "终将跨越星河",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "终将跨越星河",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升6%＆力指令卡性能提升6%＆暴击威力提升10%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "龙宫珍珠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙宫珍珠的掉落获得数增加1个【『舞动龙宫！』活动限定】"
+        },
+        {
+            "name": "终将跨越星河",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升8%＆力指令卡性能提升8%＆暴击威力提升15%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "龙宫珍珠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "龙宫珍珠的掉落获得数增加2个[最大解放]【『舞动龙宫！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407860/9407860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078600.png"
+        ]
+    }
+}

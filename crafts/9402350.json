@@ -1,0 +1,32 @@
+{
+    "id": 9402350,
+    "name": "梦幻岛",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "梦幻岛",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身暴击星掉落率提升4%＆暴击威力提升4%＆宝具威力提升4%"
+        },
+        {
+            "name": "梦幻岛",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身暴击星掉落率提升8%＆暴击威力提升8%＆宝具威力提升8%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402350/9402350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023500.png"
+        ]
+    }
+}

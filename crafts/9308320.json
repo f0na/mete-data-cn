@@ -1,0 +1,27 @@
+{
+    "id": 9308320,
+    "name": "在晚霞之下我转圈圈",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "在晚霞之下我转圈圈",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 1101900](复仇者)装备,且自身在场时,己方全体的宝具威力提升10%＆付与对〔拥有人之力的敌人〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308320/9308320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93083200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93083200.png"
+        ]
+    }
+}

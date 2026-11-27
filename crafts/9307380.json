@@ -1,0 +1,27 @@
+{
+    "id": 9307380,
+    "name": "瞄准，举枪，射击",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "瞄准，举枪，射击",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 205100](弓兵)装备,且自身在场时,回避状态的己方全体的暴击威力提升35%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307380/9307380a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073800.png"
+        ]
+    }
+}

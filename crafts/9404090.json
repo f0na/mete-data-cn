@@ -1,0 +1,42 @@
+{
+    "id": 9404090,
+    "name": "乘机飞抵",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "乘机飞抵",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆宝具威力提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "坚韧热狗ZERO的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "坚韧热狗ZERO的掉落获得数增加1个【『BATTLE IN NEWYORK 2020』活动限定】"
+        },
+        {
+            "name": "乘机飞抵",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆宝具威力提升15%＆暴击威力提升15%[最大解放]"
+        },
+        {
+            "name": "坚韧热狗ZERO的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "坚韧热狗ZERO的掉落获得数增加2个[最大解放]【『BATTLE IN NEWYORK 2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404090/9404090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94040900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94040900.png"
+        ]
+    }
+}

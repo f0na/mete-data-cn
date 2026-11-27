@@ -1,0 +1,32 @@
+{
+    "id": 9406030,
+    "name": "花之乐土",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "花之乐土",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆迅指令卡性能提升8%"
+        },
+        {
+            "name": "花之乐土",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆迅指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406030/9406030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94060300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94060300.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401350,
+    "name": "高跟鞋公主",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401350a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401350.png"
+    },
+    "skills": [
+        {
+            "name": "高跟鞋公主",
+            "icon": "Cmdcodes/SkillIcons/skill_00600.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,吸收敌方单体100的生命值＆付与诅咒状态(300伤害·3回合)"
+        }
+    ],
+    "comment": "某个国家的女王之女穿着的时尚的鞋子。\n\n让这位对大多数东西不感兴趣，\n只以毒辣为爱好的公主，\n甚至产生了想亲手制作一双极致高跟鞋梦想的，\n纯粹沉迷之物——\n\n那就是用与“恶性”意义相同的词语表现的\n这双高跟（heel）鞋。"
+}

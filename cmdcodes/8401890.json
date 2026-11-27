@@ -1,0 +1,17 @@
+{
+    "id": 8401890,
+    "name": "鼠净土的居民们",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401890a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401890.png"
+    },
+    "skills": [
+        {
+            "name": "鼠净土的居民们",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升10%(1回合)＋付与被刻印的指令卡对〔拥有地之力的敌人〕10%的特攻效果"
+        }
+    ],
+    "comment": "「大老爷，我们大黑鼠为您捏了饭团。\n　请您放心吧。这是我们倾尽心力的\n　免费服务。」\n\n「请先品尝我捏的饭团！\n　多吃一点，\n　一定要将体型吃得健壮一些才行。\n　因为您可是拯救世界的英雄啊！」\n\n「「来吧来吧，不用客气，尽情品尝吧。」」"
+}

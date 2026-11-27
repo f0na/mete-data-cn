@@ -1,0 +1,17 @@
+{
+    "id": 8401680,
+    "name": "沙海的海市蜃楼",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401680a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401680.png"
+    },
+    "skills": [
+        {
+            "name": "沙海的海市蜃楼",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升10%(1回合)＋被刻印的指令卡的暴击威力提升10%"
+        }
+    ],
+    "comment": "「愿平安与你常在（Sholem）！\n　您有什么吩咐吗～？\n　我一定会真心诚意地\n　提供与价格相符的交易～。\n\n　咿呀！？\n　要摸尾巴吗？\n　这个的话……唔～就依市场价定吧！\n　哎嘿嘿。」"
+}

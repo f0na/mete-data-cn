@@ -1,0 +1,32 @@
+{
+    "id": 9401500,
+    "name": "朗读劝进帐",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "朗读劝进帐",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身防御弱化无效状态1次"
+        },
+        {
+            "name": "朗读劝进帐",
+            "icon": "Craft/SkillIcons/skill_00411.png",
+            "effect": "付与自身防御弱化无效状态2次[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401500/9401500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94015000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94015000.png"
+        ]
+    }
+}

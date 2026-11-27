@@ -1,0 +1,27 @@
+{
+    "id": 9300890,
+    "name": "女神的闪耀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "女神的闪耀",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "尤瑞艾莉(弓兵)装备,且自身在场时,己方全体的技指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300890/9300890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93008900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93008900.png"
+        ]
+    }
+}

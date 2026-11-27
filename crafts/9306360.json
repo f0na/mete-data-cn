@@ -1,0 +1,27 @@
+{
+    "id": 9306360,
+    "name": "伟大的神秘",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "伟大的神秘",
+            "icon": "Craft/SkillIcons/skill_00804.png",
+            "effect": "[servantName 1001300](他人格)装备时,自身的宝具威力提升30%＆付与「打倒敌人时,付与自身〔点赞！〕状态(5回合)」"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306360/9306360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93063600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93063600.png"
+        ]
+    }
+}

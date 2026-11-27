@@ -1,0 +1,42 @@
+{
+    "id": 9408230,
+    "name": "于神圣之夜送上祝福",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "于神圣之夜送上祝福",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升3%＆暴击威力提升15%"
+        },
+        {
+            "name": "空月玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "空月玩偶的掉落获得数增加1个【『Space Phantasmoon』活动限定】"
+        },
+        {
+            "name": "于神圣之夜送上祝福",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升5%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "空月玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "空月玩偶的掉落获得数增加2个[最大解放]【『Space Phantasmoon』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408230/9408230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94082300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94082300.png"
+        ]
+    }
+}

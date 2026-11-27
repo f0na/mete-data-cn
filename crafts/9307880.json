@@ -1,0 +1,27 @@
+{
+    "id": 9307880,
+    "name": "颁发给你的奖杯",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "颁发给你的奖杯",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 901700](裁定者)装备,且自身在场时,己方全体的暴击威力提升20%＋仅在有〔水边〕或〔空中〕的场地上时,己方全体的暴击威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307880/9307880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93078800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93078800.png"
+        ]
+    }
+}

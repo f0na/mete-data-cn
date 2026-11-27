@@ -1,0 +1,27 @@
+{
+    "id": 9308830,
+    "name": "母源心脏",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "母源心脏",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 205300](弓兵)装备时,付与自身毅力状态(1次·回复10%的生命值·可与其他毅力状态叠加)＆毅力发动时,付与己方全体增加10%宝具值的状态＆自身死亡时,付与己方全体增加10%宝具值的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308830/9308830a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088300.png"
+        ]
+    }
+}

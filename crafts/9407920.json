@@ -1,0 +1,42 @@
+{
+    "id": 9407920,
+    "name": "便携莫达克",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "便携莫达克",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆技指令卡性能提升3%"
+        },
+        {
+            "name": "昂贵椰枣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "昂贵椰枣的掉落获得数增加1个【『名流夏日体验！』活动限定】"
+        },
+        {
+            "name": "便携莫达克",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆技指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "昂贵椰枣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "昂贵椰枣的掉落获得数增加2个[最大解放]【『名流夏日体验！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407920/9407920a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94079200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94079200.png"
+        ]
+    }
+}

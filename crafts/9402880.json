@@ -1,0 +1,42 @@
+{
+    "id": 9402880,
+    "name": "第一次的情人节",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "第一次的情人节",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升8%＆力指令卡性能提升8%＆宝具威力提升5%"
+        },
+        {
+            "name": "神秘牛奶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神秘牛奶的掉落获得数增加1个【『情人节2019』活动限定】"
+        },
+        {
+            "name": "第一次的情人节",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升10%＆力指令卡性能提升10%＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "神秘牛奶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神秘牛奶的掉落获得数增加2个[最大解放]【『情人节2019』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402880/9402880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94028800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94028800.png"
+        ]
+    }
+}

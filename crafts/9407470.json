@@ -1,0 +1,32 @@
+{
+    "id": 9407470,
+    "name": "雾中情景",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "雾中情景",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升30%"
+        },
+        {
+            "name": "雾中情景",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "自身的生命值回复量提升40%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407470/9407470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94074700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94074700.png"
+        ]
+    }
+}

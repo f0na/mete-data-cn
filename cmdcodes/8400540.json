@@ -1,0 +1,17 @@
+{
+    "id": 8400540,
+    "name": "不存之幻马",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400540a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400540.png"
+    },
+    "skills": [
+        {
+            "name": "不存之幻马",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅当被刻印在迅指令卡上时,被刻印的指令卡暴击威力提升20%"
+        }
+    ],
+    "comment": "据说是魔兽狮鹫与马之间生出的幻兽。\n然而，由于双亲是捕食者与被捕食者的关系，\n因此原本就是某个故事中用作「不可能存在」的比喻来使用的，\n只是语言学上，或是哲学象征性质的存在。\n\n是作为骑兵被召唤的英灵阿斯托尔福的爱马，\n但原本的主人是同属查理曼十二圣骑士之一的布拉达曼特。"
+}

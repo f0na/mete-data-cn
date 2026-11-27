@@ -1,0 +1,32 @@
+{
+    "id": 9400960,
+    "name": "千年黄金树",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "千年黄金树",
+            "icon": "Craft/SkillIcons/skill_00412.png",
+            "effect": "付与自身每回合最大生命值提升效果(每回合＋200·最大＋3000)"
+        },
+        {
+            "name": "千年黄金树",
+            "icon": "Craft/SkillIcons/skill_00412.png",
+            "effect": "付与自身每回合最大生命值提升效果(每回合＋300·最大＋3000)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400960/9400960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94009600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94009600.png"
+        ]
+    }
+}

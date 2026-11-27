@@ -1,0 +1,32 @@
+{
+    "id": 9402930,
+    "name": "巧克力蛋糕",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "巧克力蛋糕",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆宝具威力提升10%＆暴击威力提升10%"
+        },
+        {
+            "name": "巧克力蛋糕",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具威力提升15%＆暴击威力提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402930/9402930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94029300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94029300.png"
+        ]
+    }
+}

@@ -1,15 +1,21 @@
-name: Validate servant data
+name: Validate game data
 
 on:
   push:
     paths:
       - "servants/**"
+      - "crafts/**"
+      - "mystic/**"
+      - "cmdcodes/**"
       - "scripts/**"
       - "asset_sources.json"
       - ".github/workflows/validate.yml"
   pull_request:
     paths:
       - "servants/**"
+      - "crafts/**"
+      - "mystic/**"
+      - "cmdcodes/**"
       - "scripts/**"
       - "asset_sources.json"
       - ".github/workflows/validate.yml"

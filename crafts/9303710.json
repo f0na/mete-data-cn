@@ -1,0 +1,27 @@
+{
+    "id": 9303710,
+    "name": "铭刻之物",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "铭刻之物",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "[servantName 703300](狂战士)装备时,付与自身无敌状态(3次)＆宝具威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303710/9303710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93037100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93037100.png"
+        ]
+    }
+}

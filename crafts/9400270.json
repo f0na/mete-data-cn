@@ -1,0 +1,32 @@
+{
+    "id": 9400270,
+    "name": "秉持优雅",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1125,
+    "skills": [
+        {
+            "name": "秉持优雅",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升25%"
+        },
+        {
+            "name": "秉持优雅",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400270/9400270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94002700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94002700.png"
+        ]
+    }
+}

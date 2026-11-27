@@ -1,0 +1,32 @@
+{
+    "id": 9408010,
+    "name": "月海原学园之王",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "月海原学园之王",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身登场时为己方全体提升攻击力10%一次(3回合)"
+        },
+        {
+            "name": "月海原学园之王",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "自身登场时为己方全体提升攻击力15%一次(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408010/9408010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080100.png"
+        ]
+    }
+}

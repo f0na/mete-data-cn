@@ -1,0 +1,27 @@
+{
+    "id": 9304420,
+    "name": "把剑搁置片刻",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "把剑搁置片刻",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 104100](剑士)装备时,自身的宝具威力提升30%＆力指令卡的暴击威力提升100%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304420/9304420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93044200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93044200.png"
+        ]
+    }
+}

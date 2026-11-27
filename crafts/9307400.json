@@ -1,0 +1,27 @@
+{
+    "id": 9307400,
+    "name": "犒劳会永不结束",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "犒劳会永不结束",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307400/9307400a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93074000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93074000.png"
+        ]
+    }
+}

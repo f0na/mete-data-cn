@@ -1,0 +1,17 @@
+{
+    "id": 8400830,
+    "name": "天狗的羽团扇",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400830a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400830.png"
+    },
+    "skills": [
+        {
+            "name": "天狗的羽团扇",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的攻击力提升状态＋被刻印的指令卡暴击威力提升10%"
+        }
+    ],
+    "comment": "牛若丸（暗匿者）持有的羽团扇。\n\n不仅能刮起暴风，\n更能引发超越人类智慧的各种神通力。\n生前玩的是师傅的大羽扇，\n作为宝具时成了自己的东西。"
+}

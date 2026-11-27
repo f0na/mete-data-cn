@@ -1,0 +1,42 @@
+{
+    "id": 9406330,
+    "name": "垂钓者到来",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "垂钓者到来",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆迅指令卡性能提升3%＆宝具威力提升10%"
+        },
+        {
+            "name": "北极水晶球的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "北极水晶球的掉落获得数增加1个【『北极·夏日世界！』活动限定】"
+        },
+        {
+            "name": "垂钓者到来",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆迅指令卡性能提升5%＆宝具威力提升15%[最大解放]"
+        },
+        {
+            "name": "北极水晶球的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "北极水晶球的掉落获得数增加2个[最大解放]【『北极·夏日世界！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406330/9406330a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94063300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94063300.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9402110,
+    "name": "私室警备员",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "私室警备员",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆付与伤害减免300的状态"
+        },
+        {
+            "name": "私室警备员",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆付与伤害减免400的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402110/9402110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021100.png"
+        ]
+    }
+}

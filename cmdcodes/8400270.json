@@ -1,0 +1,17 @@
+{
+    "id": 8400270,
+    "name": "贤妻良狐",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400270a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400270.png"
+    },
+    "skills": [
+        {
+            "name": "贤妻良狐",
+            "icon": "Cmdcodes/SkillIcons/skill_00611.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的生命值回复量提升50%（1次·2回合）"
+        }
+    ],
+    "comment": "「今天一天辛苦啦～☆\n　打算先吃饭？　先洗澡？\n　还是说……打·活·动♡\n　作为您可靠的巫女狐，\n　我一定会助您一臂之力的，御主。」"
+}

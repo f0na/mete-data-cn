@@ -1,0 +1,32 @@
+{
+    "id": 9401700,
+    "name": "卡姆兰之战",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "卡姆兰之战",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身战败退场时己方全体的宝具值充能10%"
+        },
+        {
+            "name": "卡姆兰之战",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身战败退场时己方全体的宝具值充能15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401700/9401700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017000.png"
+        ]
+    }
+}

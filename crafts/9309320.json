@@ -1,0 +1,27 @@
+{
+    "id": 9309320,
+    "name": "英灵祝装：Archetype：Earth",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：Archetype：Earth",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309320/9309320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93093200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93093200.png"
+        ]
+    }
+}

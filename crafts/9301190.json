@@ -1,0 +1,27 @@
+{
+    "id": 9301190,
+    "name": "童子切安纲",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "童子切安纲",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "源赖光(狂战士)装备,且自身在场时,己方全体的力指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301190/9301190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93011900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93011900.png"
+        ]
+    }
+}

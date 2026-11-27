@@ -1,0 +1,17 @@
+{
+    "id": 8400320,
+    "name": "BB老虎机",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400320a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400320.png"
+    },
+    "skills": [
+        {
+            "name": "BB老虎机",
+            "icon": "Cmdcodes/SkillIcons/skill_00001.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,随机发动各种效果<获得5个暴击星或自身生命值回复500或自身弱化耐性提升10%(1回合)>"
+        }
+    ],
+    "comment": "无论是强者，还是弱者，\n无论是幸运之人，还是不幸之人，\n待遇一律平等。\n\n这种小恶魔制作的轮盘——\n\n或许是那位尽管十分可爱（Cute），\n却总给人添麻烦（Cursed）少女的\n——笨拙的（Clumsy）爱情表现吧。"
+}

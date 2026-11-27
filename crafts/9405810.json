@@ -1,0 +1,42 @@
+{
+    "id": 9405810,
+    "name": "一夜之梦",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "一夜之梦",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态（2次）＆宝具值获得量提升15%"
+        },
+        {
+            "name": "智能笔的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "智能笔的掉落获得数增加1个【『15位理智性眼镜们』活动限定】"
+        },
+        {
+            "name": "一夜之梦",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态（2次）＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "智能笔的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "智能笔的掉落获得数增加2个[最大解放]【『15位理智性眼镜们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405810/9405810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94058100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94058100.png"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "id": 9403940,
+    "name": "鬼之茶会",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "鬼之茶会",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升5%＆生命值回复量提升5%"
+        },
+        {
+            "name": "青苎线的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青苎线的掉落获得数增加1个【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "鬼之茶会",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "自身的暴击威力提升10%＆生命值回复量提升10%[最大解放]"
+        },
+        {
+            "name": "青苎线的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青苎线的掉落获得数增加2个[最大解放]【『唠唠叨叨最终本能寺2020』活动限定】"
+        },
+        {
+            "name": "青苎线的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青苎线的掉落获得数增加1个【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        },
+        {
+            "name": "青苎线的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青苎线的掉落获得数增加2个[最大解放]【『复刻:唠唠叨叨最终本能寺2020 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403940/9403940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039400.png"
+        ]
+    }
+}

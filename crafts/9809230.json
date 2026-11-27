@@ -1,0 +1,37 @@
+{
+    "id": 9809230,
+    "name": "枯山水巧克力",
+    "type": "SvtEquipChocolate",
+    "rarity": 4,
+    "cost": 3,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "枯山水巧克力",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        },
+        {
+            "name": "枯山水巧克力",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "岩石巧克力点数的掉落获得量提升10%【『情人节2025』活动限定】"
+        },
+        {
+            "name": "枯山水巧克力",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "闪耀点数的掉落获得量提升10%【『小野小町古今抄』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9809230/9809230a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98092300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98092300.png"
+        ]
+    }
+}

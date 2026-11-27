@@ -1,0 +1,32 @@
+{
+    "id": 9407450,
+    "name": "空白的男人",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "空白的男人",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升20%(3回合)＆暴击威力提升15%(3回合)"
+        },
+        {
+            "name": "空白的男人",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升30%(3回合)＆暴击威力提升20%(3回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407450/9407450a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94074500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94074500.png"
+        ]
+    }
+}

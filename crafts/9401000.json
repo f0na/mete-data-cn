@@ -1,0 +1,27 @@
+{
+    "id": 9401000,
+    "name": "英灵肖像：阿蒂拉",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 5,
+    "atk": 500,
+    "hp": 500,
+    "skills": [
+        {
+            "name": "英灵肖像：阿蒂拉",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的牵绊点数增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401000/9401000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94010000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94010000.png"
+        ]
+    }
+}

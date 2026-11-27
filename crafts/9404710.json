@@ -1,0 +1,52 @@
+{
+    "id": 9404710,
+    "name": "诚之萤火",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "诚之萤火",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "大蛤蜊的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "大蛤蜊的掉落获得数增加1个【『超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "诚之萤火",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升15%＆技指令卡性能提升15%＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "大蛤蜊的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "大蛤蜊的掉落获得数增加2个[最大解放]【『超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "大蛤蜊的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "大蛤蜊的掉落获得数增加1个【『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        },
+        {
+            "name": "大蛤蜊的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "大蛤蜊的掉落获得数增加2个[最大解放]【『复刻:超古代新选组列传 唠唠叨叨邪马台国2021』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404710/9404710a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94047100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94047100.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9302390,
+    "name": "魔法少女☆伊莉雅 雪下的誓言",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "魔法少女☆伊莉雅 雪下的誓言",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302390/9302390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93023900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93023900.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9401760,
+    "name": "火焰之花",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "火焰之花",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升5%＆暴击威力提升5%"
+        },
+        {
+            "name": "火焰之花",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升10%＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401760/9401760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017600.png"
+        ]
+    }
+}

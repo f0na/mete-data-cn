@@ -1,0 +1,32 @@
+{
+    "id": 9407320,
+    "name": "派对之前",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "派对之前",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆付与每回合生命值回复200的状态"
+        },
+        {
+            "name": "派对之前",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆付与每回合生命值回复300的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407320/9407320a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94073200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94073200.png"
+        ]
+    }
+}

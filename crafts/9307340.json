@@ -1,0 +1,27 @@
+{
+    "id": 9307340,
+    "name": "沙恭尼的骰子",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "沙恭尼的骰子",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "[servantName 704600](狂战士)装备时,自身登场时获得30个暴击星(1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307340/9307340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073400.png"
+        ]
+    }
+}

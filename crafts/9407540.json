@@ -1,0 +1,32 @@
+{
+    "id": 9407540,
+    "name": "初绽花中鹤",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "初绽花中鹤",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升200%＆使用宝具时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "初绽花中鹤",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆使用宝具时充能阶段上升1级(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407540/9407540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94075400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94075400.png"
+        ]
+    }
+}

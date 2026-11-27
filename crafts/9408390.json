@@ -1,0 +1,32 @@
+{
+    "id": 9408390,
+    "name": "至诚的一针",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "至诚的一针",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔拥有灵衣之人〕的牵绊点数增加4%"
+        },
+        {
+            "name": "至诚的一针",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔拥有灵衣之人〕的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408390/9408390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94083900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94083900.png"
+        ]
+    }
+}

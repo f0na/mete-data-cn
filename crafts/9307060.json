@@ -1,0 +1,27 @@
+{
+    "id": 9307060,
+    "name": "战士的面具",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "战士的面具",
+            "icon": "Craft/SkillIcons/skill_00332.png",
+            "effect": "[servantName 604700](暗匿者)装备时,自身的宝具威力提升30%＆自身在场时,付与己方全体毅力发动时获得10个暴击星的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307060/9307060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070600.png"
+        ]
+    }
+}

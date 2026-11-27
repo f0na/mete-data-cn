@@ -1,0 +1,17 @@
+{
+    "id": 8401950,
+    "name": "雀纹的藤箱",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401950a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401950.png"
+    },
+    "skills": [
+        {
+            "name": "雀纹的藤箱",
+            "icon": "Cmdcodes/SkillIcons/skill_00602.png",
+            "effect": "被刻印的指令卡的宝具值获得量提升5%＋当使用被刻印的指令卡进行攻击时,自身的宝具威力提升5%(1回合) "
+        }
+    ],
+    "comment": "冠以『剪舌麻雀』之名的少女剑士\n拥有的藤箱形态的宝具。\n\n箱内收纳的——是扮装成百鬼夜行的麻雀们。\n它们会迷惑敌人，并将他们封印进箱中。\n\n据说就这样被送往雀之旅馆的敌人，\n将会接受制裁的一刀。"
+}

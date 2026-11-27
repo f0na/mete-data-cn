@@ -1,0 +1,17 @@
+{
+    "id": 8401120,
+    "name": "搭档戒指〔SILVER〕",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401120a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401120.png"
+    },
+    "skills": [
+        {
+            "name": "搭档戒指〔SILVER〕",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得1个暴击星＋自身的强化解除耐性提升10%(1回合)"
+        }
+    ],
+    "comment": "迦勒底谨制的银戒指。\n象征着平日里的感谢与牵绊。"
+}

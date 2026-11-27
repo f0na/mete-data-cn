@@ -1,0 +1,17 @@
+{
+    "id": 8400360,
+    "name": "慈眉善目的尼僧",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400360a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400360.png"
+    },
+    "skills": [
+        {
+            "name": "慈眉善目的尼僧",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔秩序〕20%的特攻效果＆对〔裁定者〕20%的特攻效果"
+        }
+    ],
+    "comment": "「请毫无保留地道出您的痛苦与喜悦吧。\n\n　没有这双手无法包容的众生，\n　没有这双手无法掬取的恸哭，\n　同时，所有欲望不分贵贱——\n\n　来吧，请将内心尽情地向我——」\n\n　大悟与解脱在其指尖中随喜自在。\n　抵达之地乃是瞑生院，如颚般天上乐土。"
+}

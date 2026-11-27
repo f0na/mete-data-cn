@@ -1,0 +1,17 @@
+{
+    "id": 8402080,
+    "name": "炸弹信",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402080a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402080.png"
+    },
+    "skills": [
+        {
+            "name": "炸弹信",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "仅当被刻印在力指令卡上时,被刻印的指令卡的暴击威力提升10%＋当使用被刻印的指令卡进行攻击时,获得1个暴击星"
+        }
+    ],
+    "comment": "因圣杯的失控再一次诞生的谜之生物。\n将过剩的激情变换为魔力能源\n并进行爆发的热情型的迷你信。\n\n从一击必杀的美妙嗓音中释放出的炸弹\n犹如烟花般绚丽而梦幻吗？\n\n顺便一提，据说它乘坐的那个圆形物体\n类似于从魔力爆炸中保护自己的铠甲。\n\n另外有种可疑的传闻称，\n它成长后还会进化为其他的迷你信。"
+}

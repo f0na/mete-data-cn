@@ -1,0 +1,32 @@
+{
+    "id": 9402160,
+    "name": "圣夜的阅读",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "圣夜的阅读",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%＆宝具威力提升15%"
+        },
+        {
+            "name": "圣夜的阅读",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402160/9402160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021600.png"
+        ]
+    }
+}

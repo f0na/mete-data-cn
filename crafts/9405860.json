@@ -1,0 +1,42 @@
+{
+    "id": 9405860,
+    "name": "迦勒底快车",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "迦勒底快车",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值1%的状态＆技指令卡性能提升2%＆宝具值获得量提升3%"
+        },
+        {
+            "name": "聪慧纸张的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "聪慧纸张的掉落获得数增加1个【『15位理智性眼镜们』活动限定】"
+        },
+        {
+            "name": "迦勒底快车",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值2%的状态＆技指令卡性能提升3%＆宝具值获得量提升5%[最大解放]"
+        },
+        {
+            "name": "聪慧纸张的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "聪慧纸张的掉落获得数增加2个[最大解放]【『15位理智性眼镜们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405860/9405860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94058600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94058600.png"
+        ]
+    }
+}

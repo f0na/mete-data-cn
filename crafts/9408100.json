@@ -1,0 +1,42 @@
+{
+    "id": 9408100,
+    "name": "与我的父亲",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "与我的父亲",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升4%＆技指令卡性能提升4%＆自身以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『妖精双六虫笼游戏』中,自身的攻击威力提升100%【『妖精双六虫笼游戏』活动限定】"
+        },
+        {
+            "name": "与我的父亲",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升6%＆技指令卡性能提升6%＆自身以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『妖精双六虫笼游戏』中,自身的攻击威力提升200%[最大解放]【『妖精双六虫笼游戏』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408100/9408100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94081000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94081000.png"
+        ]
+    }
+}

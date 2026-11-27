@@ -1,0 +1,124 @@
+{
+    "id": 110,
+    "name": "魔术礼装·极地用迦勒底制服",
+    "shortName": "极地用\n迦勒底制服",
+    "skills": [
+        {
+            "name": "净化回复",
+            "icon": "Mystic/SkillIcons/skill_00600.png",
+            "effect": "己方单体生命值回复＆解除防御弱化状态",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体生命值回复",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1200,
+                        1400,
+                        1600,
+                        1800,
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        3000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "解除防御弱化状态",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "幻想强化",
+            "icon": "Mystic/SkillIcons/skill_00300.png",
+            "effect": "己方单体的攻击力提升(1回合)＆宝具威力提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的攻击力提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        2000,
+                        2200,
+                        2400,
+                        2600,
+                        2800,
+                        3000,
+                        3200,
+                        3400,
+                        3600,
+                        4000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "宝具威力提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "预测回避",
+            "icon": "Mystic/SkillIcons/skill_00402.png",
+            "effect": "为己方单体付与回避状态(1次·3回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "为己方单体付与回避状态(1次·3回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00111.png",
+            "female": "Mystic/Items/masterequip00112.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00111.png",
+            "female": "Mystic/Items/masterequip00112.png"
+        }
+    }
+}

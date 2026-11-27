@@ -1,0 +1,17 @@
+{
+    "id": 8400490,
+    "name": "天之锁",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400490a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400490.png"
+    },
+    "skills": [
+        {
+            "name": "天之锁",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔神性〕20%的特攻效果"
+        }
+    ],
+    "comment": "「我是一件武器，是兵器。\n　所以希望你能尽情使用我。\n　完全不用顾虑我的心情。\n　因为打从违背了制作我的神之命令的那刻起，\n　我就决定要与人类同在了。」"
+}

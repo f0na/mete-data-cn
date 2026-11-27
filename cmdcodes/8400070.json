@@ -1,0 +1,17 @@
+{
+    "id": 8400070,
+    "name": "纹章：闪耀",
+    "rarity": 2,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400070a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400070.png"
+    },
+    "skills": [
+        {
+            "name": "纹章：闪耀",
+            "icon": "Cmdcodes/SkillIcons/skill_00604.png",
+            "effect": "被刻印的指令卡暴击星掉落率提升20%"
+        }
+    ],
+    "comment": "硕果累累的恩惠。\n如其所愿的耀眼。"
+}

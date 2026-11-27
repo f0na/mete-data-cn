@@ -1,0 +1,42 @@
+{
+    "id": 9404940,
+    "name": "缝制爱子",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "缝制爱子",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升10%＆力指令卡的暴击威力提升15%＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "(强者)追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『来吧,向镰仓道别 ～小小大天狗～』中(强者)敌人的追加出现率提升20%【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        },
+        {
+            "name": "缝制爱子",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%＆力指令卡的暴击威力提升20%＆宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "(强者)追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『来吧,向镰仓道别 ～小小大天狗～』中(强者)敌人的追加出现率提升50%[最大解放]【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404940/9404940a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049400.png"
+        ]
+    }
+}

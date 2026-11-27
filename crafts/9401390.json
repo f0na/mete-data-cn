@@ -1,0 +1,32 @@
+{
+    "id": 9401390,
+    "name": "死之艺术",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "死之艺术",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔人型〕25%的特攻状态"
+        },
+        {
+            "name": "死之艺术",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身对〔人型〕30%的特攻状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401390/9401390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94013900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94013900.png"
+        ]
+    }
+}

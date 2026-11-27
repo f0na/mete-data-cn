@@ -1,0 +1,27 @@
+{
+    "id": 9306460,
+    "name": "黄巾",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黄巾",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 505100](魔术师)装备,且自身在场时,己方全体的宝具威力提升10%＆被强化成功率提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306460/9306460a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93064600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93064600.png"
+        ]
+    }
+}

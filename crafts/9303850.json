@@ -1,0 +1,27 @@
+{
+    "id": 9303850,
+    "name": "望春",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "望春",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 504400](魔术师)装备,且自身在场时,除自身以外的己方全体力指令卡性能提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303850/9303850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93038500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93038500.png"
+        ]
+    }
+}

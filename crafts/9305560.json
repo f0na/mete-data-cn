@@ -1,0 +1,27 @@
+{
+    "id": 9305560,
+    "name": "Fate/Grand Carnival 1st Season",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Fate/Grand Carnival 1st Season",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305560/9305560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93055600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93055600.png"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 9407430,
+    "name": "直至比富士更为遥远之地",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "直至比富士更为遥远之地",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆迅指令卡性能提升3%"
+        },
+        {
+            "name": "今魔川烧的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "今魔川烧的掉落获得数增加1个【『唠唠叨叨超五棱郭』活动限定】"
+        },
+        {
+            "name": "直至比富士更为遥远之地",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆迅指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "今魔川烧的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "今魔川烧的掉落获得数增加2个[最大解放]【『唠唠叨叨超五棱郭』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407430/9407430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94074300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94074300.png"
+        ]
+    }
+}

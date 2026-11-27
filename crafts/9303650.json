@@ -1,0 +1,27 @@
+{
+    "id": 9303650,
+    "name": "守墓人之宝",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "守墓人之宝",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 603900](暗匿者)装备,且自身在场时,己方全体的攻击力提升10%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303650/9303650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93036500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93036500.png"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "id": 9403820,
+    "name": "锦上添花",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "锦上添花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『德川回天迷宫 大奥』中的攻击威力提升100%【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "锦上添花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『德川回天迷宫 大奥』中的攻击威力提升200%[最大解放]【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "『复刻:德川回天迷宫 大奥』中的攻击威力提升100%【『复刻:德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "『复刻:德川回天迷宫 大奥』中的攻击威力提升200%[最大解放]【『复刻:德川回天迷宫 大奥』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403820/9403820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038200.png"
+        ]
+    }
+}

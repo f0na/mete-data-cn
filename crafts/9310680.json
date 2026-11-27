@@ -1,0 +1,27 @@
+{
+    "id": 9310680,
+    "name": "英灵星行：尼托克丽丝",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵星行：尼托克丽丝",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310680/9310680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93106800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93106800.png"
+        ]
+    }
+}

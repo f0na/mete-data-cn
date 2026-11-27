@@ -1,0 +1,27 @@
+{
+    "id": 9310930,
+    "name": "遍满大地吧",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "遍满大地吧",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 405700](骑兵)装备,且自身在场时,己方全体的技指令卡性能提升10%＋除自身以外的己方全体动物<猛兽与魔兽型从者、兽科的从者>(部分除外)的宝具值获得量提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310930/9310930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93109300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93109300.png"
+        ]
+    }
+}

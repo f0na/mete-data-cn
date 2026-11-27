@@ -1,0 +1,42 @@
+{
+    "id": 9407670,
+    "name": "魔术修养",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "魔术修养",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆宝具威力提升5%＆暴击威力提升5%"
+        },
+        {
+            "name": "信念啫喱的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "信念啫喱的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "魔术修养",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升10%＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "信念啫喱的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "信念啫喱的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407670/9407670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94076700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94076700.png"
+        ]
+    }
+}

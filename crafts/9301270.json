@@ -1,0 +1,27 @@
+{
+    "id": 9301270,
+    "name": "炊饭无穷尽",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "炊饭无穷尽",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "俵藤太(弓兵)装备,且自身在场时,己方全体每回合回复500生命值"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301270/9301270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93012700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93012700.png"
+        ]
+    }
+}

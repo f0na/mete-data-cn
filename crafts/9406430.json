@@ -1,0 +1,32 @@
+{
+    "id": 9406430,
+    "name": "猎人之梦",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "猎人之梦",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升200%＆暴击威力提升15%"
+        },
+        {
+            "name": "猎人之梦",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆暴击威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406430/9406430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94064300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94064300.png"
+        ]
+    }
+}

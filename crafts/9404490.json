@@ -1,0 +1,32 @@
+{
+    "id": 9404490,
+    "name": "共赴明日",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "共赴明日",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆宝具威力提升10%"
+        },
+        {
+            "name": "共赴明日",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得3个暴击星的状态＆宝具威力提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404490/9404490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94044900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94044900.png"
+        ]
+    }
+}

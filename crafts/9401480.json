@@ -1,0 +1,32 @@
+{
+    "id": 9401480,
+    "name": "狐狸的夜之梦",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "狐狸的夜之梦",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升20%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "狐狸的夜之梦",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升25%＆付与每回合获得4个暴击星的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401480/9401480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94014800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94014800.png"
+        ]
+    }
+}

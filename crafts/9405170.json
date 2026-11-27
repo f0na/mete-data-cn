@@ -1,0 +1,32 @@
+{
+    "id": 9405170,
+    "name": "无雪之夜过后",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "无雪之夜过后",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆关卡通关时获得的牵绊点数增加1%"
+        },
+        {
+            "name": "无雪之夜过后",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆关卡通关时获得的牵绊点数增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405170/9405170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051700.png"
+        ]
+    }
+}

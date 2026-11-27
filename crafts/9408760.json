@@ -1,0 +1,42 @@
+{
+    "id": 9408760,
+    "name": "素炒面",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "素炒面",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升8%＆付与对〔恶〕15%的特攻状态"
+        },
+        {
+            "name": "究极捕虫网的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "究极捕虫网的掉落获得数增加1个【『迦勒底·Ｕ－夏日岛』活动限定】"
+        },
+        {
+            "name": "素炒面",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆付与对〔恶〕20%的特攻状态[最大解放]"
+        },
+        {
+            "name": "究极捕虫网的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "究极捕虫网的掉落获得数增加2个[最大解放]【『迦勒底·Ｕ－夏日岛』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408760/9408760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94087600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94087600.png"
+        ]
+    }
+}

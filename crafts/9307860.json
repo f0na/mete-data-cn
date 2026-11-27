@@ -1,0 +1,27 @@
+{
+    "id": 9307860,
+    "name": "驰骋夏日",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "驰骋夏日",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 405000](骑兵)装备,且自身在场时,己方全体〔夏日模式从者〕的宝具威力提升25%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307860/9307860a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93078600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93078600.png"
+        ]
+    }
+}

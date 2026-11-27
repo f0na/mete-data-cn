@@ -1,0 +1,52 @@
+{
+    "id": 9403810,
+    "name": "消防精神",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "消防精神",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升3%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "雪香粉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雪香粉的掉落获得数增加1个【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "消防精神",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升5%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "雪香粉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雪香粉的掉落获得数增加2个[最大解放]【『德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "雪香粉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雪香粉的掉落获得数增加1个【『复刻:德川回天迷宫 大奥』活动限定】"
+        },
+        {
+            "name": "雪香粉的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雪香粉的掉落获得数增加2个[最大解放]【『复刻:德川回天迷宫 大奥』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403810/9403810a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038100.png"
+        ]
+    }
+}

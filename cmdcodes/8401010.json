@@ -1,0 +1,17 @@
+{
+    "id": 8401010,
+    "name": "银钥的巫女",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401010a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401010.png"
+    },
+    "skills": [
+        {
+            "name": "银钥的巫女",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得3个暴击星＋解除1个敌方单体的攻击力提升状态"
+        }
+    ],
+    "comment": "「您好，御主。\n\n　那个……\n　虽然太复杂的事我不太懂，\n　但这肯定是神明的旨意吧。\n\n　为了总是握着我的手的您。\n　也为了回应这份信任。\n　请让我竭尽全力帮助您。\n　嘿、嘿、加油！」"
+}

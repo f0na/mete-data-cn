@@ -1,0 +1,17 @@
+{
+    "id": 8401900,
+    "name": "伊吹山的神子",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401900a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401900.png"
+    },
+    "skills": [
+        {
+            "name": "伊吹山的神子",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔死灵〕5%的特攻效果＆宝具值获得量提升3%"
+        }
+    ],
+    "comment": "盘踞于近江伊吹山麓的存在。\n关于其出生诸说纷纭，但本次的灵基强调了\n身为『伊吹大明神的分灵、八岐大蛇之子』的侧面。\n\n幼体的她似乎将召唤自己的御主\n完全视为『饲养对象』，\n将御主当做猫狗一样对待……\n但她似乎从没养过真的。"
+}

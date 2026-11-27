@@ -1,0 +1,32 @@
+{
+    "id": 9400390,
+    "name": "抹大拉的圣骸布",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "抹大拉的圣骸布",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕25%的特防状态"
+        },
+        {
+            "name": "抹大拉的圣骸布",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身对〔男性〕30%的特防状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400390/9400390a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94003900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94003900.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9307180,
+    "name": "无法打倒之人",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无法打倒之人",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "[servantName 1001500](他人格)装备时,自身的宝具威力提升30%＆毅力发动时,付与获得20个暴击星的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307180/9307180a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93071800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93071800.png"
+        ]
+    }
+}

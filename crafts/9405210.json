@@ -1,0 +1,32 @@
+{
+    "id": 9405210,
+    "name": "愿望之容器",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "愿望之容器",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升10%＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "愿望之容器",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%＆宝具值已达50%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405210/9405210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94052100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94052100.png"
+        ]
+    }
+}

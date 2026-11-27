@@ -1,0 +1,32 @@
+{
+    "id": 9401520,
+    "name": "英雄风采 三英杰",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "英雄风采 三英杰",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身宝具威力提升15%＆暴击星掉落率提升15%＆以宝具值已达25%的状态开始战斗"
+        },
+        {
+            "name": "英雄风采 三英杰",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身宝具威力提升20%＆暴击星掉落率提升20%＆以宝具值已达40%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401520/9401520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94015200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94015200.png"
+        ]
+    }
+}

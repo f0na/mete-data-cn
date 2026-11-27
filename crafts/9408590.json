@@ -1,0 +1,32 @@
+{
+    "id": 9408590,
+    "name": "献给幸福的新娘",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "献给幸福的新娘",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔秩序的女性〕的牵绊点数增加4%"
+        },
+        {
+            "name": "献给幸福的新娘",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔秩序的女性〕的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408590/9408590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94085900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94085900.png"
+        ]
+    }
+}

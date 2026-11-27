@@ -1,0 +1,27 @@
+{
+    "id": 9307930,
+    "name": "抱紧我，就像那米粒一般",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "抱紧我，就像那米粒一般",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307930/9307930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079300.png"
+        ]
+    }
+}

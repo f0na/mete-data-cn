@@ -1,0 +1,42 @@
+{
+    "id": 9405160,
+    "name": "绽放于茜色之空",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "绽放于茜色之空",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升10%＆宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "迅、技、力攻击威力提升＆偶像元素点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』中,迅、技、力攻击的威力提升10～100%<根据偶像元素点数量及不同指令卡变化>＆偶像元素点数的掉落获得量提升30%【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        },
+        {
+            "name": "绽放于茜色之空",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击威力提升15%＆宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "迅、技、力攻击威力提升＆偶像元素点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』中,迅、技、力攻击的威力提升10～100%<根据偶像元素点数量及不同指令卡变化>＆偶像元素点数的掉落获得量提升60%[最大解放]【『闪耀吧！ 圣杯演唱会！！ ～鹤的偶像报恩～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405160/9405160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94051600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94051600.png"
+        ]
+    }
+}

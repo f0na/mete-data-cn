@@ -1,0 +1,32 @@
+{
+    "id": 9407750,
+    "name": "未至不死之人",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2400,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "未至不死之人",
+            "icon": "Craft/SkillIcons/skill_00512.png",
+            "effect": "自身战败退场时付与敌方技能封印状态(2回合)以及诅咒状态(1000伤害·10回合)"
+        },
+        {
+            "name": "未至不死之人",
+            "icon": "Craft/SkillIcons/skill_00512.png",
+            "effect": "自身战败退场时付与敌方技能封印状态(2回合)以及诅咒状态(2000伤害·10回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407750/9407750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94077500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94077500.png"
+        ]
+    }
+}

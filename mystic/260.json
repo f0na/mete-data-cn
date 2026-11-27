@@ -1,0 +1,153 @@
+{
+    "id": 260,
+    "name": "新春装束",
+    "shortName": "新春装束",
+    "skills": [
+        {
+            "name": "除灾招福",
+            "icon": "Mystic/SkillIcons/skill_00302.png",
+            "effect": "己方全体的宝具威力提升(1回合)＆宝具值获得量提升(1回合)",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的宝具威力提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        1900,
+                        2000,
+                        2100,
+                        2200,
+                        2300,
+                        2500
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "宝具值获得量提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "心愿实现",
+            "icon": "Mystic/SkillIcons/skill_00313.png",
+            "effect": "付与己方单体宝具使用时充能阶段上升1级的状态(1回合)＆宝具值增加",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体宝具使用时充能阶段上升1级的状态(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10,
+                        10
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "宝具值增加",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000,
+                        1000
+                    ],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "无病无灾",
+            "icon": "Mystic/SkillIcons/skill_00411.png",
+            "effect": "付与己方单体弱化无效状态(1次·3回合)＋获得暴击星",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体弱化无效状态(1次·3回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00261.png",
+            "female": "Mystic/Items/masterequip00262.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00261.png",
+            "female": "Mystic/Items/masterequip00262.png"
+        }
+    }
+}

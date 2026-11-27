@@ -1,0 +1,164 @@
+{
+    "id": 430,
+    "name": "浅葱的队服",
+    "shortName": "浅葱的队服",
+    "skills": [
+        {
+            "name": "壬生浪精神",
+            "icon": "Mystic/SkillIcons/skill_00316.png",
+            "effect": "己方全体的迅指令卡性能提升(1回合)＆力指令卡性能提升(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的迅指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "力指令卡性能提升(1回合)",
+                    "kind": "Percent",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                }
+            ]
+        },
+        {
+            "name": "巡逻当班",
+            "icon": "Mystic/SkillIcons/skill_00404.png",
+            "effect": "付与己方单体毅力状态(1次·1回合)＋获得暴击星",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体毅力状态(1次·1回合)",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "One"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        },
+        {
+            "name": "新选饭团",
+            "icon": "Mystic/SkillIcons/skill_00600.png",
+            "effect": "己方全体的生命值回复＋获得暴击星",
+            "cool_down": [
+                12,
+                11,
+                10
+            ],
+            "target": "All",
+            "effects": [
+                {
+                    "effect": "己方全体的生命值回复",
+                    "kind": "Int",
+                    "values": [
+                        1000,
+                        1100,
+                        1200,
+                        1300,
+                        1400,
+                        1500,
+                        1600,
+                        1700,
+                        1800,
+                        2000
+                    ],
+                    "script": [],
+                    "target": "All"
+                },
+                {
+                    "effect": "获得暴击星",
+                    "kind": "Int",
+                    "values": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        15
+                    ],
+                    "script": [],
+                    "target": "SelfOnly"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00431.png",
+            "female": "Mystic/Items/masterequip00432.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00431.png",
+            "female": "Mystic/Items/masterequip00432.png"
+        }
+    }
+}

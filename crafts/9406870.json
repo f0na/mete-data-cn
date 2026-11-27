@@ -1,0 +1,52 @@
+{
+    "id": 9406870,
+    "name": "永恒的罗马",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "永恒的罗马",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(2次)＆付与自身被伤害减免300的状态"
+        },
+        {
+            "name": "CAOXIE猪排饭的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "CAOXIE猪排饭的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升30%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "永恒的罗马",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(2次)＆付与自身被伤害减免400的状态[最大解放]"
+        },
+        {
+            "name": "CAOXIE猪排饭的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "CAOXIE猪排饭的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升60%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406870/9406870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068700.png"
+        ]
+    }
+}

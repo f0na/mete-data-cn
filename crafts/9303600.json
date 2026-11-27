@@ -1,0 +1,27 @@
+{
+    "id": 9303600,
+    "name": "最快的证明",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "最快的证明",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303600/9303600a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93036000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93036000.png"
+        ]
+    }
+}

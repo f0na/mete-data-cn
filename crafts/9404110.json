@@ -1,0 +1,42 @@
+{
+    "id": 9404110,
+    "name": "宝石新娘",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "宝石新娘",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆付与伤害减免300的状态"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『BATTLE IN NEWYORK 2020』中的攻击威力提升100%【『BATTLE IN NEWYORK 2020』活动限定】"
+        },
+        {
+            "name": "宝石新娘",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·生命值回复1)＆付与伤害减免400的状态[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『BATTLE IN NEWYORK 2020』中的攻击威力提升200%[最大解放]【『BATTLE IN NEWYORK 2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404110/9404110a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94041100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94041100.png"
+        ]
+    }
+}

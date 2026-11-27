@@ -1,0 +1,32 @@
+{
+    "id": 9403290,
+    "name": "TEAM Phoenix",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "TEAM Phoenix",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆暴击威力提升5%"
+        },
+        {
+            "name": "TEAM Phoenix",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆暴击威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403290/9403290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94032900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94032900.png"
+        ]
+    }
+}

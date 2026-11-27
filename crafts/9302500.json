@@ -1,0 +1,27 @@
+{
+    "id": 9302500,
+    "name": "公主殿下的折纸",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "公主殿下的折纸",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "[servantName 603100](暗匿者)装备,且自身在场时,己方全体的宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302500/9302500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93025000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93025000.png"
+        ]
+    }
+}

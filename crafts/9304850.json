@@ -1,0 +1,27 @@
+{
+    "id": 9304850,
+    "name": "英灵纪行：冈田以藏",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵纪行：冈田以藏",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304850/9304850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93048500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93048500.png"
+        ]
+    }
+}

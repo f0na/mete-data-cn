@@ -1,0 +1,17 @@
+{
+    "id": 8401320,
+    "name": "四不相君",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401320a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401320.png"
+    },
+    "skills": [
+        {
+            "name": "四不相君",
+            "icon": "Cmdcodes/SkillIcons/skill_00416.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的强化解除耐性提升10%(1回合)＆生命值回复100"
+        }
+    ],
+    "comment": "某位封神执行者麾下的坐骑。\n\n平时一副令人昏昏欲睡的外表，\n一旦解放力量，就会身披如龙般巨大的魔力，\n在空中驰骋，将敌人烧成灰烬。\n\n但是执行者表示，它终究不是龙种。"
+}

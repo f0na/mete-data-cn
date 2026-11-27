@@ -1,0 +1,32 @@
+{
+    "id": 9406260,
+    "name": "无穷的回构",
+    "type": "SvtEquipManaExchange",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "无穷的回构",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔无间齿轮〕的掉落率提升5%<对原本掉落率进行乘算>"
+        },
+        {
+            "name": "无穷的回构",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "〔无间齿轮〕的掉落率提升25%<对原本掉落率进行乘算>[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406260/9406260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94062600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94062600.png"
+        ]
+    }
+}

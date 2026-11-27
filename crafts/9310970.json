@@ -1,0 +1,27 @@
+{
+    "id": 9310970,
+    "name": "机关义肢",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "机关义肢",
+            "icon": "Craft/SkillIcons/skill_00504.png",
+            "effect": "[servantName 1102100](复仇者)装备时,自身的宝具威力提升30%＋自身战败退场时,敌方全体的防御力降低10%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310970/9310970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93109700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93109700.png"
+        ]
+    }
+}

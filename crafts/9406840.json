@@ -1,0 +1,42 @@
+{
+    "id": 9406840,
+    "name": "沉睡的伊丽莎",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "沉睡的伊丽莎",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复50的状态＆被伤害减免50的状态＆每回合获得1个暴击星的状态"
+        },
+        {
+            "name": "甜甜蜜蜜钥匙扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜钥匙扣的掉落获得数增加1个【『若安小姐与未确认之爱』活动限定】"
+        },
+        {
+            "name": "沉睡的伊丽莎",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复100的状态＆被伤害减免100的状态＆每回合获得2个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "甜甜蜜蜜钥匙扣的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜钥匙扣的掉落获得数增加2个[最大解放]【『若安小姐与未确认之爱』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406840/9406840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068400.png"
+        ]
+    }
+}

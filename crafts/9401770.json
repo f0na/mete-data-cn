@@ -1,0 +1,32 @@
+{
+    "id": 9401770,
+    "name": "海盗派对！",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "海盗派对！",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "海盗派对！",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆付与每回合获得4个暴击星的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401770/9401770a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017700.png"
+        ]
+    }
+}

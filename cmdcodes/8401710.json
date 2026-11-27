@@ -1,0 +1,17 @@
+{
+    "id": 8401710,
+    "name": "对魔术装甲火箭筒",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401710a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401710.png"
+    },
+    "skills": [
+        {
+            "name": "对魔术装甲火箭筒",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔恶〕20%的特攻效果"
+        }
+    ],
+    "comment": "某位怪僧爱用的武器。\n是经由万能美女秘书，从ＮＦＦ服务偷偷倒卖来的最新款。\n「传统武器固然不错，但缺点在于比较难用。\n　只要有优秀的武器就用。仅此而已哦。」\n这是本人的说辞。\n\n其威力足以贯穿普通火器无法击穿的、集近代技术与魔术理论精华于一身的复合装甲。"
+}

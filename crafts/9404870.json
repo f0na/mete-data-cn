@@ -1,0 +1,32 @@
+{
+    "id": 9404870,
+    "name": "享用浪漫",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "享用浪漫",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加1%＆关卡通关时获得的御主经验增加1%"
+        },
+        {
+            "name": "享用浪漫",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加5%＆关卡通关时获得的御主经验增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404870/9404870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048700.png"
+        ]
+    }
+}

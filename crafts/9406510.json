@@ -1,0 +1,32 @@
+{
+    "id": 9406510,
+    "name": "逆堕之泥雨",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2400,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "逆堕之泥雨",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升40%＆宝具使用时充能阶段上升2级(1次)＆付与每回合生命值减少500的状态【负面效果】"
+        },
+        {
+            "name": "逆堕之泥雨",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升50%＆宝具使用时充能阶段上升2级(1次)＆付与每回合生命值减少500的状态【负面效果】[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406510/9406510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065100.png"
+        ]
+    }
+}

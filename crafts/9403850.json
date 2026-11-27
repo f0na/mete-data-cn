@@ -1,0 +1,52 @@
+{
+    "id": 9403850,
+    "name": "埃尔梅罗教室",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "埃尔梅罗教室",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%＆宝具值获得量提升3%"
+        },
+        {
+            "name": "正规茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "正规茶叶的掉落获得数增加1个【『淑女·莱妮丝事件簿』活动限定】"
+        },
+        {
+            "name": "埃尔梅罗教室",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆宝具值获得量提升5%[最大解放]"
+        },
+        {
+            "name": "正规茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "正规茶叶的掉落获得数增加2个[最大解放]【『淑女·莱妮丝事件簿』活动限定】"
+        },
+        {
+            "name": "正规茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "正规茶叶的掉落获得数增加1个【『复刻版:淑女·莱妮丝事件簿 -Plus Episode-』活动限定】"
+        },
+        {
+            "name": "正规茶叶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "正规茶叶的掉落获得数增加2个[最大解放]【『复刻版:淑女·莱妮丝事件簿 -Plus Episode-』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403850/9403850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038500.png"
+        ]
+    }
+}

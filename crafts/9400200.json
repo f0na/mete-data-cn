@@ -1,0 +1,32 @@
+{
+    "id": 9400200,
+    "name": "龙种",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "龙种",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%"
+        },
+        {
+            "name": "龙种",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400200/9400200a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94002000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94002000.png"
+        ]
+    }
+}

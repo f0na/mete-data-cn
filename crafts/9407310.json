@@ -1,0 +1,32 @@
+{
+    "id": 9407310,
+    "name": "天之裂谷",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天之裂谷",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达50%的状态开始战斗＆使用宝具时充能阶段上升1级(1次)＆宝具值获得量提升5%"
+        },
+        {
+            "name": "天之裂谷",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达60%的状态开始战斗＆使用宝具时充能阶段上升1级(1次)＆宝具值获得量提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407310/9407310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94073100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94073100.png"
+        ]
+    }
+}

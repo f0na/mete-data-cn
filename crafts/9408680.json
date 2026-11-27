@@ -1,0 +1,32 @@
+{
+    "id": 9408680,
+    "name": "愉快的街道",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "愉快的街道",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆每回合获得宝具值1%的状态＆被伤害减免50的状态"
+        },
+        {
+            "name": "愉快的街道",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆每回合获得宝具值2%的状态＆被伤害减免100的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408680/9408680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94086800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94086800.png"
+        ]
+    }
+}

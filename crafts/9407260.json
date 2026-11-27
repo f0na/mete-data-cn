@@ -1,0 +1,42 @@
+{
+    "id": 9407260,
+    "name": "夏日小憩",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "夏日小憩",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆力指令卡性能提升8%＆宝具威力提升15%"
+        },
+        {
+            "name": "阿尔镑的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "阿尔镑的掉落获得数增加1个【『从者·夏日·庆典2024！』活动限定】"
+        },
+        {
+            "name": "夏日小憩",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆力指令卡性能提升10%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "阿尔镑的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "阿尔镑的掉落获得数增加2个[最大解放]【『从者·夏日·庆典2024！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407260/9407260a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94072600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94072600.png"
+        ]
+    }
+}

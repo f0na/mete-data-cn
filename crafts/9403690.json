@@ -1,0 +1,32 @@
+{
+    "id": 9403690,
+    "name": "贝拉·丽莎",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "贝拉·丽莎",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加1%(助战时增加3%)"
+        },
+        {
+            "name": "贝拉·丽莎",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加5%(助战时增加15%)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403690/9403690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036900.png"
+        ]
+    }
+}

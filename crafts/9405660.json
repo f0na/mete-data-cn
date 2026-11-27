@@ -1,0 +1,42 @@
+{
+    "id": 9405660,
+    "name": "愿望成真",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "愿望成真",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合获得1个暴击星的状态"
+        },
+        {
+            "name": "愿望成真",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合获得2个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "砂糖水果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "砂糖水果的掉落获得数增加1个【『Making Christmas Party！』活动限定】"
+        },
+        {
+            "name": "砂糖水果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "砂糖水果的掉落获得数增加2个[最大解放]【『Making Christmas Party！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405660/9405660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94056600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94056600.png"
+        ]
+    }
+}

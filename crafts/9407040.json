@@ -1,0 +1,42 @@
+{
+    "id": 9407040,
+    "name": "安息之馆",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "安息之馆",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·回复1生命值)＆生命值回复量提升10%"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『风云机关伊莉雅城』中,自身的攻击威力提升100%【『风云机关伊莉雅城』活动限定】"
+        },
+        {
+            "name": "安息之馆",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "付与自身毅力状态(1次·回复1生命值)＆生命值回复量提升20%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『风云机关伊莉雅城』中,自身的攻击威力提升200%[最大解放]【『风云机关伊莉雅城』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407040/9407040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070400.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8402010,
+    "name": "蛇王的灵药",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402010a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402010.png"
+    },
+    "skills": [
+        {
+            "name": "蛇王的灵药",
+            "icon": "Cmdcodes/SkillIcons/skill_00608.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个自身的毒、诅咒、灼伤状态＋被刻印的指令卡暴击威力提升5%"
+        }
+    ],
+    "comment": "据说存在于广阔地下蛇之世界的灵药。\n服用后便能获得力量。\n\n据说曾有一位因卑劣的毒药濒临死亡的王子坠入河中，最终漂流到了地下的蛇之世界。由于他在那里喝干了蛇王赐予的灵药，令其肉体变得更为强韧，并返回了地表。"
+}

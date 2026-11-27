@@ -1,0 +1,27 @@
+{
+    "id": 9301210,
+    "name": "骨刀（无铭）",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "骨刀（无铭）",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "茨木童子(狂战士)装备,且自身在场时,己方全体的力指令卡性能提升20%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301210/9301210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93012100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93012100.png"
+        ]
+    }
+}

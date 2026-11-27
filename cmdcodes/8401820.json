@@ -1,0 +1,17 @@
+{
+    "id": 8401820,
+    "name": "武成王",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401820a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401820.png"
+    },
+    "skills": [
+        {
+            "name": "武成王",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得3个暴击星＋当自身为〔秩序〕特性时,被刻印的指令卡自身的暴击威力提升10%＆当自身为〔混沌〕特性时,被刻印的指令卡宝具值获得量提升5%"
+        }
+    ],
+    "comment": "「在下乃武成王，名黄飞虎。\n　将与此枪和灵兽·五色神牛成为汝之助力。\n\n　……呵呵，当然，不止如此。\n\n　寄宿于此身的黄氏一族之纽带\n　才是在下由衷信任的不二之刃。\n\n　尽管倚仗便是，吾之主公！」"
+}

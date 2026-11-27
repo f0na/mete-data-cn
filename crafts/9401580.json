@@ -1,0 +1,32 @@
+{
+    "id": 9401580,
+    "name": "四枝之浅滩",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "四枝之浅滩",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆防御力降低10%【负面效果】"
+        },
+        {
+            "name": "四枝之浅滩",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆防御力降低10%【负面效果】[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401580/9401580a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94015800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94015800.png"
+        ]
+    }
+}

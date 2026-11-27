@@ -1,0 +1,27 @@
+{
+    "id": 9308780,
+    "name": "星剑的墓志铭",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "星剑的墓志铭",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 3300200](兽)装备时,自身的宝具威力提升30%＆对〔从者〕的暴击威力提升30%＆御主好感度提升1级"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308780/9308780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93087800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93087800.png"
+        ]
+    }
+}

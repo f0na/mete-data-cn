@@ -1,0 +1,27 @@
+{
+    "id": 9301050,
+    "name": "天之衣",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天之衣",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "爱丽丝菲尔〔天之衣〕(魔术师)装备,且自身在场时,己方全体的生命值回复量提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301050/9301050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93010500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93010500.png"
+        ]
+    }
+}

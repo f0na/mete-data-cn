@@ -1,0 +1,32 @@
+{
+    "id": 9400070,
+    "name": "良机",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 250,
+    "hp": 375,
+    "skills": [
+        {
+            "name": "良机",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升5%"
+        },
+        {
+            "name": "良机",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400070/9400070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94000700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94000700.png"
+        ]
+    }
+}

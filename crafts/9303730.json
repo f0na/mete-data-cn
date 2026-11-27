@@ -1,0 +1,27 @@
+{
+    "id": 9303730,
+    "name": "蛇之杖",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "蛇之杖",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "[servantName 504300](魔术师)装备,且自身在场时,己方全体的生命值回复量提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303730/9303730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93037300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93037300.png"
+        ]
+    }
+}

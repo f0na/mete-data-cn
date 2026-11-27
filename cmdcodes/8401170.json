@@ -1,0 +1,17 @@
+{
+    "id": 8401170,
+    "name": "雨与星之童话",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401170a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401170.png"
+    },
+    "skills": [
+        {
+            "name": "雨与星之童话",
+            "icon": "Cmdcodes/SkillIcons/skill_00602.png",
+            "effect": "被刻印的指令卡的宝具值获得量提升5%＆暴击星集中度提升50%"
+        }
+    ],
+    "comment": "由尽头归来的冬之女王摩根\n手持的星夜与雨之魔枪。\n\n过去是施放各种魔术所用的杖子，\n但在重重战乱中，\n不知何时化作了纯粹的武器。"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9408500,
+    "name": "屠戮魔术师的武器",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "屠戮魔术师的武器",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加400状态＆暴击星集中度提升200%"
+        },
+        {
+            "name": "屠戮魔术师的武器",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "付与自身伤害附加600状态＆暴击星集中度提升300%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408500/9408500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94085000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94085000.png"
+        ]
+    }
+}

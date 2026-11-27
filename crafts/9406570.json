@@ -1,0 +1,42 @@
+{
+    "id": 9406570,
+    "name": "猎虎行者",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "猎虎行者",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆暴击威力提升10%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "〔政务〕的获得进行度提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "关卡通关时〔政务〕的获得进行度提升10%【『108人的万圣节·叛乱！』活动限定】"
+        },
+        {
+            "name": "猎虎行者",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆暴击威力提升15%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "〔政务〕的获得进行度提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "关卡通关时〔政务〕的获得进行度提升20%[最大解放]【『108人的万圣节·叛乱！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406570/9406570a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065700.png"
+        ]
+    }
+}

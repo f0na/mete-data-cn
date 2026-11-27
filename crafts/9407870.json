@@ -1,0 +1,42 @@
+{
+    "id": 9407870,
+    "name": "海底宴席",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "海底宴席",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆宝具值获得量提升5%＆暴击威力提升5%"
+        },
+        {
+            "name": "星尘糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "星尘糖果的掉落获得数增加1个【『舞动龙宫！』活动限定】"
+        },
+        {
+            "name": "海底宴席",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具值获得量提升10%＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "星尘糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "星尘糖果的掉落获得数增加2个[最大解放]【『舞动龙宫！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407870/9407870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078700.png"
+        ]
+    }
+}

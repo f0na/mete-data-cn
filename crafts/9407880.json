@@ -1,0 +1,42 @@
+{
+    "id": 9407880,
+    "name": "巨兽来航",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "巨兽来航",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升3%＆暴击威力提升3%＆宝具威力提升3%"
+        },
+        {
+            "name": "彩虹海参的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "彩虹海参的掉落获得数增加1个【『舞动龙宫！』活动限定】"
+        },
+        {
+            "name": "巨兽来航",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升5%＆暴击威力提升5%＆宝具威力提升5%[最大解放]"
+        },
+        {
+            "name": "彩虹海参的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "彩虹海参的掉落获得数增加2个[最大解放]【『舞动龙宫！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407880/9407880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078800.png"
+        ]
+    }
+}

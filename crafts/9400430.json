@@ -1,0 +1,32 @@
+{
+    "id": 9400430,
+    "name": "月之宝石",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "月之宝石",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的魅惑耐性提升80%"
+        },
+        {
+            "name": "月之宝石",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的魅惑耐性提升100%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400430/9400430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94004300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94004300.png"
+        ]
+    }
+}

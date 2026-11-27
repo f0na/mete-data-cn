@@ -1,0 +1,52 @@
+{
+    "id": 9404850,
+    "name": "定格",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "定格",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆技指令卡性能提升3%"
+        },
+        {
+            "name": "清凉口香糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "清凉口香糖的掉落获得数增加1个【『荣光的圣诞老人之路 ～被封印的圣诞礼物～』活动限定】"
+        },
+        {
+            "name": "定格",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆技指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "清凉口香糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "清凉口香糖的掉落获得数增加2个[最大解放]【『荣光的圣诞老人之路 ～被封印的圣诞礼物～』活动限定】"
+        },
+        {
+            "name": "清凉口香糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "清凉口香糖的掉落获得数增加1个【『复刻:荣光的圣诞老人之路～被封印的圣诞礼物～ 轻量版』活动限定】"
+        },
+        {
+            "name": "清凉口香糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "清凉口香糖的掉落获得数增加2个[最大解放]【『复刻:荣光的圣诞老人之路～被封印的圣诞礼物～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404850/9404850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048500.png"
+        ]
+    }
+}

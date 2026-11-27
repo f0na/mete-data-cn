@@ -1,0 +1,27 @@
+{
+    "id": 9308970,
+    "name": "杀死某条蛇的枪",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "杀死某条蛇的枪",
+            "icon": "Craft/SkillIcons/skill_00510.png",
+            "effect": "[servantName 305700](枪兵)装备时,自身的宝具威力提升30%＆付与「暴击攻击造成伤害前付与毒状态(500伤害·5回合)的状态」"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308970/9308970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93089700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93089700.png"
+        ]
+    }
+}

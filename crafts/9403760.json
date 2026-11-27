@@ -1,0 +1,42 @@
+{
+    "id": 9403760,
+    "name": "刀刃之下",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "刀刃之下",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆暴击威力提升5%"
+        },
+        {
+            "name": "邪恶杯垫的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邪恶杯垫的掉落获得数增加1个【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        },
+        {
+            "name": "刀刃之下",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "付与自身回避状态(1次)＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "邪恶杯垫的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邪恶杯垫的掉落获得数增加2个[最大解放]【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403760/9403760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94037600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94037600.png"
+        ]
+    }
+}

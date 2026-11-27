@@ -1,0 +1,42 @@
+{
+    "id": 9407830,
+    "name": "三咲的校舍",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "三咲的校舍",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆每回合获得1个暴击星的状态＆宝具值获得量提升3%"
+        },
+        {
+            "name": "有来历的符纸的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "有来历的符纸的掉落获得数增加1个【『魔法使之夜 After Night』活动限定】"
+        },
+        {
+            "name": "三咲的校舍",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆每回合获得2个暴击星的状态＆宝具值获得量提升5%[最大解放]"
+        },
+        {
+            "name": "有来历的符纸的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "有来历的符纸的掉落获得数增加2个[最大解放]【『魔法使之夜 After Night』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407830/9407830a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078300.png"
+        ]
+    }
+}

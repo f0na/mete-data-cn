@@ -1,0 +1,27 @@
+{
+    "id": 9305270,
+    "name": "魔王的供品",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "魔王的供品",
+            "icon": "Craft/SkillIcons/skill_00402.png",
+            "effect": "[servantName 204100](弓兵)装备时,且自身战败退场时付与除自身以外的己方全体〔信长〕回避状态(2次·3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305270/9305270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93052700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93052700.png"
+        ]
+    }
+}

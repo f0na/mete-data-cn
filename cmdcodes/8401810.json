@@ -1,0 +1,17 @@
+{
+    "id": 8401810,
+    "name": "救子英雄之弩",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401810a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401810.png"
+    },
+    "skills": [
+        {
+            "name": "救子英雄之弩",
+            "icon": "Cmdcodes/SkillIcons/skill_00310.png",
+            "effect": "付与被刻印的指令卡必中效果＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "流传于瑞士的传说中的猎人所使用的弩。\n弓弦拉得很紧，看似需要相当大的力气才能拉开，\n可据说实际上轻盈到只要用手指便能拉动。\n\n他将弩箭搭在这把武器上，\n一箭射穿了放在儿子头顶的苹果。\n这一轶事早已有名到传遍了天下。"
+}

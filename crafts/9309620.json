@@ -1,0 +1,27 @@
+{
+    "id": 9309620,
+    "name": "英灵祝装：凯妮斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：凯妮斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309620/9309620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93096200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93096200.png"
+        ]
+    }
+}

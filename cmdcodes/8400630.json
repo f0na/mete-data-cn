@@ -1,0 +1,17 @@
+{
+    "id": 8400630,
+    "name": "法兰西万岁",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400630a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400630.png"
+    },
+    "skills": [
+        {
+            "name": "法兰西万岁",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡的暴击星集中度提升100%＋当使用被刻印的指令卡进行攻击时,己方全体的生命值回复100"
+        }
+    ],
+    "comment": "「大家都爱着我。\n　我也最喜欢大家了。\n　哪怕“尖刺”偶尔会刺痛内心，\n　我也会去爱大家。\n\n　因为我是王后嘛。\n\n　愿天空闪耀。\n　愿大地富饶\n　愿你幸福——法兰西万岁（Vive La France）」"
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301500,
+    "name": "通往大海之门",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "通往大海之门",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "贞德·Alter·Santa·Lily(枪兵)装备,且自身在场时,己方全体的生命值回复量提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301500/9301500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015000.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9302540,
+    "name": "银钥玫瑰念珠",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "银钥玫瑰念珠",
+            "icon": "Craft/SkillIcons/skill_00409.png",
+            "effect": "[servantName 2500100](降临者)装备时,付与自身宝具威力提升30%＆即死无效状态(3次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302540/9302540a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93025400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93025400.png"
+        ]
+    }
+}

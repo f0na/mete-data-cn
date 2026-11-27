@@ -1,0 +1,17 @@
+{
+    "id": 8401450,
+    "name": "浪漫之枪",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401450a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401450.png"
+    },
+    "skills": [
+        {
+            "name": "浪漫之枪",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔罗马〕15%的特攻效果＋当使用被刻印的指令卡进行攻击时,付与敌方单体〔罗马〕特性(5回合)"
+        }
+    ],
+    "comment": "「只要你不放弃天际，\n　无论什么样的苦难，我都会贯穿。\n\n　我的孩子们（罗马）啊。\n　该被爱之人，迟早能抵达之人啊。\n　开拓一切，向这双臂。\n\n　罗马！」"
+}

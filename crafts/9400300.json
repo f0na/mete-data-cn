@@ -1,0 +1,32 @@
+{
+    "id": 9400300,
+    "name": "天使之诗",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天使之诗",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升25%"
+        },
+        {
+            "name": "天使之诗",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400300/9400300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94003000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94003000.png"
+        ]
+    }
+}

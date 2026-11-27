@@ -1,0 +1,42 @@
+{
+    "id": 9402760,
+    "name": "黄金之翼",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "黄金之翼",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升20%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "〔无人机系〕〔人工生命体系〕〔自动人偶系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔无人机系〕〔人工生命体系〕〔自动人偶系〕敌人的追加出现率提升25%【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        },
+        {
+            "name": "黄金之翼",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升25%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "〔无人机系〕〔人工生命体系〕〔自动人偶系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔无人机系〕〔人工生命体系〕〔自动人偶系〕敌人的追加出现率提升100%[最大解放]【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402760/9402760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027600.png"
+        ]
+    }
+}

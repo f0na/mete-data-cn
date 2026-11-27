@@ -1,0 +1,27 @@
+{
+    "id": 9304300,
+    "name": "难忘夏日，二天胸怀",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "难忘夏日，二天胸怀",
+            "icon": "Craft/SkillIcons/skill_00416.png",
+            "effect": "[servantName 703600](狂战士)装备时,自身的宝具威力提升30%＆强化解除耐性提升100%(3次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304300/9304300a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043000.png"
+        ]
+    }
+}

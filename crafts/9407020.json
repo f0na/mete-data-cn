@@ -1,0 +1,42 @@
+{
+    "id": 9407020,
+    "name": "巫觋八石跳",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "巫觋八石跳",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆迅指令卡性能提升3%＆技指令卡性能提升3%"
+        },
+        {
+            "name": "机关头盔的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "机关头盔的掉落获得数增加1个【『风云机关伊莉雅城』活动限定】"
+        },
+        {
+            "name": "巫觋八石跳",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆迅指令卡性能提升5%＆技指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "机关头盔的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "机关头盔的掉落获得数增加2个[最大解放]【『风云机关伊莉雅城』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407020/9407020a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94070200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94070200.png"
+        ]
+    }
+}

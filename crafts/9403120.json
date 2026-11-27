@@ -1,0 +1,32 @@
+{
+    "id": 9403120,
+    "name": "同调",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "同调",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的被强化成功率提升3%"
+        },
+        {
+            "name": "同调",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的被强化成功率提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403120/9403120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94031200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94031200.png"
+        ]
+    }
+}

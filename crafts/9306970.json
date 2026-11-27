@@ -1,0 +1,27 @@
+{
+    "id": 9306970,
+    "name": "无暇辞世",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无暇辞世",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 1001400](他人格)装备时,付与自身毅力状态(1次·回复20%的生命值)＆毅力发动时,付与获得30个暴击星的状态(1次)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306970/9306970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93069700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93069700.png"
+        ]
+    }
+}

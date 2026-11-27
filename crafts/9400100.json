@@ -1,0 +1,32 @@
+{
+    "id": 9400100,
+    "name": "天启",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天启",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升5%"
+        },
+        {
+            "name": "天启",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400100/9400100a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001000.png"
+        ]
+    }
+}

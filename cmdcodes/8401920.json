@@ -1,0 +1,17 @@
+{
+    "id": 8401920,
+    "name": "屠戮不死之刃",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401920a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401920.png"
+    },
+    "skills": [
+        {
+            "name": "屠戮不死之刃",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡的暴击威力提升10%＋当使用被刻印的指令卡进行攻击时,敌方单体的生命值回复量降低10%(1回合)"
+        }
+    ],
+    "comment": "希腊神话中戈耳工三姊妹的三妹，\n其年轻灵基所持的武器。\n\n拥有「屠戮不死」力量的这把武器的详情\n至今仍不明确。\n与斩下怪物戈耳工首级的那把\n传说中的镰刀究竟是不是同一件物品。\n即便经过了多次解析，依然真假不明。\n是一把隐藏着巨大谜团的兵器。"
+}

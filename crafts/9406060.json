@@ -1,0 +1,42 @@
+{
+    "id": 9406060,
+    "name": "小孩子王国的冒险",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "小孩子王国的冒险",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升15%＆宝具值获得量提升15%"
+        },
+        {
+            "name": "古董胶卷盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "古董胶卷盘的掉落获得数增加1个【『密西西比·神话编撰者们』活动限定】"
+        },
+        {
+            "name": "小孩子王国的冒险",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升20%＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "古董胶卷盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "古董胶卷盘的掉落获得数增加2个[最大解放]【『密西西比·神话编撰者们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406060/9406060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94060600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94060600.png"
+        ]
+    }
+}

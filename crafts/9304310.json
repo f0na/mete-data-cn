@@ -1,0 +1,27 @@
+{
+    "id": 9304310,
+    "name": "黄金圆桌轮盘",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黄金圆桌轮盘",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 900900](裁定者)装备,且自身在场时,己方全体的攻击力提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304310/9304310a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93043100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93043100.png"
+        ]
+    }
+}

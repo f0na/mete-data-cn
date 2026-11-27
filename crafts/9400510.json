@@ -1,0 +1,32 @@
+{
+    "id": 9400510,
+    "name": "万圣节筹备",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "万圣节筹备",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(1回合)＆防御力提升60%(1回合)"
+        },
+        {
+            "name": "万圣节筹备",
+            "icon": "Craft/SkillIcons/skill_00700.png",
+            "effect": "付与自身目标集中状态(1回合)＆防御力提升80%(1回合)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400510/9400510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94005100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94005100.png"
+        ]
+    }
+}

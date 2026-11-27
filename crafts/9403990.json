@@ -1,0 +1,32 @@
+{
+    "id": 9403990,
+    "name": "名侦探芙尔摩斯",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "名侦探芙尔摩斯",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加1%＆关卡通关时获得的牵绊点数增加1%"
+        },
+        {
+            "name": "名侦探芙尔摩斯",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "战斗中掉落的量子量增加5%＆关卡通关时获得的牵绊点数增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403990/9403990a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94039900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94039900.png"
+        ]
+    }
+}

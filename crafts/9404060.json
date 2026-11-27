@@ -1,0 +1,52 @@
+{
+    "id": 9404060,
+    "name": "天鬼姬",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天鬼姬",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升10%＆技指令卡的暴击威力提升15%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "奖励敌人出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』中,奖励敌人的出现率提升15%【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "天鬼姬",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升15%＆技指令卡的暴击威力提升20%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "奖励敌人出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』中,奖励敌人的出现率提升30%[最大解放]【『拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！』活动限定】"
+        },
+        {
+            "name": "奖励敌人出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』中,奖励敌人的出现率提升15%【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        },
+        {
+            "name": "奖励敌人出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』中,奖励敌人的出现率提升30%[最大解放]【『复刻:拜见！ 拉斯维加斯御前比试～泳装剑豪七色决胜！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404060/9404060a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94040600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94040600.png"
+        ]
+    }
+}

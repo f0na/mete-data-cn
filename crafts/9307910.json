@@ -1,0 +1,27 @@
+{
+    "id": 9307910,
+    "name": "于索尔兹伯里再一次",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "于索尔兹伯里再一次",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "[servantName 2501200](降临者)装备,且自身在场时,除自身以外所有〔我俊美的战士〕状态的己方全体宝具值获得量提升20%＋自身的宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307910/9307910a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93079100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93079100.png"
+        ]
+    }
+}

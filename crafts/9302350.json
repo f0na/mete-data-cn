@@ -1,0 +1,27 @@
+{
+    "id": 9302350,
+    "name": "选定之拖把",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "选定之拖把",
+            "icon": "Craft/SkillIcons/skill_00300.png",
+            "effect": "[servantName 402700](骑兵)装备,且自身在场时,己方全体的攻击力提升20%＆防御力降低15%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302350/9302350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93023500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93023500.png"
+        ]
+    }
+}

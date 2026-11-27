@@ -1,0 +1,27 @@
+{
+    "id": 9308910,
+    "name": "三头狮子、三个影子的女儿们",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "三头狮子、三个影子的女儿们",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 106100](剑士)装备,且自身在场时,己方全体力指令卡的暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308910/9308910a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93089100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93089100.png"
+        ]
+    }
+}

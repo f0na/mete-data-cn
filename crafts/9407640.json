@@ -1,0 +1,42 @@
+{
+    "id": 9407640,
+    "name": "ＢＲＤ",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "ＢＲＤ",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆迅指令卡性能提升6%＆力指令卡性能提升6%"
+        },
+        {
+            "name": "博爱马卡龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "博爱马卡龙的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "ＢＲＤ",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆迅指令卡性能提升8%＆力指令卡性能提升8%[最大解放]"
+        },
+        {
+            "name": "博爱马卡龙的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "博爱马卡龙的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407640/9407640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94076400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94076400.png"
+        ]
+    }
+}

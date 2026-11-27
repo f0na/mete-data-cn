@@ -1,0 +1,17 @@
+{
+    "id": 8400650,
+    "name": "巨人地窖的纹章",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400650a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400650.png"
+    },
+    "skills": [
+        {
+            "name": "巨人地窖的纹章",
+            "icon": "Cmdcodes/SkillIcons/skill_00602.png",
+            "effect": "被刻印的指令卡的宝具值获得量提升5%"
+        }
+    ],
+    "comment": "代表了隶属于魔术协会三大部门之一的\n蓄积与测量之院的纹章。\n\n无需自己成为最强。\n只需创造最强之物。\n\n以这句格言作为信条。"
+}

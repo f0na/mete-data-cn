@@ -1,0 +1,42 @@
+{
+    "id": 9403750,
+    "name": "酒吧特洛伊",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "酒吧特洛伊",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值1%的状态＆宝具威力提升5%"
+        },
+        {
+            "name": "邪恶杯垫的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邪恶杯垫的掉落获得数增加1个【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        },
+        {
+            "name": "酒吧特洛伊",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值2%的状态＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "邪恶杯垫的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邪恶杯垫的掉落获得数增加2个[最大解放]【『旧时蜘蛛余残怀古共纺丝』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403750/9403750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94037500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94037500.png"
+        ]
+    }
+}

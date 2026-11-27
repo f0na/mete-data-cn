@@ -1,0 +1,27 @@
+{
+    "id": 9308190,
+    "name": "黑刃",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黑刃",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 605000](暗匿者)装备,且自身在场时,付与己方全体暴击威力提升15%＆对〔拥有人之力的敌人〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308190/9308190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93081900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93081900.png"
+        ]
+    }
+}

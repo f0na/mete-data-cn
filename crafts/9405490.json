@@ -1,0 +1,32 @@
+{
+    "id": 9405490,
+    "name": "步入奇妙帷幕中",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "步入奇妙帷幕中",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆战斗中掉落的量子量增加1%"
+        },
+        {
+            "name": "步入奇妙帷幕中",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆战斗中掉落的量子量增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405490/9405490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94054900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94054900.png"
+        ]
+    }
+}

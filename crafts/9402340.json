@@ -1,0 +1,32 @@
+{
+    "id": 9402340,
+    "name": "四叶三叶草",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "四叶三叶草",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升2%＆技指令卡性能提升2%＆力指令卡性能提升2%＆精神异常付与成功率提升3%"
+        },
+        {
+            "name": "四叶三叶草",
+            "icon": "Craft/SkillIcons/skill_00317.png",
+            "effect": "自身的迅指令卡性能提升3%＆技指令卡性能提升3%＆力指令卡性能提升3%＆精神异常付与成功率提升5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402340/9402340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023400.png"
+        ]
+    }
+}

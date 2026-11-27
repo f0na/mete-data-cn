@@ -1,0 +1,42 @@
+{
+    "id": 9404960,
+    "name": "苦涩珠宝",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "苦涩珠宝",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆宝具使用时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "神之竖琴的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神之竖琴的掉落获得数增加1个【『迦勒底·苦涩·情人节2022』活动限定】"
+        },
+        {
+            "name": "苦涩珠宝",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具使用时充能阶段上升1级(1次)[最大解放]"
+        },
+        {
+            "name": "神之竖琴的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "神之竖琴的掉落获得数增加2个[最大解放]【『迦勒底·苦涩·情人节2022』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404960/9404960a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049600.png"
+        ]
+    }
+}

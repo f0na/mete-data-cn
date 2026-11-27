@@ -1,0 +1,32 @@
+{
+    "id": 9408800,
+    "name": "异星之神",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "异星之神",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔拥有星之力的从者〕或〔恶〕特性的牵绊点数增加4%"
+        },
+        {
+            "name": "异星之神",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔拥有星之力的从者〕或〔恶〕特性的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408800/9408800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94088000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94088000.png"
+        ]
+    }
+}

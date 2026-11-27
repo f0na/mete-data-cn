@@ -1,0 +1,17 @@
+{
+    "id": 8400250,
+    "name": "森域魔兽",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400250a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400250.png"
+    },
+    "skills": [
+        {
+            "name": "森域魔兽",
+            "icon": "Cmdcodes/SkillIcons/skill_00527.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体诅咒状态（500伤害·3回合）"
+        }
+    ],
+    "comment": "以某位王的不敬为契机被释放出来的强大魔兽。\n其外形简直就是月之女神神罚的体现。"
+}

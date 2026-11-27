@@ -1,0 +1,42 @@
+{
+    "id": 9404530,
+    "name": "向着仰望天空之星",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "向着仰望天空之星",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆宝具值获得量提升8%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在「『Fate/Requiem』桌上游戏默示录」中的攻击威力提升100%【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        },
+        {
+            "name": "向着仰望天空之星",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆宝具值获得量提升10%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在「『Fate/Requiem』桌上游戏默示录」中的攻击威力提升200%[最大解放]【「『Fate/Requiem』桌上游戏默示录」活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404530/9404530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94045300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94045300.png"
+        ]
+    }
+}

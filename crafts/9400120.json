@@ -1,0 +1,32 @@
+{
+    "id": 9400120,
+    "name": "伪臣之书",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "伪臣之书",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的弱化耐性提升15%"
+        },
+        {
+            "name": "伪臣之书",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身的弱化耐性提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400120/9400120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001200.png"
+        ]
+    }
+}

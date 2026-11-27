@@ -1,0 +1,52 @@
+{
+    "id": 9406980,
+    "name": "菌菇主题房间",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "菌菇主题房间",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆生命值回复量提升15%"
+        },
+        {
+            "name": "朽叶之冠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朽叶之冠的掉落获得数增加1个【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "菌菇主题房间",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆生命值回复量提升20%[最大解放]"
+        },
+        {
+            "name": "朽叶之冠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朽叶之冠的掉落获得数增加2个[最大解放]【『螺旋证明世界 Lilim Harlot』活动限定】"
+        },
+        {
+            "name": "朽叶之冠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朽叶之冠的掉落获得数增加1个【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        },
+        {
+            "name": "朽叶之冠的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "朽叶之冠的掉落获得数增加2个[最大解放]【『螺旋证明世界 Lilim Harlot 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406980/9406980a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94069800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94069800.png"
+        ]
+    }
+}

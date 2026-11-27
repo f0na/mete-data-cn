@@ -1,0 +1,42 @@
+{
+    "id": 9402740,
+    "name": "来自奇境",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "来自奇境",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升4%＆力指令卡性能提升4%"
+        },
+        {
+            "name": "钻头橡皮糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "钻头橡皮糖的掉落获得数增加1个【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        },
+        {
+            "name": "来自奇境",
+            "icon": "Craft/SkillIcons/skill_00316.png",
+            "effect": "自身的迅指令卡性能提升6%＆力指令卡性能提升6%[最大解放]"
+        },
+        {
+            "name": "钻头橡皮糖的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "钻头橡皮糖的掉落获得数增加2个[最大解放]【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402740/9402740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027400.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9407350,
+    "name": "八叉之血脉",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "八叉之血脉",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加4%的状态＆付与被伤害减免300的状态"
+        },
+        {
+            "name": "八叉之血脉",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加5%的状态＆付与被伤害减免400的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407350/9407350a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94073500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94073500.png"
+        ]
+    }
+}

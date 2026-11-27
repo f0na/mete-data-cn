@@ -1,0 +1,32 @@
+{
+    "id": 9402370,
+    "name": "第六天魔王",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "第六天魔王",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆宝具威力提升15%"
+        },
+        {
+            "name": "第六天魔王",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升20%＆宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402370/9402370a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94023700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94023700.png"
+        ]
+    }
+}

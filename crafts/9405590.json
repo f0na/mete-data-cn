@@ -1,0 +1,52 @@
+{
+    "id": 9405590,
+    "name": "那双眼睛不会放过",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "那双眼睛不会放过",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升3%＆以宝具值已达10%的状态开始战斗"
+        },
+        {
+            "name": "那双眼睛不会放过",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升5%＆以宝具值已达20%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "WEICENG土豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "WEICENG土豆的掉落获得数增加1个【『唠唠叨叨龙马千钧一发！』活动限定】"
+        },
+        {
+            "name": "WEICENG土豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "WEICENG土豆的掉落获得数增加2个[最大解放]【『唠唠叨叨龙马千钧一发！』活动限定】"
+        },
+        {
+            "name": "WEICENG土豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "WEICENG土豆的掉落获得数增加1个【『复刻:唠唠叨叨龙马千钧一发！ 轻量版』活动限定】"
+        },
+        {
+            "name": "WEICENG土豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "WEICENG土豆的掉落获得数增加2个[最大解放]【『复刻:唠唠叨叨龙马千钧一发！ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405590/9405590a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055900.png"
+        ]
+    }
+}

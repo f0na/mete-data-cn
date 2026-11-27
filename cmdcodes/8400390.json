@@ -1,0 +1,17 @@
+{
+    "id": 8400390,
+    "name": "达·芬奇亲",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400390a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400390.png"
+    },
+    "skills": [
+        {
+            "name": "达·芬奇亲",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升15%(1回合)"
+        }
+    ],
+    "comment": "「人们说我是万能的。\n　但其实这并没有什么特别的。\n　一切都来源于永无止境的学习。\n　换言之，你也是怀有这种可能性、\n　能让这种才能开花结果的存在。\n　天才不过是一种结果。\n　是基于周围的定义得到的称号。\n\n　但是呀，正因为如此，\n　我也有了觉悟，立志要做配得上这种定义的人物，\n　挺起胸膛高声大喊！\n\n　——“Uomo Universale（万能之人）”！」"
+}

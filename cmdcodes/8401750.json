@@ -1,0 +1,17 @@
+{
+    "id": 8401750,
+    "name": "阿尔斯特的猛犬",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401750a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401750.png"
+    },
+    "skills": [
+        {
+            "name": "阿尔斯特的猛犬",
+            "icon": "Cmdcodes/SkillIcons/skill_00310.png",
+            "effect": "付与被刻印的指令卡必中效果＆暴击威力提升15%"
+        }
+    ],
+    "comment": "「让你久等啦，御主。\n　库林的猛犬应召唤而来。\n　呃，什么嘛，已经开始了吗！\n\n　你还真是坏心眼呢，御主。\n　这样我不就成了坐享其成的小人，\n　会被那个装模作样的弓兵笑话的。\n\n　虽然实际上的确会如此！\n　我不管你是何方神圣，\n　遇见我算你气数已尽。\n\n　要上了。那颗心脏，就由我收下了——！！」"
+}

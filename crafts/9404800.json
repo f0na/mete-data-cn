@@ -1,0 +1,42 @@
+{
+    "id": 9404800,
+    "name": "最为广阔的海洋",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "最为广阔的海洋",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升3%＆宝具威力提升5%＆宝具使用时充能阶段上升1级(1次)"
+        },
+        {
+            "name": "虚数海胆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "虚数海胆的掉落获得数增加1个【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        },
+        {
+            "name": "最为广阔的海洋",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升5%＆宝具威力提升10%＆宝具使用时充能阶段上升1级(1次)[最大解放]"
+        },
+        {
+            "name": "虚数海胆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "虚数海胆的掉落获得数增加2个[最大解放]【『虚数大海战 幻想急航 ～上浮吧鹦鹉螺号～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404800/9404800a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94048000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94048000.png"
+        ]
+    }
+}

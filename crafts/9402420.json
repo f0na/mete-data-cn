@@ -1,0 +1,42 @@
+{
+    "id": 9402420,
+    "name": "我们的征途是星辰大海",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "我们的征途是星辰大海",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升15%＆宝具值获得量提升15%"
+        },
+        {
+            "name": "吞噬者系敌人追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "吞噬者系敌人的追加出现率提升20%【『Fate/EXTRA CCC 特别活动』活动限定】"
+        },
+        {
+            "name": "我们的征途是星辰大海",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升20%＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "吞噬者系敌人追加出现率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "吞噬者系敌人的追加出现率提升50%[最大解放]【『Fate/EXTRA CCC 特别活动』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402420/9402420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94024200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94024200.png"
+        ]
+    }
+}

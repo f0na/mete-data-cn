@@ -1,0 +1,32 @@
+{
+    "id": 9400840,
+    "name": "巫女狐！新娘修炼",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2250,
+    "skills": [
+        {
+            "name": "巫女狐！新娘修炼",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合有概率生命值回复750的状态"
+        },
+        {
+            "name": "巫女狐！新娘修炼",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合有概率生命值回复1000的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400840/9400840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94008400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94008400.png"
+        ]
+    }
+}

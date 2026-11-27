@@ -1,0 +1,42 @@
+{
+    "id": 9408090,
+    "name": "老爹的料理",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "老爹的料理",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合回复50生命值的状态"
+        },
+        {
+            "name": "巨大的糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "巨大的糖果的掉落获得数增加1个【『妖精双六虫笼游戏』活动限定】"
+        },
+        {
+            "name": "老爹的料理",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合回复100生命值的状态[最大解放]"
+        },
+        {
+            "name": "巨大的糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "巨大的糖果的掉落获得数增加2个[最大解放]【『妖精双六虫笼游戏』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408090/9408090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94080900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94080900.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9301340,
+    "name": "普利多温",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "普利多温",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "莫德雷德(骑兵)装备,且自身在场时,己方全体的宝具威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301340/9301340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93013400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93013400.png"
+        ]
+    }
+}

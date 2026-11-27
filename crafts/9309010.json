@@ -1,0 +1,27 @@
+{
+    "id": 9309010,
+    "name": "罪之剑",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "罪之剑",
+            "icon": "Craft/SkillIcons/skill_00515.png",
+            "effect": "[servantName 2801000](身披角色者)装备时,自身的宝具威力提升30%＆付与「暴击攻击时消耗1个〔罪之刻印〕状态,自身的攻击力提升10%(3回合)」的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309010/9309010a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93090100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93090100.png"
+        ]
+    }
+}

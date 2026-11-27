@@ -1,0 +1,27 @@
+{
+    "id": 9301780,
+    "name": "开拓地",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "开拓地",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 702800](狂战士)装备,且自身在场时,己方全体的力指令卡性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301780/9301780a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93017800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93017800.png"
+        ]
+    }
+}

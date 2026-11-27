@@ -1,0 +1,27 @@
+{
+    "id": 9307090,
+    "name": "阿兹特兰·我的家",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "阿兹特兰·我的家",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "[servantName 2800500](身披角色者)装备,且自身在场时,己方全体的迅指令卡性能提升8%＆技指令卡性能提升8%＆仅在有〔水边〕的场地上时,宝具威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307090/9307090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070900.png"
+        ]
+    }
+}

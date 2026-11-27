@@ -1,0 +1,52 @@
+{
+    "id": 9404210,
+    "name": "与家人同在",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "与家人同在",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得1个暴击星的状态＆力指令卡的性能提升3%"
+        },
+        {
+            "name": "慈爱绷带的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "慈爱绷带的掉落获得数增加1个【『圣诞节2020 南丁格尔的圣诞颂歌』活动限定】"
+        },
+        {
+            "name": "与家人同在",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得2个暴击星的状态＆力指令卡的性能提升5%[最大解放]"
+        },
+        {
+            "name": "慈爱绷带的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "慈爱绷带的掉落获得数增加2个[最大解放]【『圣诞节2020 南丁格尔的圣诞颂歌』活动限定】"
+        },
+        {
+            "name": "慈爱绷带的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "慈爱绷带的掉落获得数增加1个【『复刻:圣诞节2020 南丁格尔的圣诞颂歌 轻量版』活动限定】"
+        },
+        {
+            "name": "慈爱绷带的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "慈爱绷带的掉落获得数增加2个[最大解放]【『复刻:圣诞节2020 南丁格尔的圣诞颂歌 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404210/9404210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042100.png"
+        ]
+    }
+}

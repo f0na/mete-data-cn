@@ -1,0 +1,32 @@
+{
+    "id": 9405630,
+    "name": "寻求悠久的尽头",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "寻求悠久的尽头",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋5(可以重复)＆关卡通关时获得的御主经验增加1%"
+        },
+        {
+            "name": "寻求悠久的尽头",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋25(可以重复)＆关卡通关时获得的御主经验增加5%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405630/9405630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94056300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94056300.png"
+        ]
+    }
+}

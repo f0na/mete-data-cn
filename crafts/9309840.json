@@ -1,0 +1,27 @@
+{
+    "id": 9309840,
+    "name": "英灵祝装：詹姆斯·莫里亚蒂",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：詹姆斯·莫里亚蒂",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309840/9309840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93098400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93098400.png"
+        ]
+    }
+}

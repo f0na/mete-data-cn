@@ -1,0 +1,27 @@
+{
+    "id": 9302340,
+    "name": "天下布武～2018summer.ver～",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天下布武～2018summer.ver～",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 702900](狂战士)装备,且自身在场时,己方全体的力指令卡性能提升15%＆暴击威力提升15%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302340/9302340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93023400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93023400.png"
+        ]
+    }
+}

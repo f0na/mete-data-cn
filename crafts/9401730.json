@@ -1,0 +1,32 @@
+{
+    "id": 9401730,
+    "name": "脚步轻盈",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "脚步轻盈",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆技指令卡性能提升10%"
+        },
+        {
+            "name": "脚步轻盈",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升600%＆技指令卡性能提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401730/9401730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94017300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94017300.png"
+        ]
+    }
+}

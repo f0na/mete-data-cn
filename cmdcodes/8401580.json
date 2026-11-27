@@ -1,0 +1,17 @@
+{
+    "id": 8401580,
+    "name": "无敌的小一",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401580a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401580.png"
+    },
+    "skills": [
+        {
+            "name": "无敌的小一",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡的暴击威力提升15%＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "「好啦好啦，这里就交给小一我吧。\n\n　那么，竟敢找咱家御主的茬，\n　别以为能够全身而退哦？\n\n　——觉悟吧。」"
+}

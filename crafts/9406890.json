@@ -1,0 +1,52 @@
+{
+    "id": 9406890,
+    "name": "教授们的午餐时光",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "教授们的午餐时光",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值3%的状态＆技指令卡性能提升3%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加1个【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升20%【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "教授们的午餐时光",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆技指令卡性能提升5%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "XIASHAN茶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "XIASHAN茶的掉落获得数增加2个[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        },
+        {
+            "name": "GAOSHAN点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "GAOSHAN点数的掉落获得量提升40%[最大解放]【『CBC2024 迦勒底重工故事』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406890/9406890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068900.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9307040,
+    "name": "九节棍史进君",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "九节棍史进君",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 2800400](身披角色者)装备,且自身在场时,己方全体〔梁山泊〕的暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307040/9307040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070400.png"
+        ]
+    }
+}

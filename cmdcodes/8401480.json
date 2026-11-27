@@ -1,0 +1,17 @@
+{
+    "id": 8401480,
+    "name": "人造女忍",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401480a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401480.png"
+    },
+    "skills": [
+        {
+            "name": "人造女忍",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔魔性〕15%的特攻效果＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "「确认命令输入。\n　——接受。\n　进入战斗辅助状态。\n\n　敬请仔细见证果心礼装之风，\n　与其绝技吧！」"
+}

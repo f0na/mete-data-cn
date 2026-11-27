@@ -1,0 +1,32 @@
+{
+    "id": 9402410,
+    "name": "社交界之花",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 800,
+    "skills": [
+        {
+            "name": "社交界之花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升4%＆自身的技指令卡性能提升4%"
+        },
+        {
+            "name": "社交界之花",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升6%＆自身的技指令卡性能提升6%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402410/9402410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94024100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94024100.png"
+        ]
+    }
+}

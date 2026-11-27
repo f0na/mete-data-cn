@@ -1,0 +1,42 @@
+{
+    "id": 9406820,
+    "name": "春日之风",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "春日之风",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升3%＆宝具威力提升15%"
+        },
+        {
+            "name": "甜甜蜜蜜硬币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜硬币的掉落获得数增加1个【『若安小姐与未确认之爱』活动限定】"
+        },
+        {
+            "name": "春日之风",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆技指令卡性能提升5%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "甜甜蜜蜜硬币的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "甜甜蜜蜜硬币的掉落获得数增加2个[最大解放]【『若安小姐与未确认之爱』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406820/9406820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94068200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94068200.png"
+        ]
+    }
+}

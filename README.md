@@ -1,20 +1,28 @@
 # mete-data-cn
 
-《mete》使用的 FGO 国服（CN）从者数据包。
+《mete》使用的 FGO 国服（CN）游戏数据包，包含从者、概念礼装、御主礼装与指令纹章。
 
-数据按从者拆分存放，发布时拆成两个 GitHub Release 资产：数据包（`servant.json` + `manifest.json`）和资源包（从者图与技能图标）。
+数据按 id 拆分存放。发布时 JSON 合并进一个数据包，图片则按数据集分别打成资源包：
+从者、礼装、御主礼装、指令纹章各一个资源包，客户端可以只下载需要的部分。
 
 ## 仓库结构
 
 ```
 servants/<id>.json        # 每个从者一个 Servant 对象，文件名即从者 id
+crafts/<id>.json          # 每个概念礼装一个对象
+mystic/<id>.json          # 每个御主礼装一个对象
+cmdcodes/<id>.json        # 每个指令纹章一个对象
 asset_sources.json        # 本地资源路径 → 源 URL 的显式映射（入库）
 scripts/fetch.py          # 从 Atlas 导出转换并补齐 servants/<id>.json
-scripts/assets.py         # 按 asset_sources.json 下载资源到 assets/（不入库）
+scripts/fetch_crafts.py   # 转换 crafts/<id>.json
+scripts/fetch_mystic.py   # 转换 mystic/<id>.json
+scripts/fetch_cmdcodes.py # 转换 cmdcodes/<id>.json
+scripts/dataset_assets.py # 各数据集 Atlas URL → 本地资源路径的映射规则
+scripts/assets.py         # 按 asset_sources.json 下载全部资源到 assets/（不入库）
 scripts/version.py        # 解析 / 校验 data-YYYY.MM.DD[.NNN] 版本号
 scripts/migrate_assets.py # 一次性目录迁移脚本（已执行，保留用于追溯）
 scripts/split.py          # 一次性拆分脚本（已执行，保留用于追溯）
-scripts/build.py          # 校验 + 合并 + 双包构建 + 生成 manifest
+scripts/build.py          # 校验 + 合并 + 数据包 / 分类型资源包构建 + 生成 manifest
 .github/workflows/        # JSON 校验与 Release 发布
 assets/                   # 本地资源缓存（不入库，发版时打进资源包）
 dist/                     # 构建产物（不入库）
@@ -26,19 +34,32 @@ dist/                     # 构建产物（不入库）
 
 - 清单（体积小，建议先取它检查版本 / 哈希）：
   `https://github.com/f0na/mete-data-cn/releases/latest/download/manifest.json`
-- 数据包 zip（仅 JSON）：
+- 数据包 zip（全部 JSON）：
   `https://github.com/f0na/mete-data-cn/releases/latest/download/mete-data-cn.zip`
-- 资源包 zip（从者图与技能图标，约 1.6 GB）：
-  `https://github.com/f0na/mete-data-cn/releases/latest/download/mete-data-cn-servant.zip`
+- 资源包 zip（按数据集拆分）：
+  - 从者图与技能图标（约 1.6 GB）：`mete-data-cn-servant.zip`
+  - 概念礼装图与技能图标：`mete-data-cn-craft.zip`
+  - 御主礼装图与技能图标：`mete-data-cn-mystic.zip`
+  - 指令纹章图与技能图标：`mete-data-cn-cmdcode.zip`
 
 数据包 `mete-data-cn.zip` 内包含：
 
 | 文件 | 说明 |
 | --- | --- |
 | `servant.json` | 合并后的顶层数组，可直接按 `Servant[]` 反序列化 |
-| `manifest.json` | 版本、生成时间、资源包的文件名 / 大小 / SHA-256，以及 `servant.json` 的大小与 SHA-256 |
+| `craft.json` | 合并后的概念礼装数组 |
+| `mystic.json` | 合并后的御主礼装数组 |
+| `cmdcode.json` | 合并后的指令纹章数组 |
+| `manifest.json` | 版本、生成时间、各 JSON 与各资源包的文件名 / 大小 / SHA-256 |
 
-资源包 `mete-data-cn-servant.zip` 的根目录直接是 `Servant/` 和 `SkillIcons/`，不带 `assets/` 或 `images/` 包装层。
+每个资源包解压后的根目录直接是它自己的资源目录，不带 `assets/` 或 `images/` 包装层：
+
+| 资源包 | 根目录 |
+| --- | --- |
+| `mete-data-cn-servant.zip` | `Servant/`、`SkillIcons/` |
+| `mete-data-cn-craft.zip` | `Craft/` |
+| `mete-data-cn-mystic.zip` | `Mystic/` |
+| `mete-data-cn-cmdcode.zip` | `Cmdcodes/` |
 
 `manifest.json` 示例：
 
@@ -49,6 +70,25 @@ dist/                     # 构建产物（不入库）
     "base": "2026.11.26",
     "patch": 1,
     "revision": 20261126001,
+    "resources": {
+        "servant": {
+            "root": ".",
+            "archive": "mete-data-cn-servant.zip",
+            "bytes": 1604104974,
+            "sha256": "...",
+            "patches": [
+                {"from": 0, "to": 1, "archive": "patch-2026.11.26-000-001.zip", "bytes": 0, "sha256": "..."}
+            ]
+        },
+        "craft": {
+            "root": ".",
+            "archive": "mete-data-cn-craft.zip",
+            "bytes": 0,
+            "sha256": "..."
+        },
+        "mystic": {"root": ".", "archive": "mete-data-cn-mystic.zip", "bytes": 0, "sha256": "..."},
+        "cmdcode": {"root": ".", "archive": "mete-data-cn-cmdcode.zip", "bytes": 0, "sha256": "..."}
+    },
     "assets": {
         "root": ".",
         "archive": "mete-data-cn-servant.zip",
@@ -56,14 +96,19 @@ dist/                     # 构建产物（不入库）
         "sha256": "..."
     },
     "files": [
-        {
-            "name": "servant.json",
-            "bytes": 25442259,
-            "sha256": "..."
-        }
+        {"name": "servant.json", "bytes": 25442259, "sha256": "..."},
+        {"name": "craft.json", "bytes": 2794093, "sha256": "..."},
+        {"name": "mystic.json", "bytes": 109288, "sha256": "..."},
+        {"name": "cmdcode.json", "bytes": 176369, "sha256": "..."}
+    ],
+    "patches": [
+        {"from": 0, "to": 1, "archive": "patch-2026.11.26-000-001.zip", "bytes": 0, "sha256": "..."}
     ]
 }
 ```
+
+`resources` 按数据集列出资源包与增量补丁。顶层 `assets` / `patches` 仍然只表示从者资源包，
+用于兼容旧客户端；新客户端应读取 `resources`。
 
 > `/releases/latest/` 只匹配非草稿、非预发布的最新 Release。
 
@@ -86,11 +131,33 @@ dist/                     # 构建产物（不入库）
 强化版本从 Mooncell 标注的开放阶段开始出现。
 - `Effect`：`effect`、`kind`、`values[]`、`script[]`、`target`
 
+### 概念礼装 `crafts/<id>.json`
+
+- 基础：`id`、`name`、`type`、`rarity`、`cost`、`atk`、`hp`
+- `skills[]`：`name`、`icon`、`effect`；包含基础、最大解放以及事件限定效果
+  （`groupOverwrites` 会展开成相邻的同名技能）
+- `assets`：`chara_graph[]`、`faces[]`、`narrow_figure[]`，值为本地图片路径；
+  部分情人节礼装的男性立绘会追加到同一数组
+
+### 御主礼装 `mystic/<id>.json`
+
+- 基础：`id`、`name`、`shortName`
+- `skills[]`：`name`、`icon`、`effect`、`cool_down[]`、`target`、`effects[]`
+  - `effects` 与从者技能同构；`cool_down` 按等级去重
+- `assets`：`item`、`costumes`，各自包含 `male` / `female` 图片路径
+
+### 指令纹章 `cmdcodes/<id>.json`
+
+- 基础：`id`、`name`、`rarity`
+- `assets`：`chara_graph`、`faces`，值为本地图片路径
+- `skills[]`：`name`、`icon`、`effect`
+- `comment`：游戏内说明文本
+
 ## 图片资源
 
 **图片不进入 git 仓库。** 本地缓存目录是 `assets/`（已 gitignore），
 `scripts/assets.py` 按 `asset_sources.json` 记录的源 URL 下载；
-`scripts/build.py` 把它们打进独立的资源包：
+`scripts/build.py` 把它们按数据集打进各自的资源包：
 
 ```
 mete-data-cn-servant.zip
@@ -104,9 +171,27 @@ mete-data-cn-servant.zip
     ├── skill_00100.png
     ├── 己阵防御.png
     └── 宝具威力提升.png
+
+mete-data-cn-craft.zip
+└── Craft/
+    ├── CharaGraph/9408800/9408800a.png
+    ├── Faces/f_94088000.png
+    ├── EquipFaces/f_94088000.png
+    └── SkillIcons/skill_00205.png
+
+mete-data-cn-mystic.zip
+└── Mystic/
+    ├── Items/masterequip00001.png
+    └── SkillIcons/skill_00600.png
+
+mete-data-cn-cmdcode.zip
+└── Cmdcodes/
+    ├── CommandGraph/8402120a.png
+    ├── CommandCodes/c_8402120.png
+    └── SkillIcons/skill_00527.png
 ```
 
-JSON 中的图片字段存的是相对 `assets/` 的路径，与资源包内的条目一一对应：
+JSON 中的图片字段存的是相对 `assets/` 的路径，与对应资源包内的条目一一对应：
 
 ```json
 "assets": {
@@ -115,8 +200,8 @@ JSON 中的图片字段存的是相对 `assets/` 的路径，与资源包内的�
 }
 ```
 
-客户端解析规则：`<安装目录>/<manifest.assets.root>/<路径>`。当前
-`assets.root` 为 `"."`，即 `<安装目录>/Servant/CharaGraph/...`。
+客户端解析规则：`<安装目录>/<manifest.resources.<dataset>.root>/<路径>`。当前
+`root` 为 `"."`，即 `<安装目录>/Servant/CharaGraph/...` 或 `<安装目录>/Craft/...`。
 
 ### 资源来源映射
 
@@ -124,21 +209,26 @@ JSON 中的图片字段存的是相对 `assets/` 的路径，与资源包内的�
 **不再从本地路径反推 URL**。缺少条目会直接报错，而不是猜一个地址。
 
 - `scripts/fetch.py` 在把 Atlas / Mooncell URL 转成本地路径时会自动写入映射。
+- `scripts/fetch_crafts.py` / `fetch_mystic.py` / `fetch_cmdcodes.py` 通过
+  `scripts/dataset_assets.py` 的规则，把 Atlas URL 写入各自资源根目录并记录映射。
 - 手工新增资源时，需要同时补充 `asset_sources.json` 的条目。
 - 两张 Mooncell 技能图标（`己阵防御.png`、`宝具威力提升.png`）平铺在
   `SkillIcons/` 下，靠映射表指回 `media.fgo.wiki` 的原始路径。
 
-`scripts/fetch.py` 会自动下载新增从者的图片；也可以单独同步：
+`scripts/assets.py` 默认同步全部数据集，也可以用 `--dataset` 只同步一类：
 
 ```bash
 # 下载缺失图片（已存在的会跳过）
 python scripts/assets.py
 
+# 只处理一个数据集
+python scripts/assets.py --dataset crafts
+
 # 只检查图片是否齐全、映射是否完整，不下载
 python scripts/assets.py --check
 ```
 
-> `data-*` 标签发布时，CI 会先下载资源再打包。
+> `data-*` 标签发布时，CI 会先下载全部资源再按数据集打包。
 
 ## 更新数据
 
@@ -182,13 +272,35 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
 - 强化技能/宝具在 Mooncell 标注的开放阶段之后才出现，并用 `strength` 标记
 - 图片会下载到本地 `assets/`（不入库），JSON 中写入相对路径，同时把源 URL 记录到 `asset_sources.json`
 
+### 礼装 / 御主礼装 / 指令纹章
+
+三类数据各自读取 Atlas 的一个 CN 导出，默认只补齐缺失文件：
+
+```bash
+python scripts/fetch_crafts.py      # nice_equip.json       → crafts/
+python scripts/fetch_mystic.py      # nice_mystic_code.json → mystic/
+python scripts/fetch_cmdcodes.py    # nice_command_code.json → cmdcodes/
+
+# 使用已下载的导出 / 覆盖已有文件
+python scripts/fetch_crafts.py --source nice_equip.json --overwrite
+python scripts/fetch_mystic.py --source nice_mystic_code.json --overwrite
+python scripts/fetch_cmdcodes.py --source nice_command_code.json --overwrite
+```
+
+转换规则：
+
+- 图片写入各自根目录（`Craft/`、`Mystic/`、`Cmdcodes/`），并把 Atlas URL 记录到 `asset_sources.json`
+- 概念礼装的事件限定效果会展开为相邻的同名技能
+- 御主礼装技能的效果数值复用从者的 `Effect` 转换逻辑
+- `ptselectOneSub` / `ptselectSub`（如 Order Change）的目标标记为 `Special`
+
 ### 手动新增或修改
 
-1. 新增或修改 `servants/<id>.json`（文件名必须等于该文件的 `id`）。
+1. 新增或修改对应目录下的 `<id>.json`（文件名必须等于该文件的 `id`）。
 2. 提交并推送：
    ```bash
-   git add servants
-   git commit -m "Update servant data"
+   git add servants crafts mystic cmdcodes
+   git commit -m "Update game data"
    git push
    ```
 3. 打 tag 并推送，触发 Release：
@@ -202,8 +314,9 @@ python scripts/fetch.py --source /path/to/nice_servant_lore.json --no-assets
    git push origin data-2026.11.26.001
    ```
 
-CI 会先校验 tag，再下载资源、校验全部 JSON、合并成 `servant.json`、生成 `manifest.json`，
-发布 `mete-data-cn.zip`、`mete-data-cn-servant.zip` 与 `manifest.json` 三个资产。
+CI 会先校验 tag，再下载资源、校验全部 JSON，合并成 `servant.json` / `craft.json` /
+`mystic.json` / `cmdcode.json`，生成 `manifest.json`，并发布数据包、四个资源包、
+`manifest.json` 以及各资源包的增量补丁。
 
 本地校验（不写文件；加 `--check-images` 同时检查资源是否齐全）：
 
@@ -258,28 +371,32 @@ manifest 会同时写入派生字段：
 - 发生破坏性变更（目录布局、数据格式、资源包结构变化）时发布新基座，客户端按 `base`
   判断走全量下载。
 - 补丁 tag 必须存在对应基座 tag，CI 会用 `scripts/version.py --check-base` 校验。
-- 补丁只针对资源包，且**只增不删改**：只包含区间内新增的图片文件，不包含 `servant.json`。
-  JSON 包每次全量下载（约 892 KB），不需要做 JSON 增量。
-- 每个 release 同时发布两种补丁：
+- 补丁按数据集分别生成，且**只增不删改**：只包含区间内新增的图片文件，不包含任何 JSON。
+  JSON 包每次全量下载，不做 JSON 增量。
+- 每个 release 为每个资源包同时发布两种补丁：
 
   | 补丁 | 命名 | 内容 |
   | --- | --- | --- |
-  | 相邻增量 | `patch-<base>-<from:03d>-<to:03d>.zip` | 上一补丁到本补丁新增的文件 |
-  | 基座累计 | `patch-<base>-000-<to:03d>.zip` | 基座以来所有新增文件 |
+  | 相邻增量 | `patch-<type>-<base>-<from:03d>-<to:03d>.zip` | 上一补丁到本补丁新增的文件 |
+  | 基座累计 | `patch-<type>-<base>-000-<to:03d>.zip` | 基座以来所有新增文件 |
+
+  从者资源包沿用旧命名 `patch-<base>-...`，其他类型带自己的前缀：
 
   ```
-  patch-2026.11.27-003-007.zip
-  ├── Servant/CharaGraph/...   # 003 → 007 新增的图片
-  └── SkillIcons/...           # 新增的技能图标
+  patch-2026.11.27-003-007.zip          # 从者资源包
+  patch-craft-2026.11.27-003-007.zip    # 礼装资源包
+  ├── Craft/CharaGraph/...              # 003 → 007 新增的图片
+  └── Craft/SkillIcons/...
   ```
 
-  首个补丁（`001`）的累计与相邻补丁内容相同，只发一个；没有新增资源时不生成补丁。
+  首个补丁（`001`）的累计与相邻补丁内容相同，只发一个；某类没有新增资源时仍会生成一个
+  空补丁，让客户端明确知道无需全量下载。
 
-  补丁包内没有 `servant.json`，也没有删除或修改列表。客户端解压到资源目录即可，
+  补丁包内没有 JSON，也没有删除或修改列表。客户端解压到对应资源目录即可，
   已有文件不受影响；落后多个版本时用累计包一次补齐。
 
-  发布用的 `manifest.json` 会列出可用补丁（起止补丁号、`archive`、`bytes`、`sha256`），
-  客户端据此选择并校验。
+  发布用的 `manifest.json` 会在 `resources.<dataset>.patches` 下分别列出可用补丁
+  （起止补丁号、`archive`、`bytes`、`sha256`），客户端据此选择并校验。
 
 ## 数据来源
 

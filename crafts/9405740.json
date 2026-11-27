@@ -1,0 +1,32 @@
+{
+    "id": 9405740,
+    "name": "初绘",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "初绘",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆以宝具值已达40%的状态开始战斗＋登场时获得12个暴击星(1次)"
+        },
+        {
+            "name": "初绘",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆以宝具值已达50%的状态开始战斗＋登场时获得15个暴击星(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405740/9405740a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94057400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94057400.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9305240,
+    "name": "Waltz in the MOONLIGHT",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "Waltz in the MOONLIGHT",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305240/9305240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93052400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93052400.png"
+        ]
+    }
+}

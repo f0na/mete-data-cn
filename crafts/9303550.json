@@ -1,0 +1,27 @@
+{
+    "id": 9303550,
+    "name": "高洁的矛与盾",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "高洁的矛与盾",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303550/9303550a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93035500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93035500.png"
+        ]
+    }
+}

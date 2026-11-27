@@ -1,0 +1,52 @@
+{
+    "id": 9402560,
+    "name": "砂糖假期",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "砂糖假期",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升3%＆迅指令卡性能提升3%"
+        },
+        {
+            "name": "废旧零件的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "废旧零件的掉落获得数增加2个【『难解难分·夏日锦标赛！轻量版』活动限定】"
+        },
+        {
+            "name": "一粒糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "一粒糖果的掉落获得数增加2个【『死亡监狱·夏日大逃脱 轻量版』活动限定】"
+        },
+        {
+            "name": "砂糖假期",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "自身的防御力提升5%＆迅指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "废旧零件的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "废旧零件的掉落获得数增加3个[最大解放]【『难解难分·夏日锦标赛！轻量版』活动限定】"
+        },
+        {
+            "name": "一粒糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "一粒糖果的掉落获得数增加3个[最大解放]【『死亡监狱·夏日大逃脱 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402560/9402560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94025600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94025600.png"
+        ]
+    }
+}

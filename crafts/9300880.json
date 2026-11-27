@@ -1,0 +1,27 @@
+{
+    "id": 9300880,
+    "name": "库林的猛犬",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "库林的猛犬",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "库·丘林(Prototype)(枪兵)装备,且自身在场时,为己方全体付与对〔猛兽〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300880/9300880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93008800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93008800.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9307190,
+    "name": "我的记录，我的念想",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "我的记录，我的念想",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 901600](裁定者)装备,且自身在场时,付与己方全体对〔恶〕15%的特攻状态＆对〔拥有人之力的敌人〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307190/9307190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93071900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93071900.png"
+        ]
+    }
+}

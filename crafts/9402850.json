@@ -1,0 +1,32 @@
+{
+    "id": 9402850,
+    "name": "幸福是一只温暖的小狗",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "幸福是一只温暖的小狗",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2019"
+        },
+        {
+            "name": "幸福是一只温暖的小狗",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2019＋付与自身伤害减免19的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402850/9402850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94028500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94028500.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9305420,
+    "name": "完美的新年",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "完美的新年",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305420/9305420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93054200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93054200.png"
+        ]
+    }
+}

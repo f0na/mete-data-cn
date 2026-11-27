@@ -1,0 +1,27 @@
+{
+    "id": 9309700,
+    "name": "英灵祝装：清姬",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：清姬",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309700/9309700a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93097000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93097000.png"
+        ]
+    }
+}

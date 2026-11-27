@@ -1,0 +1,42 @@
+{
+    "id": 9407190,
+    "name": "爱书家",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "爱书家",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加4%的状态＆宝具威力提升10%＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "无名宝剑的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "无名宝剑的掉落获得数增加1个【『圣杯战线 ～白昼之城、黑夜之城～』活动限定】"
+        },
+        {
+            "name": "爱书家",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加5%的状态＆宝具威力提升15%＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        },
+        {
+            "name": "无名宝剑的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "无名宝剑的掉落获得数增加2个[最大解放]【『圣杯战线 ～白昼之城、黑夜之城～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407190/9407190a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94071900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94071900.png"
+        ]
+    }
+}

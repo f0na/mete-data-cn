@@ -1,0 +1,42 @@
+{
+    "id": 9408160,
+    "name": "西部破戒僧",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "西部破戒僧",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升3%＆力指令卡的暴击威力提升15%"
+        },
+        {
+            "name": "设计笔记的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "设计笔记的掉落获得数增加1个【『通通砸碎！ 神秘屋的工匠们』活动限定】"
+        },
+        {
+            "name": "西部破戒僧",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升5%＆力指令卡的暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "设计笔记的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "设计笔记的掉落获得数增加2个[最大解放]【『通通砸碎！ 神秘屋的工匠们』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408160/9408160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94081600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94081600.png"
+        ]
+    }
+}

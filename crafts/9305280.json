@@ -1,0 +1,27 @@
+{
+    "id": 9305280,
+    "name": "神剑",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神剑",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 104600](剑士)装备,且自身在场时,〔神性〕特性的己方全体的力指令卡性能提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305280/9305280a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93052800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93052800.png"
+        ]
+    }
+}

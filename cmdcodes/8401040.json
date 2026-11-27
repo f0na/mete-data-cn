@@ -1,0 +1,17 @@
+{
+    "id": 8401040,
+    "name": "鬼之副长",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401040a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401040.png"
+    },
+    "skills": [
+        {
+            "name": "鬼之副长",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升10～30%<生命值越少威力越高>"
+        }
+    ],
+    "comment": "「不准退。斩杀、前进、斩杀、前进！\n　没错，还没完！　还没有结束！\n\n　只要我还存在，诚之旗就是不灭的。\n　这里——就是新选组！」"
+}

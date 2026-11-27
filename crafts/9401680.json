@@ -1,0 +1,32 @@
+{
+    "id": 9401680,
+    "name": "起源弹",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "起源弹",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆对(魔术师)职阶35%的特攻状态"
+        },
+        {
+            "name": "起源弹",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆对(魔术师)职阶40%的特攻状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401680/9401680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016800.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401590,
+    "name": "承担圣夜的驯鹿帽",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401590a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401590.png"
+    },
+    "skills": [
+        {
+            "name": "承担圣夜的驯鹿帽",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得1个暴击星＋解除1个自身的封印状态"
+        }
+    ],
+    "comment": "为了将梦想送去给每一位少年少女，\n被任命为运输者的船员们佩戴的帽子。\n\n犹如拉车的马——\n不，是犹如回游鱼一样勤劳的他们\n今夜也会跃出海洋，在雪白的世界中驰骋。"
+}

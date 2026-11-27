@@ -1,0 +1,27 @@
+{
+    "id": 9300490,
+    "name": "撒但之腕",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "撒但之腕",
+            "icon": "Craft/SkillIcons/skill_00522.png",
+            "effect": "咒腕哈桑(暗匿者)装备,且自身在场时,己方全体的即死付与成功率提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300490/9300490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93004900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93004900.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400690,
+    "name": "圣夜之印",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "圣夜之印",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升8%＆暴击威力提升15%"
+        },
+        {
+            "name": "圣夜之印",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆暴击威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400690/9400690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94006900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94006900.png"
+        ]
+    }
+}

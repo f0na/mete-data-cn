@@ -1,0 +1,42 @@
+{
+    "id": 9407720,
+    "name": "御主之日",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "御主之日",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复50生命值的状态＆技指令卡性能提升2%＆力指令卡性能提升2%"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "御主之日",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合回复100生命值的状态＆技指令卡性能提升3%＆力指令卡性能提升3%[最大解放]"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407720/9407720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94077200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94077200.png"
+        ]
+    }
+}

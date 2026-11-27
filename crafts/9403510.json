@@ -1,0 +1,42 @@
+{
+    "id": 9403510,
+    "name": "冰结斗熊",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "冰结斗熊",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升8%"
+        },
+        {
+            "name": "力攻击的威力提升＆友谊点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:神秘之国的ONILAND!! 轻量版』活动中,力攻击的威力提升100～500%<根据友谊点数量变化>＆友谊点数的获得量增加30%【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        },
+        {
+            "name": "冰结斗熊",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "付与自身无敌贯通状态＆力指令卡性能提升10%[最大解放]"
+        },
+        {
+            "name": "力攻击的威力提升＆友谊点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『复刻:神秘之国的ONILAND!! 轻量版』活动中,力攻击的威力提升100～500%<根据友谊点数量变化>＆友谊点数的获得量增加60%[最大解放]【『复刻:神秘之国的ONILAND!! 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403510/9403510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94035100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94035100.png"
+        ]
+    }
+}

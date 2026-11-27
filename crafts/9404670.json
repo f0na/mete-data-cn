@@ -1,0 +1,42 @@
+{
+    "id": 9404670,
+    "name": "真红的教枪",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "真红的教枪",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升10%＆迅指令卡暴击威力提升15%＆宝具值已达40%的状态开始战斗"
+        },
+        {
+            "name": "斯卡哈硬币〔金〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔金〕的掉落获得数增加1个【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        },
+        {
+            "name": "真红的教枪",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆迅指令卡暴击威力提升20%＆宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "斯卡哈硬币〔金〕的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "斯卡哈硬币〔金〕的掉落获得数增加2个[最大解放]【『影之国的舞斗会 ～猫与兔与圣杯战争～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404670/9404670a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94046700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94046700.png"
+        ]
+    }
+}

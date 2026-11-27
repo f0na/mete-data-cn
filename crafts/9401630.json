@@ -1,0 +1,32 @@
+{
+    "id": 9401630,
+    "name": "舍华求实",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "舍华求实",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升15%＆宝具威力提升15%"
+        },
+        {
+            "name": "舍华求实",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "自身的迅指令卡性能提升20%＆宝具威力提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401630/9401630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94016300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94016300.png"
+        ]
+    }
+}

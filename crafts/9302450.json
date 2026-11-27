@@ -1,0 +1,27 @@
+{
+    "id": 9302450,
+    "name": "二阶笠",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "二阶笠",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 103200](剑士)装备,且自身在场时,己方全体的技指令卡性能提升10%＆宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302450/9302450a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93024500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93024500.png"
+        ]
+    }
+}

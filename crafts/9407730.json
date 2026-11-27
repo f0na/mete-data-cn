@@ -1,0 +1,35 @@
+{
+    "id": 9407730,
+    "name": "大鼻子情圣",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "大鼻子情圣",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得10个暴击星(1次)＆迅指令卡性能提升8%"
+        },
+        {
+            "name": "大鼻子情圣",
+            "icon": "Craft/SkillIcons/skill_00603.png",
+            "effect": "自身登场时获得12个暴击星(1次)＆迅指令卡性能提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407730/9407730a.png",
+            "Craft/CharaGraph/9407790/9407790a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94077300.png",
+            "Craft/Faces/f_94077900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94077300.png",
+            "Craft/EquipFaces/f_94077900.png"
+        ]
+    }
+}

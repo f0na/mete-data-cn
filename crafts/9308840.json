@@ -1,0 +1,27 @@
+{
+    "id": 9308840,
+    "name": "最深的灯火",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "最深的灯火",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "[servantName 305600](枪兵)装备时,付与自身每回合获得8个暴击星的状态＋自身在场时,付与己方全体对〔秩序〕10%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308840/9308840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088400.png"
+        ]
+    }
+}

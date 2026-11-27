@@ -1,0 +1,17 @@
+{
+    "id": 8402100,
+    "name": "冲田小姐大胜利！",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402100a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402100.png"
+    },
+    "skills": [
+        {
+            "name": "冲田小姐大胜利！",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升15%＆付与无视防御效果"
+        }
+    ],
+    "comment": "「这里就交给新选组一番队队长，\n　最强无敌的冲田小姐吧！\n\n　无论什么样的对手，\n　我都会逐一将他们三段突掉！\n\n　没错，只要和御主在一起，\n　就没有什么好怕的了。\n\n　——来吧，让我们集结于诚之旗下！」"
+}

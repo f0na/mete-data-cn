@@ -1,0 +1,27 @@
+{
+    "id": 9300090,
+    "name": "灼热的拥抱",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "灼热的拥抱",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "只有当清姬(狂战士)装备时,自身的宝具威力提升30%＆攻击时概率付与敌方单体伤害500的灼伤状态(5回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300090/9300090a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93000900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93000900.png"
+        ]
+    }
+}

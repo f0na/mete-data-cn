@@ -1,0 +1,27 @@
+{
+    "id": 9302730,
+    "name": "某种真理与死",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "某种真理与死",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "[servantName 503600](魔术师)装备,且自身在场时,己方全体的技指令卡性能提升10%＆力指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302730/9302730a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93027300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93027300.png"
+        ]
+    }
+}

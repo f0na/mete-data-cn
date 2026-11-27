@@ -1,0 +1,32 @@
+{
+    "id": 9403880,
+    "name": "黄昏的王圣",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "黄昏的王圣",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升20%＆宝具威力提升10%"
+        },
+        {
+            "name": "黄昏的王圣",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升25%＆宝具威力提升15%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403880/9403880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94038800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94038800.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400530,
+    "name": "天使之床",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400530a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400530.png"
+    },
+    "skills": [
+        {
+            "name": "天使之床",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除敌方单体的1个暴击率提升状态＋自身的生命值回复100"
+        }
+    ],
+    "comment": "用来治愈伤病员的床。\n也是白衣天使发挥其存在意义的地方。\n只不过，床并不一定只有让患者睡觉这一个用处。\n\n某位护士长主张，在某些情况下，还可以用来驱除造成患者的病灶。"
+}

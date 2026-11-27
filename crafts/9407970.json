@@ -1,0 +1,42 @@
+{
+    "id": 9407970,
+    "name": "在黄昏之风的吹拂下",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "在黄昏之风的吹拂下",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升4%＆力指令卡性能提升4%＆付与每回合获得3个暴击星的状态"
+        },
+        {
+            "name": "迪拜观光点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迪拜观光点数的掉落获得量提升30%【『名流夏日体验！』活动限定】"
+        },
+        {
+            "name": "在黄昏之风的吹拂下",
+            "icon": "Craft/SkillIcons/skill_00334.png",
+            "effect": "付与自身无视防御状态＆迅指令卡性能提升6%＆力指令卡性能提升6%＆付与每回合获得4个暴击星的状态[最大解放]"
+        },
+        {
+            "name": "迪拜观光点数获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "迪拜观光点数的掉落获得量提升60%[最大解放]【『名流夏日体验！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407970/9407970a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94079700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94079700.png"
+        ]
+    }
+}

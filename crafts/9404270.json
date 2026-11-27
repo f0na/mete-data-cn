@@ -1,0 +1,42 @@
+{
+    "id": 9404270,
+    "name": "以空为路",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "以空为路",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆宝具威力提升15%＆宝具值获得量提升15%"
+        },
+        {
+            "name": "雀礼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雀礼的掉落获得数增加1个【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        },
+        {
+            "name": "以空为路",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆宝具威力提升20%＆宝具值获得量提升20%[最大解放]"
+        },
+        {
+            "name": "雀礼的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "雀礼的掉落获得数增加2个[最大解放]【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404270/9404270a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94042700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94042700.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9400720,
+    "name": "觉醒的意志",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1125,
+    "skills": [
+        {
+            "name": "觉醒的意志",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合一定概率宝具值获得12%的状态＆每回合生命值减少500的状态【负面效果】"
+        },
+        {
+            "name": "觉醒的意志",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合一定概率宝具值获得15%的状态[最大解放]＆每回合生命值减少500的状态【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400720/9400720a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94007200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94007200.png"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9403130,
+    "name": "暗澹",
+    "type": "Normal",
+    "rarity": 2,
+    "cost": 3,
+    "atk": 250,
+    "hp": 400,
+    "skills": [
+        {
+            "name": "暗澹",
+            "icon": "Craft/SkillIcons/skill_00407.png",
+            "effect": "自身的即死耐性提升5%"
+        },
+        {
+            "name": "暗澹",
+            "icon": "Craft/SkillIcons/skill_00407.png",
+            "effect": "自身的即死耐性提升10%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403130/9403130a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94031300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94031300.png"
+        ]
+    }
+}

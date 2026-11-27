@@ -1,0 +1,42 @@
+{
+    "id": 9403680,
+    "name": "美丽的梦想家",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "美丽的梦想家",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆宝具值获得量提升8%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "吟诗点数的获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "在『情人节2020』中,吟诗点数的掉落获得量提升30%【『情人节2020』活动限定】"
+        },
+        {
+            "name": "美丽的梦想家",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具值获得量提升10%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "吟诗点数的获得量提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "在『情人节2020』中,吟诗点数的掉落获得量提升60%[最大解放]【『情人节2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403680/9403680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036800.png"
+        ]
+    }
+}

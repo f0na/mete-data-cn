@@ -1,0 +1,27 @@
+{
+    "id": 9300820,
+    "name": "天草四郎阵中旗",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天草四郎阵中旗",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "天草四郎(裁定者)装备,且自身在场时,为己方全体付与对〔死灵与恶魔〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300820/9300820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93008200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93008200.png"
+        ]
+    }
+}

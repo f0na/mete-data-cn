@@ -1,0 +1,27 @@
+{
+    "id": 9806640,
+    "name": "概念礼装经验卡：唠唠叨叨魔小姐",
+    "type": "SvtEquipExp",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "概念礼装经验卡：唠唠叨叨魔小姐",
+            "icon": "Craft/SkillIcons/skill_999999.png",
+            "effect": "无效果"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9806640/9806640a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_98066400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_98066400.png"
+        ]
+    }
+}

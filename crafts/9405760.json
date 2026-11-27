@@ -1,0 +1,32 @@
+{
+    "id": 9405760,
+    "name": "火魔战车",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "火魔战车",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2023"
+        },
+        {
+            "name": "火魔战车",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2023＋自身的迅指令卡性能提升2.2%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405760/9405760a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94057600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94057600.png"
+        ]
+    }
+}

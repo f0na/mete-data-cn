@@ -1,0 +1,32 @@
+{
+    "id": 9402480,
+    "name": "手无寸铁慎二君",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "手无寸铁慎二君",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身防御弱化耐性提升25%"
+        },
+        {
+            "name": "手无寸铁慎二君",
+            "icon": "Craft/SkillIcons/skill_00401.png",
+            "effect": "自身防御弱化耐性提升30%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402480/9402480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94024800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94024800.png"
+        ]
+    }
+}

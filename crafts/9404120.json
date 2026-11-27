@@ -1,0 +1,42 @@
+{
+    "id": 9404120,
+    "name": "美景佳人",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "美景佳人",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＋登场时获得15个暴击星(1次)"
+        },
+        {
+            "name": "AUO抽奖券2020的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "AUO抽奖券2020的掉落获得数增加1个【『BATTLE IN NEWYORK 2020』活动限定】"
+        },
+        {
+            "name": "美景佳人",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＋登场时获得20个暴击星(1次)[最大解放]"
+        },
+        {
+            "name": "AUO抽奖券2020的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "AUO抽奖券2020的掉落获得数增加2个[最大解放]【『BATTLE IN NEWYORK 2020』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404120/9404120a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94041200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94041200.png"
+        ]
+    }
+}

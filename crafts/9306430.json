@@ -1,0 +1,27 @@
+{
+    "id": 9306430,
+    "name": "将一切",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "将一切",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "[servantName 104300](剑士)装备时,付与自身每回合获得8个暴击星的状态＋自身在场时,己方全体的宝具值获得量提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306430/9306430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93064300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93064300.png"
+        ]
+    }
+}

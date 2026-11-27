@@ -1,0 +1,27 @@
+{
+    "id": 9300170,
+    "name": "猫咪围裙",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "猫咪围裙",
+            "icon": "Craft/SkillIcons/skill_00600.png",
+            "effect": "只有当玉藻猫(狂战士)装备,且自身在场时,己方全体最大生命值提升2000"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300170/9300170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93001700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93001700.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9300200,
+    "name": "神圣的献身",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "神圣的献身",
+            "icon": "Craft/SkillIcons/skill_00600.png",
+            "effect": "只有当阿拉什(弓兵)装备时,且自身战败退场时除自身外的己方全体回复5000生命值＆解除弱化状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300200/9300200a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93002000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93002000.png"
+        ]
+    }
+}

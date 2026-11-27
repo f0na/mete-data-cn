@@ -1,0 +1,32 @@
+{
+    "id": 9406420,
+    "name": "炽天之王",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "炽天之王",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得6个暴击星的状态＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "炽天之王",
+            "icon": "Craft/SkillIcons/skill_00605.png",
+            "effect": "付与自身每回合获得8个暴击星的状态＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406420/9406420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94064200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94064200.png"
+        ]
+    }
+}

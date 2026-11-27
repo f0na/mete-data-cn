@@ -1,0 +1,27 @@
+{
+    "id": 9305660,
+    "name": "大海蛇",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "大海蛇",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "[servantName 404500](骑兵)装备,且自身在场时,己方全体的力指令卡性能提升15%＆宝具威力提升10%＆防御力降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305660/9305660a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056600.png"
+        ]
+    }
+}

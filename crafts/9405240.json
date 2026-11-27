@@ -1,0 +1,52 @@
+{
+    "id": 9405240,
+    "name": "天使之心",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "天使之心",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(2次)＆迅指令卡性能提升10%"
+        },
+        {
+            "name": "天使之心",
+            "icon": "Craft/SkillIcons/skill_00403.png",
+            "effect": "付与自身无敌状态(2次)＆迅指令卡性能提升15%[最大解放]"
+        },
+        {
+            "name": "海盗佩刀的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗佩刀的掉落获得数增加1个【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "海盗佩刀的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗佩刀的掉落获得数增加2个[最大解放]【『迦勒底·夏日冒险！』活动限定】"
+        },
+        {
+            "name": "海盗佩刀的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗佩刀的掉落获得数增加1个【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        },
+        {
+            "name": "海盗佩刀的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "海盗佩刀的掉落获得数增加2个[最大解放]【『迦勒底·夏日冒险！ 复刻版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405240/9405240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94052400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94052400.png"
+        ]
+    }
+}

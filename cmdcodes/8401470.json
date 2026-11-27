@@ -1,0 +1,17 @@
+{
+    "id": 8401470,
+    "name": "雕刻理想的王之凿",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401470a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401470.png"
+    },
+    "skills": [
+        {
+            "name": "雕刻理想的王之凿",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡的暴击威力提升10%＋当使用被刻印的指令卡进行攻击时,自身的生命值回复200"
+        }
+    ],
+    "comment": "创造并深爱着她的王之神技具现而成的凿与锤。\n\n用这个创造出的动植物就像传说的重现一样，能够被付与短暂的生命。\n\n之所以无法维持永远，是因为缺乏与王同等的爱——\n还是缺乏与王同等的疯狂（爱）呢。\n这点连她自己都不清楚。"
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9307360,
+    "name": "蜡板与尖笔",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "蜡板与尖笔",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "[servantName 205000](弓兵)装备,且自身在场时,己方全体的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307360/9307360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073600.png"
+        ]
+    }
+}

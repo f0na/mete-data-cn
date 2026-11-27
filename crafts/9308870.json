@@ -1,0 +1,27 @@
+{
+    "id": 9308870,
+    "name": "幻想杖·丽华",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "幻想杖·丽华",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 2800900](身披角色者)装备时,自身的宝具威力提升30%＆额外攻击指令卡性能提升100%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308870/9308870a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088700.png"
+        ]
+    }
+}

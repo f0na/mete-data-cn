@@ -1,0 +1,17 @@
+{
+    "id": 8402050,
+    "name": "总统式纪念徽章",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402050a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402050.png"
+    },
+    "skills": [
+        {
+            "name": "总统式纪念徽章",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "仅当被刻印在技指令卡上,且使用被刻印的指令卡进行攻击时,获得3个暴击星"
+        }
+    ],
+    "comment": "从那位空前绝后、惊天动地、\n天衣无缝而灵活圆滑的统治者（自称）\n那里得到的究极总统纪念徽章。\n\n请仔细装裱挂起来装饰吧！"
+}

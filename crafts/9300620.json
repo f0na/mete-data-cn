@@ -1,0 +1,27 @@
+{
+    "id": 9300620,
+    "name": "天赐的英雄",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天赐的英雄",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "阿周那(弓兵)装备时,自身宝具威力提升30%＆暴击星集中度提升1000%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300620/9300620a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93006200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93006200.png"
+        ]
+    }
+}

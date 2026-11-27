@@ -1,0 +1,42 @@
+{
+    "id": 9406460,
+    "name": "泥土之成果",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "泥土之成果",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免100的状态＆迅指令卡性能提升3%"
+        },
+        {
+            "name": "荒穗茶筅的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "荒穗茶筅的掉落获得数增加1个【『唠唠叨叨新邪马台国』活动限定】"
+        },
+        {
+            "name": "泥土之成果",
+            "icon": "Craft/SkillIcons/skill_00400.png",
+            "effect": "付与自身被伤害减免200的状态＆迅指令卡性能提升5%[最大解放]"
+        },
+        {
+            "name": "荒穗茶筅的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "荒穗茶筅的掉落获得数增加2个[最大解放]【『唠唠叨叨新邪马台国』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406460/9406460a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94064600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94064600.png"
+        ]
+    }
+}

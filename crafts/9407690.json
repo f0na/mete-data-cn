@@ -1,0 +1,42 @@
+{
+    "id": 9407690,
+    "name": "贪婪的骰子",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "贪婪的骰子",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击星集中度提升50%"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加1个【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        },
+        {
+            "name": "贪婪的骰子",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆暴击星集中度提升100%[最大解放]"
+        },
+        {
+            "name": "勇气糖果的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "勇气糖果的掉落获得数增加2个[最大解放]【『CBC2025 查理曼的蒙茹瓦骑士道！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407690/9407690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94076900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94076900.png"
+        ]
+    }
+}

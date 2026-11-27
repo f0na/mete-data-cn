@@ -1,0 +1,32 @@
+{
+    "id": 9401250,
+    "name": "甜美眼镜时光",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "甜美眼镜时光",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆伤害附加400状态＆被伤害减免200的状态"
+        },
+        {
+            "name": "甜美眼镜时光",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆伤害附加600状态＆被伤害减免300的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401250/9401250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94012500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94012500.png"
+        ]
+    }
+}

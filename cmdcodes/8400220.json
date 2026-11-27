@@ -1,0 +1,17 @@
+{
+    "id": 8400220,
+    "name": "黑色信徒的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400220a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400220.png"
+    },
+    "skills": [
+        {
+            "name": "黑色信徒的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的防御力提升状态"
+        }
+    ],
+    "comment": "某位御主的令印。\n模仿了寄宿于其身的体术源流。"
+}

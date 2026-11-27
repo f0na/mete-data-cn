@@ -1,0 +1,42 @@
+{
+    "id": 9408430,
+    "name": "兄长特制",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "兄长特制",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升300%＆力指令卡性能提升3%＆暴击威力提升5%"
+        },
+        {
+            "name": "老式餐盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "老式餐盘的掉落获得数增加1个【『CBC2026 其名为但丁』活动限定】"
+        },
+        {
+            "name": "兄长特制",
+            "icon": "Craft/SkillIcons/skill_00311.png",
+            "effect": "自身的暴击星集中度提升400%＆力指令卡性能提升5%＆暴击威力提升10%[最大解放]"
+        },
+        {
+            "name": "老式餐盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "老式餐盘的掉落获得数增加2个[最大解放]【『CBC2026 其名为但丁』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9408430/9408430a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94084300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94084300.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9303420,
+    "name": "阿房宫模型",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "阿房宫模型",
+            "icon": "Craft/SkillIcons/skill_00404.png",
+            "effect": "[servantName 900600](裁定者)装备时,付与自身毅力状态(1次·生命值回复50%)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303420/9303420a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93034200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93034200.png"
+        ]
+    }
+}

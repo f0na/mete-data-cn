@@ -1,0 +1,17 @@
+{
+    "id": 8400500,
+    "name": "赫须绅士的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400500a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400500.png"
+    },
+    "skills": [
+        {
+            "name": "赫须绅士的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00511.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与敌方单体灼伤状态(500伤害·3回合)"
+        }
+    ],
+    "comment": "某位御主的令印。\n属于边境魔术师一族家主。\n历史短暂，才华却受到了贵族们的认可，\n然而如今没落已久。"
+}

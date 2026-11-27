@@ -1,0 +1,27 @@
+{
+    "id": 9300040,
+    "name": "天之启示",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "天之启示",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "只有当贞德(裁定者)装备,且自身在场时,己方全体力指令卡的性能提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300040/9300040a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93000400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93000400.png"
+        ]
+    }
+}

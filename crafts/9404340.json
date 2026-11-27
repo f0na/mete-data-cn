@@ -1,0 +1,42 @@
+{
+    "id": 9404340,
+    "name": "午夜慌忙",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "午夜慌忙",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升5%＆生命值回复量提升5%"
+        },
+        {
+            "name": "邂逅风车的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邂逅风车的掉落获得数增加1个【『情人节2021 非同一般的情人节』活动限定】"
+        },
+        {
+            "name": "午夜慌忙",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身的宝具威力提升10%＆生命值回复量提升10%[最大解放]"
+        },
+        {
+            "name": "邂逅风车的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "邂逅风车的掉落获得数增加2个[最大解放]【『情人节2021 非同一般的情人节』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404340/9404340a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94043400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94043400.png"
+        ]
+    }
+}

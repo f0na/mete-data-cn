@@ -1,0 +1,27 @@
+{
+    "id": 9305630,
+    "name": "终局特异点 冠位时间神殿所罗门",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "终局特异点 冠位时间神殿所罗门",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9305630/9305630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93056300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93056300.png"
+        ]
+    }
+}

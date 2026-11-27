@@ -1,0 +1,52 @@
+{
+    "id": 9401880,
+    "name": "万华蓝宝石",
+    "type": "SvtEquipEventReward",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "万华蓝宝石",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升10%＆宝具威力提升8%"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "当〔女性〕从者装备时,其在『复刻版:魔法少女纪行 ～Prisma·Codes～』中的攻击威力提升50%【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "技威力提升(仅限World End Match)",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "当〔女性〕从者装备时,其在「World End Match」中的技指令卡威力提升50%【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "万华蓝宝石",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "自身的技指令卡性能提升15%＆宝具威力提升10%[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "当〔女性〕从者装备时,其在『复刻版:魔法少女纪行 ～Prisma·Codes～』中的攻击威力提升100%[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        },
+        {
+            "name": "技威力提升(仅限World End Match)",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "当〔女性〕从者装备时,其在「World End Match」中的技指令卡威力提升100%[最大解放]【『复刻版:魔法少女纪行 ～Prisma·Codes～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401880/9401880a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94018800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94018800.png"
+        ]
+    }
+}

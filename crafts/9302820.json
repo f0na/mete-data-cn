@@ -1,0 +1,27 @@
+{
+    "id": 9302820,
+    "name": "那日的天空",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "那日的天空",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 603300](暗匿者)装备,且自身在场时,己方全体的技指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302820/9302820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93028200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93028200.png"
+        ]
+    }
+}

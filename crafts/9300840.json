@@ -1,0 +1,27 @@
+{
+    "id": 9300840,
+    "name": "无限烤薄饼",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "无限烤薄饼",
+            "icon": "Craft/SkillIcons/skill_00611.png",
+            "effect": "美狄亚〔Lily〕(魔术师)装备,且自身在场时,己方全体的回复量提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300840/9300840a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93008400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93008400.png"
+        ]
+    }
+}

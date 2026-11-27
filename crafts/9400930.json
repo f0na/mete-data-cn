@@ -1,0 +1,32 @@
+{
+    "id": 9400930,
+    "name": "狮子玩偶",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "狮子玩偶",
+            "icon": "Craft/SkillIcons/skill_00600.png",
+            "effect": "自身战败退场时己方全体生命值回复800"
+        },
+        {
+            "name": "狮子玩偶",
+            "icon": "Craft/SkillIcons/skill_00600.png",
+            "effect": "自身战败退场时己方全体生命值回复1000[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400930/9400930a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94009300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94009300.png"
+        ]
+    }
+}

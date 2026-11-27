@@ -109,6 +109,9 @@ TARGET_MAP = {
     "fieldOther": "Other",
     "noTarget": "Other",
     "ptOneOther": "AllBeyondTarget",
+    # Targets that require picking a specific party member (e.g. Order Change).
+    "ptselectOneSub": "Special",
+    "ptselectSub": "Special",
 }
 
 # Functions that carry no displayable effect.
@@ -145,6 +148,8 @@ FLAT_BUFFS = {
 }
 # Buffs whose numeric svals are internal counters, not displayed values.
 NO_VALUE_BUFFS = {"shortenSkillAfterUseSkill"}
+# Functions that act without a displayable number (their svals are flags/ids).
+NO_VALUE_FUNCS = {"replaceMember"}
 # Values at or above this are internal ids (buff ids, svt ids, ...).
 INTERNAL_VALUE_THRESHOLD = 100_000
 
@@ -279,7 +284,7 @@ def values_for_function(fn: dict) -> tuple[str, list[int]]:
     raw_values = [v for v in raw_values if isinstance(v, (int, float))]
     raw_values = [v for v in raw_values if abs(v) < INTERNAL_VALUE_THRESHOLD]
 
-    if set(buff_types) & NO_VALUE_BUFFS:
+    if func_type in NO_VALUE_FUNCS or set(buff_types) & NO_VALUE_BUFFS:
         return "None", []
     if not raw_values:
         return "None", []

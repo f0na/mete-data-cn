@@ -1,0 +1,42 @@
+{
+    "id": 9407240,
+    "name": "仙人掌之城",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "仙人掌之城",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加3%的状态＆迅指令卡性能提升3%＆宝具值获得量提升5%"
+        },
+        {
+            "name": "科纳咖啡豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "科纳咖啡豆的掉落获得数增加1个【『从者·夏日·庆典2024！』活动限定】"
+        },
+        {
+            "name": "仙人掌之城",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合宝具值增加4%的状态＆迅指令卡性能提升5%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "科纳咖啡豆的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "科纳咖啡豆的掉落获得数增加2个[最大解放]【『从者·夏日·庆典2024！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407240/9407240a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94072400.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94072400.png"
+        ]
+    }
+}

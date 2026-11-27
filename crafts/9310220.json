@@ -1,0 +1,27 @@
+{
+    "id": 9310220,
+    "name": "英灵祝装：百貌哈桑",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：百貌哈桑",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310220/9310220a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93102200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93102200.png"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 9306200,
+    "name": "永不停歇的玻璃鞋",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "永不停歇的玻璃鞋",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 404600](骑兵)装备,且自身在场时,己方全体〔童话特性的从者〕的暴击威力提升30%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306200/9306200a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062000.png"
+        ]
+    }
+}

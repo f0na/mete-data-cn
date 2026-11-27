@@ -1,0 +1,27 @@
+{
+    "id": 9306290,
+    "name": "小狮子之舞",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2023,
+    "skills": [
+        {
+            "name": "小狮子之舞",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "自身的宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306290/9306290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062900.png"
+        ]
+    }
+}

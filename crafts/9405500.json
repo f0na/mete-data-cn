@@ -1,0 +1,32 @@
+{
+    "id": 9405500,
+    "name": "冬之结晶",
+    "type": "Normal",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 1500,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "冬之结晶",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达60%的状态开始战斗"
+        },
+        {
+            "name": "冬之结晶",
+            "icon": "Craft/SkillIcons/skill_00601.png",
+            "effect": "自身以宝具值已达75%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405500/9405500a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94055000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94055000.png"
+        ]
+    }
+}

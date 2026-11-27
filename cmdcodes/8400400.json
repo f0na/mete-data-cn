@@ -1,0 +1,17 @@
+{
+    "id": 8400400,
+    "name": "尚青幻想的令印",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400400a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400400.png"
+    },
+    "skills": [
+        {
+            "name": "尚青幻想的令印",
+            "icon": "Cmdcodes/SkillIcons/skill_00309.png",
+            "effect": "仅当被刻印在技指令卡上时,被刻印的指令卡暴击星集中度提升100%"
+        }
+    ],
+    "comment": "某位御主的令印。\n纹样参考了应人们愿望而生的少女所穿的制服。"
+}

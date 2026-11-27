@@ -1,0 +1,27 @@
+{
+    "id": 9301290,
+    "name": "万能之智，根底之知",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "万能之智，根底之知",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "莱昂纳多·达·芬奇(魔术师)装备,且自身在场时,己方全体的宝具威力提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301290/9301290a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93012900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93012900.png"
+        ]
+    }
+}

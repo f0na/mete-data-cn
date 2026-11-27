@@ -1,0 +1,32 @@
+{
+    "id": 9402510,
+    "name": "迦勒底周年纪念",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "迦勒底周年纪念",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆宝具值已达50%的状态开始战斗"
+        },
+        {
+            "name": "迦勒底周年纪念",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆宝具值已达60%的状态开始战斗[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402510/9402510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94025100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94025100.png"
+        ]
+    }
+}

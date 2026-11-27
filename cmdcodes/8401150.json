@@ -1,0 +1,17 @@
+{
+    "id": 8401150,
+    "name": "门洛帕克的魔术师",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401150a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401150.png"
+    },
+    "skills": [
+        {
+            "name": "门洛帕克的魔术师",
+            "icon": "Cmdcodes/SkillIcons/skill_00302.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,自身的宝具威力提升10%(1回合)＋被刻印的指令卡的宝具值获得量提升5%"
+        }
+    ],
+    "comment": "「直流才是力量！！\n\n　没错！\n　只要有哪怕1％的灵感，\n　接下来只要全力努力就行了！\n\n　不要害怕失败。\n　正是那不轻言放弃、持续寻求希望的身姿，\n　为人们的心中点亮了明亮的灯火！」"
+}

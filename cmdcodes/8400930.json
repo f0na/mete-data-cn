@@ -1,0 +1,17 @@
+{
+    "id": 8400930,
+    "name": "迷你Border",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400930a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400930.png"
+    },
+    "skills": [
+        {
+            "name": "迷你Border",
+            "icon": "Cmdcodes/SkillIcons/skill_00603.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,获得2个暴击星＋解除1个敌方单体的防御力提升状态"
+        }
+    ],
+    "comment": "万能天才打造的人造英灵驱使的小型自行火炮台。\n作为量产型，存在数辆。\n\n与主人一样，外表十分可爱，\n具备极高的机动性与攻击力，\n以及可以应对各种高难作业的万能性。"
+}

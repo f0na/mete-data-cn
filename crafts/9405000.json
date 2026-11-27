@@ -1,0 +1,42 @@
+{
+    "id": 9405000,
+    "name": "阿耳戈船英雄俱乐部",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "阿耳戈船英雄俱乐部",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升25%"
+        },
+        {
+            "name": "梅杰玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梅杰玩偶的掉落获得数增加1个【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        },
+        {
+            "name": "阿耳戈船英雄俱乐部",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升30%[最大解放]"
+        },
+        {
+            "name": "梅杰玩偶的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "梅杰玩偶的掉落获得数增加2个[最大解放]【『圣杯怪盗天草四郎 ～闹剧博物馆～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9405000/9405000a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94050000.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94050000.png"
+        ]
+    }
+}

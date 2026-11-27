@@ -1,0 +1,27 @@
+{
+    "id": 9307030,
+    "name": "金眼神莺",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "金眼神莺",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "[servantName 404900](骑兵)装备,且自身在场时,己方全体的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具威力提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307030/9307030a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93070300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93070300.png"
+        ]
+    }
+}

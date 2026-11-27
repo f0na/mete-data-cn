@@ -1,0 +1,27 @@
+{
+    "id": 9304510,
+    "name": "迦勒底游园车队",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "迦勒底游园车队",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的魔术礼装经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304510/9304510a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93045100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93045100.png"
+        ]
+    }
+}

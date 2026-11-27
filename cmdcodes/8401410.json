@@ -1,0 +1,17 @@
+{
+    "id": 8401410,
+    "name": "无偿之爱的传道者",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401410a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401410.png"
+    },
+    "skills": [
+        {
+            "name": "无偿之爱的传道者",
+            "icon": "Cmdcodes/SkillIcons/skill_00301.png",
+            "effect": "付与被刻印的指令卡对〔混沌〕25%的特攻效果"
+        }
+    ],
+    "comment": "「为了那些渴望爱的羊羔们，\n　我前来递送主的旨意。\n\n　费用吗？\n　那就要取决于您的信仰了。\n　过少也可以，\n　过多当然更好了。\n　自不用说，\n　我的教会对于捐款来者不拒。\n　所以，你可以尽管收下哦？」"
+}

@@ -1,0 +1,32 @@
+{
+    "id": 9402150,
+    "name": "飞越疯人巢",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "飞越疯人巢",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2018"
+        },
+        {
+            "name": "飞越疯人巢",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2018＋付与自身伤害附加18的状态[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402150/9402150a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94021500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94021500.png"
+        ]
+    }
+}

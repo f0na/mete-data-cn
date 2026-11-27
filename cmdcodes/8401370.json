@@ -1,0 +1,17 @@
+{
+    "id": 8401370,
+    "name": "正义女士",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401370a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401370.png"
+    },
+    "skills": [
+        {
+            "name": "正义女士",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡的暴击星集中度提升100%＋当使用被刻印的指令卡进行攻击时,获得2个暴击星"
+        }
+    ],
+    "comment": "「哎呀，你是想要我的裁定吗？\n　好吧。\n　就让我用星辰的裁决，\n　确定你那善良之轻与罪孽之重吧！」"
+}

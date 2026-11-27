@@ -1,0 +1,27 @@
+{
+    "id": 9304690,
+    "name": "夏日相伴",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "夏日相伴",
+            "icon": "Craft/SkillIcons/skill_00304.png",
+            "effect": "[servantName 304400](枪兵)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆暴击威力提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304690/9304690a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93046900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93046900.png"
+        ]
+    }
+}

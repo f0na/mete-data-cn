@@ -1,0 +1,42 @@
+{
+    "id": 9402750,
+    "name": "天际旋荡",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "天际旋荡",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升8%＆宝具威力提升8%＆自身以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "〔骑士系〕〔凝视者系〕〔量产型系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔骑士系〕〔凝视者系〕〔量产型系〕敌人的追加出现率提升25%【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        },
+        {
+            "name": "天际旋荡",
+            "icon": "Craft/SkillIcons/skill_00306.png",
+            "effect": "自身的力指令卡性能提升10%＆宝具威力提升10%＆自身以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "〔骑士系〕〔凝视者系〕〔量产型系〕追加出现概率提升",
+            "icon": "Craft/SkillIcons/skill_00207.png",
+            "effect": "在『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』的自由关卡中,〔骑士系〕〔凝视者系〕〔量产型系〕敌人的追加出现率提升100%[最大解放]【『复刻:万圣节·强袭！ 魔城攀登者／姬路城大决战 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9402750/9402750a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94027500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94027500.png"
+        ]
+    }
+}

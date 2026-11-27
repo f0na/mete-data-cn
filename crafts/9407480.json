@@ -1,0 +1,32 @@
+{
+    "id": 9407480,
+    "name": "来自ＮＦＦ的爱",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "来自ＮＦＦ的爱",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔兽科从者〕的牵绊点数增加4%"
+        },
+        {
+            "name": "来自ＮＦＦ的爱",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔兽科从者〕的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407480/9407480a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94074800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94074800.png"
+        ]
+    }
+}

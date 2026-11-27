@@ -1,0 +1,42 @@
+{
+    "id": 9407410,
+    "name": "海道流星雨",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "海道流星雨",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升15%＆宝具威力提升15%"
+        },
+        {
+            "name": "武田方向盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "武田方向盘的掉落获得数增加1个【『唠唠叨叨超五棱郭』活动限定】"
+        },
+        {
+            "name": "海道流星雨",
+            "icon": "Craft/SkillIcons/skill_00312.png",
+            "effect": "付与自身无敌贯通状态＆暴击威力提升20%＆宝具威力提升20%[最大解放]"
+        },
+        {
+            "name": "武田方向盘的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "武田方向盘的掉落获得数增加2个[最大解放]【『唠唠叨叨超五棱郭』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407410/9407410a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94074100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94074100.png"
+        ]
+    }
+}

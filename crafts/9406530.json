@@ -1,0 +1,42 @@
+{
+    "id": 9406530,
+    "name": "闲话休怠",
+    "type": "SvtEquipEvent",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "闲话休怠",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值4%的状态＆宝具威力提升15%＆暴击威力提升15%"
+        },
+        {
+            "name": "青龙的摆件的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青龙的摆件的掉落获得数增加1个【『108人的万圣节·叛乱！』活动限定】"
+        },
+        {
+            "name": "闲话休怠",
+            "icon": "Craft/SkillIcons/skill_00607.png",
+            "effect": "付与自身每回合获得宝具值5%的状态＆宝具威力提升20%＆暴击威力提升20%[最大解放]"
+        },
+        {
+            "name": "青龙的摆件的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "青龙的摆件的掉落获得数增加2个[最大解放]【『108人的万圣节·叛乱！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406530/9406530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94065300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94065300.png"
+        ]
+    }
+}

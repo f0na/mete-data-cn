@@ -1,0 +1,27 @@
+{
+    "id": 9307890,
+    "name": "ＵＤＫ团员招募中",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "ＵＤＫ团员招募中",
+            "icon": "Craft/SkillIcons/skill_00305.png",
+            "effect": "[servantName 204900](弓兵)装备,且自身在场时,己方全体的技指令卡性能提升10%＋仅当在〔燃烧〕的场地上时,己方全体的技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307890/9307890a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93078900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93078900.png"
+        ]
+    }
+}

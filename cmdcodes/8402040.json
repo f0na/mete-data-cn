@@ -1,0 +1,17 @@
+{
+    "id": 8402040,
+    "name": "迦勒底的盾与剑",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8402040a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8402040.png"
+    },
+    "skills": [
+        {
+            "name": "迦勒底的盾与剑",
+            "icon": "Cmdcodes/SkillIcons/skill_00311.png",
+            "effect": "被刻印的指令卡暴击星集中度提升100%＆宝具值获得量提升5%"
+        }
+    ],
+    "comment": "「经历了无数相遇与别离，\n　经历了无数尝试与抉择，\n　我最终握起了剑。\n\n　对一路经历的景象依依不舍，\n　为已然逝去的时间心存悲伤。\n　人类，不，我只要这样就够了。\n\n　这是为了夺回未来的战斗。\n　不能畏惧错误，今后也要做出众多抉择，\n　只为向前方迈进。」"
+}

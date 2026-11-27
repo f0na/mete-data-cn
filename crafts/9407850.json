@@ -1,0 +1,32 @@
+{
+    "id": 9407850,
+    "name": "检查报告",
+    "type": "SvtEquipManaExchange",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 0,
+    "hp": 3000,
+    "skills": [
+        {
+            "name": "检查报告",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔秩序且善〕特性的牵绊点数增加4%"
+        },
+        {
+            "name": "检查报告",
+            "icon": "Craft/SkillIcons/skill_00205.png",
+            "effect": "关卡通关时获得的〔秩序且善〕特性的牵绊点数增加20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9407850/9407850a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94078500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94078500.png"
+        ]
+    }
+}

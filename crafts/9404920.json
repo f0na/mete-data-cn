@@ -1,0 +1,42 @@
+{
+    "id": 9404920,
+    "name": "禅之盆景",
+    "type": "SvtEquipEvent",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 750,
+    "hp": 1200,
+    "skills": [
+        {
+            "name": "禅之盆景",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升8%＆技指令卡性能提升8%＆宝具值获得量提升8%"
+        },
+        {
+            "name": "山伏团子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山伏团子的掉落获得数增加1个【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        },
+        {
+            "name": "禅之盆景",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "自身的迅指令卡性能提升10%＆技指令卡性能提升10%＆宝具值获得量提升10%[最大解放]"
+        },
+        {
+            "name": "山伏团子的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山伏团子的掉落获得数增加2个[最大解放]【『来吧,向镰仓道别 ～小小大天狗～』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9404920/9404920a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94049200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94049200.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8401840,
+    "name": "女帝头盔",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401840a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401840.png"
+    },
+    "skills": [
+        {
+            "name": "女帝头盔",
+            "icon": "Cmdcodes/SkillIcons/skill_00411.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,付与自身防御力降低无效状态(1次·2回合)"
+        }
+    ],
+    "comment": "世界最古老的毒杀者，也是亚述帝国的女帝\n不知从何时开始施工时佩戴的头盔。\n\n能在施工过程中保护头部免受\n工程中常见的高空坠物与滑落时冲击的伤害。\n大概付与了各种魔术，既安全又令人安心。"
+}

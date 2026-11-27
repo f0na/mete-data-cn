@@ -1,0 +1,32 @@
+{
+    "id": 9401070,
+    "name": "泪之情人节道场",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 1000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "泪之情人节道场",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合宝具值增加3%的状态＆魅惑耐性降低10%【负面效果】"
+        },
+        {
+            "name": "泪之情人节道场",
+            "icon": "Craft/SkillIcons/skill_00310.png",
+            "effect": "付与自身必中状态＆每回合宝具值增加5%的状态[最大解放]＆魅惑耐性降低10%【负面效果】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9401070/9401070a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94010700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94010700.png"
+        ]
+    }
+}

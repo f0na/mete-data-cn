@@ -1,0 +1,27 @@
+{
+    "id": 9301560,
+    "name": "为2018喝彩",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 0,
+    "hp": 2018,
+    "skills": [
+        {
+            "name": "为2018喝彩",
+            "icon": "Craft/SkillIcons/skill_00606.png",
+            "effect": "付与自身每回合生命值回复100的状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301560/9301560a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93015600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93015600.png"
+        ]
+    }
+}

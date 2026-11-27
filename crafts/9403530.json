@@ -1,0 +1,32 @@
+{
+    "id": 9403530,
+    "name": "火炎伯爵",
+    "type": "Normal",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 2000,
+    "hp": 0,
+    "skills": [
+        {
+            "name": "火炎伯爵",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身宝具威力提升20%＆宝具使用时充能阶段上升2级(1次)"
+        },
+        {
+            "name": "火炎伯爵",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "自身宝具威力提升25%＆宝具使用时充能阶段上升2级(1次)[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403530/9403530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94035300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94035300.png"
+        ]
+    }
+}

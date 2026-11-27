@@ -1,0 +1,17 @@
+{
+    "id": 8400730,
+    "name": "魔王铳",
+    "rarity": 4,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400730a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400730.png"
+    },
+    "skills": [
+        {
+            "name": "魔王铳",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅在〔燃烧〕场地上时,被刻印的指令卡暴击威力提升25%"
+        }
+    ],
+    "comment": "尾张的笨蛋、风云人物使用的多枪身火绳铳。\n\n可通过转动曲柄进行连续射击。\n据说四杆枪身可呈漏斗状展开进行范围攻击，\n也可用刺刀应对近身攻击，\n具备多重用途。"
+}

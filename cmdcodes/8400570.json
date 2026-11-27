@@ -1,0 +1,17 @@
+{
+    "id": 8400570,
+    "name": "姬路蝙蝠",
+    "rarity": 3,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400570a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400570.png"
+    },
+    "skills": [
+        {
+            "name": "姬路蝙蝠",
+            "icon": "Cmdcodes/SkillIcons/skill_00512.png",
+            "effect": "当使用被刻印的指令卡进行攻击时,解除1个敌方单体的暴击威力提升状态＋自身的生命值回复100"
+        }
+    ],
+    "comment": "居住于姬路城内名为城中妖怪的创造物。\n由千代纸而生的它们不仅能在战斗中攻防自如，还能在各种情况下作为主人的手足被使役。\n\n由于原本是折纸，因此可以被制作成各式各样的种类。\n在夏日版本中还以青蛙士兵型、老鼠士兵型、寄居蟹战车和飞鱼战斗机、鸡飞骑兵等形态登场。"
+}

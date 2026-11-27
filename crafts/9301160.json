@@ -1,0 +1,27 @@
+{
+    "id": 9301160,
+    "name": "灵子肖像:迦尔纳",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "灵子肖像:迦尔纳",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "关卡通关时获得的御主经验增加50"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9301160/9301160a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93011600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93011600.png"
+        ]
+    }
+}

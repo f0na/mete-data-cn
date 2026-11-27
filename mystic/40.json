@@ -1,0 +1,77 @@
+{
+    "id": 40,
+    "name": "魔术礼装·阿特拉斯院制服",
+    "shortName": "阿特拉斯院制服",
+    "skills": [
+        {
+            "name": "欧西里斯之尘",
+            "icon": "Mystic/SkillIcons/skill_00403.png",
+            "effect": "付与己方单体无敌状态(1回合)",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "付与己方单体无敌状态(1回合)",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "伊西斯之雨",
+            "icon": "Mystic/SkillIcons/skill_00608.png",
+            "effect": "解除己方单体的弱化状态",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "解除己方单体的弱化状态",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        },
+        {
+            "name": "梅杰德之眼",
+            "icon": "Mystic/SkillIcons/skill_00609.png",
+            "effect": "己方单体的技能冷却减少2回合",
+            "cool_down": [
+                15,
+                14,
+                13
+            ],
+            "target": "One",
+            "effects": [
+                {
+                    "effect": "己方单体的技能冷却减少2回合",
+                    "kind": "None",
+                    "values": [],
+                    "script": [],
+                    "target": "One"
+                }
+            ]
+        }
+    ],
+    "assets": {
+        "item": {
+            "male": "Mystic/Items/masterequip00041.png",
+            "female": "Mystic/Items/masterequip00042.png"
+        },
+        "costumes": {
+            "male": "Mystic/Items/masterequip00041.png",
+            "female": "Mystic/Items/masterequip00042.png"
+        }
+    }
+}

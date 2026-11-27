@@ -1,0 +1,52 @@
+{
+    "id": 9403630,
+    "name": "质朴之猪",
+    "type": "SvtEquipEvent",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 0,
+    "hp": 1500,
+    "skills": [
+        {
+            "name": "质朴之猪",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2020"
+        },
+        {
+            "name": "山珍的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山珍的掉落获得数增加1个【『雀之旅馆的活动日志』活动限定】"
+        },
+        {
+            "name": "质朴之猪",
+            "icon": "Craft/SkillIcons/skill_00201.png",
+            "effect": "关卡通关时获得的量子增加2020＋自身弱化耐性提升2.0%[最大解放]"
+        },
+        {
+            "name": "山珍的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山珍的掉落获得数增加2个[最大解放]【『雀之旅馆的活动日志』活动限定】"
+        },
+        {
+            "name": "山珍的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山珍的掉落获得数增加1个【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        },
+        {
+            "name": "山珍的掉落获得数提升",
+            "icon": "Craft/SkillIcons/skill_00200.png",
+            "effect": "山珍的掉落获得数增加2个[最大解放]【『复刻:雀之旅馆的活动日志～阎魔亭繁盛记～ 轻量版』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9403630/9403630a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94036300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94036300.png"
+        ]
+    }
+}

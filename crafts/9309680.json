@@ -1,0 +1,27 @@
+{
+    "id": 9309680,
+    "name": "英灵祝装：加雷斯",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：加雷斯",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9309680/9309680a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93096800.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93096800.png"
+        ]
+    }
+}

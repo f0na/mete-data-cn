@@ -1,0 +1,27 @@
+{
+    "id": 9308520,
+    "name": "英灵博装：佐佐木小次郎",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵博装：佐佐木小次郎",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": "助战中获得的友情点数＋10(可以重复)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308520/9308520a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93085200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93085200.png"
+        ]
+    }
+}

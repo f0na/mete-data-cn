@@ -1,0 +1,27 @@
+{
+    "id": 9304490,
+    "name": "战已终，剑已折",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "战已终，剑已折",
+            "icon": "Craft/SkillIcons/skill_00328.png",
+            "effect": "[servantName 403900](骑兵)装备时,且自身战败退场时除自身以外的己方全体攻击力提升20%(3回合)＆防御力提升30%(3回合)"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9304490/9304490a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93044900.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93044900.png"
+        ]
+    }
+}

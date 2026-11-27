@@ -1,0 +1,27 @@
+{
+    "id": 9300650,
+    "name": "黑头盔",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "黑头盔",
+            "icon": "Craft/SkillIcons/skill_00602.png",
+            "effect": "阿尔托莉雅Alter(枪兵)装备,且自身在场时,己方全体的宝具值获得量提升15%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9300650/9300650a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93006500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93006500.png"
+        ]
+    }
+}

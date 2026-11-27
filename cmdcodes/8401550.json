@@ -1,0 +1,17 @@
+{
+    "id": 8401550,
+    "name": "太阳之少女狼",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8401550a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8401550.png"
+    },
+    "skills": [
+        {
+            "name": "太阳之少女狼",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "仅在有〔阳光照射〕的场地上时,被刻印的指令卡暴击威力提升30%"
+        }
+    ],
+    "comment": "「好乖好乖～，阿涅特号。真是个好孩子呢。\n　呵呵呵，毛茸茸！\n\n　放心吧，御主，\n　我已经成功抓到阿涅特了。\n\n　啊，有好好补充水分吗？\n　运动饮料也已准备就绪了哦！」"
+}

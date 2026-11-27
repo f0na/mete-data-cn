@@ -1,0 +1,32 @@
+{
+    "id": 9400170,
+    "name": "魔导书",
+    "type": "Normal",
+    "rarity": 3,
+    "cost": 5,
+    "atk": 500,
+    "hp": 750,
+    "skills": [
+        {
+            "name": "魔导书",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升15%"
+        },
+        {
+            "name": "魔导书",
+            "icon": "Craft/SkillIcons/skill_00604.png",
+            "effect": "自身的暴击星掉落率提升20%[最大解放]"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9400170/9400170a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94001700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94001700.png"
+        ]
+    }
+}

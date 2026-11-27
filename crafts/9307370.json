@@ -1,0 +1,27 @@
+{
+    "id": 9307370,
+    "name": "引导之红线",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "引导之红线",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 105800](剑士)装备,且自身在场时,付与己方全体对〔魔兽型从者〕15%的特攻状态＆对〔巨人〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9307370/9307370a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93073700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93073700.png"
+        ]
+    }
+}

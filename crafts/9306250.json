@@ -1,0 +1,27 @@
+{
+    "id": 9306250,
+    "name": "仰望天空……",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "仰望天空……",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 505000](魔术师)装备,且自身在场时,付与己方全体对〔神性与恶魔与死灵〕15%的特攻状态＆生命值回复量提升20%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9306250/9306250a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93062500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93062500.png"
+        ]
+    }
+}

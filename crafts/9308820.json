@@ -1,0 +1,27 @@
+{
+    "id": 9308820,
+    "name": "足洗邸中闲暇片刻",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "足洗邸中闲暇片刻",
+            "icon": "Craft/SkillIcons/skill_00303.png",
+            "effect": "[servantName 1001800](他人格)装备时,自身的宝具威力提升30%＆对与自身相同职阶对象的暴击威力提升30%<对部分特殊职阶无效>"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308820/9308820a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93088200.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93088200.png"
+        ]
+    }
+}

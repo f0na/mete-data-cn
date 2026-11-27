@@ -1,0 +1,27 @@
+{
+    "id": 9308330,
+    "name": "月球移居申请",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "月球移居申请",
+            "icon": "Craft/SkillIcons/skill_00302.png",
+            "effect": "[servantName 2301000](月之癌)装备,且自身在场时,己方全体的宝具威力提升10%＆付与对〔超巨大〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308330/9308330a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93083300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93083300.png"
+        ]
+    }
+}

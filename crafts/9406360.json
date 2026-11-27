@@ -1,0 +1,42 @@
+{
+    "id": 9406360,
+    "name": "冰雪战士",
+    "type": "SvtEquipEventReward",
+    "rarity": 5,
+    "cost": 12,
+    "atk": 1000,
+    "hp": 1600,
+    "skills": [
+        {
+            "name": "冰雪战士",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升8%＆力指令卡性能提升8%＆宝具威力提升5%＆以宝具值已达30%的状态开始战斗"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『北极·夏日世界！』中,自身的攻击威力提升100%【『北极·夏日世界！』活动限定】"
+        },
+        {
+            "name": "冰雪战士",
+            "icon": "Craft/SkillIcons/skill_00315.png",
+            "effect": "自身的技指令卡性能提升10%＆力指令卡性能提升10%＆宝具威力提升8%＆以宝具值已达50%的状态开始战斗[最大解放]"
+        },
+        {
+            "name": "攻击威力提升",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "在『北极·夏日世界！』中,自身的攻击威力提升200%[最大解放]【『北极·夏日世界！』活动限定】"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9406360/9406360a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_94063600.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_94063600.png"
+        ]
+    }
+}

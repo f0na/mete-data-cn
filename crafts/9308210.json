@@ -1,0 +1,27 @@
+{
+    "id": 9308210,
+    "name": "王后的项链",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "王后的项链",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 2800700](身披角色者)装备,且自身在场时,付与己方全体对〔秩序〕20%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9308210/9308210a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93082100.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93082100.png"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 8400840,
+    "name": "鞍马的天才",
+    "rarity": 5,
+    "assets": {
+        "chara_graph": "Cmdcodes/CommandGraph/8400840a.png",
+        "faces": "Cmdcodes/CommandCodes/c_8400840.png"
+    },
+    "skills": [
+        {
+            "name": "鞍马的天才",
+            "icon": "Cmdcodes/SkillIcons/skill_00303.png",
+            "effect": "被刻印的指令卡暴击威力提升20%"
+        }
+    ],
+    "comment": "「玩耍就是修行，修行就是玩耍！\n　如疾风般穿越山间的树木，\n　飞跃河川，巡游原野。\n　全都是游戏，全都是修行！\n　这就是天衣无缝的极致！\n\n　来吧，今天让我们尽情玩个痛快吧，主公！」"
+}

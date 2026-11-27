@@ -1,0 +1,27 @@
+{
+    "id": 9303530,
+    "name": "面容如春",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "面容如春",
+            "icon": "Craft/SkillIcons/skill_00301.png",
+            "effect": "[servantName 103700](剑士)装备,且自身在场时,付与己方全体对〔混沌〕15%的特攻状态＆对〔恶〕15%的特攻状态"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9303530/9303530a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93035300.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93035300.png"
+        ]
+    }
+}

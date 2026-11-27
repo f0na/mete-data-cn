@@ -1,0 +1,27 @@
+{
+    "id": 9302470,
+    "name": "月轮九曜",
+    "type": "SvtEquipFriendShip",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "月轮九曜",
+            "icon": "Craft/SkillIcons/skill_00314.png",
+            "effect": "[servantName 602900](暗匿者)装备,且自身在场时,己方全体的迅指令卡性能提升10%＆技指令卡性能提升10%"
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9302470/9302470a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93024700.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93024700.png"
+        ]
+    }
+}

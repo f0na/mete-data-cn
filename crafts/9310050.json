@@ -1,0 +1,27 @@
+{
+    "id": 9310050,
+    "name": "英灵祝装：征氏姐妹",
+    "type": "SvtEquipCampaign",
+    "rarity": 4,
+    "cost": 9,
+    "atk": 100,
+    "hp": 100,
+    "skills": [
+        {
+            "name": "英灵祝装：征氏姐妹",
+            "icon": "Craft/SkillIcons/skill_00202.png",
+            "effect": ""
+        }
+    ],
+    "assets": {
+        "chara_graph": [
+            "Craft/CharaGraph/9310050/9310050a.png"
+        ],
+        "faces": [
+            "Craft/Faces/f_93100500.png"
+        ],
+        "narrow_figure": [
+            "Craft/EquipFaces/f_93100500.png"
+        ]
+    }
+}
